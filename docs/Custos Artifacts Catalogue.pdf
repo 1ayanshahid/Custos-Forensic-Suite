@@ -1,0 +1,730 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+/Title (Custos Forensic Suite \174 Complete Artifact Catalogue)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 6
+/Kids [ 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+>>
+endobj
+6 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+>>
+>>
+/MediaBox [ 0.0 0.0 842 595 ]
+/Parent 2 0 R
+/Contents 7 0 R
+>>
+endobj
+7 0 obj
+<<
+/Length 2176
+>>
+stream
+0.055 0.13 0.22 rg 0 441 842 154 re f
+BT /F2 13 Tf 0.45 0.85 0.84 rg 1 0 0 1 34 551 Tm (CUSTOS FORENSIC SUITE) Tj ET
+BT /F2 32 Tf 1 1 1 rg 1 0 0 1 34 502 Tm (Complete Artifact Catalogue) Tj ET
+BT /F1 13 Tf 1 1 1 rg 1 0 0 1 34 472 Tm (Core, detailed-view and additional Windows DFIR collection artifacts) Tj ET
+0.055 0.13 0.22 rg 34 386 774 25 re f
+BT /F2 10 Tf 1 1 1 rg 1 0 0 1 47 395 Tm (Catalogue category) Tj ET
+BT /F2 10 Tf 1 1 1 rg 1 0 0 1 260 395 Tm (Count) Tj ET
+BT /F2 10 Tf 1 1 1 rg 1 0 0 1 329 395 Tm (Meaning) Tj ET
+0.94 0.96 0.98 rg 34 352 774 34 re f
+BT /F2 10 Tf 0.055 0.13 0.22 rg 1 0 0 1 47 365 Tm (Baseline Artifacts) Tj ET
+BT /F2 10 Tf 0.055 0.13 0.22 rg 1 0 0 1 260 365 Tm (69) Tj ET
+BT /F1 10 Tf 0.24 0.33 0.42 rg 1 0 0 1 329 365 Tm (Core implementation catalogue from the Master Handbook, numbered A01 to A69.) Tj ET
+1 1 1 rg 34 318 774 34 re f
+BT /F2 10 Tf 0.055 0.13 0.22 rg 1 0 0 1 47 331 Tm (Additional Artifacts) Tj ET
+BT /F2 10 Tf 0.055 0.13 0.22 rg 1 0 0 1 260 331 Tm (24) Tj ET
+BT /F1 10 Tf 0.24 0.33 0.42 rg 1 0 0 1 329 331 Tm (Extensions and added collectors, numbered A70 to A93.) Tj ET
+0.94 0.96 0.98 rg 34 284 774 34 re f
+BT /F2 10 Tf 0.055 0.13 0.22 rg 1 0 0 1 47 297 Tm (Active catalogue total) Tj ET
+BT /F2 10 Tf 0.055 0.13 0.22 rg 1 0 0 1 260 297 Tm (93) Tj ET
+BT /F1 10 Tf 0.24 0.33 0.42 rg 1 0 0 1 329 297 Tm (A single list of collection work items. Some additional views share a parent raw source.) Tj ET
+BT /F1 10 Tf 0.24 0.33 0.42 rg 1 0 0 1 34 252 Tm (Scope note. The NTFS Transaction Log $LogFile extension is excluded by the Additional Artifact Implementation Guide and is not included in this catalogue.) Tj ET
+BT /F1 10 Tf 0.24 0.33 0.42 rg 1 0 0 1 34 207 Tm (Every description states what is collected from the Windows system. It does not promise that a source exists on every device, is accessible under every account, or) Tj ET
+BT /F1 10 Tf 0.24 0.33 0.42 rg 1 0 0 1 34 194 Tm (proves user intent by itself.) Tj ET
+0.76 0.81 0.86 rg 34 39.35 774 0.65 re f
+BT /F1 8 Tf 0.24 0.33 0.42 rg 1 0 0 1 34 22 Tm (Custos Forensic Suite | Complete Artifact Catalogue) Tj ET
+BT /F1 8 Tf 0.24 0.33 0.42 rg 1 0 0 1 778 22 Tm (Page 1) Tj ET
+endstream
+endobj
+8 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+>>
+>>
+/MediaBox [ 0.0 0.0 842 595 ]
+/Parent 2 0 R
+/Contents 9 0 R
+>>
+endobj
+9 0 obj
+<<
+/Length 8769
+>>
+stream
+BT /F2 19 Tf 0.055 0.13 0.22 rg 1 0 0 1 34 553 Tm (Baseline Artifacts | A01 to A69) Tj ET
+0.055 0.13 0.22 rg 34 520 774 20 re f
+BT /F2 9 Tf 1 1 1 rg 1 0 0 1 42 526 Tm (ID) Tj ET
+BT /F2 9 Tf 1 1 1 rg 1 0 0 1 85 526 Tm (Artifact) Tj ET
+BT /F2 9 Tf 1 1 1 rg 1 0 0 1 308 526 Tm (What is collected from the system) Tj ET
+0.94 0.96 0.98 rg 34 503 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 509 Tm (A01) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 509 Tm (RAM and Physical Memory) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 509 Tm (Physical-memory image and acquisition context for volatile process, network and memory analysis.) Tj ET
+1 1 1 rg 34 486 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 492 Tm (A02) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 492 Tm (Running Processes) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 492 Tm (Live process inventory: process IDs, parents, executable paths, command lines and available runtime details.) Tj ET
+0.94 0.96 0.98 rg 34 469 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 475 Tm (A03) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 475 Tm (Network Connections and Listening Ports) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 475 Tm (Current TCP/UDP connections, listeners, endpoints, states and owning process identifiers.) Tj ET
+1 1 1 rg 34 452 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 458 Tm (A04) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 458 Tm (DNS Cache) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 458 Tm (Current DNS client-cache records, names, record types, resolved addresses and TTL information.) Tj ET
+0.94 0.96 0.98 rg 34 435 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 441 Tm (A05) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 441 Tm (ARP Cache) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 441 Tm (Current IPv4/IPv6 neighbour or ARP mappings between IP addresses, MAC addresses and interfaces.) Tj ET
+1 1 1 rg 34 418 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 424 Tm (A06) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 424 Tm (Services Current State) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 424 Tm (Live service names, states, process IDs, start modes and available display information.) Tj ET
+0.94 0.96 0.98 rg 34 401 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 407 Tm (A07) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 407 Tm (Scheduled Tasks Enumeration) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 407 Tm (Registered scheduled-task names, paths, states, triggers and configured actions.) Tj ET
+1 1 1 rg 34 384 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 390 Tm (A08) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 390 Tm (Registry Hives) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 390 Tm (Selected raw Windows registry hives and linked user hives for later verified parsing.) Tj ET
+0.94 0.96 0.98 rg 34 367 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 373 Tm (A09) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 373 Tm (Windows Event Logs) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 373 Tm (Selected original EVTX event-log channels, record metadata and event XML.) Tj ET
+1 1 1 rg 34 350 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 356 Tm (A10) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 356 Tm (USB History) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 356 Tm (Known USB device identifiers, friendly names, serial references and connection-related registry/device metadata.) Tj ET
+0.94 0.96 0.98 rg 34 333 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 339 Tm (A11) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 339 Tm (Prefetch Files) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 339 Tm (Prefetch file metadata including program references, run counts and supported execution times.) Tj ET
+1 1 1 rg 34 316 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 322 Tm (A12) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 322 Tm (Shimcache and AppCompatCache) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 322 Tm (Application-compatibility cache entries containing executable path references and source-supported metadata.) Tj ET
+0.94 0.96 0.98 rg 34 299 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 305 Tm (A13) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 305 Tm (Amcache) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 305 Tm (Amcache inventory records for applications, executables, publishers, paths and related metadata.) Tj ET
+1 1 1 rg 34 264 774 35 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 288 Tm (A14) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 288 Tm (Browser Artifacts) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 288 Tm (Supported browser-profile history and downloads, cookie and login metadata, Web Data and autofill schema and counts, and) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 278 Tm (cache-file inventory. The collector preserves available source databases and cache files, including relevant SQLite sidecars.) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 268 Tm (Derived reports omit cookie values, credentials and entered autofill values.) Tj ET
+0.94 0.96 0.98 rg 34 247 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 253 Tm (A15) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 253 Tm (Jump Lists) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 253 Tm (Automatic and custom Jump List files with referenced destinations and application activity context.) Tj ET
+1 1 1 rg 34 230 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 236 Tm (A16) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 236 Tm (SRUM Database) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 236 Tm (SRUM database records for supported application, network and resource-usage activity.) Tj ET
+0.94 0.96 0.98 rg 34 213 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 219 Tm (A17) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 219 Tm (NTFS Master File Table) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 219 Tm (NTFS MFT records describing files, directories, attributes, paths and filesystem timestamps.) Tj ET
+1 1 1 rg 34 196 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 202 Tm (A18) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 202 Tm (Recycle Bin) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 202 Tm (Recycle Bin $I metadata and associated available deleted-file references, original paths, sizes and deletion times.) Tj ET
+0.94 0.96 0.98 rg 34 179 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 185 Tm (A19) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 185 Tm (LNK Files) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 185 Tm (Shortcut files and their target paths, arguments, working directories, volume/network and timestamp metadata.) Tj ET
+1 1 1 rg 34 162 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 168 Tm (A20) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 168 Tm (Startup Folders) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 168 Tm (Files and shortcuts located in user and common Startup folders that may launch at logon.) Tj ET
+0.94 0.96 0.98 rg 34 145 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 151 Tm (A21) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 151 Tm (Firewall Logs) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 151 Tm (Available Windows firewall log files and their recorded permitted/dropped network events.) Tj ET
+1 1 1 rg 34 128 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 134 Tm (A22) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 134 Tm (Installed Software) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 134 Tm (Installed-program inventory: product names, versions, publishers, install locations and uninstall references.) Tj ET
+0.94 0.96 0.98 rg 34 111 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 117 Tm (A23) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 117 Tm (Drivers) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 117 Tm (Loaded or configured driver inventory: names, paths, service associations and supported version metadata.) Tj ET
+1 1 1 rg 34 94 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 100 Tm (A24) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 100 Tm (WMI Repository and Persistence Queries) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 100 Tm (Read-only WMI repository and subscription/query metadata that may indicate persistence or management activity.) Tj ET
+0.76 0.81 0.86 rg 34 39.35 774 0.65 re f
+BT /F1 8 Tf 0.24 0.33 0.42 rg 1 0 0 1 34 22 Tm (Custos Forensic Suite | Complete Artifact Catalogue) Tj ET
+BT /F1 8 Tf 0.24 0.33 0.42 rg 1 0 0 1 778 22 Tm (Page 2) Tj ET
+endstream
+endobj
+10 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+>>
+>>
+/MediaBox [ 0.0 0.0 842 595 ]
+/Parent 2 0 R
+/Contents 11 0 R
+>>
+endobj
+11 0 obj
+<<
+/Length 9103
+>>
+stream
+BT /F2 19 Tf 0.055 0.13 0.22 rg 1 0 0 1 34 553 Tm (Baseline Artifacts | A01 to A69) Tj ET
+0.055 0.13 0.22 rg 34 520 774 20 re f
+BT /F2 9 Tf 1 1 1 rg 1 0 0 1 42 526 Tm (ID) Tj ET
+BT /F2 9 Tf 1 1 1 rg 1 0 0 1 85 526 Tm (Artifact) Tj ET
+BT /F2 9 Tf 1 1 1 rg 1 0 0 1 308 526 Tm (What is collected from the system) Tj ET
+0.94 0.96 0.98 rg 34 503 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 509 Tm (A25) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 509 Tm (BitLocker Information) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 509 Tm (BitLocker volume-protection status, encryption method, protector metadata and recovery-protection state; never recovery secrets.) Tj ET
+1 1 1 rg 34 486 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 492 Tm (A26) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 492 Tm (Windows Defender Logs) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 492 Tm (Available Microsoft Defender event logs and detection/scan-related event metadata.) Tj ET
+0.94 0.96 0.98 rg 34 469 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 475 Tm (A27) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 475 Tm (PowerShell History) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 475 Tm (Available PSReadLine command-history files and associated user/profile context.) Tj ET
+1 1 1 rg 34 452 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 458 Tm (A28) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 458 Tm (RDP History from Events and Server Context) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 458 Tm (Supported RDP server/event evidence showing remote-session and connection context.) Tj ET
+0.94 0.96 0.98 rg 34 427 774 25 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 441 Tm (A29) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 441 Tm (WiFi Profiles) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 441 Tm (Saved wireless profile metadata, SSIDs, authentication/encryption settings and connection-related configuration; no Wi-Fi keys by) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 431 Tm (default.) Tj ET
+1 1 1 rg 34 410 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 416 Tm (A30) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 416 Tm (Timezone and System Information) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 416 Tm (Operating-system build, hostname, hardware, timezone, clock context and core system configuration.) Tj ET
+0.94 0.96 0.98 rg 34 393 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 399 Tm (A31) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 399 Tm (Crash Dumps) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 399 Tm (Existing crash-dump files and metadata describing system or application failure context.) Tj ET
+1 1 1 rg 34 376 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 382 Tm (A32) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 382 Tm (UserAssist) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 382 Tm (Decoded UserAssist registry entries indicating recorded application/shortcut execution references and counts.) Tj ET
+0.94 0.96 0.98 rg 34 359 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 365 Tm (A33) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 365 Tm (ShellBags) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 365 Tm (ShellBag registry records describing folders viewed through Windows Explorer and their folder metadata.) Tj ET
+1 1 1 rg 34 342 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 348 Tm (A34) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 348 Tm (RecentDocs) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 348 Tm (RecentDocs registry entries that reference documents recently accessed through supported shell components.) Tj ET
+0.94 0.96 0.98 rg 34 325 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 331 Tm (A35) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 331 Tm (OpenSaveMRU) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 331 Tm (Open/Save dialog MRU registry records with file or path references used by applications.) Tj ET
+1 1 1 rg 34 308 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 314 Tm (A36) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 314 Tm (RunMRU) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 314 Tm (Windows Run-dialog command history, MRU order and key-level registry context.) Tj ET
+0.94 0.96 0.98 rg 34 291 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 297 Tm (A37) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 297 Tm (TypedURLs) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 297 Tm (Legacy Internet Explorer typed-URL registry entries and supported timing context.) Tj ET
+1 1 1 rg 34 274 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 280 Tm (A38) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 280 Tm (TypedPaths) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 280 Tm (Explorer address-bar typed path entries and key-level registry metadata.) Tj ET
+0.94 0.96 0.98 rg 34 257 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 263 Tm (A39) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 263 Tm (User Profile Information) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 263 Tm (SID-to-profile mappings, profile paths, loaded state and known-folder resolution context.) Tj ET
+1 1 1 rg 34 240 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 246 Tm (A40) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 246 Tm (Local Users) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 246 Tm (Local user account names, SIDs, enabled/disabled state, flags and available account metadata; no passwords or hashes.) Tj ET
+0.94 0.96 0.98 rg 34 223 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 229 Tm (A41) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 229 Tm (Local Groups) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 229 Tm (Local groups, member SIDs/names and available membership relationships.) Tj ET
+1 1 1 rg 34 206 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 212 Tm (A42) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 212 Tm (Logon Sessions) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 212 Tm (Current interactive/logon session IDs, users, domains, states and client/session context.) Tj ET
+0.94 0.96 0.98 rg 34 189 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 195 Tm (A43) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 195 Tm (RDP Client History) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 195 Tm (RDP client registry history and available .rdp settings that reference previous remote targets.) Tj ET
+1 1 1 rg 34 172 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 178 Tm (A44) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 178 Tm (Windows Timeline) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 178 Tm (Available Windows Timeline activity database records, app/activity identifiers and supported intervals.) Tj ET
+0.94 0.96 0.98 rg 34 155 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 161 Tm (A45) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 161 Tm (Recent Items) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 161 Tm (Index of Recent-folder shortcut evidence linking recent-item entries to their LNK records.) Tj ET
+1 1 1 rg 34 138 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 144 Tm (A46) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 144 Tm (Desktop Files Metadata) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 144 Tm (Metadata-only inventory of Desktop files: paths, sizes, attributes and filesystem times.) Tj ET
+0.94 0.96 0.98 rg 34 121 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 127 Tm (A47) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 127 Tm (Downloads Metadata and Hashes) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 127 Tm (Downloads-folder file metadata and supported SHA-256 inventory values; file content is not copied by default.) Tj ET
+1 1 1 rg 34 104 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 110 Tm (A48) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 110 Tm (Documents Metadata and Hashes) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 110 Tm (Documents-folder file metadata and supported SHA-256 inventory values; file content is not copied by default.) Tj ET
+0.94 0.96 0.98 rg 34 87 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 93 Tm (A49) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 93 Tm (USB Mounted Volumes) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 93 Tm (USB volume identifiers, volume labels, drive-letter associations and mounted-device context.) Tj ET
+1 1 1 rg 34 70 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 76 Tm (A50) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 76 Tm (MountedDevices) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 76 Tm (MountedDevices registry mappings between drive letters, volume identifiers and device references.) Tj ET
+0.76 0.81 0.86 rg 34 39.35 774 0.65 re f
+BT /F1 8 Tf 0.24 0.33 0.42 rg 1 0 0 1 34 22 Tm (Custos Forensic Suite | Complete Artifact Catalogue) Tj ET
+BT /F1 8 Tf 0.24 0.33 0.42 rg 1 0 0 1 778 22 Tm (Page 3) Tj ET
+endstream
+endobj
+12 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+>>
+>>
+/MediaBox [ 0.0 0.0 842 595 ]
+/Parent 2 0 R
+/Contents 13 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 6863
+>>
+stream
+BT /F2 19 Tf 0.055 0.13 0.22 rg 1 0 0 1 34 553 Tm (Baseline Artifacts | A01 to A69) Tj ET
+0.055 0.13 0.22 rg 34 520 774 20 re f
+BT /F2 9 Tf 1 1 1 rg 1 0 0 1 42 526 Tm (ID) Tj ET
+BT /F2 9 Tf 1 1 1 rg 1 0 0 1 85 526 Tm (Artifact) Tj ET
+BT /F2 9 Tf 1 1 1 rg 1 0 0 1 308 526 Tm (What is collected from the system) Tj ET
+0.94 0.96 0.98 rg 34 503 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 509 Tm (A51) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 509 Tm (Network Shares) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 509 Tm (Configured/mapped network shares, UNC paths, provider information and accessible share configuration.) Tj ET
+1 1 1 rg 34 486 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 492 Tm (A52) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 492 Tm (Hosts File) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 492 Tm (Preserved Hosts file content, path and file metadata for manual name-resolution entries.) Tj ET
+0.94 0.96 0.98 rg 34 469 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 475 Tm (A53) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 475 Tm (Environment Variables) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 475 Tm (System and user environment-variable names and values, including path and execution-environment context.) Tj ET
+1 1 1 rg 34 452 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 458 Tm (A54) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 458 Tm (Scheduled Task XML Files) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 458 Tm (Original scheduled-task definition files and parsed XML metadata such as triggers, actions and principals.) Tj ET
+0.94 0.96 0.98 rg 34 435 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 441 Tm (A55) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 441 Tm (Autoruns Locations) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 441 Tm (Allow-listed persistence and startup registry locations plus referenced Startup shortcut context.) Tj ET
+1 1 1 rg 34 418 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 424 Tm (A56) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 424 Tm (Windows Services Configuration) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 424 Tm (Persistent service configuration: image paths, start type, accounts, dependencies and service settings.) Tj ET
+0.94 0.96 0.98 rg 34 401 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 407 Tm (A57) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 407 Tm (Zone Identifier) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 407 Tm (Zone.Identifier stream fields such as ZoneId, HostUrl and ReferrerUrl where available.) Tj ET
+1 1 1 rg 34 384 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 390 Tm (A58) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 390 Tm (Windows Error Reporting) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 390 Tm (Existing WER report bundles, report.wer metadata, application/fault context and available attachments.) Tj ET
+0.94 0.96 0.98 rg 34 367 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 373 Tm (A59) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 373 Tm (USN Journal) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 373 Tm (NTFS USN change-journal records, file/parent references, reason flags and journal identity.) Tj ET
+1 1 1 rg 34 350 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 356 Tm (A60) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 356 Tm (Volume Shadow Copies) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 356 Tm (Existing VSS snapshot IDs, volumes, device paths, providers and selected source references.) Tj ET
+0.94 0.96 0.98 rg 34 333 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 339 Tm (A61) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 339 Tm (Restore Points) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 339 Tm (Existing System Restore point identifiers, descriptions, types and creation-time metadata.) Tj ET
+1 1 1 rg 34 316 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 322 Tm (A62) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 322 Tm (Windows Defender Quarantine Metadata) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 322 Tm (Accessible Defender quarantine/detection metadata and linked Defender-log context; never malware payload recovery.) Tj ET
+0.94 0.96 0.98 rg 34 299 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 305 Tm (A63) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 305 Tm (Windows Update History) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 305 Tm (Windows Update Agent history and separate installed-hotfix inventory records.) Tj ET
+1 1 1 rg 34 282 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 288 Tm (A64) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 288 Tm (Installed Certificates) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 288 Tm (Accessible certificate-store metadata: subject, issuer, serial number, validity dates and intended usage.) Tj ET
+0.94 0.96 0.98 rg 34 265 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 271 Tm (A65) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 271 Tm (Pending Reboot Information) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 271 Tm (Registry and supported system indicators showing pending reboot operations and their sources.) Tj ET
+1 1 1 rg 34 248 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 254 Tm (A66) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 254 Tm (Pagefile Metadata) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 254 Tm (Pagefile configuration and existing pagefile metadata; this is not a full memory-content recovery view.) Tj ET
+0.94 0.96 0.98 rg 34 231 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 237 Tm (A67) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 237 Tm (Hiberfil Metadata) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 237 Tm (Hibernation-file presence, size, configuration and supported metadata; not full hibernation-memory parsing.) Tj ET
+1 1 1 rg 34 214 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 220 Tm (A68) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 220 Tm (Network Adapter Configuration) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 220 Tm (Network adapter names, MAC addresses, IP configuration, DNS settings, gateways and interface properties.) Tj ET
+0.94 0.96 0.98 rg 34 197 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 203 Tm (A69) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 203 Tm (Windows Licensing Information) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 203 Tm (Windows edition, activation/licensing status and supported licensing metadata.) Tj ET
+0.76 0.81 0.86 rg 34 39.35 774 0.65 re f
+BT /F1 8 Tf 0.24 0.33 0.42 rg 1 0 0 1 34 22 Tm (Custos Forensic Suite | Complete Artifact Catalogue) Tj ET
+BT /F1 8 Tf 0.24 0.33 0.42 rg 1 0 0 1 778 22 Tm (Page 4) Tj ET
+endstream
+endobj
+14 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+>>
+>>
+/MediaBox [ 0.0 0.0 842 595 ]
+/Parent 2 0 R
+/Contents 15 0 R
+>>
+endobj
+15 0 obj
+<<
+/Length 5958
+>>
+stream
+BT /F2 19 Tf 0.055 0.13 0.22 rg 1 0 0 1 34 553 Tm (Additional Artifacts | A70 to A93) Tj ET
+0.055 0.13 0.22 rg 34 520 774 20 re f
+BT /F2 9 Tf 1 1 1 rg 1 0 0 1 42 526 Tm (ID) Tj ET
+BT /F2 9 Tf 1 1 1 rg 1 0 0 1 85 526 Tm (Artifact) Tj ET
+BT /F2 9 Tf 1 1 1 rg 1 0 0 1 308 526 Tm (What is collected from the system) Tj ET
+0.94 0.96 0.98 rg 34 503 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 509 Tm (A70) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 509 Tm (Windows Security Log) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 509 Tm (Security-channel event records such as supported logon, authentication and process-audit events.) Tj ET
+1 1 1 rg 34 486 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 492 Tm (A71) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 492 Tm (Windows System Log) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 492 Tm (System-channel events including supported service, driver, boot and operating-system context.) Tj ET
+0.94 0.96 0.98 rg 34 469 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 475 Tm (A72) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 475 Tm (Windows Application Log) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 475 Tm (Application-channel events with provider, event ID, payload and application context.) Tj ET
+1 1 1 rg 34 452 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 458 Tm (A73) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 458 Tm (BAM and DAM Registry Activity) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 458 Tm (Supported BAM/DAM registry activity entries that reference executable paths and available execution times.) Tj ET
+0.94 0.96 0.98 rg 34 435 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 441 Tm (A74) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 441 Tm (Bluetooth Device Metadata) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 441 Tm (Known Bluetooth device addresses, names, classes and paired/remembered-device metadata.) Tj ET
+1 1 1 rg 34 418 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 424 Tm (A75) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 424 Tm (DLL and Module Inventory) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 424 Tm (Loaded modules for selected processes: base address, size, path and available PE/module metadata.) Tj ET
+0.94 0.96 0.98 rg 34 401 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 407 Tm (A76) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 407 Tm (Handle Inventory) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 407 Tm (Live or memory-derived process handle records: object types, names, values and granted access where readable.) Tj ET
+1 1 1 rg 34 384 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 390 Tm (A77) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 390 Tm (Mutex/Mutant Metadata) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 390 Tm (Supported mutex/mutant object names and related process/handle context from live or memory analysis.) Tj ET
+0.94 0.96 0.98 rg 34 367 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 373 Tm (A78) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 373 Tm (Clipboard Content and Metadata) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 373 Tm (Explicitly authorized current clipboard formats, bounded content/metadata and observation-session context.) Tj ET
+1 1 1 rg 34 350 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 356 Tm (A79) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 356 Tm (Screenshots) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 356 Tm (Explicitly authorized live screenshots with monitor, session, dimensions and capture-time metadata.) Tj ET
+0.94 0.96 0.98 rg 34 333 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 339 Tm (A80) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 339 Tm (SMB Sessions and Open Network Files) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 339 Tm (Current SMB session and authorized open-file metadata: client, user, share, duration and file counts.) Tj ET
+1 1 1 rg 34 316 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 322 Tm (A81) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 322 Tm (Command Prompt and PowerShell History) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 322 Tm (DOSKEY history from the invoking cmd.exe session and available PSReadLine history files for the signed-in user.) Tj ET
+0.94 0.96 0.98 rg 34 299 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 305 Tm (A82) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 305 Tm (Device Installation History) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 305 Tm (SetupAPI device-installation log entries, device instance IDs, driver-package and status information.) Tj ET
+1 1 1 rg 34 282 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 288 Tm (A83) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 288 Tm (Account Password Policy Metadata) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 288 Tm (Available local password-age, policy, lockout and account-flag metadata; no plaintext passwords or hashes.) Tj ET
+0.94 0.96 0.98 rg 34 265 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 271 Tm (A84) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 271 Tm (BITS Transfer Jobs) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 271 Tm (Current BITS job and file-transfer metadata: job ID, owner, state, source/destination and progress/error fields.) Tj ET
+1 1 1 rg 34 248 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 254 Tm (A85) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 254 Tm (RDP Bitmap Cache) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 254 Tm (Existing RDP bitmap-cache files, cache metadata and parser-supported extracted screen tiles.) Tj ET
+0.76 0.81 0.86 rg 34 39.35 774 0.65 re f
+BT /F1 8 Tf 0.24 0.33 0.42 rg 1 0 0 1 34 22 Tm (Custos Forensic Suite | Complete Artifact Catalogue) Tj ET
+BT /F1 8 Tf 0.24 0.33 0.42 rg 1 0 0 1 778 22 Tm (Page 5) Tj ET
+endstream
+endobj
+16 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+>>
+>>
+/MediaBox [ 0.0 0.0 842 595 ]
+/Parent 2 0 R
+/Contents 17 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 4110
+>>
+stream
+BT /F2 19 Tf 0.055 0.13 0.22 rg 1 0 0 1 34 553 Tm (Additional Artifacts | A70 to A93) Tj ET
+0.055 0.13 0.22 rg 34 520 774 20 re f
+BT /F2 9 Tf 1 1 1 rg 1 0 0 1 42 526 Tm (ID) Tj ET
+BT /F2 9 Tf 1 1 1 rg 1 0 0 1 85 526 Tm (Artifact) Tj ET
+BT /F2 9 Tf 1 1 1 rg 1 0 0 1 308 526 Tm (What is collected from the system) Tj ET
+0.94 0.96 0.98 rg 34 503 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 509 Tm (A86) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 509 Tm (Firewall Rules and Profiles) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 509 Tm (Firewall profile settings and rule/filter configuration: direction, action, ports, addresses and policy store.) Tj ET
+1 1 1 rg 34 486 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 492 Tm (A87) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 492 Tm (Audit and Event-Log Configuration) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 492 Tm (Current audit-policy and event-channel configuration, retention, size, enablement and log-path settings.) Tj ET
+0.94 0.96 0.98 rg 34 469 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 475 Tm (A88) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 475 Tm (Historical Network Profiles) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 475 Tm (Saved network-profile and signature metadata: profile IDs, names, category and supported history fields.) Tj ET
+1 1 1 rg 34 452 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 458 Tm (A89) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 458 Tm (Routing and Proxy Configuration) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 458 Tm (Current IPv4/IPv6 routes plus machine and accessible user proxy settings and bypass configuration.) Tj ET
+0.94 0.96 0.98 rg 34 435 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 441 Tm (A90) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 441 Tm (WinRM and PowerShell Remoting Configuration) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 441 Tm (Local WinRM listeners, authentication/encryption settings, TrustedHosts and available remoting endpoints.) Tj ET
+1 1 1 rg 34 418 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 424 Tm (A91) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 424 Tm (OpenSSH Configuration Metadata) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 424 Tm (OpenSSH service, daemon/client configuration and authorized-key metadata where accessible; no private keys.) Tj ET
+0.94 0.96 0.98 rg 34 401 774 17 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 407 Tm (A92) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 407 Tm (Custom Compatibility Databases) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 407 Tm (Installed custom application-compatibility database metadata, paths, identifiers and supported entries.) Tj ET
+1 1 1 rg 34 376 774 25 re f
+BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 390 Tm (A93) Tj ET
+BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 390 Tm (Microsoft Defender Metadata) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 390 Tm (Microsoft Defender protection, signature, scan, preference and detected-threat metadata from supported read-only queries; no) Tj ET
+BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 380 Tm (malware payloads.) Tj ET
+BT /F2 12 Tf 0.055 0.13 0.22 rg 1 0 0 1 34 341 Tm (Source alignment) Tj ET
+BT /F1 9 Tf 0.24 0.33 0.42 rg 1 0 0 1 34 323 Tm (This catalogue consolidates the baseline catalogue and its implementation descriptions from the Master Handbook, the active additions defined by the Additional Artifact Implementation) Tj ET
+BT /F1 9 Tf 0.24 0.33 0.42 rg 1 0 0 1 34 310 Tm (Guide, the nine planned collectors defined by the Nine Additional Artifact Collection Guide, and the user-approved Microsoft Defender Metadata collector. It reflects the current collector) Tj ET
+BT /F1 9 Tf 0.24 0.33 0.42 rg 1 0 0 1 34 297 Tm (folders, including the combined browser collection under A14.) Tj ET
+0.76 0.81 0.86 rg 34 39.35 774 0.65 re f
+BT /F1 8 Tf 0.24 0.33 0.42 rg 1 0 0 1 34 22 Tm (Custos Forensic Suite | Complete Artifact Catalogue) Tj ET
+BT /F1 8 Tf 0.24 0.33 0.42 rg 1 0 0 1 778 22 Tm (Page 6) Tj ET
+endstream
+endobj
+xref
+0 18
+0000000000 65535 f 
+0000000015 00000 n 
+0000000118 00000 n 
+0000000211 00000 n 
+0000000260 00000 n 
+0000000357 00000 n 
+0000000459 00000 n 
+0000000601 00000 n 
+0000002829 00000 n 
+0000002971 00000 n 
+0000011792 00000 n 
+0000011936 00000 n 
+0000021092 00000 n 
+0000021236 00000 n 
+0000028152 00000 n 
+0000028296 00000 n 
+0000034307 00000 n 
+0000034451 00000 n 
+trailer
+<<
+/Size 18
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+38614
+%%EOF
+3 1 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+ /AF [19 0 R] /Names << /EmbeddedFiles << /Names [(Content Credentials) 19 0 R] >> >> >>
+endobj
+18 0 obj
+<< /Length 24288 /Type /EmbeddedFile /Subtype /application#2Fc2pa >>
+stream
+  ^‡jumb   jumdc2pa  Ä  ™ 8õqc2pa   ^∫jumb   Gjumdc2ma  Ä  ™ 8õqurn:c2pa:30acf892-2bc2-4d6a-9790-fa185eec7d07   ™jumb   )jumdc2as  Ä  ™ 8õqc2pa.assertions   	πjumb   #jumd@À2ªäHùß*÷ÙCic2pa.icon    bfdb image/svg+xml   	wbidb<svg width="716" height="716" viewBox="0 0 716 716" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M508.749 317.399C516.777 287.314 508.991 253.884 485.389 230.282C461.788 206.681 428.36 198.895 398.273 206.923C376.231 184.928 343.39 174.956 311.148 183.596C278.906 192.234 255.45 217.292 247.36 247.361C217.291 255.451 192.233 278.91 183.595 311.149C174.957 343.391 184.927 376.232 206.924 398.274C198.896 428.359 206.683 461.789 230.284 485.391C253.885 508.992 287.313 516.779 317.401 508.75C339.442 530.745 372.286 540.717 404.525 532.079C436.767 523.441 460.223 498.384 468.313 468.315C498.383 460.224 523.44 436.766 532.078 404.526C540.716 372.285 530.747 339.443 508.749 317.402V317.399ZM470.899 244.776C486.892 260.77 493.488 282.601 490.687 303.412L415.577 260.046C412.411 258.218 408.509 258.218 405.345 260.046L317.401 310.82V277.526C317.401 275.191 318.652 273.005 320.676 271.837L387.644 233.174C414.178 218.353 448.346 222.223 470.901 244.776H470.899ZM357.837 311.144L398.275 334.491V381.185L357.837 404.532L317.398 381.185V334.491L357.837 311.144ZM264.776 269.693C265.207 239.305 285.644 211.649 316.453 203.393C338.3 197.54 360.505 202.744 377.127 215.573L302.014 258.937C298.848 260.764 296.898 264.144 296.898 267.798V369.346L268.065 352.699C266.043 351.531 264.776 349.353 264.776 347.017V269.691V269.693ZM203.391 316.454C209.244 294.608 224.854 277.978 244.276 269.999V356.73C244.276 360.384 246.226 363.763 249.392 365.591L337.337 416.365L308.503 433.013C306.481 434.181 303.961 434.188 301.939 433.02L234.971 394.357C208.868 378.789 195.138 347.261 203.391 316.454ZM244.775 470.9C228.781 454.906 222.186 433.075 224.986 412.264L300.096 455.63C303.263 457.457 307.164 457.457 310.328 455.63L398.273 404.856V438.149C398.273 440.485 397.022 442.671 394.997 443.839L328.029 482.502C301.495 497.322 267.327 493.452 244.772 470.9H244.775ZM450.897 445.982C450.466 476.371 430.029 504.027 399.22 512.283C377.373 518.136 355.168 512.932 338.547 500.102L413.659 456.738C416.826 454.911 418.775 451.532 418.775 447.877V346.329L447.609 362.977C449.631 364.145 450.897 366.323 450.897 368.659V445.985V445.982ZM512.282 399.221C506.429 421.068 490.819 437.697 471.397 445.676V358.946C471.397 355.292 469.448 351.912 466.281 350.085L378.336 299.311L407.17 282.663C409.192 281.495 411.712 281.487 413.734 282.655L480.702 321.318C506.805 336.887 520.536 368.415 512.282 399.221Z" fill="black"/>
+</svg>
+  jumb   )jumdcbor  Ä  ™ 8õqc2pa.actions.v2    Îcbor¢gactionsÅ§factionlc2pa.createdqdigitalSourceTypexFhttp://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMediamsoftwareAgent¢dnamekgpt-6.1-solgversionkgpt-6.1-soldwhenx2026-11-11T02:35:16.219912ZrallActionsIncludedÙ   §jumb   (jumdcbor  Ä  ™ 8õqc2pa.hash.data    tcbor•jexclusionsÅ¢estartôiflength^‡dnamenjumbf manifestcalgfsha256dhashX Á5j	é¸ª,é«lä∆;[Ë÷  _Gﬁ¬ã ˙nÚí’‰cpad@  âjumb   'jumdc2cl  Ä  ™ 8õqc2pa.claim.v2   Zcbor¶jinstanceIDx,xmp:iid:6719cc65-f787-403e-bb89-c22250a2be73tclaim_generator_info£dnamegChatGPTdicon¢curlx$self#jumbf=c2pa.assertions/c2pa.icondhashX u>=W1í≥®NÎL˚¡åt∑'w÷–6«e6„ÒkspecVersione2.2.0isignaturexMself#jumbf=/c2pa/urn:c2pa:30acf892-2bc2-4d6a-9790-fa185eec7d07/c2pa.signaturercreated_assertionsÉ¢curlx$self#jumbf=c2pa.assertions/c2pa.icondhashX u>=W1í≥®NÎL˚¡åt∑'w÷–6«e6„Ò¢curlx*self#jumbf=c2pa.assertions/c2pa.actions.v2dhashX 4Ì∏+Ó1áz=∫‚8‡rFÌbôπÓ!^áıSjÿsM¢curlx)self#jumbf=c2pa.assertions/c2pa.hash.datadhashX µ]ÀÎgc	¢ã"ÃË'|M{\∆*¬W:A=î-N1‹êhdc:titleiimage.pdfcalgfsha256  P8jumb   (jumdc2cs  Ä  ™ 8õqc2pa.signature   Pcbor“ÑYË¢8$!ÇYà0ÇÑ0Çl†•¸ÈpåÚÄ1ÓDds0	*ÜHÜ˜ 0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0260422155105Z270423155104Z0G10	UUS10U
+OpenAI OpCo, LLC10UOpenAI Media Service0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ù∫jLMóÍÅâ∂—æ^XNr°ôﬂiq|Â!#”Å¢5úL£J<Ôn+øÊdÆ◊ÑKi$ZcœÍv
+ê≤e€|<ç·˛¡3wØ'ﬁ; :¥cáòÕMúø¥3D™T07F∏˝öyDsWU£c|›¨X/ÊzÆﬁ•ò√ìNHZ¯‡|§íK’l∫ ¬*»íæu‘îgµW™jöm00,◊Uaåj“S∂ x^ECûNí£ÄÒØ[—≤Î˛ãÔ∫◊7	ï´d-ô…áö¯ø.–ÁcÄñöy†7ì6£5…H…,òcÈDõ5¨πßSlúhs»
+9ÃIÛ £Çg0Çc0Uˇ0 0U#0Ä9=G‹óèØà{MsÕÂÓ§•*0o+c0a09+0Ü-http://crt-c2pa.ssl.com/SSL.com-C2PA-I-R1.cer0$+0Ühttp://ocsp-c2pa.ssl.com0U 00
++ÉË^0)U%"0 ++$
++ÉË^0UÛùM‘Àùr¯F
+vG•hOt0Uˇ¿0	+ÉË^
++ÉË^
+03	+ÉË^&$019bc403-5cd7-7669-afe6-fdb17177d4280	*ÜHÜ˜ Ç Ç8óle°7 Ò˘Ìt∫’¶[5ıglœ+fi@Õı¸“rVﬂ ï(Í¯fﬁBC=¯x†h(â≠µÓ¸ı2“å∏_ÁlÄnÎ[|ó[0Á.B∏∆pö˛˛ 	¨5F’†åIEÄ√∫íU«Zùo“Îÿyõñ:ºDê44}ÙA•3ó/.lQR
+m=I∞À«ÜXÃ‹Óû.È∆9∏3\ ⁄Ó W3T.p(J%)Oí|.“˙›g.zËPx9Q∫É:⁄à~ê#êíıbXöÂ¬®sÜû≈ÿqÈÔ\d{ëÓ7/vòxVdÁoB—}íºÖjomdÖÿˇ"ñÌπÔ≤–\Ñ}h]5[K±≈iHyÊhé†ƒaò:L¯¿$yÂ¶h‡Ô˝÷ê÷.-AduV_ìî∂°úä<∂¿ËmÛ≈CÁv,h§ÚÊÀãàïË{*r$Å=!∆cm/%Ä£ô[™)•˝GÍ·˜kÂ˚[P&m+°Ç]1ı›b®|2‹L«•,r0PÄWìÇ‚ËÆ≥ßØY4ÆrÔ*ùÆx¨‚3ÏSµ…ô“(®*7°N´¸Ã~Xõ'mE·¥*úΩ0W°1. .…‚»T€°íOæ$5ò˛/i‹∏M„ﬁ/Ëlı¡ä‚”˛rw”®+‘WóÆáÿ æì∂âYS0ÇO0Ç7†'+c»ÃM-õÑQrlÙú^2QÆﬁ0	*ÜHÜ˜ 0O1&0$USSL.com C2PA RSA Root CA 202510U
+SSL Corporation10	UUS0251222181730Z301221181730Z0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç À:¥Õ∏úÀ)V∏yß¯kˆ˘ÿèr√¶ò≠*A⁄a.GRΩtQæ]ÏzÇ∂¿˚˙Ë'•ãË˛bÛ`Ò_H ssï‰NnÃNz5ﬁX·◊Ç‹“GCwõﬂHàyü£9§YN^‡NGóÚuB◊v=∂§"‹Ì∆o‘rFå÷Q«µ∑zÚì˘#'’ÄPuäp†hÈÁºÑ(|ú*Í)©¿/˛…vFU∞/cÍ}ûÙ∞D§@ﬁ@6\DäTkWHˇªo§’Íé¬◊|ÿºŒiø† MìE;ô.y“œûü)ªFŸxc0ñ3Qú^ìm˙Â4JXx≥)l]|∏uï<ôw!{ÿ¥JÎ⁄Õ«
+÷…¢ﬁÆó≥∂Qñ⁄íõ√≤ªPƒ˛∂§Lï]-íjObÂ‡*˜i†ú’πì ⁄—ª^O∆Ø˘)L–…ÏÎÛ≤qP{v'hë˘Pà∏w5ÿÕ°·◊”)ÁJ∆áTY$¬g≤m	5€∫Œ∏F•‡ã⁄·ßüjŒ`“ƒ˜¡ﬁsyU‡p¥ÔÍÃ«˛vâNf
+ià-Ì√F¢*‰å‘úWF-Xb’ ®˙~¯¬ŸajÀ5]†ì£≤e®/ÌÔòÁ¸~∫HÙ™°q¸ìØÍßNsài’B¿˘ÑíÖOÀT≥=:¯›)ey Cûñ∏áXñ!Ô—ë{ £Ç&0Ç"0Uˇ0ˇ 0Uˇ0)U%"0 ++$
++ÉË^0U9=G‹óèØà{MsÕÂÓ§•*0U 00
++ÉË^0U#0Ä¸*Ju:Ä˙ôcìsWÏæì∞}√{0x+l0j0$+0Ühttp://ocsp-c2pa.ssl.com0B+0Ü6http://crt-c2pa.ssl.com/SSL.com-C2PA-Root-2025-RSA.cer0	*ÜHÜ˜ Ç Œ6˙>Ôñ6-éØUfˇ{+ kVıÀ≠Ω*Å≠•¶–M£>ì‰ìi’‰å®nÊ7T‚%úÏef(<3=¢ö¢ªÕgdJÁæt!°n√´&ƒ;,⁄Uπ˝GN‡çxõ7Éƒt;≈GaÔmAr§€]CS…ñNÂ‡:ﬂ®›.—ØXó÷ÁÙ_r#<kœΩ9´åì®èßvY>·íı˜Ÿ˚Fb´nn‘àF†≥/*j_•N⁄¯‘¸ÃŸ£<©wE
+¡˘òπ9ÀÃ°q¿*Çq”‰ˆ%‚Q!m÷ﬂ‰SçoJ}é^¿∫’wy!ÅzŒÌ˜õé∂≤äBVùèkA*˛kúãÓ£(œ_ÛÈ–d÷Ó¬âKÎíœıØ¬'M∏ë°7%ôÊ˝Ä‹Ùº«7{æ¥-gX/Á√≥ãqÂDz0∂•≤u>[#~;”T¶:π«Ã3’j5zÅv/˛W⁄i¯>?ÔTèã{F√cû˙Ìƒ/pÑ+ˆVÇÙßÀ$◊l^${:Ω©X;i≥úè“ptˇãn&ª√´E«SñúGµ∆F´^ı¸àãh£5Â|jïeµ´Îπˇ∫∏‡õJG≤ŒÏ/â}ÓØúMƒ…Œı2=è˜&4˛"ãzÌ˘^^g_Q[€$V˚—Y°∑ﬁöf	∂—Ü.˙}~ïyõDf|6Öˆı£gsigTst2°itstTokensÅ°cvalYâ0ÇÖ	*ÜHÜ˜†Çv0Çr10	`ÜHe 0ÅÖ*ÜHÜ˜	†vt0r
++Éø0010	`ÜHe  ‘	"‡˚ÛWÔ„)!Ë‘`~®!!ñ"$OΩ·∞∆P>Úó#„ 20261111023516.72995Z0Äã˚˛!˘óé†Çf0Çˆ0Ç^†a€F(2äåçJ∑ø˛`„l?q∑0	*ÜHÜ˜ 0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CA0260408174626Z370709174626Z0u10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Leaf0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ Í ≈≠î˝˝'ü«xßa ˇ)a*˚°àÕ_®¢óùâ/ãë»º∞ñê=UÇ¡ñé6j≠âiËê€,D2É®
+ÕwÂ5ËÓ®d[˛∏‡éùÁ °(√5›ß7È"˜	Móö¥Ñs¿.|©PG(†¥i∞á)zY˛5B˘ŸiRJ 7ÚhÃÒ-∑Çñ KF\=§Ü∏KEf8¢NM' ï∫uÃNájüt√ $_ƒ~\Æ˛ÛïÌ ëﬂ<ıÜõ*^÷–›…˙»M√…ÑZI,‰8s`R∏LÓ∆Û∑∂ÿ›j©Œ ∫]÷ƒ\5dÚ#S?bée]p+‘…k	ÅERËWÌZF]⁄]vú%yhÉQ§òÑuëròUˇÿ„Cb±Ìig'Aº≈èÚj+ÉIË·-4ª9ØgΩ¥ï»≤ΩEgÕràî_UK,≠ØÌ•Ù$Øw>ÉädQèëå9ñK∞=Æ˙ô°>å=æ6°.ıcµ £x0v0Uˇ0 0Uˇ¿0U%ˇ0
++0U§'TÇ¢äÄ{=≈ÜÕ?pŸ¬ÉôQx0U#0ÄÚ∞«T=#CÖ‹ s–rÄ=∏®0	*ÜHÜ˜ ÇÅ  ˚$OA¿¿ºò≤2 ç ôH5OƒFV~ß>?∂•#˘*H>‡QùE@x¡ªÉNìP…õ'ñhﬂMŒÚˆ“y´ÔÍ¡⁄?ıòYÊpÕâÙÓGã™ÀÏˇå~·FÿëÊú∏‰4Fˇa“x¯}89„RÌ_fËs¿ r;‰®´éÜ*£7!˘;ﬂ{\TÿL«j*KœCt`Äs£…—wØá©˝µ±Ñjnøà*Œö°ö´¢ûÇH7≈cQó€R|og…iB’œı˚≠^ãê‚‡y<.Éjû•Ë%AèÖÌ‰¡†:ç˛ùRPÔáﬁ·dÕU˘! ﬂ∂)Ôü'n—∫4F´J"OÁbw›E#›a-¬1)èƒπ~y´¥W‘¡Ïœ·\{eI∞ÎM´§«'@N¶¥µèœ|√¥Cßv”^0cÓ®Æ5(td´Z5„[/:>N
+a÷0MCõˇN.∆!π>:, W0ujédK¢–	—◊†g&Amg¯pv∏%&V˘ë&'√KI0Ç~0Çf†ç ∆≈≈⁄∞ºÒNï•Íº0	*ÜHÜ˜ 0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0 260408174626Z21260409174626Z0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CA0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ âº‘π‚»°æaªﬁ<df~ßæúm”©0&<Ù‡k 9ﬂï4Ì©¢eH€7Ü2ÉéÃ
+J†¿Û4l†¿òÕ+ü•ÙÀ|Ÿ&ﬁ~…M¢Ôc[ëÊˆY®“˙N˘Ÿ8+ZÕ`ZòÅò®◊S∆„÷.H¨CW	ÈîÚG˘lEä`∑˜Æ/^¢5NÖ8Öiü4ù–MÿC=Õ4m¸cì¸”pªJËvËjNfI†Ì¸¯æÔö∑®w¨Ô∑8Ãπ‘*3ƒv÷@wÀ˛«]-@”ﬁã<¿÷@AôÀî?,} kR¸û P∑	GE·#U˙±OoTòïÙ}∫¯h·"z‹äëCã∂.C±b†æ $é.Ôø§—MË∏?1œ&=≈ PÍÚŸ$ dÌ’sû.px™ﬁV<˘‘Ä¢Ë≠Øˆ˚®£\Àh´D€0wÚƒ4tkUm∆á˚Ú2<ûqE˜ÏP˚˛÷1&ª–ƒMa‚B€Ø√+n_+Ê‚∞Ôç\DÕ¿s}è¢ÈΩmÇº%eÑ0iÌ £{0y0Uˇ0ˇ 0Uˇ0U%0
++0UÚ∞«T=#CÖ‹ s–rÄ=∏®0U#0ÄX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0	*ÜHÜ˜ Ç íÏ7\ﬁlÎd⁄Æ°	0rÆ‹rı;ºz=÷∆·/ˆÉ3}ËW@NLô™k‘ôŸã€k÷L¯ –Y3”°†8\#àD$˚á·ˆì'º°ÌL_g]ˇ5´1“Ï{‘@C7O¬Ñú∫d»∞¢~ö6¯·–Ç≥PC≤‡UΩÄî»YRNJtﬁ]«EXõ∑˙0™;‹Gº’.,π8c,yZ∑›U≠=BﬂàœÒh˛s ‘Z∑ﬁ$óë¿Ág˛‹¶
+Û•F≥QœçØ_„»∏@∆Ω„˘÷Kq–d]Âd¬K¿^w—=«[ûœ{˝îîÁKQ⁄˚dÙ´5îÒˆæ~+›≤ö=P›P√ñdém´sü(;w–óÌoEO±3._FÎÉ∂©aº◊ÇÆ¯Äo¬„i0Êm|:Dí+ò-Ø‹4¡æ•*HÁá»ﬁ8µ3 „ÑPpÒ≤KﬁçOˆë‹_Ö˙ÒÊ—◊ ßÓ¥üˆ!x)Å„pXwÜ§:KóÉFË⁄¬jv…©À!Eæe±†Ü.ÄºYKMõCm¥◊Ñ‡¸’»aêCéjù√Ò!<Ñ]˛;÷ÿ#9E_q˙2˝†ÄïDµO Â√t˝‚NárÜÙQáΩ‘µ+5lí§;kjù∫˝¿;úv¬’9I⁄„î>Pj◊L‚âaùÔÎœ≈√@npz80ÇÊ0ÇŒ†P;lâå$3,è˜Oé˚}ÇÏ0	*ÜHÜ˜ 0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0 260408174625Z21260409174625Z0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ˆíÈ“∫≠û·¨u®Vÿ™±≥jí_ñyıí∑-$¯ø¿Ø`æ¡öÕyö‹lö˛6ö¡ò§?‰,ù∫••Ps≥
+¬˘ÛƒI/xΩ“ÏºÁ?Ùõ—Ú†a¢,â% Q˘%ú“∆/ÙâƒA˛&”m5ÕÏª5`@®ÖQæˆÓêòÒ*ÿùzkjŸ.ŸcÛÂ\)≈Ü"¡ähÕÎ8û©Pñ[#C˚8ˇB|;:°Q/%…H‹1ˇPrÓ|°wÕoÅaÛ?ønË“±¶6‰k2˚˛w®^õ\››1êLéeˇÅÀAŒ(1S CŒHn}÷d≥)‰¥.:∑TZrVWÛ®j}ÔÊa›e»H	Iô2t
+¢Ã›ì S¨#ΩÇÖ ±ÔæÌ°w Ó:F3¢ûÏØÈ1f¥fo≤âì†~ï!ŒA¯^éÈÕπ¿’3]x––'1œP0rs⁄j¬¿ìœ≠‹dáˆ˚Nàvı>Ôˇí,ôw.ˆ‹ò∂ù	:˝Ù	«è_ZÈ~H	+µäÉÚ[<,Øë¢ùA∑Rh—ø∞¿⁄O`ΩÓ)™Ìáçq\(åçà£%cEÿ¸{aèlFT;\…∞ÇØÉ»±#?ü[Ó¢◊Tµ*SÆªÖ€¶˙óûÏÑârÛz@…∂ÖXG[Ò$a9¢Lﬁÿ∆®"Úûø[L,À £f0d0Uˇ0ˇ0Uˇ0UX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0U#0ÄX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0	*ÜHÜ˜ Ç X¯ÅëòÚla˛»Ü÷[Ñ¶÷æ∏¶]]IÀ∏°)Õ-ù∏X˘Ñâ=<¯o’j¥*¢UígÅô^µT˚öFÄ„Q S¿¡àWﬁÔÇU~„Ù}Î&¸Éˇ!®¡¨ﬁ€ì´Õ–0v:ìùŒ™g9.Ätﬂm~v/ÈÍPAã8=lÂ‡>Ó/€dT6^æbE∂—!¥Ä<åÎ⁄ú÷J©’Te[k—X~¿IáÎÎK_í;î◊öÜˆ°YŒG8¨√∞td—¿R;°±{(k·ió¯(;'ˇÆ§û˜eÀ†ÙÍπΩîŒD‚ò±
+HhÓU©!•`è˛ ÷}—{Ü úÛ®x–∆⁄@.»Å\b®*¡˚VÁyéØÏÂ€”p˛FÃc®dÒ<ÈØ•dº^øÖ-∞Œ„π”§◊RªpãÜù˚.ø
+ˆ“U+#B+C\Ï°Ça?œqÌ∞˜óÈ‰À¬<¸¨w∑∂‹ ¡LÈâ≤≤/√~ídúµÑﬁÃñ˝â∞KµC}“È≠Ü˝Ÿ-üΩ Ó¿¥GV#|HëNgâ {b¡…^UÒˆ∆Q#WoÔáæ Fyæî±» (ùïäà&UfRÔŸK∫®ZÈ¬,≠ü√\BÛ°ı'dyqå
+Zû˝π˘Eyp·jµ7ñéX˝EøT%åÉ=Ÿ&3#–Xw¶∏1Çh0Çd0Åì0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CAa€F(2äåçJ∑ø˛`„l?q∑0	`ÜHe †Ç%0	*ÜHÜ˜	1*ÜHÜ˜	0/	*ÜHÜ˜	1" ÍØ⁄7È~/ˇm5e~x√É(w¯qF–Ã<ã|ˆΩùY0Å’*ÜHÜ˜	/1Å≈0Å¬0Åø0Åº ΩOπ≤êLÅ6gànÔA·m˛Ÿ"ùø[íJ–¢ƒ`F"z0Åó0§}0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CAa€F(2äåçJ∑ø˛`„l?q∑0	*ÜHÜ˜ ÇÄø(}êl<@-ö,3‹Õ’‘√~eZêˇ—êY]°Êæ¯15úeŒáO*≈?åP@! oB›⁄v^ÃΩÿz"û®W[˝RL≥iìY¶˘äf˘u˝g"ë?Q”>™7 ¶ÎG|Ú·∆ÁDπùıiƒ‘ãÄFf¢o˛N∏îeö+0~Ìçﬁ∞bÃhãYÀí∞ó≥ Íçﬂ◊¿üjB∞n¥ºYË–Qv|ó”£VßG7P9·∆ΩÕ∑«Ωê’‘’jüêÉîÇ‚Øﬂ˘ÒïÂ¿pÀË˜mùπj¶,√%5G
+åœÇ≥ncw„ØÚ∞áä}ªNØÉá'[ˇÑÿ≈øMA¡x92àç·Ø¸™
+˚z§â¢\≠ˇΩü[  ã »Wêe√ŒYóä≈d-+∫‘œ/ﬁÅ¢3»\ˆ—⁄¬ƒ›v@üíY*Êu∂
+¸}€rB,√≤d((¢“≠Zù€N˛∂ñs≠ØçX÷3ìı‘yöÉ*≥◊t)Ç·…á‡Ñö”o 3_^êoõerVals°hocspValsÅY◊0Ç”
+ †ÇÃ0Ç»	+0Çπ0Çµ0ÅÈ¢mÃ†g\¿ÃwY◊UBÉ≤÷+20261111021606Z0Åò0Åï0I0	+ ﬂÇ7S^Sÿ3±‡=$5ÒuÊ·
+9=G‹óèØà{MsÕÂÓ§•*•¸ÈpåÚÄ1ÓDdsÄ 20261111021606Z†20261118021605Z°"0 0	+020161113021606Z°#0!0	+0í Æ©wÆâ‡˙ö9∂Ïcí0	*ÜHÜ˜ ÇÅ H˜vf
+L6◊jsÚ∫±——†Ä' Qà_hóp^ªÒ(%ju)è≤–ãÎåS{óè–NêX4‹‹“ª`‰ÎÂ@ó˘Éø`Eê‘ªŸ?ëº“Âææ«æ2-ÈAÈLkËJ«∂‰ﬂöàas@Â˝¶‹Y$w3–…∞Ce@ŸÌ; Uy@ës”„[ıh]œûƒxÚ-:ù»˛N6wwNBÉa†^å⁄pWZ,ÇDåúåï`ìçü†5Ç@ın∫–òí|¶9≤@∫vÆ€√˛Gd9ôÚ]áz%≈i>ÿpåæÁ’ylá√îCÔÍ˛8¯v¸‘ñÿUŒ˘”+…’¸ìÊØ∫ÈJ€7’,Á?Q®MÖ˛√¿©CS|ÂIA—©‹Õ¥ëÁBàŒäZ/(«;}∞G´çbí†mY~‡-≥n ∑_Ïo¥V{Tmﬁ2¿ÉüÉÅÄ¸€i“÷£∞&Úgµ˝∑ﬁÍ¸£]∑ ínÄ`É“\◊Ü 1∂º6S≈Â{2†Ç10Ç-0Ç)0Ç†pßπß⁄!ıD–Æ≤D0	*ÜHÜ˜ 0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0261104111802Z271104111801Z0M10	UUS10U
+SSL Corp1+0)U"SSL.com C2PA ICA R1 OCSP Responder0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ ƒ''â°mˇN/VrWa=XÙúQoŸ|	∫'êIªT#á"úˇ∑j ∏I:ﬁ
+%≈˚‡àI‡•˝∏oÊØD?öÛ[è…A≤“˝Ò3W≠˚è¬-ÍŒ $°|©ä3Ú˚JÜ∆/˝.:°ÁÎøçÜ±tæZãE*≠vµ-∆CÃò‹å›ÿI±ÑØzû°K÷7ÅÆŒùÕ›¿!òπ√n‡9ÍìlnT.Œ(à™6÷:%â>¡˚Bb„nüIàDÑ—£yëO14—º“IZ_Im/PÄé®/Ftp©»g∏BÂqt 6KVt∫√ı¬~Yø÷ÀÁsã*‘Êü"©<qtú‡n[9NÒûÌÖ°Å3$Ilˇ°
+Jg5+∞˛®÷	Uvl¿øz?0•…øÅ|îÚ†≠Qñ`#ä« ¨ˆ£‘—b]˜X`ß¯	e&¥R5Ï˜˚÷ßπ˜É Q©%∆BÖ∆”$4qD_–œ:TÖœ4ﬁSŒ¶&‰©l≠ÄçP¯—≥◊ºwY £Åá0ÅÑ0Uˇ0 0U#0Ä9=G‹óèØà{MsÕÂÓ§•*0	+0 0U%0
++	0UmÃ†g\¿ÃwY◊UBÉ≤÷+0UˇÄ0	*ÜHÜ˜ Ç ≈–]ıF¢¸ÎAgÜNﬂ_Î7	dh∆=´dcñèÄÜ>π>& W9˙ù^%⁄ÍèSm`0K≈Úñ˜P⁄\Í&ùµK£ªÏ ;ò Gh⁄˚IfØüŒù/—t≥© ∂;À<†6“¿-◊jaº á›:õu>âÀ©Ö‚ë’Ã∞’ı	Tt@œ≈E¯˜¸≈W˚™bÍπˆ!
+òóO' ¨o€èß¨2ePs°ˆå¿.
+ŒÌÊl‚£sÊQ.8íÜÅgæÕúå êØiÎè(m«õÎß˜ÎÖ÷∂®£@ˆ©∑üﬁÆo§6ˆ|V¯HÎØÌA}ª}¸hÅ˚Ï™ì$/‰z#≥&`ıWxïÅ ‡qƒ&07å]ëÑ—VuBøÂ{ÿU¸Ü≠Ê¯bÍ∞›5\îøÈ«'∑‰-7Ò>w±Dài|®›¸¢πÖ>H¥£€n^G6üë0ﬂÅ?:%˙Á1º»qÇBˇö`0\˜√ä=5o
+=Áe¡}ŒH82"HA‡˚y-—3Âv	§˘u&'Ωw%∏ö¶Xyaw«∫«ûK°µµ›â∞£0fG ÈÒh#©aJÅ\”≤©e¢∏´‰I˚gö∆™ÎsœÙâ±9zX∏À´Àïˆ˚|u>«›>FÛ†ws»nˇMºÅ˙Œä[!R¡Ôß„y]…√ªP+Ê¬Ê;cpadY&w                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ˆY @©≠LÂ¨«–X£dlkPU2≤@zΩ·Yú8ı’˚Ù…Míy{º[–f∂Ÿ–SØjÄ«f—ê∆Då°Ÿ<bHA(hì…·ı		<ΩÊjùÿö—gç4fo›R®r¬/:ICDF‡Ù≠b’Ó˙d5Òùõe≥E∞ôÄ	ÉH≥ıàm∏¨)¬ﬂR?Îñ‰“ƒû˝RF[ò™ü®èèl∫Ç•y2M,
+…pÎÅd £’›°˝å›òíe◊(˝ ÿºÁ%^‚@Ÿ˚h›ıËÖd5t€ºÅÙ ÛmÁÃgf“ÓÃËúÅÅ $ åàtœÔÕw∫îUµòÛd¯à`+⁄6ü&êïr
+endstream
+endobj
+19 0 obj
+<< /AFRelationship /C2PA_Manifest /Desc (Content Credentials) /F (Content Credentials) /EF << /F 18 0 R >> /Subtype (application/c2pa) /Type /Filespec /UF (Content Credentials) >>
+endobj
+xref
+3 1
+0000039053 00001 n 
+18 2
+0000039188 00000 n 
+0000063579 00000 n 
+trailer
+<< /Size 20 /Root 3 1 R /Prev 38614 >>
+startxref
+63775
+%%EOF
