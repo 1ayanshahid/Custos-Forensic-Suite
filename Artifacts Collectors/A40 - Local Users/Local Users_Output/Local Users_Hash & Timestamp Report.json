@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "artifact_id": "A40",
+  "artifact_name": "Local Users",
+  "collector": "collector.py",
+  "hash_algorithm": "SHA-256",
+  "verification_status": "verified",
+  "verification_method": "Two independent reads of saved output files; SHA-256 comparison and size, mtime, ctime, device and file identity stability checks. Not acquisition-time hashing.",
+  "collection_started_at_utc": "2026-10-23T21:33:41.352280Z",
+  "collection_ended_at_utc": "2026-10-23T21:33:41.844498Z",
+  "collection_status": "partial",
+  "collection_exit_code": 1,
+  "output_directory": "E:\\FYP Working Individually\\Ayan Shahid\\Artifacts Collectors\\A40 - Local Users\\Local Users_Output",
+  "outputs": [
+    {
+      "path": "Local Users-20261023T213341_352280Z.json",
+      "size_bytes": 35518,
+      "sha256": "06844f2e824addaaec49ab7e63877c2c32fc4bb8ee325997eca31d7c798f7526",
+      "verification_sha256": "06844f2e824addaaec49ab7e63877c2c32fc4bb8ee325997eca31d7c798f7526",
+      "last_modified_utc": "2026-10-23T21:33:41.837265+00:00",
+      "hash_timestamp_utc": "2026-10-23T21:33:41.854623+00:00",
+      "verification_timestamp_utc": "2026-10-23T21:33:41.854623+00:00",
+      "verification_status": "verified",
+      "error": null
+    }
+  ],
+  "error": null,
+  "errors": [],
+  "generated_at_utc": "2026-10-23T21:33:41.854623+00:00",
+  "generated_at_local": "2026-10-24T02:33:41.854623+05:00"
+}
