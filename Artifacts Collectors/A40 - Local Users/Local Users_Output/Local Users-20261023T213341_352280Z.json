@@ -1,0 +1,1031 @@
+{
+  "artifact_id": "A40",
+  "collection_started_at_utc": "2026-10-23T21:33:41.352280Z",
+  "collection_ended_at_utc": "2026-10-23T21:33:41.835262Z",
+  "collection_started_at_local": "2026-10-24T02:33:41.352280+05:00",
+  "collection_ended_at_local": "2026-10-24T02:33:41.835262+05:00",
+  "collection_time_zone_id": "Pakistan Standard Time",
+  "collection_time_zone_id_error": null,
+  "collection_clock_adjusted": false,
+  "scope": {
+    "target": "local computer",
+    "computer_name": "AYAN-LAPY",
+    "account_database": "local SAM; domain accounts and active sessions are out of scope",
+    "computer_role": {
+      "status": "success",
+      "product_type": "WinNT",
+      "classification": "workstation",
+      "registry_path": "HKLM\\SYSTEM\\CurrentControlSet\\Control\\ProductOptions\\ProductType",
+      "error": null
+    }
+  },
+  "status": "partial",
+  "providers": [
+    {
+      "name": "pywin32 win32net.NetUserEnum",
+      "role": "primary local account enumeration",
+      "information_levels_tried": [
+        3
+      ],
+      "filter": 2,
+      "filter_meaning": "normal user accounts; trust/machine account classes are excluded",
+      "preferred_maximum_length": -1,
+      "pages": [
+        {
+          "information_level": 3,
+          "entries_read": 0,
+          "total_entries_hint": 0,
+          "resume_handle": 0
+        }
+      ],
+      "status": "success",
+      "complete": true,
+      "resume_handle": 0
+    },
+    {
+      "name": "pywin32 win32net.NetUserGetInfo",
+      "role": "per-account details",
+      "information_levels": [
+        4,
+        3,
+        2
+      ],
+      "sid_resolution": "pywin32 win32security.LookupAccountName against the local computer"
+    },
+    {
+      "name": "pywin32 win32net.NetUserModalsGet",
+      "role": "local password-policy maximum age used only for an explicitly marked expiry estimate",
+      "information_level": 0,
+      "status": "success",
+      "error": null
+    },
+    {
+      "name": "PowerShell Microsoft.PowerShell.LocalAccounts",
+      "role": "independent cross-check and supplemental account source; never silently replaces NetAPI",
+      "status": "success",
+      "account_count": 8,
+      "error": null
+    }
+  ],
+  "enumeration_complete": false,
+  "primary_enumeration_complete": true,
+  "provider_consistency": {
+    "status": "mismatch",
+    "netapi_only_count": 0,
+    "get_local_user_only_count": 8,
+    "netapi_only_accounts": [],
+    "get_local_user_only_accounts": [
+      {
+        "username": "Administrator",
+        "sid": "S-1-5-21-3340028459-326566061-2678611993-500"
+      },
+      {
+        "username": "Ayan Shahid",
+        "sid": "S-1-5-21-3340028459-326566061-2678611993-1000"
+      },
+      {
+        "username": "CodexSandboxOffline",
+        "sid": "S-1-5-21-3340028459-326566061-2678611993-1003"
+      },
+      {
+        "username": "CodexSandboxOnline",
+        "sid": "S-1-5-21-3340028459-326566061-2678611993-1004"
+      },
+      {
+        "username": "DefaultAccount",
+        "sid": "S-1-5-21-3340028459-326566061-2678611993-503"
+      },
+      {
+        "username": "Guest",
+        "sid": "S-1-5-21-3340028459-326566061-2678611993-501"
+      },
+      {
+        "username": "WDAGUtilityAccount",
+        "sid": "S-1-5-21-3340028459-326566061-2678611993-504"
+      },
+      {
+        "username": "WsiAccount",
+        "sid": "S-1-5-21-3340028459-326566061-2678611993-1005"
+      }
+    ],
+    "username_fallback_match_count": 0
+  },
+  "account_count": 8,
+  "accounts": [
+    {
+      "username": "Administrator",
+      "sid": "S-1-5-21-3340028459-326566061-2678611993-500",
+      "sid_source": "NetUserGetInfo(level=4).user_sid",
+      "sid_resolution": {
+        "status": "resolved",
+        "source": "NetUserGetInfo(level=4).user_sid",
+        "error": null,
+        "resolved_domain": "AYAN-LAPY",
+        "resolved_type": "user"
+      },
+      "builtin_account": {
+        "status": "classified",
+        "classification": "built_in_administrator_identity",
+        "rid": 500
+      },
+      "principal_source": "Local",
+      "account_flags": 66051,
+      "account_flag_names": [
+        "script",
+        "account_disabled",
+        "normal_account",
+        "password_never_expires"
+      ],
+      "unknown_account_flag_bits": 0,
+      "enabled": false,
+      "disabled": true,
+      "locked_out": false,
+      "password_required": true,
+      "password_cannot_be_changed": false,
+      "supplemental_account_settings": {
+        "enabled": false,
+        "user_may_change_password": true,
+        "password_required": true,
+        "password_never_expires": true
+      },
+      "password_never_expires": true,
+      "password_expired": false,
+      "password_age_seconds": 0,
+      "password_last_set_utc_derived": "2026-10-23T21:33:41.829091Z",
+      "password_last_set_derivation_status": "derived_from_password_age",
+      "password_last_set_observed_at_utc": "2026-10-23T21:33:41.829091Z",
+      "password_last_set_uncertainty": "Derived from provider password age at query time; not a directly stored timestamp.",
+      "password_expires_utc_derived": null,
+      "password_expiration_status": "never",
+      "supplemental_timestamps": {},
+      "password_never_expires_supplemental": true,
+      "account_expiration": {
+        "raw": 4294967295,
+        "utc": null,
+        "status": "never"
+      },
+      "privilege_level": 2,
+      "privilege_classification": "administrator",
+      "primary_group_id": 513,
+      "provider_user_id": null,
+      "full_name": "",
+      "description": "Built-in account for administering the computer/domain",
+      "user_comment": "",
+      "home_directory": "",
+      "home_drive": "",
+      "profile_path": "",
+      "logon_script_path": "",
+      "permitted_workstations": "",
+      "logon_server": "\\\\*",
+      "last_logon": {
+        "raw": 0,
+        "utc": null,
+        "status": "zero_not_recorded"
+      },
+      "last_logoff": {
+        "raw": 0,
+        "utc": null,
+        "status": "zero_not_recorded"
+      },
+      "logon_hours": {
+        "bitmap_hex": "ffffffffffffffffffffffffffffffffffffffffff",
+        "byte_length": 21,
+        "units_per_week": 168,
+        "decoding": "not_performed; bit ordering/time semantics are not inferred"
+      },
+      "logon_hours_units_per_week": 168,
+      "auth_flags": 0,
+      "bad_password_count": 0,
+      "bad_password_count_status": "available",
+      "logon_count": 0,
+      "logon_count_status": "available",
+      "country_code": 0,
+      "code_page": 0,
+      "max_storage_bytes": null,
+      "information_levels_used": {
+        "NetUserGetInfo": 4
+      },
+      "sources": [
+        "NetUserGetInfo",
+        "Get-LocalUser"
+      ],
+      "observed_at_utc": "2026-10-23T21:33:41.829091Z",
+      "errors": []
+    },
+    {
+      "username": "Ayan Shahid",
+      "sid": "S-1-5-21-3340028459-326566061-2678611993-1000",
+      "sid_source": "NetUserGetInfo(level=4).user_sid",
+      "sid_resolution": {
+        "status": "resolved",
+        "source": "NetUserGetInfo(level=4).user_sid",
+        "error": null,
+        "resolved_domain": "AYAN-LAPY",
+        "resolved_type": "user"
+      },
+      "builtin_account": {
+        "status": "not_a_recognized_builtin_rid",
+        "classification": null,
+        "rid": 1000
+      },
+      "principal_source": "MicrosoftAccount",
+      "account_flags": 545,
+      "account_flag_names": [
+        "script",
+        "password_not_required",
+        "normal_account"
+      ],
+      "unknown_account_flag_bits": 0,
+      "enabled": true,
+      "disabled": false,
+      "locked_out": false,
+      "password_required": false,
+      "password_cannot_be_changed": false,
+      "supplemental_account_settings": {
+        "enabled": true,
+        "user_may_change_password": true,
+        "password_required": false,
+        "password_never_expires": true
+      },
+      "password_never_expires": false,
+      "password_expired": false,
+      "password_age_seconds": 2420727,
+      "password_last_set_utc_derived": "2026-09-25T21:08:14.830256Z",
+      "password_last_set_derivation_status": "derived_from_password_age",
+      "password_last_set_observed_at_utc": "2026-10-23T21:33:41.830256Z",
+      "password_last_set_uncertainty": "Derived from provider password age at query time; not a directly stored timestamp.",
+      "password_expires_utc_derived": null,
+      "password_expiration_status": "policy_never",
+      "supplemental_timestamps": {
+        "password_last_set_utc": "2026-09-25T21:08:14.1481419Z",
+        "last_logon_utc": "2026-09-25T21:08:12.1630889Z"
+      },
+      "password_never_expires_supplemental": true,
+      "account_expiration": {
+        "raw": 4294967295,
+        "utc": null,
+        "status": "never"
+      },
+      "privilege_level": 2,
+      "privilege_classification": "administrator",
+      "primary_group_id": 513,
+      "provider_user_id": null,
+      "full_name": "AYAN SHAHID",
+      "description": "",
+      "user_comment": "",
+      "home_directory": "",
+      "home_drive": "",
+      "profile_path": "",
+      "logon_script_path": "",
+      "permitted_workstations": "",
+      "logon_server": "\\\\*",
+      "last_logon": {
+        "raw": 1790370492,
+        "utc": "2026-09-25T21:08:12Z",
+        "status": "available"
+      },
+      "last_logoff": {
+        "raw": 0,
+        "utc": null,
+        "status": "zero_not_recorded"
+      },
+      "logon_hours": {
+        "bitmap_hex": "ffffffffffffffffffffffffffffffffffffffffff",
+        "byte_length": 21,
+        "units_per_week": 168,
+        "decoding": "not_performed; bit ordering/time semantics are not inferred"
+      },
+      "logon_hours_units_per_week": 168,
+      "auth_flags": 0,
+      "bad_password_count": 3,
+      "bad_password_count_status": "available",
+      "logon_count": 4,
+      "logon_count_status": "available",
+      "country_code": 1,
+      "code_page": 1252,
+      "max_storage_bytes": null,
+      "information_levels_used": {
+        "NetUserGetInfo": 4
+      },
+      "sources": [
+        "NetUserGetInfo",
+        "Get-LocalUser"
+      ],
+      "observed_at_utc": "2026-10-23T21:33:41.830256Z",
+      "errors": []
+    },
+    {
+      "username": "CodexSandboxOffline",
+      "sid": "S-1-5-21-3340028459-326566061-2678611993-1003",
+      "sid_source": "NetUserGetInfo(level=4).user_sid",
+      "sid_resolution": {
+        "status": "resolved",
+        "source": "NetUserGetInfo(level=4).user_sid",
+        "error": null,
+        "resolved_domain": "AYAN-LAPY",
+        "resolved_type": "user"
+      },
+      "builtin_account": {
+        "status": "not_a_recognized_builtin_rid",
+        "classification": null,
+        "rid": 1003
+      },
+      "principal_source": "Local",
+      "account_flags": 66049,
+      "account_flag_names": [
+        "script",
+        "normal_account",
+        "password_never_expires"
+      ],
+      "unknown_account_flag_bits": 0,
+      "enabled": true,
+      "disabled": false,
+      "locked_out": false,
+      "password_required": true,
+      "password_cannot_be_changed": false,
+      "supplemental_account_settings": {
+        "enabled": true,
+        "user_may_change_password": true,
+        "password_required": true,
+        "password_never_expires": true
+      },
+      "password_never_expires": true,
+      "password_expired": false,
+      "password_age_seconds": 2376223,
+      "password_last_set_utc_derived": "2026-09-26T09:29:58.831258Z",
+      "password_last_set_derivation_status": "derived_from_password_age",
+      "password_last_set_observed_at_utc": "2026-10-23T21:33:41.831258Z",
+      "password_last_set_uncertainty": "Derived from provider password age at query time; not a directly stored timestamp.",
+      "password_expires_utc_derived": null,
+      "password_expiration_status": "never",
+      "supplemental_timestamps": {
+        "password_last_set_utc": "2026-09-26T09:29:58.5866652Z",
+        "last_logon_utc": "2026-10-04T22:19:52.4202080Z"
+      },
+      "password_never_expires_supplemental": true,
+      "account_expiration": {
+        "raw": 4294967295,
+        "utc": null,
+        "status": "never"
+      },
+      "privilege_level": 1,
+      "privilege_classification": "user",
+      "primary_group_id": 513,
+      "provider_user_id": null,
+      "full_name": "CodexSandboxOffline",
+      "description": "",
+      "user_comment": "",
+      "home_directory": "",
+      "home_drive": "",
+      "profile_path": "",
+      "logon_script_path": "",
+      "permitted_workstations": "",
+      "logon_server": "\\\\*",
+      "last_logon": {
+        "raw": 1791152392,
+        "utc": "2026-10-04T22:19:52Z",
+        "status": "available"
+      },
+      "last_logoff": {
+        "raw": 0,
+        "utc": null,
+        "status": "zero_not_recorded"
+      },
+      "logon_hours": {
+        "bitmap_hex": "ffffffffffffffffffffffffffffffffffffffffff",
+        "byte_length": 21,
+        "units_per_week": 168,
+        "decoding": "not_performed; bit ordering/time semantics are not inferred"
+      },
+      "logon_hours_units_per_week": 168,
+      "auth_flags": 0,
+      "bad_password_count": 0,
+      "bad_password_count_status": "available",
+      "logon_count": 769,
+      "logon_count_status": "available",
+      "country_code": 0,
+      "code_page": 0,
+      "max_storage_bytes": null,
+      "information_levels_used": {
+        "NetUserGetInfo": 4
+      },
+      "sources": [
+        "NetUserGetInfo",
+        "Get-LocalUser"
+      ],
+      "observed_at_utc": "2026-10-23T21:33:41.831258Z",
+      "errors": []
+    },
+    {
+      "username": "CodexSandboxOnline",
+      "sid": "S-1-5-21-3340028459-326566061-2678611993-1004",
+      "sid_source": "NetUserGetInfo(level=4).user_sid",
+      "sid_resolution": {
+        "status": "resolved",
+        "source": "NetUserGetInfo(level=4).user_sid",
+        "error": null,
+        "resolved_domain": "AYAN-LAPY",
+        "resolved_type": "user"
+      },
+      "builtin_account": {
+        "status": "not_a_recognized_builtin_rid",
+        "classification": null,
+        "rid": 1004
+      },
+      "principal_source": "Local",
+      "account_flags": 66049,
+      "account_flag_names": [
+        "script",
+        "normal_account",
+        "password_never_expires"
+      ],
+      "unknown_account_flag_bits": 0,
+      "enabled": true,
+      "disabled": false,
+      "locked_out": false,
+      "password_required": true,
+      "password_cannot_be_changed": false,
+      "supplemental_account_settings": {
+        "enabled": true,
+        "user_may_change_password": true,
+        "password_required": true,
+        "password_never_expires": true
+      },
+      "password_never_expires": true,
+      "password_expired": false,
+      "password_age_seconds": 2376223,
+      "password_last_set_utc_derived": "2026-09-26T09:29:58.832259Z",
+      "password_last_set_derivation_status": "derived_from_password_age",
+      "password_last_set_observed_at_utc": "2026-10-23T21:33:41.832259Z",
+      "password_last_set_uncertainty": "Derived from provider password age at query time; not a directly stored timestamp.",
+      "password_expires_utc_derived": null,
+      "password_expiration_status": "never",
+      "supplemental_timestamps": {
+        "password_last_set_utc": "2026-09-26T09:29:58.6952645Z"
+      },
+      "password_never_expires_supplemental": true,
+      "account_expiration": {
+        "raw": 4294967295,
+        "utc": null,
+        "status": "never"
+      },
+      "privilege_level": 1,
+      "privilege_classification": "user",
+      "primary_group_id": 513,
+      "provider_user_id": null,
+      "full_name": "CodexSandboxOnline",
+      "description": "",
+      "user_comment": "",
+      "home_directory": "",
+      "home_drive": "",
+      "profile_path": "",
+      "logon_script_path": "",
+      "permitted_workstations": "",
+      "logon_server": "\\\\*",
+      "last_logon": {
+        "raw": 0,
+        "utc": null,
+        "status": "zero_not_recorded"
+      },
+      "last_logoff": {
+        "raw": 0,
+        "utc": null,
+        "status": "zero_not_recorded"
+      },
+      "logon_hours": {
+        "bitmap_hex": "ffffffffffffffffffffffffffffffffffffffffff",
+        "byte_length": 21,
+        "units_per_week": 168,
+        "decoding": "not_performed; bit ordering/time semantics are not inferred"
+      },
+      "logon_hours_units_per_week": 168,
+      "auth_flags": 0,
+      "bad_password_count": 0,
+      "bad_password_count_status": "available",
+      "logon_count": 0,
+      "logon_count_status": "available",
+      "country_code": 0,
+      "code_page": 0,
+      "max_storage_bytes": null,
+      "information_levels_used": {
+        "NetUserGetInfo": 4
+      },
+      "sources": [
+        "NetUserGetInfo",
+        "Get-LocalUser"
+      ],
+      "observed_at_utc": "2026-10-23T21:33:41.832259Z",
+      "errors": []
+    },
+    {
+      "username": "DefaultAccount",
+      "sid": "S-1-5-21-3340028459-326566061-2678611993-503",
+      "sid_source": "NetUserGetInfo(level=4).user_sid",
+      "sid_resolution": {
+        "status": "resolved",
+        "source": "NetUserGetInfo(level=4).user_sid",
+        "error": null,
+        "resolved_domain": "AYAN-LAPY",
+        "resolved_type": "user"
+      },
+      "builtin_account": {
+        "status": "not_a_recognized_builtin_rid",
+        "classification": null,
+        "rid": 503
+      },
+      "principal_source": "Local",
+      "account_flags": 66083,
+      "account_flag_names": [
+        "script",
+        "account_disabled",
+        "password_not_required",
+        "normal_account",
+        "password_never_expires"
+      ],
+      "unknown_account_flag_bits": 0,
+      "enabled": false,
+      "disabled": true,
+      "locked_out": false,
+      "password_required": false,
+      "password_cannot_be_changed": false,
+      "supplemental_account_settings": {
+        "enabled": false,
+        "user_may_change_password": true,
+        "password_required": false,
+        "password_never_expires": true
+      },
+      "password_never_expires": true,
+      "password_expired": false,
+      "password_age_seconds": 0,
+      "password_last_set_utc_derived": "2026-10-23T21:33:41.832259Z",
+      "password_last_set_derivation_status": "derived_from_password_age",
+      "password_last_set_observed_at_utc": "2026-10-23T21:33:41.832259Z",
+      "password_last_set_uncertainty": "Derived from provider password age at query time; not a directly stored timestamp.",
+      "password_expires_utc_derived": null,
+      "password_expiration_status": "never",
+      "supplemental_timestamps": {},
+      "password_never_expires_supplemental": true,
+      "account_expiration": {
+        "raw": 4294967295,
+        "utc": null,
+        "status": "never"
+      },
+      "privilege_level": 0,
+      "privilege_classification": "guest",
+      "primary_group_id": 513,
+      "provider_user_id": null,
+      "full_name": "",
+      "description": "A user account managed by the system.",
+      "user_comment": "",
+      "home_directory": "",
+      "home_drive": "",
+      "profile_path": "",
+      "logon_script_path": "",
+      "permitted_workstations": "",
+      "logon_server": "\\\\*",
+      "last_logon": {
+        "raw": 0,
+        "utc": null,
+        "status": "zero_not_recorded"
+      },
+      "last_logoff": {
+        "raw": 0,
+        "utc": null,
+        "status": "zero_not_recorded"
+      },
+      "logon_hours": {
+        "bitmap_hex": "ffffffffffffffffffffffffffffffffffffffffff",
+        "byte_length": 21,
+        "units_per_week": 168,
+        "decoding": "not_performed; bit ordering/time semantics are not inferred"
+      },
+      "logon_hours_units_per_week": 168,
+      "auth_flags": 0,
+      "bad_password_count": 0,
+      "bad_password_count_status": "available",
+      "logon_count": 0,
+      "logon_count_status": "available",
+      "country_code": 0,
+      "code_page": 0,
+      "max_storage_bytes": null,
+      "information_levels_used": {
+        "NetUserGetInfo": 4
+      },
+      "sources": [
+        "NetUserGetInfo",
+        "Get-LocalUser"
+      ],
+      "observed_at_utc": "2026-10-23T21:33:41.832259Z",
+      "errors": []
+    },
+    {
+      "username": "Guest",
+      "sid": "S-1-5-21-3340028459-326566061-2678611993-501",
+      "sid_source": "NetUserGetInfo(level=4).user_sid",
+      "sid_resolution": {
+        "status": "resolved",
+        "source": "NetUserGetInfo(level=4).user_sid",
+        "error": null,
+        "resolved_domain": "AYAN-LAPY",
+        "resolved_type": "user"
+      },
+      "builtin_account": {
+        "status": "classified",
+        "classification": "built_in_guest_identity",
+        "rid": 501
+      },
+      "principal_source": "Local",
+      "account_flags": 66145,
+      "account_flag_names": [
+        "script",
+        "password_not_required",
+        "password_cannot_be_changed",
+        "normal_account",
+        "password_never_expires"
+      ],
+      "unknown_account_flag_bits": 0,
+      "enabled": true,
+      "disabled": false,
+      "locked_out": false,
+      "password_required": false,
+      "password_cannot_be_changed": true,
+      "supplemental_account_settings": {
+        "enabled": true,
+        "user_may_change_password": false,
+        "password_required": false,
+        "password_never_expires": true
+      },
+      "password_never_expires": true,
+      "password_expired": false,
+      "password_age_seconds": 0,
+      "password_last_set_utc_derived": "2026-10-23T21:33:41.833260Z",
+      "password_last_set_derivation_status": "derived_from_password_age",
+      "password_last_set_observed_at_utc": "2026-10-23T21:33:41.833260Z",
+      "password_last_set_uncertainty": "Derived from provider password age at query time; not a directly stored timestamp.",
+      "password_expires_utc_derived": null,
+      "password_expiration_status": "never",
+      "supplemental_timestamps": {
+        "last_logon_utc": "2026-10-24T06:14:04.0713692Z"
+      },
+      "password_never_expires_supplemental": true,
+      "account_expiration": {
+        "raw": 4294967295,
+        "utc": null,
+        "status": "never"
+      },
+      "privilege_level": 0,
+      "privilege_classification": "guest",
+      "primary_group_id": 513,
+      "provider_user_id": null,
+      "full_name": "",
+      "description": "Built-in account for guest access to the computer/domain",
+      "user_comment": "",
+      "home_directory": "",
+      "home_drive": "",
+      "profile_path": "",
+      "logon_script_path": "",
+      "permitted_workstations": "",
+      "logon_server": "\\\\*",
+      "last_logon": {
+        "raw": 1793168044,
+        "utc": "2026-10-24T06:14:04Z",
+        "status": "available"
+      },
+      "last_logoff": {
+        "raw": 0,
+        "utc": null,
+        "status": "zero_not_recorded"
+      },
+      "logon_hours": {
+        "bitmap_hex": "ffffffffffffffffffffffffffffffffffffffffff",
+        "byte_length": 21,
+        "units_per_week": 168,
+        "decoding": "not_performed; bit ordering/time semantics are not inferred"
+      },
+      "logon_hours_units_per_week": 168,
+      "auth_flags": 0,
+      "bad_password_count": 0,
+      "bad_password_count_status": "available",
+      "logon_count": 0,
+      "logon_count_status": "available",
+      "country_code": 0,
+      "code_page": 0,
+      "max_storage_bytes": null,
+      "information_levels_used": {
+        "NetUserGetInfo": 4
+      },
+      "sources": [
+        "NetUserGetInfo",
+        "Get-LocalUser"
+      ],
+      "observed_at_utc": "2026-10-23T21:33:41.833260Z",
+      "errors": []
+    },
+    {
+      "username": "WDAGUtilityAccount",
+      "sid": "S-1-5-21-3340028459-326566061-2678611993-504",
+      "sid_source": "NetUserGetInfo(level=4).user_sid",
+      "sid_resolution": {
+        "status": "resolved",
+        "source": "NetUserGetInfo(level=4).user_sid",
+        "error": null,
+        "resolved_domain": "AYAN-LAPY",
+        "resolved_type": "user"
+      },
+      "builtin_account": {
+        "status": "not_a_recognized_builtin_rid",
+        "classification": null,
+        "rid": 504
+      },
+      "principal_source": "Local",
+      "account_flags": 515,
+      "account_flag_names": [
+        "script",
+        "account_disabled",
+        "normal_account"
+      ],
+      "unknown_account_flag_bits": 0,
+      "enabled": false,
+      "disabled": true,
+      "locked_out": false,
+      "password_required": true,
+      "password_cannot_be_changed": false,
+      "supplemental_account_settings": {
+        "enabled": false,
+        "user_may_change_password": true,
+        "password_required": true,
+        "password_never_expires": true
+      },
+      "password_never_expires": false,
+      "password_expired": false,
+      "password_age_seconds": 2421412,
+      "password_last_set_utc_derived": "2026-09-25T20:56:49.834261Z",
+      "password_last_set_derivation_status": "derived_from_password_age",
+      "password_last_set_observed_at_utc": "2026-10-23T21:33:41.834261Z",
+      "password_last_set_uncertainty": "Derived from provider password age at query time; not a directly stored timestamp.",
+      "password_expires_utc_derived": null,
+      "password_expiration_status": "policy_never",
+      "supplemental_timestamps": {
+        "password_last_set_utc": "2026-09-25T20:56:49.3429359Z"
+      },
+      "password_never_expires_supplemental": true,
+      "account_expiration": {
+        "raw": 4294967295,
+        "utc": null,
+        "status": "never"
+      },
+      "privilege_level": 0,
+      "privilege_classification": "guest",
+      "primary_group_id": 513,
+      "provider_user_id": null,
+      "full_name": "",
+      "description": "A user account managed and used by the system for Windows Defender Application Guard scenarios.",
+      "user_comment": "",
+      "home_directory": "",
+      "home_drive": "",
+      "profile_path": "",
+      "logon_script_path": "",
+      "permitted_workstations": "",
+      "logon_server": "\\\\*",
+      "last_logon": {
+        "raw": 0,
+        "utc": null,
+        "status": "zero_not_recorded"
+      },
+      "last_logoff": {
+        "raw": 0,
+        "utc": null,
+        "status": "zero_not_recorded"
+      },
+      "logon_hours": {
+        "bitmap_hex": "ffffffffffffffffffffffffffffffffffffffffff",
+        "byte_length": 21,
+        "units_per_week": 168,
+        "decoding": "not_performed; bit ordering/time semantics are not inferred"
+      },
+      "logon_hours_units_per_week": 168,
+      "auth_flags": 0,
+      "bad_password_count": 0,
+      "bad_password_count_status": "available",
+      "logon_count": 0,
+      "logon_count_status": "available",
+      "country_code": 0,
+      "code_page": 0,
+      "max_storage_bytes": null,
+      "information_levels_used": {
+        "NetUserGetInfo": 4
+      },
+      "sources": [
+        "NetUserGetInfo",
+        "Get-LocalUser"
+      ],
+      "observed_at_utc": "2026-10-23T21:33:41.834261Z",
+      "errors": []
+    },
+    {
+      "username": "WsiAccount",
+      "sid": "S-1-5-21-3340028459-326566061-2678611993-1005",
+      "sid_source": "NetUserGetInfo(level=4).user_sid",
+      "sid_resolution": {
+        "status": "resolved",
+        "source": "NetUserGetInfo(level=4).user_sid",
+        "error": null,
+        "resolved_domain": "AYAN-LAPY",
+        "resolved_type": "user"
+      },
+      "builtin_account": {
+        "status": "not_a_recognized_builtin_rid",
+        "classification": null,
+        "rid": 1005
+      },
+      "principal_source": "Local",
+      "account_flags": 66147,
+      "account_flag_names": [
+        "script",
+        "account_disabled",
+        "password_not_required",
+        "password_cannot_be_changed",
+        "normal_account",
+        "password_never_expires"
+      ],
+      "unknown_account_flag_bits": 0,
+      "enabled": false,
+      "disabled": true,
+      "locked_out": false,
+      "password_required": false,
+      "password_cannot_be_changed": true,
+      "supplemental_account_settings": {
+        "enabled": false,
+        "user_may_change_password": false,
+        "password_required": false,
+        "password_never_expires": true
+      },
+      "password_never_expires": true,
+      "password_expired": false,
+      "password_age_seconds": 312386,
+      "password_last_set_utc_derived": "2026-10-20T06:47:15.835262Z",
+      "password_last_set_derivation_status": "derived_from_password_age",
+      "password_last_set_observed_at_utc": "2026-10-23T21:33:41.835262Z",
+      "password_last_set_uncertainty": "Derived from provider password age at query time; not a directly stored timestamp.",
+      "password_expires_utc_derived": null,
+      "password_expiration_status": "never",
+      "supplemental_timestamps": {
+        "password_last_set_utc": "2026-10-20T06:47:15.1239789Z",
+        "last_logon_utc": "2026-10-20T06:47:15.1915385Z"
+      },
+      "password_never_expires_supplemental": true,
+      "account_expiration": {
+        "raw": 4294967295,
+        "utc": null,
+        "status": "never"
+      },
+      "privilege_level": 1,
+      "privilege_classification": "user",
+      "primary_group_id": 513,
+      "provider_user_id": null,
+      "full_name": "",
+      "description": "A user account managed and used by the system for Web Sign-in scenarios.",
+      "user_comment": "",
+      "home_directory": "",
+      "home_drive": "",
+      "profile_path": "",
+      "logon_script_path": "",
+      "permitted_workstations": "",
+      "logon_server": "\\\\*",
+      "last_logon": {
+        "raw": 1792478835,
+        "utc": "2026-10-20T06:47:15Z",
+        "status": "available"
+      },
+      "last_logoff": {
+        "raw": 0,
+        "utc": null,
+        "status": "zero_not_recorded"
+      },
+      "logon_hours": {
+        "bitmap_hex": "ffffffffffffffffffffffffffffffffffffffffff",
+        "byte_length": 21,
+        "units_per_week": 168,
+        "decoding": "not_performed; bit ordering/time semantics are not inferred"
+      },
+      "logon_hours_units_per_week": 168,
+      "auth_flags": 0,
+      "bad_password_count": 0,
+      "bad_password_count_status": "available",
+      "logon_count": 1,
+      "logon_count_status": "available",
+      "country_code": 0,
+      "code_page": 0,
+      "max_storage_bytes": null,
+      "information_levels_used": {
+        "NetUserGetInfo": 4
+      },
+      "sources": [
+        "NetUserGetInfo",
+        "Get-LocalUser"
+      ],
+      "observed_at_utc": "2026-10-23T21:33:41.835262Z",
+      "errors": []
+    }
+  ],
+  "password_policy": {
+    "source": "NetUserModalsGet(level=0)",
+    "maximum_password_age_seconds": 4294967295,
+    "maximum_password_age_status": "never"
+  },
+  "errors": [
+    {
+      "category": "provider_account_set_mismatch",
+      "username": "Administrator",
+      "sid": "S-1-5-21-3340028459-326566061-2678611993-500",
+      "message": "Account was returned by Get-LocalUser but not by the completed NetUserEnum pages; supplemental record retained and inventory marked partial."
+    },
+    {
+      "category": "provider_account_set_mismatch",
+      "username": "Ayan Shahid",
+      "sid": "S-1-5-21-3340028459-326566061-2678611993-1000",
+      "message": "Account was returned by Get-LocalUser but not by the completed NetUserEnum pages; supplemental record retained and inventory marked partial."
+    },
+    {
+      "category": "provider_account_set_mismatch",
+      "username": "CodexSandboxOffline",
+      "sid": "S-1-5-21-3340028459-326566061-2678611993-1003",
+      "message": "Account was returned by Get-LocalUser but not by the completed NetUserEnum pages; supplemental record retained and inventory marked partial."
+    },
+    {
+      "category": "provider_account_set_mismatch",
+      "username": "CodexSandboxOnline",
+      "sid": "S-1-5-21-3340028459-326566061-2678611993-1004",
+      "message": "Account was returned by Get-LocalUser but not by the completed NetUserEnum pages; supplemental record retained and inventory marked partial."
+    },
+    {
+      "category": "provider_account_set_mismatch",
+      "username": "DefaultAccount",
+      "sid": "S-1-5-21-3340028459-326566061-2678611993-503",
+      "message": "Account was returned by Get-LocalUser but not by the completed NetUserEnum pages; supplemental record retained and inventory marked partial."
+    },
+    {
+      "category": "provider_account_set_mismatch",
+      "username": "Guest",
+      "sid": "S-1-5-21-3340028459-326566061-2678611993-501",
+      "message": "Account was returned by Get-LocalUser but not by the completed NetUserEnum pages; supplemental record retained and inventory marked partial."
+    },
+    {
+      "category": "provider_account_set_mismatch",
+      "username": "WDAGUtilityAccount",
+      "sid": "S-1-5-21-3340028459-326566061-2678611993-504",
+      "message": "Account was returned by Get-LocalUser but not by the completed NetUserEnum pages; supplemental record retained and inventory marked partial."
+    },
+    {
+      "category": "provider_account_set_mismatch",
+      "username": "WsiAccount",
+      "sid": "S-1-5-21-3340028459-326566061-2678611993-1005",
+      "message": "Account was returned by Get-LocalUser but not by the completed NetUserEnum pages; supplemental record retained and inventory marked partial."
+    },
+    {
+      "category": "empty_primary_enumeration",
+      "message": "NetUserEnum completed without accounts; an empty local-user inventory is not treated as verified."
+    },
+    {
+      "category": "provider_account_set_mismatch",
+      "message": "NetUserEnum and Get-LocalUser returned different account sets; all supplemental-only accounts were retained and inventory is partial.",
+      "netapi_only_count": 0,
+      "get_local_user_only_count": 8
+    }
+  ],
+  "warnings": [
+    {
+      "category": "unresolved_empty_netapi_enumeration",
+      "message": "NetUserEnum returned no accounts while Get-LocalUser returned accounts; this is an unresolved provider discrepancy, and the available evidence does not establish a cause.",
+      "netuserenum_filter": 2,
+      "netuserenum_filter_meaning": "normal user accounts; trust/machine account classes are excluded",
+      "information_levels_tried": [
+        3
+      ],
+      "pages": [
+        {
+          "information_level": 3,
+          "entries_read": 0,
+          "total_entries_hint": 0,
+          "resume_handle": 0
+        }
+      ],
+      "enumeration_status": "success",
+      "enumeration_complete": true,
+      "resume_handle": 0,
+      "get_local_user_account_count": 8
+    }
+  ],
+  "limitations": [
+    "No passwords, password hashes, credential material, tokens, SAM/SECURITY hives, or LSASS memory are collected.",
+    "NetUserEnum is the primary provider. Get-LocalUser is an independent, explicitly identified supplemental provider; disagreements are preserved and make the result partial.",
+    "A domain controller is rejected because its security database is Active Directory rather than the local SAM.",
+    "NetUserEnum FILTER_NORMAL_ACCOUNT intentionally excludes trust and machine account classes.",
+    "Password last-set time is derived from the provider age and query observation time; it is not a directly returned stored timestamp.",
+    "Password expiration is estimated only when NetUserModalsGet returns a finite maximum age; account expiration is separate.",
+    "Last logon/logoff zero values are preserved as not recorded and are not converted to the Unix epoch.",
+    "Logon-hours bitmaps are preserved in hexadecimal and not decoded into a weekly schedule.",
+    "Account records can change during collection; NetAPI account-not-found errors are retained with the affected record."
+  ],
+  "output_path": "E:\\FYP Working Individually\\Ayan Shahid\\Artifacts Collectors\\A40 - Local Users\\Local Users_Output\\Local Users-20261023T213341_352280Z.json"
+}
