@@ -1,0 +1,5740 @@
+{
+  "artifact_id": "A30",
+  "collection_started_at_utc": {
+    "value": "2026-10-23T21:34:57.454219Z",
+    "source": "GetSystemTimePreciseAsFileTime",
+    "filetime_100ns_since_1601": 134372648974542193
+  },
+  "collection_ended_at_utc": {
+    "value": "2026-10-23T21:35:00.721167Z",
+    "source": "GetSystemTimePreciseAsFileTime",
+    "filetime_100ns_since_1601": 134372649007211674
+  },
+  "collection_started_at_local": {
+    "value": "2026-10-24T02:34:57.454219+05:00",
+    "source": "Converted from collection_started_at_utc using the local system time zone"
+  },
+  "collection_ended_at_local": {
+    "value": "2026-10-24T02:35:00.721167+05:00",
+    "source": "Converted from collection_ended_at_utc using the local system time zone"
+  },
+  "collection_time_zone_id": {
+    "value": "Pakistan Standard Time",
+    "source": "GetDynamicTimeZoneInformation",
+    "status": "available"
+  },
+  "collection_clock_adjusted": false,
+  "status": "success",
+  "providers": {
+    "operating_system": {
+      "source": "Win32_OperatingSystem",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 1
+    },
+    "computer_system": {
+      "source": "Win32_ComputerSystem",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 1
+    },
+    "computer_product": {
+      "source": "Win32_ComputerSystemProduct",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 1
+    },
+    "bios": {
+      "source": "Win32_BIOS",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 1
+    },
+    "baseboard": {
+      "source": "Win32_BaseBoard",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 1
+    },
+    "processors": {
+      "source": "Win32_Processor",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 1
+    },
+    "physical_memory": {
+      "source": "Win32_PhysicalMemory",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 2
+    },
+    "physical_memory_arrays": {
+      "source": "Win32_PhysicalMemoryArray",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 1
+    },
+    "logical_disks": {
+      "source": "Win32_LogicalDisk",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 3
+    },
+    "volumes": {
+      "source": "Win32_Volume",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 11
+    },
+    "physical_disks": {
+      "source": "Win32_DiskDrive",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 1
+    },
+    "partitions": {
+      "source": "Win32_DiskPartition",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 11
+    },
+    "display_adapters": {
+      "source": "Win32_VideoController",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 1
+    },
+    "quick_fixes": {
+      "source": "Win32_QuickFixEngineering",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 5
+    },
+    "disk_to_partition": {
+      "source": "Win32_DiskDriveToDiskPartition",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 11
+    },
+    "partition_to_logical_disk": {
+      "source": "Win32_LogicalDiskToPartition",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 3
+    },
+    "mount_points": {
+      "source": "Win32_MountPoint",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 3
+    },
+    "windows_registry_identity": {
+      "source": "HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 1
+    }
+  },
+  "computer_identity": {
+    "computer_system": {
+      "source": "Win32_ComputerSystem",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 1,
+      "records": [
+        {
+          "values": {
+            "Name": "AYAN-LAPY",
+            "DNSHostName": "Ayan-Lapy",
+            "Domain": "WORKGROUP",
+            "Workgroup": "WORKGROUP",
+            "PartOfDomain": false,
+            "DomainRole": 0,
+            "Manufacturer": "HP",
+            "Model": "HP EliteBook 840 G6",
+            "SystemType": "x64-based PC",
+            "PCSystemType": 2,
+            "PCSystemTypeEx": 2,
+            "SystemFamily": "103C_5336AN HP EliteBook",
+            "SystemSKUNumber": "4WG26AV",
+            "ChassisSKUNumber": null,
+            "HypervisorPresent": false,
+            "NumberOfProcessors": 1,
+            "NumberOfLogicalProcessors": 8,
+            "TotalPhysicalMemory": 16985628672,
+            "NetworkServerModeEnabled": true
+          },
+          "field_units": {
+            "TotalPhysicalMemory": "bytes"
+          },
+          "field_details": {
+            "Name": {
+              "value": "AYAN-LAPY",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DNSHostName": {
+              "value": "Ayan-Lapy",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Domain": {
+              "value": "WORKGROUP",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Workgroup": {
+              "value": "WORKGROUP",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "PartOfDomain": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DomainRole": {
+              "value": 0,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Manufacturer": {
+              "value": "HP",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Model": {
+              "value": "HP EliteBook 840 G6",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SystemType": {
+              "value": "x64-based PC",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "PCSystemType": {
+              "value": 2,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "PCSystemTypeEx": {
+              "value": 2,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SystemFamily": {
+              "value": "103C_5336AN HP EliteBook",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SystemSKUNumber": {
+              "value": "4WG26AV",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "ChassisSKUNumber": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "HypervisorPresent": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "NumberOfProcessors": {
+              "value": 1,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "NumberOfLogicalProcessors": {
+              "value": 8,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "TotalPhysicalMemory": {
+              "value": 16985628672,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "NetworkServerModeEnabled": {
+              "value": true,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        }
+      ]
+    },
+    "system_product": {
+      "source": "Win32_ComputerSystemProduct",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 1,
+      "records": [
+        {
+          "values": {
+            "Vendor": "HP",
+            "Name": "HP EliteBook 840 G6",
+            "Version": "SBKPFV3",
+            "IdentifyingNumber": "5CG0215HT6",
+            "SKUNumber": null,
+            "UUID": "5F1D9B8D-CDDC-F707-422D-03875C039581"
+          },
+          "field_units": {},
+          "field_details": {
+            "Vendor": {
+              "value": "HP",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Name": {
+              "value": "HP EliteBook 840 G6",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Version": {
+              "value": "SBKPFV3",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "IdentifyingNumber": {
+              "value": "5CG0215HT6",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SKUNumber": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "UUID": {
+              "value": "5F1D9B8D-CDDC-F707-422D-03875C039581",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        }
+      ]
+    },
+    "computer_names": {
+      "netbios_name": {
+        "value": "AYAN-LAPY",
+        "source": "GetComputerNameExW",
+        "status": "available"
+      },
+      "dns_hostname": {
+        "value": "Ayan-Lapy",
+        "source": "GetComputerNameExW",
+        "status": "available"
+      },
+      "dns_domain": {
+        "value": "",
+        "source": "GetComputerNameExW",
+        "status": "available"
+      },
+      "dns_fqdn": {
+        "value": "Ayan-Lapy",
+        "source": "GetComputerNameExW",
+        "status": "available"
+      },
+      "physical_netbios_name": {
+        "value": "AYAN-LAPY",
+        "source": "GetComputerNameExW",
+        "status": "available"
+      },
+      "physical_dns_hostname": {
+        "value": "Ayan-Lapy",
+        "source": "GetComputerNameExW",
+        "status": "available"
+      },
+      "physical_dns_domain": {
+        "value": "",
+        "source": "GetComputerNameExW",
+        "status": "available"
+      },
+      "physical_dns_fqdn": {
+        "value": "Ayan-Lapy",
+        "source": "GetComputerNameExW",
+        "status": "available"
+      }
+    }
+  },
+  "windows_identity": {
+    "operating_system": {
+      "source": "Win32_OperatingSystem",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 1,
+      "records": [
+        {
+          "values": {
+            "Caption": "Microsoft Windows 11 Pro",
+            "Description": "",
+            "Version": "10.0.26300",
+            "BuildNumber": "26300",
+            "BuildType": "Multiprocessor Free",
+            "CSDVersion": null,
+            "OSArchitecture": "64-bit",
+            "InstallDate": {
+              "provider_datetime": "2026-09-25T20:43:26.0000000+05:00",
+              "date_time_kind": "Local",
+              "ticks": 639259658060000000,
+              "normalized_utc": "2026-09-25T15:43:26.000000Z",
+              "normalization_status": "normalized"
+            },
+            "LastBootUpTime": {
+              "provider_datetime": "2026-10-19T19:12:10.1399320+05:00",
+              "date_time_kind": "Local",
+              "ticks": 639280339301399320,
+              "normalized_utc": "2026-10-19T14:12:10.139932Z",
+              "normalization_status": "normalized"
+            },
+            "WindowsDirectory": "C:\\WINDOWS",
+            "SystemDirectory": "C:\\WINDOWS\\system32",
+            "SystemDrive": "C:",
+            "OSLanguage": 1033,
+            "Locale": "0409",
+            "MUILanguages": [
+              "en-US"
+            ],
+            "CountryCode": "1",
+            "CodeSet": "1252",
+            "OSType": 18,
+            "OperatingSystemSKU": 48,
+            "ProductType": 1,
+            "SuiteMask": 272,
+            "PortableOperatingSystem": false,
+            "Primary": true,
+            "DataExecutionPrevention_Available": true,
+            "DataExecutionPrevention_32BitApplications": true,
+            "DataExecutionPrevention_Drivers": true,
+            "DataExecutionPrevention_SupportPolicy": 2,
+            "TotalVisibleMemorySize": 16587528,
+            "FreePhysicalMemory": 3477932,
+            "TotalVirtualMemorySize": 31947528,
+            "FreeVirtualMemory": 13815208,
+            "SizeStoredInPagingFiles": 15360000,
+            "FreeSpaceInPagingFiles": 14784136
+          },
+          "field_units": {
+            "TotalVisibleMemorySize": "KB (provider-reported)",
+            "FreePhysicalMemory": "KB (provider-reported)",
+            "TotalVirtualMemorySize": "KB (provider-reported)",
+            "FreeVirtualMemory": "KB (provider-reported)",
+            "SizeStoredInPagingFiles": "KB (provider-reported)",
+            "FreeSpaceInPagingFiles": "KB (provider-reported)",
+            "InstallDate": "CIM DateTime wrapper; provider round-trip value, .NET ticks, and normalized UTC",
+            "LastBootUpTime": "CIM DateTime wrapper; provider round-trip value, .NET ticks, and normalized UTC"
+          },
+          "field_details": {
+            "Caption": {
+              "value": "Microsoft Windows 11 Pro",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Description": {
+              "value": "",
+              "status": "blank_value",
+              "status_reason": "Provider returned a blank string; the original string is preserved.",
+              "unit": null
+            },
+            "Version": {
+              "value": "10.0.26300",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BuildNumber": {
+              "value": "26300",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BuildType": {
+              "value": "Multiprocessor Free",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "CSDVersion": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "OSArchitecture": {
+              "value": "64-bit",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "InstallDate": {
+              "value": {
+                "provider_datetime": "2026-09-25T20:43:26.0000000+05:00",
+                "date_time_kind": "Local",
+                "ticks": 639259658060000000,
+                "normalized_utc": "2026-09-25T15:43:26.000000Z",
+                "normalization_status": "normalized"
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "CIM DateTime wrapper; provider round-trip value, .NET ticks, and normalized UTC"
+            },
+            "LastBootUpTime": {
+              "value": {
+                "provider_datetime": "2026-10-19T19:12:10.1399320+05:00",
+                "date_time_kind": "Local",
+                "ticks": 639280339301399320,
+                "normalized_utc": "2026-10-19T14:12:10.139932Z",
+                "normalization_status": "normalized"
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "CIM DateTime wrapper; provider round-trip value, .NET ticks, and normalized UTC"
+            },
+            "WindowsDirectory": {
+              "value": "C:\\WINDOWS",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SystemDirectory": {
+              "value": "C:\\WINDOWS\\system32",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SystemDrive": {
+              "value": "C:",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "OSLanguage": {
+              "value": 1033,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Locale": {
+              "value": "0409",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "MUILanguages": {
+              "value": [
+                "en-US"
+              ],
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "CountryCode": {
+              "value": "1",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "CodeSet": {
+              "value": "1252",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "OSType": {
+              "value": 18,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "OperatingSystemSKU": {
+              "value": 48,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "ProductType": {
+              "value": 1,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SuiteMask": {
+              "value": 272,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "PortableOperatingSystem": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Primary": {
+              "value": true,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DataExecutionPrevention_Available": {
+              "value": true,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DataExecutionPrevention_32BitApplications": {
+              "value": true,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DataExecutionPrevention_Drivers": {
+              "value": true,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DataExecutionPrevention_SupportPolicy": {
+              "value": 2,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "TotalVisibleMemorySize": {
+              "value": 16587528,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "KB (provider-reported)"
+            },
+            "FreePhysicalMemory": {
+              "value": 3477932,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "KB (provider-reported)"
+            },
+            "TotalVirtualMemorySize": {
+              "value": 31947528,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "KB (provider-reported)"
+            },
+            "FreeVirtualMemory": {
+              "value": 13815208,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "KB (provider-reported)"
+            },
+            "SizeStoredInPagingFiles": {
+              "value": 15360000,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "KB (provider-reported)"
+            },
+            "FreeSpaceInPagingFiles": {
+              "value": 14784136,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "KB (provider-reported)"
+            }
+          }
+        }
+      ]
+    },
+    "version_registry": {
+      "source": "HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 1,
+      "records": [
+        {
+          "values": {
+            "ProductName": "Windows 10 Pro",
+            "EditionID": "Professional",
+            "DisplayVersion": "26H2",
+            "ReleaseId": "2009",
+            "CurrentBuild": "26300",
+            "CurrentBuildNumber": "26300",
+            "UBR": 9974,
+            "BuildLabEx": "26100.1.amd64fre.ge_release.240331-1435",
+            "InstallationType": "Client",
+            "ProductId": "00330-52912-15435-AAOEM"
+          },
+          "field_units": {},
+          "field_details": {
+            "ProductName": {
+              "value": "Windows 10 Pro",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "EditionID": {
+              "value": "Professional",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DisplayVersion": {
+              "value": "26H2",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "ReleaseId": {
+              "value": "2009",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "CurrentBuild": {
+              "value": "26300",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "CurrentBuildNumber": {
+              "value": "26300",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "UBR": {
+              "value": 9974,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BuildLabEx": {
+              "value": "26100.1.amd64fre.ge_release.240331-1435",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "InstallationType": {
+              "value": "Client",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "ProductId": {
+              "value": "00330-52912-15435-AAOEM",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        }
+      ]
+    },
+    "architecture": {
+      "native_system_architecture": {
+        "value": "x64",
+        "source": "GetNativeSystemInfo",
+        "status": "available"
+      },
+      "native_processor_architecture_code": {
+        "value": 9,
+        "source": "GetNativeSystemInfo",
+        "status": "available"
+      },
+      "native_logical_processor_count": {
+        "value": 8,
+        "source": "GetNativeSystemInfo",
+        "status": "available"
+      },
+      "page_size_bytes": {
+        "value": 4096,
+        "source": "GetNativeSystemInfo",
+        "status": "available"
+      },
+      "allocation_granularity_bytes": {
+        "value": 65536,
+        "source": "GetNativeSystemInfo",
+        "status": "available"
+      },
+      "python_process_architecture": {
+        "value": "AMD64 (64-bit)",
+        "source": "Python platform.machine and pointer size",
+        "status": "available"
+      }
+    }
+  },
+  "firmware_and_motherboard": {
+    "bios": {
+      "source": "Win32_BIOS",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 1,
+      "records": [
+        {
+          "values": {
+            "Manufacturer": "HP",
+            "Name": "R70 Ver. 01.36.00",
+            "Version": "HPQOEM - 0",
+            "SMBIOSBIOSVersion": "R70 Ver. 01.36.00",
+            "BIOSVersion": [
+              "HPQOEM - 0",
+              "R70 Ver. 01.36.00",
+              "HP - 12400"
+            ],
+            "ReleaseDate": {
+              "provider_datetime": "2026-06-13T05:00:00.0000000+05:00",
+              "date_time_kind": "Local",
+              "ticks": 639169236000000000,
+              "normalized_utc": "2026-06-13T00:00:00.000000Z",
+              "normalization_status": "normalized"
+            },
+            "SerialNumber": "5CG0215HT6",
+            "SMBIOSMajorVersion": 3,
+            "SMBIOSMinorVersion": 1,
+            "SMBIOSPresent": true,
+            "SystemBiosMajorVersion": 36,
+            "SystemBiosMinorVersion": 0,
+            "CurrentLanguage": "enUS",
+            "ListOfLanguages": [
+              "enUS",
+              "deDE",
+              "esES",
+              "itIT",
+              "frFR",
+              "jaJP",
+              "ptPT",
+              "daDK",
+              "svSE",
+              "nlBE",
+              "noNO",
+              "fiFI",
+              "zhCN",
+              "zhTW",
+              "ruRU"
+            ],
+            "PrimaryBIOS": true
+          },
+          "field_units": {
+            "ReleaseDate": "CIM DateTime wrapper; provider round-trip value, .NET ticks, and normalized UTC"
+          },
+          "field_details": {
+            "Manufacturer": {
+              "value": "HP",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Name": {
+              "value": "R70 Ver. 01.36.00",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Version": {
+              "value": "HPQOEM - 0",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SMBIOSBIOSVersion": {
+              "value": "R70 Ver. 01.36.00",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BIOSVersion": {
+              "value": [
+                "HPQOEM - 0",
+                "R70 Ver. 01.36.00",
+                "HP - 12400"
+              ],
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "ReleaseDate": {
+              "value": {
+                "provider_datetime": "2026-06-13T05:00:00.0000000+05:00",
+                "date_time_kind": "Local",
+                "ticks": 639169236000000000,
+                "normalized_utc": "2026-06-13T00:00:00.000000Z",
+                "normalization_status": "normalized"
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "CIM DateTime wrapper; provider round-trip value, .NET ticks, and normalized UTC"
+            },
+            "SerialNumber": {
+              "value": "5CG0215HT6",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SMBIOSMajorVersion": {
+              "value": 3,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SMBIOSMinorVersion": {
+              "value": 1,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SMBIOSPresent": {
+              "value": true,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SystemBiosMajorVersion": {
+              "value": 36,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SystemBiosMinorVersion": {
+              "value": 0,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "CurrentLanguage": {
+              "value": "enUS",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "ListOfLanguages": {
+              "value": [
+                "enUS",
+                "deDE",
+                "esES",
+                "itIT",
+                "frFR",
+                "jaJP",
+                "ptPT",
+                "daDK",
+                "svSE",
+                "nlBE",
+                "noNO",
+                "fiFI",
+                "zhCN",
+                "zhTW",
+                "ruRU"
+              ],
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "PrimaryBIOS": {
+              "value": true,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        }
+      ]
+    },
+    "baseboard": {
+      "source": "Win32_BaseBoard",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 1,
+      "records": [
+        {
+          "values": {
+            "Manufacturer": "HP",
+            "Model": null,
+            "Product": "8549",
+            "Version": "KBC Version 52.71.00",
+            "SerialNumber": "PHWHN00WBDR5ES",
+            "PartNumber": null,
+            "SKU": null,
+            "HostingBoard": true
+          },
+          "field_units": {},
+          "field_details": {
+            "Manufacturer": {
+              "value": "HP",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Model": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "Product": {
+              "value": "8549",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Version": {
+              "value": "KBC Version 52.71.00",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SerialNumber": {
+              "value": "PHWHN00WBDR5ES",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "PartNumber": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "SKU": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "HostingBoard": {
+              "value": true,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        }
+      ]
+    }
+  },
+  "processors": {
+    "source": "Win32_Processor",
+    "status": "success",
+    "error_category": null,
+    "native_hresult": null,
+    "records_returned": 1,
+    "records": [
+      {
+        "values": {
+          "Name": "Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz",
+          "Manufacturer": "GenuineIntel",
+          "Architecture": 9,
+          "AddressWidth": 64,
+          "DataWidth": 64,
+          "ProcessorId": "BFEBFBFF000806EC",
+          "SocketDesignation": "U3E1",
+          "NumberOfCores": 4,
+          "NumberOfEnabledCore": 4,
+          "NumberOfLogicalProcessors": 8,
+          "CurrentClockSpeed": 1600,
+          "MaxClockSpeed": 1800,
+          "ExtClock": 100,
+          "VirtualizationFirmwareEnabled": true,
+          "VMMonitorModeExtensions": true,
+          "SecondLevelAddressTranslationExtensions": true,
+          "Characteristics": 252,
+          "ThreadCount": 8
+        },
+        "field_units": {
+          "CurrentClockSpeed": "MHz",
+          "MaxClockSpeed": "MHz",
+          "ExtClock": "MHz"
+        },
+        "field_details": {
+          "Name": {
+            "value": "Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "Manufacturer": {
+            "value": "GenuineIntel",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "Architecture": {
+            "value": 9,
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "AddressWidth": {
+            "value": 64,
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "DataWidth": {
+            "value": 64,
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "ProcessorId": {
+            "value": "BFEBFBFF000806EC",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "SocketDesignation": {
+            "value": "U3E1",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "NumberOfCores": {
+            "value": 4,
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "NumberOfEnabledCore": {
+            "value": 4,
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "NumberOfLogicalProcessors": {
+            "value": 8,
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "CurrentClockSpeed": {
+            "value": 1600,
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": "MHz"
+          },
+          "MaxClockSpeed": {
+            "value": 1800,
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": "MHz"
+          },
+          "ExtClock": {
+            "value": 100,
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": "MHz"
+          },
+          "VirtualizationFirmwareEnabled": {
+            "value": true,
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "VMMonitorModeExtensions": {
+            "value": true,
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "SecondLevelAddressTranslationExtensions": {
+            "value": true,
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "Characteristics": {
+            "value": 252,
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "ThreadCount": {
+            "value": 8,
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          }
+        }
+      }
+    ]
+  },
+  "memory": {
+    "physical_memory_modules": {
+      "source": "Win32_PhysicalMemory",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 2,
+      "records": [
+        {
+          "values": {
+            "Capacity": 8589934592,
+            "Speed": 2667,
+            "ConfiguredClockSpeed": 2400,
+            "Manufacturer": "Ramaxel",
+            "PartNumber": "RMSA3260KC78HAF-2666",
+            "SerialNumber": "12FD4FE8",
+            "DeviceLocator": "Bottom-Slot 1(left)",
+            "BankLabel": "ChannelA0",
+            "DataWidth": 64,
+            "TotalWidth": 64,
+            "FormFactor": 12,
+            "MemoryType": 0,
+            "SMBIOSMemoryType": 26,
+            "Attributes": 1,
+            "ConfiguredVoltage": 1200,
+            "MinVoltage": 0,
+            "MaxVoltage": 0
+          },
+          "field_units": {
+            "Capacity": "bytes",
+            "Speed": "MHz",
+            "ConfiguredClockSpeed": "MHz",
+            "ConfiguredVoltage": "millivolts",
+            "MinVoltage": "millivolts",
+            "MaxVoltage": "millivolts"
+          },
+          "field_details": {
+            "Capacity": {
+              "value": 8589934592,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "Speed": {
+              "value": 2667,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "MHz"
+            },
+            "ConfiguredClockSpeed": {
+              "value": 2400,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "MHz"
+            },
+            "Manufacturer": {
+              "value": "Ramaxel",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "PartNumber": {
+              "value": "RMSA3260KC78HAF-2666",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SerialNumber": {
+              "value": "12FD4FE8",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DeviceLocator": {
+              "value": "Bottom-Slot 1(left)",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BankLabel": {
+              "value": "ChannelA0",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DataWidth": {
+              "value": 64,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "TotalWidth": {
+              "value": 64,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "FormFactor": {
+              "value": 12,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "MemoryType": {
+              "value": 0,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SMBIOSMemoryType": {
+              "value": 26,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Attributes": {
+              "value": 1,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "ConfiguredVoltage": {
+              "value": 1200,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "millivolts"
+            },
+            "MinVoltage": {
+              "value": 0,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "millivolts"
+            },
+            "MaxVoltage": {
+              "value": 0,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "millivolts"
+            }
+          }
+        },
+
+        {
+          "values": {
+            "Capacity": 8589934592,
+            "Speed": 2667,
+            "ConfiguredClockSpeed": 2400,
+            "Manufacturer": "Samsung",
+            "PartNumber": "M471A1K43DB1-CTD    ",
+            "SerialNumber": "360085BC",
+            "DeviceLocator": "Bottom-Slot 2(right)",
+            "BankLabel": "ChannelB0",
+            "DataWidth": 64,
+            "TotalWidth": 64,
+            "FormFactor": 12,
+            "MemoryType": 0,
+            "SMBIOSMemoryType": 26,
+            "Attributes": 1,
+            "ConfiguredVoltage": 1200,
+            "MinVoltage": 0,
+            "MaxVoltage": 0
+          },
+          "field_units": {
+            "Capacity": "bytes",
+            "Speed": "MHz",
+            "ConfiguredClockSpeed": "MHz",
+            "ConfiguredVoltage": "millivolts",
+            "MinVoltage": "millivolts",
+            "MaxVoltage": "millivolts"
+          },
+          "field_details": {
+            "Capacity": {
+              "value": 8589934592,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "Speed": {
+              "value": 2667,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "MHz"
+            },
+            "ConfiguredClockSpeed": {
+              "value": 2400,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "MHz"
+            },
+            "Manufacturer": {
+              "value": "Samsung",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "PartNumber": {
+              "value": "M471A1K43DB1-CTD    ",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SerialNumber": {
+              "value": "360085BC",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DeviceLocator": {
+              "value": "Bottom-Slot 2(right)",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BankLabel": {
+              "value": "ChannelB0",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DataWidth": {
+              "value": 64,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "TotalWidth": {
+              "value": 64,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "FormFactor": {
+              "value": 12,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "MemoryType": {
+              "value": 0,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SMBIOSMemoryType": {
+              "value": 26,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Attributes": {
+              "value": 1,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "ConfiguredVoltage": {
+              "value": 1200,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "millivolts"
+            },
+            "MinVoltage": {
+              "value": 0,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "millivolts"
+            },
+            "MaxVoltage": {
+              "value": 0,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "millivolts"
+            }
+          }
+        }
+      ]
+    },
+    "memory_arrays": {
+      "source": "Win32_PhysicalMemoryArray",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 1,
+      "records": [
+        {
+          "values": {
+            "Location": 3,
+            "Manufacturer": null,
+            "Model": null,
+            "Name": "Physical Memory Array",
+            "MaxCapacity": 33554432,
+            "MaxCapacityEx": 33554432,
+            "MemoryDevices": 2,
+            "MemoryErrorCorrection": 3,
+            "Use": 3
+          },
+          "field_units": {
+            "MaxCapacity": "KB (provider-reported)",
+            "MaxCapacityEx": "KB (provider-reported)"
+          },
+          "field_details": {
+            "Location": {
+              "value": 3,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Manufacturer": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "Model": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "Name": {
+              "value": "Physical Memory Array",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "MaxCapacity": {
+              "value": 33554432,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "KB (provider-reported)"
+            },
+            "MaxCapacityEx": {
+              "value": 33554432,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "KB (provider-reported)"
+            },
+            "MemoryDevices": {
+              "value": 2,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "MemoryErrorCorrection": {
+              "value": 3,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Use": {
+              "value": 3,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        }
+      ]
+    },
+    "os_memory_counters": {
+      "source": "Win32_OperatingSystem",
+      "records": [
+        {
+          "values": {
+            "Caption": "Microsoft Windows 11 Pro",
+            "Description": "",
+            "Version": "10.0.26300",
+            "BuildNumber": "26300",
+            "BuildType": "Multiprocessor Free",
+            "CSDVersion": null,
+            "OSArchitecture": "64-bit",
+            "InstallDate": {
+              "provider_datetime": "2026-09-25T20:43:26.0000000+05:00",
+              "date_time_kind": "Local",
+              "ticks": 639259658060000000,
+              "normalized_utc": "2026-09-25T15:43:26.000000Z",
+              "normalization_status": "normalized"
+            },
+            "LastBootUpTime": {
+              "provider_datetime": "2026-10-19T19:12:10.1399320+05:00",
+              "date_time_kind": "Local",
+              "ticks": 639280339301399320,
+              "normalized_utc": "2026-10-19T14:12:10.139932Z",
+              "normalization_status": "normalized"
+            },
+            "WindowsDirectory": "C:\\WINDOWS",
+            "SystemDirectory": "C:\\WINDOWS\\system32",
+            "SystemDrive": "C:",
+            "OSLanguage": 1033,
+            "Locale": "0409",
+            "MUILanguages": [
+              "en-US"
+            ],
+            "CountryCode": "1",
+            "CodeSet": "1252",
+            "OSType": 18,
+            "OperatingSystemSKU": 48,
+            "ProductType": 1,
+            "SuiteMask": 272,
+            "PortableOperatingSystem": false,
+            "Primary": true,
+            "DataExecutionPrevention_Available": true,
+            "DataExecutionPrevention_32BitApplications": true,
+            "DataExecutionPrevention_Drivers": true,
+            "DataExecutionPrevention_SupportPolicy": 2,
+            "TotalVisibleMemorySize": 16587528,
+            "FreePhysicalMemory": 3477932,
+            "TotalVirtualMemorySize": 31947528,
+            "FreeVirtualMemory": 13815208,
+            "SizeStoredInPagingFiles": 15360000,
+            "FreeSpaceInPagingFiles": 14784136
+          },
+          "field_units": {
+            "TotalVisibleMemorySize": "KB (provider-reported)",
+            "FreePhysicalMemory": "KB (provider-reported)",
+            "TotalVirtualMemorySize": "KB (provider-reported)",
+            "FreeVirtualMemory": "KB (provider-reported)",
+            "SizeStoredInPagingFiles": "KB (provider-reported)",
+            "FreeSpaceInPagingFiles": "KB (provider-reported)",
+            "InstallDate": "CIM DateTime wrapper; provider round-trip value, .NET ticks, and normalized UTC",
+            "LastBootUpTime": "CIM DateTime wrapper; provider round-trip value, .NET ticks, and normalized UTC"
+          },
+          "field_details": {
+            "Caption": {
+              "value": "Microsoft Windows 11 Pro",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Description": {
+              "value": "",
+              "status": "blank_value",
+              "status_reason": "Provider returned a blank string; the original string is preserved.",
+              "unit": null
+            },
+            "Version": {
+              "value": "10.0.26300",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BuildNumber": {
+              "value": "26300",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BuildType": {
+              "value": "Multiprocessor Free",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "CSDVersion": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "OSArchitecture": {
+              "value": "64-bit",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "InstallDate": {
+              "value": {
+                "provider_datetime": "2026-09-25T20:43:26.0000000+05:00",
+                "date_time_kind": "Local",
+                "ticks": 639259658060000000,
+                "normalized_utc": "2026-09-25T15:43:26.000000Z",
+                "normalization_status": "normalized"
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "CIM DateTime wrapper; provider round-trip value, .NET ticks, and normalized UTC"
+            },
+            "LastBootUpTime": {
+              "value": {
+                "provider_datetime": "2026-10-19T19:12:10.1399320+05:00",
+                "date_time_kind": "Local",
+                "ticks": 639280339301399320,
+                "normalized_utc": "2026-10-19T14:12:10.139932Z",
+                "normalization_status": "normalized"
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "CIM DateTime wrapper; provider round-trip value, .NET ticks, and normalized UTC"
+            },
+            "WindowsDirectory": {
+              "value": "C:\\WINDOWS",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SystemDirectory": {
+              "value": "C:\\WINDOWS\\system32",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SystemDrive": {
+              "value": "C:",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "OSLanguage": {
+              "value": 1033,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Locale": {
+              "value": "0409",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "MUILanguages": {
+              "value": [
+                "en-US"
+              ],
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "CountryCode": {
+              "value": "1",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "CodeSet": {
+              "value": "1252",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "OSType": {
+              "value": 18,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "OperatingSystemSKU": {
+              "value": 48,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "ProductType": {
+              "value": 1,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SuiteMask": {
+              "value": 272,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "PortableOperatingSystem": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Primary": {
+              "value": true,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DataExecutionPrevention_Available": {
+              "value": true,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DataExecutionPrevention_32BitApplications": {
+              "value": true,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DataExecutionPrevention_Drivers": {
+              "value": true,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DataExecutionPrevention_SupportPolicy": {
+              "value": 2,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "TotalVisibleMemorySize": {
+              "value": 16587528,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "KB (provider-reported)"
+            },
+            "FreePhysicalMemory": {
+              "value": 3477932,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "KB (provider-reported)"
+            },
+            "TotalVirtualMemorySize": {
+              "value": 31947528,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "KB (provider-reported)"
+            },
+            "FreeVirtualMemory": {
+              "value": 13815208,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "KB (provider-reported)"
+            },
+            "SizeStoredInPagingFiles": {
+              "value": 15360000,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "KB (provider-reported)"
+            },
+            "FreeSpaceInPagingFiles": {
+              "value": 14784136,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "KB (provider-reported)"
+            }
+          }
+        }
+      ]
+    },
+    "observed_memory_status": {
+      "memory_load_percent": {
+        "value": 78,
+        "source": "GlobalMemoryStatusEx",
+        "status": "available",
+        "unit": "percent"
+      },
+      "os_visible_physical_total": {
+        "value": 16985628672,
+        "source": "GlobalMemoryStatusEx",
+        "status": "available",
+        "unit": "bytes"
+      },
+      "available_physical": {
+        "value": 3591467008,
+        "source": "GlobalMemoryStatusEx",
+        "status": "available",
+        "unit": "bytes"
+      },
+      "commit_limit": {
+        "value": 32714268672,
+        "source": "GlobalMemoryStatusEx",
+        "status": "available",
+        "unit": "bytes"
+      },
+      "commit_available": {
+        "value": 14221684736,
+        "source": "GlobalMemoryStatusEx",
+        "status": "available",
+        "unit": "bytes"
+      },
+      "user_mode_virtual_address_space": {
+        "value": 140737488224256,
+        "source": "GlobalMemoryStatusEx",
+        "status": "available",
+        "unit": "bytes"
+      },
+      "available_user_mode_virtual_address_space": {
+        "value": 140733057794048,
+        "source": "GlobalMemoryStatusEx",
+        "status": "available",
+        "unit": "bytes"
+      },
+      "available_extended_virtual": {
+        "value": 0,
+        "source": "GlobalMemoryStatusEx",
+        "status": "available",
+        "unit": "bytes"
+      }
+    }
+  },
+  "storage": {
+    "physical_disks": {
+      "source": "Win32_DiskDrive",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 1,
+      "records": [
+        {
+          "values": {
+            "DeviceID": "\\\\.\\PHYSICALDRIVE0",
+            "Index": 0,
+            "Model": "SAMSUNG MZVL4512HBLU-00BTW",
+            "Manufacturer": "(Standard disk drives)",
+            "SerialNumber": "0025_38E6_31A0_9151.",
+            "Size": 512105932800,
+            "InterfaceType": "SCSI",
+            "MediaType": "Fixed hard disk media",
+            "FirmwareRevision": "HXC70W1Q",
+            "PNPDeviceID": "SCSI\\DISK&VEN_NVME&PROD_SAMSUNG_MZVL4512\\5&39FD61DE&0&000000",
+            "BytesPerSector": 512,
+            "Partitions": 11,
+            "Signature": null
+          },
+          "field_units": {
+            "Size": "bytes",
+            "BytesPerSector": "bytes"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "\\\\.\\PHYSICALDRIVE0",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Index": {
+              "value": 0,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Model": {
+              "value": "SAMSUNG MZVL4512HBLU-00BTW",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Manufacturer": {
+              "value": "(Standard disk drives)",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SerialNumber": {
+              "value": "0025_38E6_31A0_9151.",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Size": {
+              "value": 512105932800,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "InterfaceType": {
+              "value": "SCSI",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "MediaType": {
+              "value": "Fixed hard disk media",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "FirmwareRevision": {
+              "value": "HXC70W1Q",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "PNPDeviceID": {
+              "value": "SCSI\\DISK&VEN_NVME&PROD_SAMSUNG_MZVL4512\\5&39FD61DE&0&000000",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BytesPerSector": {
+              "value": 512,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "Partitions": {
+              "value": 11,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Signature": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            }
+          }
+        }
+      ]
+    },
+    "partitions": {
+      "source": "Win32_DiskPartition",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 11,
+      "records": [
+        {
+          "values": {
+            "DeviceID": "Disk #0, Partition #0",
+            "DiskIndex": 0,
+            "Index": 0,
+            "Name": "Disk #0, Partition #0",
+            "Type": "GPT: System",
+            "Size": 104857600,
+            "StartingOffset": 1048576,
+            "NumberOfBlocks": 204800,
+            "BlockSize": 512,
+            "Bootable": true,
+            "BootPartition": true,
+            "PrimaryPartition": true,
+            "HiddenSectors": null
+          },
+          "field_units": {
+            "Size": "bytes",
+            "StartingOffset": "bytes",
+            "NumberOfBlocks": "blocks",
+            "BlockSize": "bytes",
+            "HiddenSectors": "sectors"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "Disk #0, Partition #0",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DiskIndex": {
+              "value": 0,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Index": {
+              "value": 0,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Name": {
+              "value": "Disk #0, Partition #0",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Type": {
+              "value": "GPT: System",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Size": {
+              "value": 104857600,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "StartingOffset": {
+              "value": 1048576,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "NumberOfBlocks": {
+              "value": 204800,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "blocks"
+            },
+            "BlockSize": {
+              "value": 512,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "Bootable": {
+              "value": true,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BootPartition": {
+              "value": true,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "PrimaryPartition": {
+              "value": true,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "HiddenSectors": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": "sectors"
+            }
+          }
+        },
+
+        {
+          "values": {
+            "DeviceID": "Disk #0, Partition #1",
+            "DiskIndex": 0,
+            "Index": 1,
+            "Name": "Disk #0, Partition #1",
+            "Type": "GPT: Basic Data",
+            "Size": 230115246080,
+            "StartingOffset": 122683392,
+            "NumberOfBlocks": 449443840,
+            "BlockSize": 512,
+            "Bootable": false,
+            "BootPartition": false,
+            "PrimaryPartition": true,
+            "HiddenSectors": null
+          },
+          "field_units": {
+            "Size": "bytes",
+            "StartingOffset": "bytes",
+            "NumberOfBlocks": "blocks",
+            "BlockSize": "bytes",
+            "HiddenSectors": "sectors"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "Disk #0, Partition #1",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DiskIndex": {
+              "value": 0,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Index": {
+              "value": 1,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Name": {
+              "value": "Disk #0, Partition #1",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Type": {
+              "value": "GPT: Basic Data",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Size": {
+              "value": 230115246080,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "StartingOffset": {
+              "value": 122683392,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "NumberOfBlocks": {
+              "value": 449443840,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "blocks"
+            },
+            "BlockSize": {
+              "value": 512,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "Bootable": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BootPartition": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "PrimaryPartition": {
+              "value": true,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "HiddenSectors": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": "sectors"
+            }
+          }
+        },
+
+        {
+          "values": {
+            "DeviceID": "Disk #0, Partition #2",
+            "DiskIndex": 0,
+            "Index": 2,
+            "Name": "Disk #0, Partition #2",
+            "Type": "GPT: Unknown",
+            "Size": 1236271104,
+            "StartingOffset": 230237929472,
+            "NumberOfBlocks": 2414592,
+            "BlockSize": 512,
+            "Bootable": false,
+            "BootPartition": false,
+            "PrimaryPartition": false,
+            "HiddenSectors": null
+          },
+          "field_units": {
+            "Size": "bytes",
+            "StartingOffset": "bytes",
+            "NumberOfBlocks": "blocks",
+            "BlockSize": "bytes",
+            "HiddenSectors": "sectors"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "Disk #0, Partition #2",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DiskIndex": {
+              "value": 0,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Index": {
+              "value": 2,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Name": {
+              "value": "Disk #0, Partition #2",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Type": {
+              "value": "GPT: Unknown",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Size": {
+              "value": 1236271104,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "StartingOffset": {
+              "value": 230237929472,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "NumberOfBlocks": {
+              "value": 2414592,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "blocks"
+            },
+            "BlockSize": {
+              "value": 512,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "Bootable": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BootPartition": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "PrimaryPartition": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "HiddenSectors": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": "sectors"
+            }
+          }
+        },
+
+        {
+          "values": {
+            "DeviceID": "Disk #0, Partition #3",
+            "DiskIndex": 0,
+            "Index": 3,
+            "Name": "Disk #0, Partition #3",
+            "Type": "GPT: Unknown",
+            "Size": 1190133760,
+            "StartingOffset": 231475249152,
+            "NumberOfBlocks": 2324480,
+            "BlockSize": 512,
+            "Bootable": false,
+            "BootPartition": false,
+            "PrimaryPartition": false,
+            "HiddenSectors": null
+          },
+          "field_units": {
+            "Size": "bytes",
+            "StartingOffset": "bytes",
+            "NumberOfBlocks": "blocks",
+            "BlockSize": "bytes",
+            "HiddenSectors": "sectors"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "Disk #0, Partition #3",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DiskIndex": {
+              "value": 0,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Index": {
+              "value": 3,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Name": {
+              "value": "Disk #0, Partition #3",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Type": {
+              "value": "GPT: Unknown",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Size": {
+              "value": 1190133760,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "StartingOffset": {
+              "value": 231475249152,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "NumberOfBlocks": {
+              "value": 2324480,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "blocks"
+            },
+            "BlockSize": {
+              "value": 512,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "Bootable": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BootPartition": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "PrimaryPartition": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "HiddenSectors": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": "sectors"
+            }
+          }
+        },
+
+        {
+          "values": {
+            "DeviceID": "Disk #0, Partition #4",
+            "DiskIndex": 0,
+            "Index": 4,
+            "Name": "Disk #0, Partition #4",
+            "Type": "GPT: Unknown",
+            "Size": 1190133760,
+            "StartingOffset": 232666431488,
+            "NumberOfBlocks": 2324480,
+            "BlockSize": 512,
+            "Bootable": false,
+            "BootPartition": false,
+            "PrimaryPartition": false,
+            "HiddenSectors": null
+          },
+          "field_units": {
+            "Size": "bytes",
+            "StartingOffset": "bytes",
+            "NumberOfBlocks": "blocks",
+            "BlockSize": "bytes",
+            "HiddenSectors": "sectors"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "Disk #0, Partition #4",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DiskIndex": {
+              "value": 0,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Index": {
+              "value": 4,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Name": {
+              "value": "Disk #0, Partition #4",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Type": {
+              "value": "GPT: Unknown",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Size": {
+              "value": 1190133760,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "StartingOffset": {
+              "value": 232666431488,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "NumberOfBlocks": {
+              "value": 2324480,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "blocks"
+            },
+            "BlockSize": {
+              "value": 512,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "Bootable": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BootPartition": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "PrimaryPartition": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "HiddenSectors": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": "sectors"
+            }
+          }
+        },
+
+        {
+          "values": {
+            "DeviceID": "Disk #0, Partition #5",
+            "DiskIndex": 0,
+            "Index": 5,
+            "Name": "Disk #0, Partition #5",
+            "Type": "GPT: Unknown",
+            "Size": 1118830592,
+            "StartingOffset": 233859710976,
+            "NumberOfBlocks": 2185216,
+            "BlockSize": 512,
+            "Bootable": false,
+            "BootPartition": false,
+            "PrimaryPartition": false,
+            "HiddenSectors": null
+          },
+          "field_units": {
+            "Size": "bytes",
+            "StartingOffset": "bytes",
+            "NumberOfBlocks": "blocks",
+            "BlockSize": "bytes",
+            "HiddenSectors": "sectors"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "Disk #0, Partition #5",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DiskIndex": {
+              "value": 0,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Index": {
+              "value": 5,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Name": {
+              "value": "Disk #0, Partition #5",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Type": {
+              "value": "GPT: Unknown",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Size": {
+              "value": 1118830592,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "StartingOffset": {
+              "value": 233859710976,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "NumberOfBlocks": {
+              "value": 2185216,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "blocks"
+            },
+            "BlockSize": {
+              "value": 512,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "Bootable": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BootPartition": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "PrimaryPartition": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "HiddenSectors": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": "sectors"
+            }
+          }
+        },
+
+        {
+          "values": {
+            "DeviceID": "Disk #0, Partition #6",
+            "DiskIndex": 0,
+            "Index": 6,
+            "Name": "Disk #0, Partition #6",
+            "Type": "GPT: Unknown",
+            "Size": 1085276160,
+            "StartingOffset": 234980638720,
+            "NumberOfBlocks": 2119680,
+            "BlockSize": 512,
+            "Bootable": false,
+            "BootPartition": false,
+            "PrimaryPartition": false,
+            "HiddenSectors": null
+          },
+          "field_units": {
+            "Size": "bytes",
+            "StartingOffset": "bytes",
+            "NumberOfBlocks": "blocks",
+            "BlockSize": "bytes",
+            "HiddenSectors": "sectors"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "Disk #0, Partition #6",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DiskIndex": {
+              "value": 0,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Index": {
+              "value": 6,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Name": {
+              "value": "Disk #0, Partition #6",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Type": {
+              "value": "GPT: Unknown",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Size": {
+              "value": 1085276160,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "StartingOffset": {
+              "value": 234980638720,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "NumberOfBlocks": {
+              "value": 2119680,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "blocks"
+            },
+            "BlockSize": {
+              "value": 512,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "Bootable": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BootPartition": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "PrimaryPartition": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "HiddenSectors": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": "sectors"
+            }
+          }
+        },
+
+        {
+          "values": {
+            "DeviceID": "Disk #0, Partition #7",
+            "DiskIndex": 0,
+            "Index": 7,
+            "Name": "Disk #0, Partition #7",
+            "Type": "GPT: Unknown",
+            "Size": 1043333120,
+            "StartingOffset": 236068012032,
+            "NumberOfBlocks": 2037760,
+            "BlockSize": 512,
+            "Bootable": false,
+            "BootPartition": false,
+            "PrimaryPartition": false,
+            "HiddenSectors": null
+          },
+          "field_units": {
+            "Size": "bytes",
+            "StartingOffset": "bytes",
+            "NumberOfBlocks": "blocks",
+            "BlockSize": "bytes",
+            "HiddenSectors": "sectors"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "Disk #0, Partition #7",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DiskIndex": {
+              "value": 0,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Index": {
+              "value": 7,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Name": {
+              "value": "Disk #0, Partition #7",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Type": {
+              "value": "GPT: Unknown",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Size": {
+              "value": 1043333120,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "StartingOffset": {
+              "value": 236068012032,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "NumberOfBlocks": {
+              "value": 2037760,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "blocks"
+            },
+            "BlockSize": {
+              "value": 512,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "Bootable": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BootPartition": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "PrimaryPartition": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "HiddenSectors": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": "sectors"
+            }
+          }
+        },
+
+        {
+          "values": {
+            "DeviceID": "Disk #0, Partition #8",
+            "DiskIndex": 0,
+            "Index": 8,
+            "Name": "Disk #0, Partition #8",
+            "Type": "GPT: Basic Data",
+            "Size": 112810000384,
+            "StartingOffset": 237112393728,
+            "NumberOfBlocks": 220332032,
+            "BlockSize": 512,
+            "Bootable": false,
+            "BootPartition": false,
+            "PrimaryPartition": true,
+            "HiddenSectors": null
+          },
+          "field_units": {
+            "Size": "bytes",
+            "StartingOffset": "bytes",
+            "NumberOfBlocks": "blocks",
+            "BlockSize": "bytes",
+            "HiddenSectors": "sectors"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "Disk #0, Partition #8",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DiskIndex": {
+              "value": 0,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Index": {
+              "value": 8,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Name": {
+              "value": "Disk #0, Partition #8",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Type": {
+              "value": "GPT: Basic Data",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Size": {
+              "value": 112810000384,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "StartingOffset": {
+              "value": 237112393728,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "NumberOfBlocks": {
+              "value": 220332032,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "blocks"
+            },
+            "BlockSize": {
+              "value": 512,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "Bootable": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BootPartition": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "PrimaryPartition": {
+              "value": true,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "HiddenSectors": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": "sectors"
+            }
+          }
+        },
+
+        {
+          "values": {
+            "DeviceID": "Disk #0, Partition #9",
+            "DiskIndex": 0,
+            "Index": 9,
+            "Name": "Disk #0, Partition #9",
+            "Type": "GPT: Basic Data",
+            "Size": 161637990400,
+            "StartingOffset": 349922394112,
+            "NumberOfBlocks": 315699200,
+            "BlockSize": 512,
+            "Bootable": false,
+            "BootPartition": false,
+            "PrimaryPartition": true,
+            "HiddenSectors": null
+          },
+          "field_units": {
+            "Size": "bytes",
+            "StartingOffset": "bytes",
+            "NumberOfBlocks": "blocks",
+            "BlockSize": "bytes",
+            "HiddenSectors": "sectors"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "Disk #0, Partition #9",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DiskIndex": {
+              "value": 0,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Index": {
+              "value": 9,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Name": {
+              "value": "Disk #0, Partition #9",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Type": {
+              "value": "GPT: Basic Data",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Size": {
+              "value": 161637990400,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "StartingOffset": {
+              "value": 349922394112,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "NumberOfBlocks": {
+              "value": 315699200,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "blocks"
+            },
+            "BlockSize": {
+              "value": 512,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "Bootable": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BootPartition": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "PrimaryPartition": {
+              "value": true,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "HiddenSectors": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": "sectors"
+            }
+          }
+        },
+
+        {
+          "values": {
+            "DeviceID": "Disk #0, Partition #10",
+            "DiskIndex": 0,
+            "Index": 10,
+            "Name": "Disk #0, Partition #10",
+            "Type": "GPT: Unknown",
+            "Size": 547356672,
+            "StartingOffset": 511561433088,
+            "NumberOfBlocks": 1069056,
+            "BlockSize": 512,
+            "Bootable": false,
+            "BootPartition": false,
+            "PrimaryPartition": false,
+            "HiddenSectors": null
+          },
+          "field_units": {
+            "Size": "bytes",
+            "StartingOffset": "bytes",
+            "NumberOfBlocks": "blocks",
+            "BlockSize": "bytes",
+            "HiddenSectors": "sectors"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "Disk #0, Partition #10",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DiskIndex": {
+              "value": 0,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Index": {
+              "value": 10,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Name": {
+              "value": "Disk #0, Partition #10",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Type": {
+              "value": "GPT: Unknown",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Size": {
+              "value": 547356672,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "StartingOffset": {
+              "value": 511561433088,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "NumberOfBlocks": {
+              "value": 1069056,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "blocks"
+            },
+            "BlockSize": {
+              "value": 512,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "Bootable": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BootPartition": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "PrimaryPartition": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "HiddenSectors": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": "sectors"
+            }
+          }
+        }
+      ]
+    },
+    "logical_disks": {
+      "source": "Win32_LogicalDisk",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 3,
+      "records": [
+        {
+          "values": {
+            "DeviceID": "C:",
+            "DriveType": 3,
+            "FileSystem": "NTFS",
+            "VolumeName": "",
+            "VolumeSerialNumber": "54272CB4",
+            "Size": 230115241984,
+            "FreeSpace": 104216260608,
+            "ProviderName": null,
+            "Compressed": false,
+            "VolumeDirty": false
+          },
+          "field_units": {
+            "Size": "bytes",
+            "FreeSpace": "bytes"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "C:",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DriveType": {
+              "value": 3,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "FileSystem": {
+              "value": "NTFS",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "VolumeName": {
+              "value": "",
+              "status": "blank_value",
+              "status_reason": "Provider returned a blank string; the original string is preserved.",
+              "unit": null
+            },
+            "VolumeSerialNumber": {
+              "value": "54272CB4",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Size": {
+              "value": 230115241984,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "FreeSpace": {
+              "value": 104216260608,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "ProviderName": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "Compressed": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "VolumeDirty": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "DeviceID": "D:",
+            "DriveType": 3,
+            "FileSystem": "NTFS",
+            "VolumeName": "Software Installation & Setups",
+            "VolumeSerialNumber": "3F3E1170",
+            "Size": 112809996288,
+            "FreeSpace": 4177444864,
+            "ProviderName": null,
+            "Compressed": false,
+            "VolumeDirty": false
+          },
+          "field_units": {
+            "Size": "bytes",
+            "FreeSpace": "bytes"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "D:",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DriveType": {
+              "value": 3,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "FileSystem": {
+              "value": "NTFS",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "VolumeName": {
+              "value": "Software Installation & Setups",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "VolumeSerialNumber": {
+              "value": "3F3E1170",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Size": {
+              "value": 112809996288,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "FreeSpace": {
+              "value": 4177444864,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "ProviderName": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "Compressed": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "VolumeDirty": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "DeviceID": "E:",
+            "DriveType": 3,
+            "FileSystem": "NTFS",
+            "VolumeName": "Education",
+            "VolumeSerialNumber": "485B9840",
+            "Size": 161637986304,
+            "FreeSpace": 37301100544,
+            "ProviderName": null,
+            "Compressed": false,
+            "VolumeDirty": false
+          },
+          "field_units": {
+            "Size": "bytes",
+            "FreeSpace": "bytes"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "E:",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DriveType": {
+              "value": 3,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "FileSystem": {
+              "value": "NTFS",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "VolumeName": {
+              "value": "Education",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "VolumeSerialNumber": {
+              "value": "485B9840",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Size": {
+              "value": 161637986304,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "FreeSpace": {
+              "value": 37301100544,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "ProviderName": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "Compressed": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "VolumeDirty": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        }
+      ]
+    },
+    "volumes": {
+      "source": "Win32_Volume",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 11,
+      "records": [
+        {
+          "values": {
+            "DeviceID": "\\\\?\\Volume{e318ea63-2dd5-4bc7-96a4-d27bb7ec0a99}\\",
+            "DriveLetter": "C:",
+            "Name": "C:\\",
+            "Label": null,
+            "FileSystem": "NTFS",
+            "Capacity": 230115241984,
+            "FreeSpace": 104216260608,
+            "DriveType": 3,
+            "BootVolume": true,
+            "SystemVolume": false
+          },
+          "field_units": {
+            "Capacity": "bytes",
+            "FreeSpace": "bytes"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "\\\\?\\Volume{e318ea63-2dd5-4bc7-96a4-d27bb7ec0a99}\\",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DriveLetter": {
+              "value": "C:",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Name": {
+              "value": "C:\\",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Label": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "FileSystem": {
+              "value": "NTFS",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Capacity": {
+              "value": 230115241984,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "FreeSpace": {
+              "value": 104216260608,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "DriveType": {
+              "value": 3,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BootVolume": {
+              "value": true,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SystemVolume": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "DeviceID": "\\\\?\\Volume{93b62cc6-17f6-400d-add7-c1cb421d166d}\\",
+            "DriveLetter": null,
+            "Name": "\\\\?\\Volume{93b62cc6-17f6-400d-add7-c1cb421d166d}\\",
+            "Label": null,
+            "FileSystem": "NTFS",
+            "Capacity": 1236267008,
+            "FreeSpace": 146468864,
+            "DriveType": 3,
+            "BootVolume": false,
+            "SystemVolume": false
+          },
+          "field_units": {
+            "Capacity": "bytes",
+            "FreeSpace": "bytes"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "\\\\?\\Volume{93b62cc6-17f6-400d-add7-c1cb421d166d}\\",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DriveLetter": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "Name": {
+              "value": "\\\\?\\Volume{93b62cc6-17f6-400d-add7-c1cb421d166d}\\",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Label": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "FileSystem": {
+              "value": "NTFS",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Capacity": {
+              "value": 1236267008,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "FreeSpace": {
+              "value": 146468864,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "DriveType": {
+              "value": 3,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BootVolume": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SystemVolume": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "DeviceID": "\\\\?\\Volume{57700620-d53d-4bee-b818-205996174444}\\",
+            "DriveLetter": null,
+            "Name": "\\\\?\\Volume{57700620-d53d-4bee-b818-205996174444}\\",
+            "Label": null,
+            "FileSystem": "NTFS",
+            "Capacity": 1190129664,
+            "FreeSpace": 83337216,
+            "DriveType": 3,
+            "BootVolume": false,
+            "SystemVolume": false
+          },
+          "field_units": {
+            "Capacity": "bytes",
+            "FreeSpace": "bytes"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "\\\\?\\Volume{57700620-d53d-4bee-b818-205996174444}\\",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DriveLetter": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "Name": {
+              "value": "\\\\?\\Volume{57700620-d53d-4bee-b818-205996174444}\\",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Label": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "FileSystem": {
+              "value": "NTFS",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Capacity": {
+              "value": 1190129664,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "FreeSpace": {
+              "value": 83337216,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "DriveType": {
+              "value": 3,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BootVolume": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SystemVolume": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "DeviceID": "\\\\?\\Volume{ca218bfa-bec5-41e3-acdd-caf21f02b91d}\\",
+            "DriveLetter": null,
+            "Name": "\\\\?\\Volume{ca218bfa-bec5-41e3-acdd-caf21f02b91d}\\",
+            "Label": null,
+            "FileSystem": "NTFS",
+            "Capacity": 1190129664,
+            "FreeSpace": 128741376,
+            "DriveType": 3,
+            "BootVolume": false,
+            "SystemVolume": false
+          },
+          "field_units": {
+            "Capacity": "bytes",
+            "FreeSpace": "bytes"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "\\\\?\\Volume{ca218bfa-bec5-41e3-acdd-caf21f02b91d}\\",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DriveLetter": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "Name": {
+              "value": "\\\\?\\Volume{ca218bfa-bec5-41e3-acdd-caf21f02b91d}\\",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Label": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "FileSystem": {
+              "value": "NTFS",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Capacity": {
+              "value": 1190129664,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "FreeSpace": {
+              "value": 128741376,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "DriveType": {
+              "value": 3,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BootVolume": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SystemVolume": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "DeviceID": "\\\\?\\Volume{cf93c560-ae3c-4612-873e-0b9193eadd0e}\\",
+            "DriveLetter": null,
+            "Name": "\\\\?\\Volume{cf93c560-ae3c-4612-873e-0b9193eadd0e}\\",
+            "Label": null,
+            "FileSystem": "NTFS",
+            "Capacity": 1118826496,
+            "FreeSpace": 628056064,
+            "DriveType": 3,
+            "BootVolume": false,
+            "SystemVolume": false
+          },
+          "field_units": {
+            "Capacity": "bytes",
+            "FreeSpace": "bytes"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "\\\\?\\Volume{cf93c560-ae3c-4612-873e-0b9193eadd0e}\\",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DriveLetter": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "Name": {
+              "value": "\\\\?\\Volume{cf93c560-ae3c-4612-873e-0b9193eadd0e}\\",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Label": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "FileSystem": {
+              "value": "NTFS",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Capacity": {
+              "value": 1118826496,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "FreeSpace": {
+              "value": 628056064,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "DriveType": {
+              "value": 3,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BootVolume": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SystemVolume": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "DeviceID": "\\\\?\\Volume{5ebe966e-3809-4846-961f-78fbcf76a008}\\",
+            "DriveLetter": null,
+            "Name": "\\\\?\\Volume{5ebe966e-3809-4846-961f-78fbcf76a008}\\",
+            "Label": null,
+            "FileSystem": "NTFS",
+            "Capacity": 1085272064,
+            "FreeSpace": 106913792,
+            "DriveType": 3,
+            "BootVolume": false,
+            "SystemVolume": false
+          },
+          "field_units": {
+            "Capacity": "bytes",
+            "FreeSpace": "bytes"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "\\\\?\\Volume{5ebe966e-3809-4846-961f-78fbcf76a008}\\",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DriveLetter": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "Name": {
+              "value": "\\\\?\\Volume{5ebe966e-3809-4846-961f-78fbcf76a008}\\",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Label": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "FileSystem": {
+              "value": "NTFS",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Capacity": {
+              "value": 1085272064,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "FreeSpace": {
+              "value": 106913792,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "DriveType": {
+              "value": 3,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BootVolume": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SystemVolume": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "DeviceID": "\\\\?\\Volume{337ebf39-dc62-49e1-9fa1-5f51d87a3a35}\\",
+            "DriveLetter": null,
+            "Name": "\\\\?\\Volume{337ebf39-dc62-49e1-9fa1-5f51d87a3a35}\\",
+            "Label": null,
+            "FileSystem": "NTFS",
+            "Capacity": 1043329024,
+            "FreeSpace": 93110272,
+            "DriveType": 3,
+            "BootVolume": false,
+            "SystemVolume": false
+          },
+          "field_units": {
+            "Capacity": "bytes",
+            "FreeSpace": "bytes"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "\\\\?\\Volume{337ebf39-dc62-49e1-9fa1-5f51d87a3a35}\\",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DriveLetter": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "Name": {
+              "value": "\\\\?\\Volume{337ebf39-dc62-49e1-9fa1-5f51d87a3a35}\\",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Label": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "FileSystem": {
+              "value": "NTFS",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Capacity": {
+              "value": 1043329024,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "FreeSpace": {
+              "value": 93110272,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "DriveType": {
+              "value": 3,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BootVolume": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SystemVolume": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "DeviceID": "\\\\?\\Volume{317e57a9-ec3c-48cf-ad3c-04758794eeca}\\",
+            "DriveLetter": "D:",
+            "Name": "D:\\",
+            "Label": "Software Installation & Setups",
+            "FileSystem": "NTFS",
+            "Capacity": 112809996288,
+            "FreeSpace": 4177444864,
+            "DriveType": 3,
+            "BootVolume": false,
+            "SystemVolume": false
+          },
+          "field_units": {
+            "Capacity": "bytes",
+            "FreeSpace": "bytes"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "\\\\?\\Volume{317e57a9-ec3c-48cf-ad3c-04758794eeca}\\",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DriveLetter": {
+              "value": "D:",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Name": {
+              "value": "D:\\",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Label": {
+              "value": "Software Installation & Setups",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "FileSystem": {
+              "value": "NTFS",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Capacity": {
+              "value": 112809996288,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "FreeSpace": {
+              "value": 4177444864,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "DriveType": {
+              "value": 3,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BootVolume": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SystemVolume": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "DeviceID": "\\\\?\\Volume{51370f40-4b88-40a3-b7e5-efa90d1a9c2a}\\",
+            "DriveLetter": "E:",
+            "Name": "E:\\",
+            "Label": "Education",
+            "FileSystem": "NTFS",
+            "Capacity": 161637986304,
+            "FreeSpace": 37301100544,
+            "DriveType": 3,
+            "BootVolume": false,
+            "SystemVolume": false
+          },
+          "field_units": {
+            "Capacity": "bytes",
+            "FreeSpace": "bytes"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "\\\\?\\Volume{51370f40-4b88-40a3-b7e5-efa90d1a9c2a}\\",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DriveLetter": {
+              "value": "E:",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Name": {
+              "value": "E:\\",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Label": {
+              "value": "Education",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "FileSystem": {
+              "value": "NTFS",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Capacity": {
+              "value": 161637986304,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "FreeSpace": {
+              "value": 37301100544,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "DriveType": {
+              "value": 3,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BootVolume": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SystemVolume": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "DeviceID": "\\\\?\\Volume{00ad8bce-0220-47c7-8db2-8b03483bf228}\\",
+            "DriveLetter": null,
+            "Name": "\\\\?\\Volume{00ad8bce-0220-47c7-8db2-8b03483bf228}\\",
+            "Label": null,
+            "FileSystem": "NTFS",
+            "Capacity": 547352576,
+            "FreeSpace": 88227840,
+            "DriveType": 3,
+            "BootVolume": false,
+            "SystemVolume": false
+          },
+          "field_units": {
+            "Capacity": "bytes",
+            "FreeSpace": "bytes"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "\\\\?\\Volume{00ad8bce-0220-47c7-8db2-8b03483bf228}\\",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DriveLetter": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "Name": {
+              "value": "\\\\?\\Volume{00ad8bce-0220-47c7-8db2-8b03483bf228}\\",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Label": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "FileSystem": {
+              "value": "NTFS",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Capacity": {
+              "value": 547352576,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "FreeSpace": {
+              "value": 88227840,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "DriveType": {
+              "value": 3,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BootVolume": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SystemVolume": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "DeviceID": "\\\\?\\Volume{a66e02a1-88a1-46a1-9626-419056ca8a9d}\\",
+            "DriveLetter": null,
+            "Name": "\\\\?\\Volume{a66e02a1-88a1-46a1-9626-419056ca8a9d}\\",
+            "Label": null,
+            "FileSystem": "FAT32",
+            "Capacity": 100663296,
+            "FreeSpace": 64058368,
+            "DriveType": 3,
+            "BootVolume": false,
+            "SystemVolume": true
+          },
+          "field_units": {
+            "Capacity": "bytes",
+            "FreeSpace": "bytes"
+          },
+          "field_details": {
+            "DeviceID": {
+              "value": "\\\\?\\Volume{a66e02a1-88a1-46a1-9626-419056ca8a9d}\\",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "DriveLetter": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "Name": {
+              "value": "\\\\?\\Volume{a66e02a1-88a1-46a1-9626-419056ca8a9d}\\",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Label": {
+              "value": null,
+              "status": "null_value",
+              "status_reason": "Provider exposed this property but returned null.",
+              "unit": null
+            },
+            "FileSystem": {
+              "value": "FAT32",
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Capacity": {
+              "value": 100663296,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "FreeSpace": {
+              "value": 64058368,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": "bytes"
+            },
+            "DriveType": {
+              "value": 3,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "BootVolume": {
+              "value": false,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "SystemVolume": {
+              "value": true,
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        }
+      ]
+    },
+    "disk_to_partition_relationships": {
+      "source": "Win32_DiskDriveToDiskPartition",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 11,
+      "records": [
+        {
+          "values": {
+            "Antecedent": {
+              "class_name": "Win32_DiskDrive",
+              "keys": {
+                "DeviceID": "\\\\.\\PHYSICALDRIVE0"
+              }
+            },
+            "Dependent": {
+              "class_name": "Win32_DiskPartition",
+              "keys": {
+                "DeviceID": "Disk #0, Partition #0"
+              }
+            }
+          },
+          "field_units": {},
+          "field_details": {
+            "Antecedent": {
+              "value": {
+                "class_name": "Win32_DiskDrive",
+                "keys": {
+                  "DeviceID": "\\\\.\\PHYSICALDRIVE0"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Dependent": {
+              "value": {
+                "class_name": "Win32_DiskPartition",
+                "keys": {
+                  "DeviceID": "Disk #0, Partition #0"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "Antecedent": {
+              "class_name": "Win32_DiskDrive",
+              "keys": {
+                "DeviceID": "\\\\.\\PHYSICALDRIVE0"
+              }
+            },
+            "Dependent": {
+              "class_name": "Win32_DiskPartition",
+              "keys": {
+                "DeviceID": "Disk #0, Partition #1"
+              }
+            }
+          },
+          "field_units": {},
+          "field_details": {
+            "Antecedent": {
+              "value": {
+                "class_name": "Win32_DiskDrive",
+                "keys": {
+                  "DeviceID": "\\\\.\\PHYSICALDRIVE0"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Dependent": {
+              "value": {
+                "class_name": "Win32_DiskPartition",
+                "keys": {
+                  "DeviceID": "Disk #0, Partition #1"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "Antecedent": {
+              "class_name": "Win32_DiskDrive",
+              "keys": {
+                "DeviceID": "\\\\.\\PHYSICALDRIVE0"
+              }
+            },
+            "Dependent": {
+              "class_name": "Win32_DiskPartition",
+              "keys": {
+                "DeviceID": "Disk #0, Partition #2"
+              }
+            }
+          },
+          "field_units": {},
+          "field_details": {
+            "Antecedent": {
+              "value": {
+                "class_name": "Win32_DiskDrive",
+                "keys": {
+                  "DeviceID": "\\\\.\\PHYSICALDRIVE0"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Dependent": {
+              "value": {
+                "class_name": "Win32_DiskPartition",
+                "keys": {
+                  "DeviceID": "Disk #0, Partition #2"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "Antecedent": {
+              "class_name": "Win32_DiskDrive",
+              "keys": {
+                "DeviceID": "\\\\.\\PHYSICALDRIVE0"
+              }
+            },
+            "Dependent": {
+              "class_name": "Win32_DiskPartition",
+              "keys": {
+                "DeviceID": "Disk #0, Partition #3"
+              }
+            }
+          },
+          "field_units": {},
+          "field_details": {
+            "Antecedent": {
+              "value": {
+                "class_name": "Win32_DiskDrive",
+                "keys": {
+                  "DeviceID": "\\\\.\\PHYSICALDRIVE0"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Dependent": {
+              "value": {
+                "class_name": "Win32_DiskPartition",
+                "keys": {
+                  "DeviceID": "Disk #0, Partition #3"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "Antecedent": {
+              "class_name": "Win32_DiskDrive",
+              "keys": {
+                "DeviceID": "\\\\.\\PHYSICALDRIVE0"
+              }
+            },
+            "Dependent": {
+              "class_name": "Win32_DiskPartition",
+              "keys": {
+                "DeviceID": "Disk #0, Partition #4"
+              }
+            }
+          },
+          "field_units": {},
+          "field_details": {
+            "Antecedent": {
+              "value": {
+                "class_name": "Win32_DiskDrive",
+                "keys": {
+                  "DeviceID": "\\\\.\\PHYSICALDRIVE0"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Dependent": {
+              "value": {
+                "class_name": "Win32_DiskPartition",
+                "keys": {
+                  "DeviceID": "Disk #0, Partition #4"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "Antecedent": {
+              "class_name": "Win32_DiskDrive",
+              "keys": {
+                "DeviceID": "\\\\.\\PHYSICALDRIVE0"
+              }
+            },
+            "Dependent": {
+              "class_name": "Win32_DiskPartition",
+              "keys": {
+                "DeviceID": "Disk #0, Partition #5"
+              }
+            }
+          },
+          "field_units": {},
+          "field_details": {
+            "Antecedent": {
+              "value": {
+                "class_name": "Win32_DiskDrive",
+                "keys": {
+                  "DeviceID": "\\\\.\\PHYSICALDRIVE0"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Dependent": {
+              "value": {
+                "class_name": "Win32_DiskPartition",
+                "keys": {
+                  "DeviceID": "Disk #0, Partition #5"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "Antecedent": {
+              "class_name": "Win32_DiskDrive",
+              "keys": {
+                "DeviceID": "\\\\.\\PHYSICALDRIVE0"
+              }
+            },
+            "Dependent": {
+              "class_name": "Win32_DiskPartition",
+              "keys": {
+                "DeviceID": "Disk #0, Partition #6"
+              }
+            }
+          },
+          "field_units": {},
+          "field_details": {
+            "Antecedent": {
+              "value": {
+                "class_name": "Win32_DiskDrive",
+                "keys": {
+                  "DeviceID": "\\\\.\\PHYSICALDRIVE0"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Dependent": {
+              "value": {
+                "class_name": "Win32_DiskPartition",
+                "keys": {
+                  "DeviceID": "Disk #0, Partition #6"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "Antecedent": {
+              "class_name": "Win32_DiskDrive",
+              "keys": {
+                "DeviceID": "\\\\.\\PHYSICALDRIVE0"
+              }
+            },
+            "Dependent": {
+              "class_name": "Win32_DiskPartition",
+              "keys": {
+                "DeviceID": "Disk #0, Partition #7"
+              }
+            }
+          },
+          "field_units": {},
+          "field_details": {
+            "Antecedent": {
+              "value": {
+                "class_name": "Win32_DiskDrive",
+                "keys": {
+                  "DeviceID": "\\\\.\\PHYSICALDRIVE0"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Dependent": {
+              "value": {
+                "class_name": "Win32_DiskPartition",
+                "keys": {
+                  "DeviceID": "Disk #0, Partition #7"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "Antecedent": {
+              "class_name": "Win32_DiskDrive",
+              "keys": {
+                "DeviceID": "\\\\.\\PHYSICALDRIVE0"
+              }
+            },
+            "Dependent": {
+              "class_name": "Win32_DiskPartition",
+              "keys": {
+                "DeviceID": "Disk #0, Partition #8"
+              }
+            }
+          },
+          "field_units": {},
+          "field_details": {
+            "Antecedent": {
+              "value": {
+                "class_name": "Win32_DiskDrive",
+                "keys": {
+                  "DeviceID": "\\\\.\\PHYSICALDRIVE0"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Dependent": {
+              "value": {
+                "class_name": "Win32_DiskPartition",
+                "keys": {
+                  "DeviceID": "Disk #0, Partition #8"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "Antecedent": {
+              "class_name": "Win32_DiskDrive",
+              "keys": {
+                "DeviceID": "\\\\.\\PHYSICALDRIVE0"
+              }
+            },
+            "Dependent": {
+              "class_name": "Win32_DiskPartition",
+              "keys": {
+                "DeviceID": "Disk #0, Partition #9"
+              }
+            }
+          },
+          "field_units": {},
+          "field_details": {
+            "Antecedent": {
+              "value": {
+                "class_name": "Win32_DiskDrive",
+                "keys": {
+                  "DeviceID": "\\\\.\\PHYSICALDRIVE0"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Dependent": {
+              "value": {
+                "class_name": "Win32_DiskPartition",
+                "keys": {
+                  "DeviceID": "Disk #0, Partition #9"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "Antecedent": {
+              "class_name": "Win32_DiskDrive",
+              "keys": {
+                "DeviceID": "\\\\.\\PHYSICALDRIVE0"
+              }
+            },
+            "Dependent": {
+              "class_name": "Win32_DiskPartition",
+              "keys": {
+                "DeviceID": "Disk #0, Partition #10"
+              }
+            }
+          },
+          "field_units": {},
+          "field_details": {
+            "Antecedent": {
+              "value": {
+                "class_name": "Win32_DiskDrive",
+                "keys": {
+                  "DeviceID": "\\\\.\\PHYSICALDRIVE0"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Dependent": {
+              "value": {
+                "class_name": "Win32_DiskPartition",
+                "keys": {
+                  "DeviceID": "Disk #0, Partition #10"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        }
+      ]
+    },
+    "partition_to_logical_disk_relationships": {
+      "source": "Win32_LogicalDiskToPartition",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 3,
+      "records": [
+        {
+          "values": {
+            "Antecedent": {
+              "class_name": "Win32_DiskPartition",
+              "keys": {
+                "DeviceID": "Disk #0, Partition #1"
+              }
+            },
+            "Dependent": {
+              "class_name": "Win32_LogicalDisk",
+              "keys": {
+                "DeviceID": "C:"
+              }
+            }
+          },
+          "field_units": {},
+          "field_details": {
+            "Antecedent": {
+              "value": {
+                "class_name": "Win32_DiskPartition",
+                "keys": {
+                  "DeviceID": "Disk #0, Partition #1"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Dependent": {
+              "value": {
+                "class_name": "Win32_LogicalDisk",
+                "keys": {
+                  "DeviceID": "C:"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "Antecedent": {
+              "class_name": "Win32_DiskPartition",
+              "keys": {
+                "DeviceID": "Disk #0, Partition #8"
+              }
+            },
+            "Dependent": {
+              "class_name": "Win32_LogicalDisk",
+              "keys": {
+                "DeviceID": "D:"
+              }
+            }
+          },
+          "field_units": {},
+          "field_details": {
+            "Antecedent": {
+              "value": {
+                "class_name": "Win32_DiskPartition",
+                "keys": {
+                  "DeviceID": "Disk #0, Partition #8"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Dependent": {
+              "value": {
+                "class_name": "Win32_LogicalDisk",
+                "keys": {
+                  "DeviceID": "D:"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "Antecedent": {
+              "class_name": "Win32_DiskPartition",
+              "keys": {
+                "DeviceID": "Disk #0, Partition #9"
+              }
+            },
+            "Dependent": {
+              "class_name": "Win32_LogicalDisk",
+              "keys": {
+                "DeviceID": "E:"
+              }
+            }
+          },
+          "field_units": {},
+          "field_details": {
+            "Antecedent": {
+              "value": {
+                "class_name": "Win32_DiskPartition",
+                "keys": {
+                  "DeviceID": "Disk #0, Partition #9"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Dependent": {
+              "value": {
+                "class_name": "Win32_LogicalDisk",
+                "keys": {
+                  "DeviceID": "E:"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        }
+      ]
+    },
+    "mount_points": {
+      "source": "Win32_MountPoint",
+      "status": "success",
+      "error_category": null,
+      "native_hresult": null,
+      "records_returned": 3,
+      "records": [
+        {
+          "values": {
+            "Directory": {
+              "class_name": "Win32_Directory",
+              "keys": {
+                "Name": "C:\\"
+              }
+            },
+            "Volume": {
+              "class_name": "Win32_Volume",
+              "keys": {
+                "DeviceID": "\\\\?\\Volume{e318ea63-2dd5-4bc7-96a4-d27bb7ec0a99}\\"
+              }
+            }
+          },
+          "field_units": {},
+          "field_details": {
+            "Directory": {
+              "value": {
+                "class_name": "Win32_Directory",
+                "keys": {
+                  "Name": "C:\\"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Volume": {
+              "value": {
+                "class_name": "Win32_Volume",
+                "keys": {
+                  "DeviceID": "\\\\?\\Volume{e318ea63-2dd5-4bc7-96a4-d27bb7ec0a99}\\"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "Directory": {
+              "class_name": "Win32_Directory",
+              "keys": {
+                "Name": "D:\\"
+              }
+            },
+            "Volume": {
+              "class_name": "Win32_Volume",
+              "keys": {
+                "DeviceID": "\\\\?\\Volume{317e57a9-ec3c-48cf-ad3c-04758794eeca}\\"
+              }
+            }
+          },
+          "field_units": {},
+          "field_details": {
+            "Directory": {
+              "value": {
+                "class_name": "Win32_Directory",
+                "keys": {
+                  "Name": "D:\\"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Volume": {
+              "value": {
+                "class_name": "Win32_Volume",
+                "keys": {
+                  "DeviceID": "\\\\?\\Volume{317e57a9-ec3c-48cf-ad3c-04758794eeca}\\"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        },
+
+        {
+          "values": {
+            "Directory": {
+              "class_name": "Win32_Directory",
+              "keys": {
+                "Name": "E:\\"
+              }
+            },
+            "Volume": {
+              "class_name": "Win32_Volume",
+              "keys": {
+                "DeviceID": "\\\\?\\Volume{51370f40-4b88-40a3-b7e5-efa90d1a9c2a}\\"
+              }
+            }
+          },
+          "field_units": {},
+          "field_details": {
+            "Directory": {
+              "value": {
+                "class_name": "Win32_Directory",
+                "keys": {
+                  "Name": "E:\\"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            },
+            "Volume": {
+              "value": {
+                "class_name": "Win32_Volume",
+                "keys": {
+                  "DeviceID": "\\\\?\\Volume{51370f40-4b88-40a3-b7e5-efa90d1a9c2a}\\"
+                }
+              },
+              "status": "available",
+              "status_reason": "Provider returned a non-null value.",
+              "unit": null
+            }
+          }
+        }
+      ]
+    }
+  },
+  "display_hardware": {
+    "source": "Win32_VideoController",
+    "status": "success",
+    "error_category": null,
+    "native_hresult": null,
+    "records_returned": 1,
+    "records": [
+      {
+        "values": {
+          "Name": "Intel(R) UHD Graphics 620",
+          "Description": "Intel(R) UHD Graphics 620",
+          "AdapterCompatibility": "Intel Corporation",
+          "AdapterRAM": 1073741824,
+          "VideoProcessor": "Intel(R) UHD Graphics Family",
+          "PNPDeviceID": "PCI\\VEN_8086&DEV_3EA0&SUBSYS_8549103C&REV_02\\3&11583659&0&10",
+          "DriverVersion": "31.0.101.2135",
+          "DriverDate": {
+            "provider_datetime": "2025-03-06T05:00:00.0000000+05:00",
+            "date_time_kind": "Local",
+            "ticks": 638768340000000000,
+            "normalized_utc": "2025-03-06T00:00:00.000000Z",
+            "normalization_status": "normalized"
+          },
+          "MinRefreshRate": 60,
+          "MaxRefreshRate": 60,
+          "CurrentNumberOfColors": 4294967296,
+          "CurrentScanMode": 4,
+          "VideoMode": null,
+          "CurrentHorizontalResolution": 1920,
+          "CurrentVerticalResolution": 1080,
+          "CurrentRefreshRate": 60,
+          "CurrentBitsPerPixel": 32,
+          "VideoModeDescription": "1920 x 1080 x 4294967296 colors"
+        },
+        "field_units": {
+          "AdapterRAM": "bytes (Win32_VideoController uint32 provider-reported adapter memory; not verified dedicated graphics memory)",
+          "DriverDate": "CIM DateTime wrapper; provider round-trip value, .NET ticks, and normalized UTC",
+          "CurrentHorizontalResolution": "pixels",
+          "CurrentVerticalResolution": "pixels",
+          "CurrentRefreshRate": "Hz",
+          "MinRefreshRate": "Hz",
+          "MaxRefreshRate": "Hz",
+          "CurrentNumberOfColors": "colors",
+          "CurrentBitsPerPixel": "bits per pixel"
+        },
+        "field_details": {
+          "Name": {
+            "value": "Intel(R) UHD Graphics 620",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "Description": {
+            "value": "Intel(R) UHD Graphics 620",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "AdapterCompatibility": {
+            "value": "Intel Corporation",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "AdapterRAM": {
+            "value": 1073741824,
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": "bytes (Win32_VideoController uint32 provider-reported adapter memory; not verified dedicated graphics memory)"
+          },
+          "VideoProcessor": {
+            "value": "Intel(R) UHD Graphics Family",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "PNPDeviceID": {
+            "value": "PCI\\VEN_8086&DEV_3EA0&SUBSYS_8549103C&REV_02\\3&11583659&0&10",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "DriverVersion": {
+            "value": "31.0.101.2135",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "DriverDate": {
+            "value": {
+              "provider_datetime": "2025-03-06T05:00:00.0000000+05:00",
+              "date_time_kind": "Local",
+              "ticks": 638768340000000000,
+              "normalized_utc": "2025-03-06T00:00:00.000000Z",
+              "normalization_status": "normalized"
+            },
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": "CIM DateTime wrapper; provider round-trip value, .NET ticks, and normalized UTC"
+          },
+          "MinRefreshRate": {
+            "value": 60,
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": "Hz"
+          },
+          "MaxRefreshRate": {
+            "value": 60,
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": "Hz"
+          },
+          "CurrentNumberOfColors": {
+            "value": 4294967296,
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": "colors"
+          },
+          "CurrentScanMode": {
+            "value": 4,
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "VideoMode": {
+            "value": null,
+            "status": "null_value",
+            "status_reason": "Provider exposed this property but returned null.",
+            "unit": null
+          },
+          "CurrentHorizontalResolution": {
+            "value": 1920,
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": "pixels"
+          },
+          "CurrentVerticalResolution": {
+            "value": 1080,
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": "pixels"
+          },
+          "CurrentRefreshRate": {
+            "value": 60,
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": "Hz"
+          },
+          "CurrentBitsPerPixel": {
+            "value": 32,
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": "bits per pixel"
+          },
+          "VideoModeDescription": {
+            "value": "1920 x 1080 x 4294967296 colors",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          }
+        }
+      }
+    ]
+  },
+  "update_overview": {
+    "source": "Win32_QuickFixEngineering",
+    "status": "success",
+    "error_category": null,
+    "native_hresult": null,
+    "records_returned": 5,
+    "records": [
+      {
+        "values": {
+          "HotFixID": "KB5127694",
+          "Description": "Update",
+          "InstalledBy": "NT AUTHORITY\\SYSTEM",
+          "InstalledOn": "10/15/2026",
+          "InstallDate": null,
+          "ServicePackInEffect": "",
+          "FixComments": "",
+          "Name": null,
+          "Status": null
+        },
+        "field_units": {
+          "InstallDate": "CIM DateTime wrapper; provider round-trip value, .NET ticks, and normalized UTC",
+          "InstalledOn": "provider string; ambiguous date preserved without parsing"
+        },
+        "field_details": {
+          "HotFixID": {
+            "value": "KB5127694",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "Description": {
+            "value": "Update",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "InstalledBy": {
+            "value": "NT AUTHORITY\\SYSTEM",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "InstalledOn": {
+            "value": "10/15/2026",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": "provider string; ambiguous date preserved without parsing"
+          },
+          "InstallDate": {
+            "value": null,
+            "status": "null_value",
+            "status_reason": "Provider exposed this property but returned null.",
+            "unit": "CIM DateTime wrapper; provider round-trip value, .NET ticks, and normalized UTC"
+          },
+          "ServicePackInEffect": {
+            "value": "",
+            "status": "blank_value",
+            "status_reason": "Provider returned a blank string; the original string is preserved.",
+            "unit": null
+          },
+          "FixComments": {
+            "value": "",
+            "status": "blank_value",
+            "status_reason": "Provider returned a blank string; the original string is preserved.",
+            "unit": null
+          },
+          "Name": {
+            "value": null,
+            "status": "null_value",
+            "status_reason": "Provider exposed this property but returned null.",
+            "unit": null
+          },
+          "Status": {
+            "value": null,
+            "status": "null_value",
+            "status_reason": "Provider exposed this property but returned null.",
+            "unit": null
+          }
+        }
+      },
+
+      {
+        "values": {
+          "HotFixID": "KB5054156",
+          "Description": "Update",
+          "InstalledBy": "NT AUTHORITY\\SYSTEM",
+          "InstalledOn": "9/25/2026",
+          "InstallDate": null,
+          "ServicePackInEffect": "",
+          "FixComments": "",
+          "Name": null,
+          "Status": null
+        },
+        "field_units": {
+          "InstallDate": "CIM DateTime wrapper; provider round-trip value, .NET ticks, and normalized UTC",
+          "InstalledOn": "provider string; ambiguous date preserved without parsing"
+        },
+        "field_details": {
+          "HotFixID": {
+            "value": "KB5054156",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "Description": {
+            "value": "Update",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "InstalledBy": {
+            "value": "NT AUTHORITY\\SYSTEM",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "InstalledOn": {
+            "value": "9/25/2026",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": "provider string; ambiguous date preserved without parsing"
+          },
+          "InstallDate": {
+            "value": null,
+            "status": "null_value",
+            "status_reason": "Provider exposed this property but returned null.",
+            "unit": "CIM DateTime wrapper; provider round-trip value, .NET ticks, and normalized UTC"
+          },
+          "ServicePackInEffect": {
+            "value": "",
+            "status": "blank_value",
+            "status_reason": "Provider returned a blank string; the original string is preserved.",
+            "unit": null
+          },
+          "FixComments": {
+            "value": "",
+            "status": "blank_value",
+            "status_reason": "Provider returned a blank string; the original string is preserved.",
+            "unit": null
+          },
+          "Name": {
+            "value": null,
+            "status": "null_value",
+            "status_reason": "Provider exposed this property but returned null.",
+            "unit": null
+          },
+          "Status": {
+            "value": null,
+            "status": "null_value",
+            "status_reason": "Provider exposed this property but returned null.",
+            "unit": null
+          }
+        }
+      },
+
+      {
+        "values": {
+          "HotFixID": "KB5121794",
+          "Description": "Update",
+          "InstalledBy": "NT AUTHORITY\\SYSTEM",
+          "InstalledOn": "10/15/2026",
+          "InstallDate": null,
+          "ServicePackInEffect": "",
+          "FixComments": "",
+          "Name": null,
+          "Status": null
+        },
+        "field_units": {
+          "InstallDate": "CIM DateTime wrapper; provider round-trip value, .NET ticks, and normalized UTC",
+          "InstalledOn": "provider string; ambiguous date preserved without parsing"
+        },
+        "field_details": {
+          "HotFixID": {
+            "value": "KB5121794",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "Description": {
+            "value": "Update",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "InstalledBy": {
+            "value": "NT AUTHORITY\\SYSTEM",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "InstalledOn": {
+            "value": "10/15/2026",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": "provider string; ambiguous date preserved without parsing"
+          },
+          "InstallDate": {
+            "value": null,
+            "status": "null_value",
+            "status_reason": "Provider exposed this property but returned null.",
+            "unit": "CIM DateTime wrapper; provider round-trip value, .NET ticks, and normalized UTC"
+          },
+          "ServicePackInEffect": {
+            "value": "",
+            "status": "blank_value",
+            "status_reason": "Provider returned a blank string; the original string is preserved.",
+            "unit": null
+          },
+          "FixComments": {
+            "value": "",
+            "status": "blank_value",
+            "status_reason": "Provider returned a blank string; the original string is preserved.",
+            "unit": null
+          },
+          "Name": {
+            "value": null,
+            "status": "null_value",
+            "status_reason": "Provider exposed this property but returned null.",
+            "unit": null
+          },
+          "Status": {
+            "value": null,
+            "status": "null_value",
+            "status_reason": "Provider exposed this property but returned null.",
+            "unit": null
+          }
+        }
+      },
+
+      {
+        "values": {
+          "HotFixID": "KB5132061",
+          "Description": "Security Update",
+          "InstalledBy": "NT AUTHORITY\\SYSTEM",
+          "InstalledOn": "11/13/2026",
+          "InstallDate": null,
+          "ServicePackInEffect": "",
+          "FixComments": "",
+          "Name": null,
+          "Status": null
+        },
+        "field_units": {
+          "InstallDate": "CIM DateTime wrapper; provider round-trip value, .NET ticks, and normalized UTC",
+          "InstalledOn": "provider string; ambiguous date preserved without parsing"
+        },
+        "field_details": {
+          "HotFixID": {
+            "value": "KB5132061",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "Description": {
+            "value": "Security Update",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "InstalledBy": {
+            "value": "NT AUTHORITY\\SYSTEM",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "InstalledOn": {
+            "value": "11/13/2026",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": "provider string; ambiguous date preserved without parsing"
+          },
+          "InstallDate": {
+            "value": null,
+            "status": "null_value",
+            "status_reason": "Provider exposed this property but returned null.",
+            "unit": "CIM DateTime wrapper; provider round-trip value, .NET ticks, and normalized UTC"
+          },
+          "ServicePackInEffect": {
+            "value": "",
+            "status": "blank_value",
+            "status_reason": "Provider returned a blank string; the original string is preserved.",
+            "unit": null
+          },
+          "FixComments": {
+            "value": "",
+            "status": "blank_value",
+            "status_reason": "Provider returned a blank string; the original string is preserved.",
+            "unit": null
+          },
+          "Name": {
+            "value": null,
+            "status": "null_value",
+            "status_reason": "Provider exposed this property but returned null.",
+            "unit": null
+          },
+          "Status": {
+            "value": null,
+            "status": "null_value",
+            "status_reason": "Provider exposed this property but returned null.",
+            "unit": null
+          }
+        }
+      },
+
+      {
+        "values": {
+          "HotFixID": "KB5132688",
+          "Description": "Security Update",
+          "InstalledBy": "NT AUTHORITY\\SYSTEM",
+          "InstalledOn": "11/11/2026",
+          "InstallDate": null,
+          "ServicePackInEffect": "",
+          "FixComments": "",
+          "Name": null,
+          "Status": null
+        },
+        "field_units": {
+          "InstallDate": "CIM DateTime wrapper; provider round-trip value, .NET ticks, and normalized UTC",
+          "InstalledOn": "provider string; ambiguous date preserved without parsing"
+        },
+        "field_details": {
+          "HotFixID": {
+            "value": "KB5132688",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "Description": {
+            "value": "Security Update",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "InstalledBy": {
+            "value": "NT AUTHORITY\\SYSTEM",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": null
+          },
+          "InstalledOn": {
+            "value": "11/11/2026",
+            "status": "available",
+            "status_reason": "Provider returned a non-null value.",
+            "unit": "provider string; ambiguous date preserved without parsing"
+          },
+          "InstallDate": {
+            "value": null,
+            "status": "null_value",
+            "status_reason": "Provider exposed this property but returned null.",
+            "unit": "CIM DateTime wrapper; provider round-trip value, .NET ticks, and normalized UTC"
+          },
+          "ServicePackInEffect": {
+            "value": "",
+            "status": "blank_value",
+            "status_reason": "Provider returned a blank string; the original string is preserved.",
+            "unit": null
+          },
+          "FixComments": {
+            "value": "",
+            "status": "blank_value",
+            "status_reason": "Provider returned a blank string; the original string is preserved.",
+            "unit": null
+          },
+          "Name": {
+            "value": null,
+            "status": "null_value",
+            "status_reason": "Provider exposed this property but returned null.",
+            "unit": null
+          },
+          "Status": {
+            "value": null,
+            "status": "null_value",
+            "status_reason": "Provider exposed this property but returned null.",
+            "unit": null
+          }
+        }
+      }
+    ],
+    "coverage_limitation": "Win32_QuickFixEngineering reports Component Based Servicing updates only, not all Windows updates."
+  },
+  "clock_and_time_zone": {
+    "uptime_milliseconds": {
+      "value": 372167796,
+      "source": "GetTickCount64",
+      "status": "available"
+    },
+    "uptime_seconds": {
+      "value": 372167.796,
+      "source": "GetTickCount64",
+      "status": "available"
+    },
+    "uptime_observation_method": {
+      "value": "elapsed time since system start; includes sleep time",
+      "source": "GetTickCount64",
+      "status": "available"
+    },
+    "windows_time_zone_id": {
+      "value": "Pakistan Standard Time",
+      "source": "GetDynamicTimeZoneInformation",
+      "status": "available"
+    },
+    "standard_name": {
+      "value": "Pakistan Standard Time",
+      "source": "GetDynamicTimeZoneInformation",
+      "status": "available"
+    },
+    "daylight_name": {
+      "value": "Pakistan Daylight Time",
+      "source": "GetDynamicTimeZoneInformation",
+      "status": "available"
+    },
+    "bias_minutes": {
+      "value": -300,
+      "source": "GetDynamicTimeZoneInformation",
+      "status": "available"
+    },
+    "standard_transition_rule": {
+      "value": {
+        "year": 0,
+        "month": 0,
+        "day_of_week": 0,
+        "day": 0,
+        "hour": 0,
+        "minute": 0,
+        "second": 0,
+        "milliseconds": 0
+      },
+      "source": "GetDynamicTimeZoneInformation",
+      "status": "available"
+    },
+    "daylight_transition_rule": {
+      "value": {
+        "year": 0,
+        "month": 0,
+        "day_of_week": 0,
+        "day": 0,
+        "hour": 0,
+        "minute": 0,
+        "second": 0,
+        "milliseconds": 0
+      },
+      "source": "GetDynamicTimeZoneInformation",
+      "status": "available"
+    },
+    "standard_bias_minutes": {
+      "value": 0,
+      "source": "GetDynamicTimeZoneInformation",
+      "status": "available"
+    },
+    "daylight_bias_minutes": {
+      "value": -60,
+      "source": "GetDynamicTimeZoneInformation",
+      "status": "available"
+    },
+    "dynamic_daylight_time_disabled": {
+      "value": false,
+      "source": "GetDynamicTimeZoneInformation",
+      "status": "available"
+    },
+    "time_zone_api_return_code": {
+      "value": 0,
+      "source": "GetDynamicTimeZoneInformation",
+      "status": "available"
+    },
+    "observed_utc": {
+      "value": "2026-10-23T21:34:57.517356Z",
+      "source": "GetSystemTimePreciseAsFileTime",
+      "status": "available"
+    },
+    "utc_clock_source": {
+      "value": "GetSystemTimePreciseAsFileTime",
+      "source": "GetSystemTimePreciseAsFileTime or documented FILETIME fallback",
+      "status": "available"
+    },
+    "observed_local_time": {
+      "value": "2026-10-24T02:34:57.517331+05:00",
+      "source": "Python local datetime observation",
+      "status": "available"
+    },
+    "observed_utc_filetime_100ns": {
+      "value": 134372648975173567,
+      "source": "FILETIME from GetSystemTimePreciseAsFileTime or fallback",
+      "status": "available"
+    },
+    "current_utc_offset_seconds": {
+      "value": 18000,
+      "source": "Python local datetime UTC offset",
+      "status": "available"
+    },
+    "precise_utc_api_available": {
+      "value": true,
+      "source": "GetSystemTimePreciseAsFileTime availability",
+      "status": "available"
+    }
+  },
+  "field_errors": [],
+  "errors": [],
+  "limitations": [
+    "This is a live snapshot; independently queried providers may observe different moments.",
+    "Hardware serials, UUIDs, firmware dates and model strings are firmware/provider supplied, may be blank, duplicated or placeholders, and are not guaranteed unique.",
+    "Win32_VideoController.AdapterRAM is preserved as the provider-reported uint32 byte value; it is not verified dedicated graphics memory and may differ from graphics memory shown by Windows Settings, especially for integrated graphics.",
+    "Win32_ComputerSystemProduct.UUID is a firmware/provider product UUID and is not asserted to equal the Windows Settings About Device ID or the registry ProductId; these identifiers remain separate.",
+    "Win32_OperatingSystem.Caption and the selected CurrentVersion registry ProductName are preserved as independent source values and can conflict; use the operating-system provider Caption for the OS edition reported by this collector, without rewriting the registry value.",
+    "Win32_DiskDrive.Size is physical disk capacity; logical drive and volume Size/FreeSpace are separate provider observations. No derived aggregate used-space or capacity value is calculated, and summing overlapping logical-disk and volume views can double-count storage.",
+    "Windows Feature Experience Pack version and the Settings About Pen and Touch summary are not collected; their values cannot be validated or inferred from the selected A30 providers.",
+    "HypervisorPresent is one virtualization indicator and does not identify a definitive virtualization platform.",
+    "Installed module capacity, OS-visible physical memory, and currently available memory are distinct values.",
+    "GlobalMemoryStatusEx commit limit/available values describe system commit accounting, not the size or contents of pagefile.sys.",
+    "Win32_QuickFixEngineering lists Component Based Servicing updates only; it is not a complete Windows Update inventory.",
+    "Win32_QuickFixEngineering.InstalledOn is preserved as a provider string because its date format can be ambiguous.",
+    "The current UTC offset and daylight configuration must not be applied blindly to historical timestamps; historic time-zone rules can differ.",
+    "Processor counts are provider observations; this collector does not claim exhaustive enumeration across all Windows processor groups.",
+    "Obtaining a timestamp does not establish that the machine clock is accurate or synchronized.",
+    "WMI disk, partition and volume relationships are provider associations and are not necessarily one-to-one.",
+    "No product keys, activation secrets, RAM/pagefile contents, TPM secrets, driver inventory, software inventory, users, groups, network adapters, BitLocker state, or event logs are collected."
+  ]
+}
