@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "artifact_id": "A02",
+  "artifact_name": "Running Processes",
+  "collector": "collector.py",
+  "hash_algorithm": "SHA-256",
+  "verification_status": "verified",
+  "verification_method": "Two independent reads of saved output files; SHA-256 comparison and size, mtime, ctime, device and file identity stability checks. Not acquisition-time hashing.",
+  "collection_started_at_utc": "2026-11-07T15:31:16.576347Z",
+  "collection_ended_at_utc": "2026-11-07T15:31:20.898236Z",
+  "collection_status": "partial",
+  "collection_exit_code": 1,
+  "output_directory": "E:\\FYP Custos Forensic Suite\\Custos Forensic Suite\\Artifacts Collectors\\A02 - Running Processes\\Running Processes_Output",
+  "outputs": [
+    {
+      "path": "processes_20261107_203116.json",
+      "size_bytes": 261080,
+      "sha256": "974c728799074ec3d535b92df85f76f2c66f44321cb7cb9b1afc81521754e50a",
+      "verification_sha256": "974c728799074ec3d535b92df85f76f2c66f44321cb7cb9b1afc81521754e50a",
+      "last_modified_utc": "2026-11-07T15:31:20.708154+00:00",
+      "hash_timestamp_utc": "2026-11-07T15:31:20.930233+00:00",
+      "verification_timestamp_utc": "2026-11-07T15:31:20.930233+00:00",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "processes_20261107_203116_threads.json",
+      "size_bytes": 1586103,
+      "sha256": "6df521a0fc3d467d95be643a17085b22c5ef21139e8f1613b835a5f5cb471cf1",
+      "verification_sha256": "6df521a0fc3d467d95be643a17085b22c5ef21139e8f1613b835a5f5cb471cf1",
+      "last_modified_utc": "2026-11-07T15:31:20.898237+00:00",
+      "hash_timestamp_utc": "2026-11-07T15:31:20.930233+00:00",
+      "verification_timestamp_utc": "2026-11-07T15:31:20.946167+00:00",
+      "verification_status": "verified",
+      "error": null
+    }
+  ],
+  "manifest": {},
+  "error": null,
+  "errors": [],
+  "generated_at_utc": "2026-11-07T15:31:20.946167+00:00",
+  "generated_at_local": "2026-11-07T20:31:20.946167+05:00"
+}
