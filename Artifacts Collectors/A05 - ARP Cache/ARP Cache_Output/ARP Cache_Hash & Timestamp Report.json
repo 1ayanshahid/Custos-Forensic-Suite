@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "artifact_id": "A05",
+  "artifact_name": "ARP Cache",
+  "collector": "collector.py",
+  "hash_algorithm": "SHA-256",
+  "verification_status": "verified",
+  "verification_method": "Two independent reads of saved output files; SHA-256 comparison and size, mtime, ctime, device and file identity stability checks. Not acquisition-time hashing.",
+  "collection_started_at_utc": "2026-11-07T16:23:54.216304Z",
+  "collection_ended_at_utc": "2026-11-07T16:23:54.232121Z",
+  "collection_status": "partial",
+  "collection_exit_code": 1,
+  "output_directory": "E:\\FYP Custos Forensic Suite\\Custos Forensic Suite\\Artifacts Collectors\\A05 - ARP Cache\\ARP Cache_Result",
+  "outputs": [
+    {
+      "path": "ARP Cache_20261107_212354.json",
+      "size_bytes": 138056,
+      "sha256": "f46e5a9a40d77d94da5cf447a8c11bc12361341dc3e8d5823b3b666dd6e927b5",
+      "verification_sha256": "f46e5a9a40d77d94da5cf447a8c11bc12361341dc3e8d5823b3b666dd6e927b5",
+      "last_modified_utc": "2026-11-07T16:23:54.232121+00:00",
+      "hash_timestamp_utc": "2026-11-07T16:23:54.248153+00:00",
+      "verification_timestamp_utc": "2026-11-07T16:23:54.250156+00:00",
+      "verification_status": "verified",
+      "error": null
+    }
+  ],
+  "manifest": {},
+  "error": null,
+  "errors": [],
+  "generated_at_utc": "2026-11-07T16:23:54.250156+00:00",
+  "generated_at_local": "2026-11-07T21:23:54.250156+05:00"
+}
