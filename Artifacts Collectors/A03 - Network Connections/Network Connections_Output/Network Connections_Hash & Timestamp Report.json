@@ -6,27 +6,26 @@
   "hash_algorithm": "SHA-256",
   "verification_status": "verified",
   "verification_method": "Two independent reads of saved output files; SHA-256 comparison and size, mtime, ctime, device and file identity stability checks. Not acquisition-time hashing.",
-  "collection_started_at_utc": "2026-11-07T15:56:30.439124Z",
-  "collection_ended_at_utc": "2026-11-07T15:56:30.773409Z",
+  "collection_started_at_utc": "2026-11-08T21:22:30.552627Z",
+  "collection_ended_at_utc": "2026-11-08T21:22:30.907030Z",
   "collection_status": "partial",
   "collection_exit_code": 1,
   "output_directory": "E:\\FYP Custos Forensic Suite\\Custos Forensic Suite\\Artifacts Collectors\\A03 - Network Connections\\Network Connections_Output",
   "outputs": [
     {
-      "path": "Network Connections_20261107_205630.json",
-      "size_bytes": 718242,
-      "sha256": "99ee6fd2fe54db8ffdaea8c367098b43d7caa2c5a1e0b9459d2233c1793dc4ed",
-      "verification_sha256": "99ee6fd2fe54db8ffdaea8c367098b43d7caa2c5a1e0b9459d2233c1793dc4ed",
-      "last_modified_utc": "2026-11-07T15:56:30.773409+00:00",
-      "hash_timestamp_utc": "2026-11-07T15:56:30.789627+00:00",
-      "verification_timestamp_utc": "2026-11-07T15:56:30.789627+00:00",
+      "path": "Network Connections_20261109_022230.json",
+      "size_bytes": 642049,
+      "sha256": "ef398dd9a68a19dce114c6884347b73cab474a8857f1f6eb9dd26fa6723a7e15",
+      "verification_sha256": "ef398dd9a68a19dce114c6884347b73cab474a8857f1f6eb9dd26fa6723a7e15",
+      "last_modified_utc": "2026-11-08T21:22:30.907031+00:00",
+      "hash_timestamp_utc": "2026-11-08T21:22:30.923729+00:00",
+      "verification_timestamp_utc": "2026-11-08T21:22:30.923729+00:00",
       "verification_status": "verified",
       "error": null
     }
   ],
-  "manifest": {},
   "error": null,
   "errors": [],
-  "generated_at_utc": "2026-11-07T15:56:30.789627+00:00",
-  "generated_at_local": "2026-11-07T20:56:30.789627+05:00"
+  "generated_at_utc": "2026-11-08T21:22:30.923729+00:00",
+  "generated_at_local": "2026-11-09T02:22:30.923729+05:00"
 }
