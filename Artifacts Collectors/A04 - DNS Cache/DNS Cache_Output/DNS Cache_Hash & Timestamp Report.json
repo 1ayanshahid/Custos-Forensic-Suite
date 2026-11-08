@@ -6,27 +6,26 @@
   "hash_algorithm": "SHA-256",
   "verification_status": "verified",
   "verification_method": "Two independent reads of saved output files; SHA-256 comparison and size, mtime, ctime, device and file identity stability checks. Not acquisition-time hashing.",
-  "collection_started_at_utc": "2026-11-07T16:19:10.902763Z",
-  "collection_ended_at_utc": "2026-11-07T16:19:11.655753Z",
+  "collection_started_at_utc": "2026-11-08T21:23:09.184333Z",
+  "collection_ended_at_utc": "2026-11-08T21:23:10.309320Z",
   "collection_status": "completed",
   "collection_exit_code": 0,
   "output_directory": "E:\\FYP Custos Forensic Suite\\Custos Forensic Suite\\Artifacts Collectors\\A04 - DNS Cache\\DNS Cache_Output",
   "outputs": [
     {
-      "path": "DNS Cache_dns_cache_20261107_211910.json",
-      "size_bytes": 27162,
-      "sha256": "55326688a98acf98c5ea1086815f81699cca5f1f39c6ff8dafb04938f9f9877c",
-      "verification_sha256": "55326688a98acf98c5ea1086815f81699cca5f1f39c6ff8dafb04938f9f9877c",
-      "last_modified_utc": "2026-11-07T16:19:11.639688+00:00",
-      "hash_timestamp_utc": "2026-11-07T16:19:11.655753+00:00",
-      "verification_timestamp_utc": "2026-11-07T16:19:11.655753+00:00",
+      "path": "DNS Cache_dns_cache_20261109_022309.json",
+      "size_bytes": 31342,
+      "sha256": "ddce740e7cf04579fc5f422a51a5894130992bac273c23473c037510d74d265e",
+      "verification_sha256": "ddce740e7cf04579fc5f422a51a5894130992bac273c23473c037510d74d265e",
+      "last_modified_utc": "2026-11-08T21:23:10.309320+00:00",
+      "hash_timestamp_utc": "2026-11-08T21:23:10.325135+00:00",
+      "verification_timestamp_utc": "2026-11-08T21:23:10.325135+00:00",
       "verification_status": "verified",
       "error": null
     }
   ],
-  "manifest": {},
   "error": null,
   "errors": [],
-  "generated_at_utc": "2026-11-07T16:19:11.655753+00:00",
-  "generated_at_local": "2026-11-07T21:19:11.655753+05:00"
+  "generated_at_utc": "2026-11-08T21:23:10.325135+00:00",
+  "generated_at_local": "2026-11-09T02:23:10.325135+05:00"
 }
