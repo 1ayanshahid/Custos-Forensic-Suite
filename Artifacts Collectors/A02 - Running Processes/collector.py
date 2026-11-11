@@ -188,6 +188,9 @@ def _collect_one_process(
         ).isoformat()
 
     for field, getter in PROCESS_FIELDS:
+        if pid == 0 and field == "executable_path":
+            record[field] = "not_applicable"
+            continue
         record[field] = _read_process_field(
             process,
             pid,
@@ -432,9 +435,13 @@ def _collect_thread_snapshot(
                 user_cpu_seconds: float | None = None
                 kernel_cpu_seconds: float | None = None
 
-                def record_error(field: str, error_code: int) -> None:
+                def record_error(
+                    field: str,
+                    error_code: int,
+                    api_call: str,
+                ) -> None:
                     reason = (
-                        f"Windows error {error_code} while querying the thread."
+                        f"{api_call} failed with Windows error {error_code}."
                     )
                     unavailable[field] = reason
                     key = (field, reason)
@@ -443,20 +450,27 @@ def _collect_thread_snapshot(
                 thread_handle = open_thread(0x0040 | 0x0800, False, thread_id)
                 if not thread_handle:
                     error_code = ctypes.get_last_error()
+                    api_call = (
+                        f"OpenThread(0x0840, False, {thread_id})"
+                    )
                     for field in (
                         "current_priority",
                         "creation_time_utc",
                         "user_cpu_time_seconds",
                         "kernel_cpu_time_seconds",
                     ):
-                        record_error(field, error_code)
+                        record_error(field, error_code, api_call)
                 else:
                     try:
                         set_last_error(0)
                         priority_value = int(get_thread_priority(thread_handle))
                         priority_error = ctypes.get_last_error()
                         if priority_value == 0x7FFFFFFF:
-                            record_error("current_priority", priority_error)
+                            record_error(
+                                "current_priority",
+                                priority_error,
+                                f"GetThreadPriority({thread_handle!r})",
+                            )
                         else:
                             priority = priority_value
 
@@ -497,7 +511,15 @@ def _collect_thread_snapshot(
                                 "user_cpu_time_seconds",
                                 "kernel_cpu_time_seconds",
                             ):
-                                record_error(field, error_code)
+                                record_error(
+                                    field,
+                                    error_code,
+                                    (
+                                        "GetThreadTimes("
+                                        f"{thread_handle!r}, &creation, &exit_time, "
+                                        "&kernel_time, &user_time)"
+                                    ),
+                                )
                     finally:
                         if not close_handle(thread_handle):
                             error_code = ctypes.get_last_error()
@@ -785,8 +807,8 @@ def _run_with_integrity_manifest(main):
         "A40": "--output", "A41": "--output", "A42": "--output",
         "A46": "--output", "A47": "--output", "A48": "--output",
         "A51": "--output-dir", "A52": "--output-dir",
-        "A60": "--output-dir", "A67": "--output-dir",
-        "A69": "--output-dir", "X14": "--output-dir",
+        "A59": "--output-dir", "A66": "--output-dir",
+        "A68": "--output-dir", "X14": "--output-dir",
         "X15": "--output-dir", "X16": "--output-dir",
         "X18": "--output-dir", "X20": "--output-dir",
         "X22": "--output-dir", "X23": "--output-dir",
@@ -819,7 +841,7 @@ def _run_with_integrity_manifest(main):
         if artifact_id in {
             "A01", "A17", "A18", "A23", "A25", "A30", "A31",
             "A40", "A41", "A42", "A46", "A47", "A48", "A51",
-            "A52", "A60", "A67", "A69",
+            "A52", "A59", "A66", "A68",
         }:
             launcher_output_response = str(output_directory)
         else:
