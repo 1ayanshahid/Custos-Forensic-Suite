@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "artifact_id": "A08",
+  "artifact_name": "Registry Hives",
+  "collector": "collector.py",
+  "hash_algorithm": "SHA-256",
+  "verification_status": "verified",
+  "verification_method": "Two independent reads of saved output files; SHA-256 comparison and size, mtime, ctime, device and file identity stability checks. Not acquisition-time hashing.",
+  "collection_started_at_utc": "2026-11-09T15:38:18.025736+00:00",
+  "collection_ended_at_utc": "2026-11-09T15:38:23.749379+00:00",
+  "collection_status": "completed",
+  "collection_exit_code": 0,
+  "output_directory": "D:\\FYP\\Custos Forensic Suite\\Artifacts Collectors\\A08 - Registry Hives\\Registry Hive_Output",
+  "outputs": [
+    {
+      "path": "Registry Hive_Output.json",
+      "size_bytes": 3795,
+      "sha256": "925eb8566b9f19545339a7a718daa1725e64aaf7240907ceb13ae8accf2e3519",
+      "verification_sha256": "925eb8566b9f19545339a7a718daa1725e64aaf7240907ceb13ae8accf2e3519",
+      "last_modified_utc": "2026-11-09T15:38:23.749380+00:00",
+      "hash_timestamp_utc": "2026-11-09T15:38:24.565789+00:00",
+      "verification_timestamp_utc": "2026-11-09T15:38:24.565789+00:00",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Registry Hives_Files/NTUSER_xmfpq",
+      "size_bytes": 34254848,
+      "sha256": "c1348d41d3364f7ae7cbba81ce6da4f9de7cd40ee51eb8bcd8cc3aca38e3dd8d",
+      "verification_sha256": "c1348d41d3364f7ae7cbba81ce6da4f9de7cd40ee51eb8bcd8cc3aca38e3dd8d",
+      "last_modified_utc": "2026-11-09T15:38:22.976452+00:00",
+      "hash_timestamp_utc": "2026-11-09T15:38:24.721346+00:00",
+      "verification_timestamp_utc": "2026-11-09T15:38:24.846347+00:00",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Registry Hives_Files/SAM",
+      "size_bytes": 81920,
+      "sha256": "fe9e88765fbc2ac70c6cb3861bd7ffbaebcda96e109fa58b9193ac2e114258d8",
+      "verification_sha256": "fe9e88765fbc2ac70c6cb3861bd7ffbaebcda96e109fa58b9193ac2e114258d8",
+      "last_modified_utc": "2026-11-09T15:38:21.185124+00:00",
+      "hash_timestamp_utc": "2026-11-09T15:38:24.846347+00:00",
+      "verification_timestamp_utc": "2026-11-09T15:38:24.846347+00:00",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Registry Hives_Files/SECURITY",
+      "size_bytes": 57344,
+      "sha256": "609e7fa25aaa57a41ae5203de5c70b612f50759631c43a61e7d0e3293ef79ecf",
+      "verification_sha256": "609e7fa25aaa57a41ae5203de5c70b612f50759631c43a61e7d0e3293ef79ecf",
+      "last_modified_utc": "2026-11-09T15:38:21.230303+00:00",
+      "hash_timestamp_utc": "2026-11-09T15:38:24.846347+00:00",
+      "verification_timestamp_utc": "2026-11-09T15:38:24.846347+00:00",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Registry Hives_Files/SOFTWARE",
+      "size_bytes": 117149696,
+      "sha256": "b5f3f309a45f25c44909db97521f0173a7c9d8a511850f162786799dc7c04499",
+      "verification_sha256": "b5f3f309a45f25c44909db97521f0173a7c9d8a511850f162786799dc7c04499",
+      "last_modified_utc": "2026-11-09T15:38:18.982442+00:00",
+      "hash_timestamp_utc": "2026-11-09T15:38:25.252595+00:00",
+      "verification_timestamp_utc": "2026-11-09T15:38:25.706016+00:00",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Registry Hives_Files/SYSTEM",
+      "size_bytes": 22560768,
+      "sha256": "1f78a2cef4bd2d2c34455a79681d3093828895ad5bbcc1dfa42e1ba0c3ac7011",
+      "verification_sha256": "1f78a2cef4bd2d2c34455a79681d3093828895ad5bbcc1dfa42e1ba0c3ac7011",
+      "last_modified_utc": "2026-11-09T15:38:18.149908+00:00",
+      "hash_timestamp_utc": "2026-11-09T15:38:25.784141+00:00",
+      "verification_timestamp_utc": "2026-11-09T15:38:25.862269+00:00",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Registry Hives_Files/UsrClass_xmfpq",
+      "size_bytes": 5255168,
+      "sha256": "b6cb83359c0d19a396f40eab3653747d5bf7008f26cb4a1a3b6af949decf94d9",
+      "verification_sha256": "b6cb83359c0d19a396f40eab3653747d5bf7008f26cb4a1a3b6af949decf94d9",
+      "last_modified_utc": "2026-11-09T15:38:23.638709+00:00",
+      "hash_timestamp_utc": "2026-11-09T15:38:25.893532+00:00",
+      "verification_timestamp_utc": "2026-11-09T15:38:25.909162+00:00",
+      "verification_status": "verified",
+      "error": null
+    }
+  ],
+  "error": null,
+  "errors": [],
+  "generated_at_utc": "2026-11-09T15:38:25.909162+00:00",
+  "generated_at_local": "2026-11-09T20:38:25.909162+05:00"
+}
