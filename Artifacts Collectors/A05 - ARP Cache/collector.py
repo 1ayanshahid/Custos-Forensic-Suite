@@ -513,10 +513,12 @@ def acquire_ipv4_neighbor_rows(
     rows: list[dict[str, Any]] = []
     errors: list[dict[str, Any]] = []
     status = "failed"
+    enumeration_status = "failed"
     try:
         status_code = int(api.get_ip_net_table2(AF_INET, ctypes.byref(table_pointer)))
         if status_code == ERROR_NOT_FOUND:
             status = "success"
+            enumeration_status = "success"
         elif status_code != NO_ERROR:
             errors.append(
                 {
@@ -543,6 +545,7 @@ def acquire_ipv4_neighbor_rows(
                     }
                 )
             else:
+                enumeration_status = "success"
                 rows_address = ctypes.addressof(table) + MIB_IPNET_TABLE2.Table.offset
                 row_size = ctypes.sizeof(MIB_IPNET_ROW2)
                 for index in range(count):
@@ -595,6 +598,7 @@ def acquire_ipv4_neighbor_rows(
         "provider": "Windows IP Helper",
         "api": "GetIpNetTable2(AF_INET)",
         "status": status,
+        "enumeration_status": enumeration_status,
         "return_code": status_code,
         "rows_returned": len(rows),
         "scope": (
@@ -971,8 +975,8 @@ def _run_with_integrity_manifest(main):
         "A40": "--output", "A41": "--output", "A42": "--output",
         "A46": "--output", "A47": "--output", "A48": "--output",
         "A51": "--output-dir", "A52": "--output-dir",
-        "A60": "--output-dir", "A67": "--output-dir",
-        "A69": "--output-dir", "X14": "--output-dir",
+        "A59": "--output-dir", "A66": "--output-dir",
+        "A68": "--output-dir", "X14": "--output-dir",
         "X15": "--output-dir", "X16": "--output-dir",
         "X18": "--output-dir", "X20": "--output-dir",
         "X22": "--output-dir", "X23": "--output-dir",
@@ -1005,7 +1009,7 @@ def _run_with_integrity_manifest(main):
         if artifact_id in {
             "A01", "A17", "A18", "A23", "A25", "A30", "A31",
             "A40", "A41", "A42", "A46", "A47", "A48", "A51",
-            "A52", "A60", "A67", "A69",
+            "A52", "A59", "A66", "A68",
         }:
             launcher_output_response = str(output_directory)
         else:
