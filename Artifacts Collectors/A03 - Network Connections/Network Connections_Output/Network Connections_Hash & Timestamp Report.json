@@ -6,26 +6,26 @@
   "hash_algorithm": "SHA-256",
   "verification_status": "verified",
   "verification_method": "Two independent reads of saved output files; SHA-256 comparison and size, mtime, ctime, device and file identity stability checks. Not acquisition-time hashing.",
-  "collection_started_at_utc": "2026-11-08T21:22:30.552627Z",
-  "collection_ended_at_utc": "2026-11-08T21:22:30.907030Z",
+  "collection_started_at_utc": "2026-11-10T21:40:14.028785Z",
+  "collection_ended_at_utc": "2026-11-10T21:40:14.494361Z",
   "collection_status": "partial",
   "collection_exit_code": 1,
-  "output_directory": "E:\\FYP Custos Forensic Suite\\Custos Forensic Suite\\Artifacts Collectors\\A03 - Network Connections\\Network Connections_Output",
+  "output_directory": "E:\\FYP Working Individually\\Ayan Shahid\\Artifacts Collectors\\A03 - Network Connections\\Network Connections_Output",
   "outputs": [
     {
-      "path": "Network Connections_20261109_022230.json",
-      "size_bytes": 642049,
-      "sha256": "ef398dd9a68a19dce114c6884347b73cab474a8857f1f6eb9dd26fa6723a7e15",
-      "verification_sha256": "ef398dd9a68a19dce114c6884347b73cab474a8857f1f6eb9dd26fa6723a7e15",
-      "last_modified_utc": "2026-11-08T21:22:30.907031+00:00",
-      "hash_timestamp_utc": "2026-11-08T21:22:30.923729+00:00",
-      "verification_timestamp_utc": "2026-11-08T21:22:30.923729+00:00",
+      "path": "Network Connections_20261111_024014.json",
+      "size_bytes": 793326,
+      "sha256": "5eff93e2db051d419afd9a2a3f3eb91b21af467fb0465372938960d43db9c35b",
+      "verification_sha256": "5eff93e2db051d419afd9a2a3f3eb91b21af467fb0465372938960d43db9c35b",
+      "last_modified_utc": "2026-11-10T21:40:14.478677+00:00",
+      "hash_timestamp_utc": "2026-11-10T21:40:14.510407+00:00",
+      "verification_timestamp_utc": "2026-11-10T21:40:14.510407+00:00",
       "verification_status": "verified",
       "error": null
     }
   ],
   "error": null,
   "errors": [],
-  "generated_at_utc": "2026-11-08T21:22:30.923729+00:00",
-  "generated_at_local": "2026-11-09T02:22:30.923729+05:00"
+  "generated_at_utc": "2026-11-10T21:40:14.510407+00:00",
+  "generated_at_local": "2026-11-11T02:40:14.510407+05:00"
 }
