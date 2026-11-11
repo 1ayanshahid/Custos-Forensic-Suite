@@ -1,0 +1,45 @@
+{
+  "status": "partial",
+  "utc": "2026-11-09T11:00:00.765424+00:00",
+  "count": 4,
+  "records": [
+    {
+      "channel": "System",
+      "saved_as": "D:\\FYP\\Custos Forensic Suite\\Artifacts Collectors\\A09 - Windows Event Logs\\Windows Event Logs_Output\\Windows Event Logs_Files\\System.evtx",
+      "scope": "full source channel",
+      "method": "wevtutil epl",
+      "status": "collected",
+      "size": 21041152,
+      "sha256": "c1ea06e8340dba3394fe9c34216db2586a2f54aa0a3a328b76fef26ee621952d",
+      "collected_at": "2026-11-09T11:00:00.049831+00:00"
+    },
+    {
+      "channel": "Application",
+      "saved_as": "D:\\FYP\\Custos Forensic Suite\\Artifacts Collectors\\A09 - Windows Event Logs\\Windows Event Logs_Output\\Windows Event Logs_Files\\Application.evtx",
+      "scope": "full source channel",
+      "method": "wevtutil epl",
+      "status": "collected",
+      "size": 21041152,
+      "sha256": "03e4c202daeefb28b0707098e813b4b2971e68def5282560a301dbca24879739",
+      "collected_at": "2026-11-09T11:00:00.378205+00:00"
+    },
+    {
+      "channel": "Security",
+      "saved_as": "D:\\FYP\\Custos Forensic Suite\\Artifacts Collectors\\A09 - Windows Event Logs\\Windows Event Logs_Output\\Windows Event Logs_Files\\Security.evtx",
+      "scope": "full source channel",
+      "method": "wevtutil epl",
+      "status": "collected",
+      "size": 21041152,
+      "sha256": "c87e638476a3849adbf301590873c4bca04d6a02d351a4c1d7e3720b2eef12f2",
+      "collected_at": "2026-11-09T11:00:00.741069+00:00"
+    },
+    {
+      "channel": "PowerShell/Operational",
+      "saved_as": "D:\\FYP\\Custos Forensic Suite\\Artifacts Collectors\\A09 - Windows Event Logs\\Windows Event Logs_Output\\Windows Event Logs_Files\\PowerShell_Operational.evtx",
+      "scope": "full source channel",
+      "method": "wevtutil epl",
+      "status": "error",
+      "error": "Failed to export log PowerShell/Operational.\nThe specified channel could not be found."
+    }
+  ]
+}
