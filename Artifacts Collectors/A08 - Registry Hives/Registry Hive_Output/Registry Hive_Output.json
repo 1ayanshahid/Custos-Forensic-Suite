@@ -1,0 +1,85 @@
+{
+  "status": "collected",
+  "utc": "2026-11-09T15:38:23.733740+00:00",
+  "count": 10,
+  "records": [
+    {
+      "hive": "SYSTEM",
+      "source_key": "HKLM\\SYSTEM",
+      "status": "collected",
+      "collected_at": "2026-11-09T15:38:18.481373+00:00",
+      "saved_as": "D:\\FYP\\Custos Forensic Suite\\Artifacts Collectors\\A08 - Registry Hives\\Registry Hive_Output\\Registry Hives_Files\\SYSTEM",
+      "size": 22560768,
+      "sha256": "1f78a2cef4bd2d2c34455a79681d3093828895ad5bbcc1dfa42e1ba0c3ac7011"
+    },
+    {
+      "hive": "SOFTWARE",
+      "source_key": "HKLM\\SOFTWARE",
+      "status": "collected",
+      "collected_at": "2026-11-09T15:38:20.683901+00:00",
+      "saved_as": "D:\\FYP\\Custos Forensic Suite\\Artifacts Collectors\\A08 - Registry Hives\\Registry Hive_Output\\Registry Hives_Files\\SOFTWARE",
+      "size": 117149696,
+      "sha256": "b5f3f309a45f25c44909db97521f0173a7c9d8a511850f162786799dc7c04499"
+    },
+    {
+      "hive": "SAM",
+      "source_key": "HKLM\\SAM",
+      "status": "collected",
+      "collected_at": "2026-11-09T15:38:21.190955+00:00",
+      "saved_as": "D:\\FYP\\Custos Forensic Suite\\Artifacts Collectors\\A08 - Registry Hives\\Registry Hive_Output\\Registry Hives_Files\\SAM",
+      "size": 81920,
+      "sha256": "fe9e88765fbc2ac70c6cb3861bd7ffbaebcda96e109fa58b9193ac2e114258d8"
+    },
+    {
+      "hive": "SECURITY",
+      "source_key": "HKLM\\SECURITY",
+      "status": "collected",
+      "collected_at": "2026-11-09T15:38:21.244351+00:00",
+      "saved_as": "D:\\FYP\\Custos Forensic Suite\\Artifacts Collectors\\A08 - Registry Hives\\Registry Hive_Output\\Registry Hives_Files\\SECURITY",
+      "size": 57344,
+      "sha256": "609e7fa25aaa57a41ae5203de5c70b612f50759631c43a61e7d0e3293ef79ecf"
+    },
+    {
+      "hive": "NTUSER_Splunkd",
+      "source_key": "HKU\\S-1-5-80-3191021196-3668848460-1609882449-918409182-1203010618",
+      "status": "error",
+      "stderr": "ERROR: The system was unable to find the specified registry key or value."
+    },
+    {
+      "hive": "UsrClass_Splunkd",
+      "source_key": "HKU\\S-1-5-80-3191021196-3668848460-1609882449-918409182-1203010618_Classes",
+      "status": "error",
+      "stderr": "ERROR: The system was unable to find the specified registry key or value."
+    },
+    {
+      "hive": "NTUSER_ddagentuser",
+      "source_key": "HKU\\S-1-5-21-1639246496-3885758045-511295027-1009",
+      "status": "error",
+      "stderr": "ERROR: The system was unable to find the specified registry key or value."
+    },
+    {
+      "hive": "UsrClass_ddagentuser",
+      "source_key": "HKU\\S-1-5-21-1639246496-3885758045-511295027-1009_Classes",
+      "status": "error",
+      "stderr": "ERROR: The system was unable to find the specified registry key or value."
+    },
+    {
+      "hive": "NTUSER_xmfpq",
+      "source_key": "HKU\\S-1-5-21-1639246496-3885758045-511295027-1001",
+      "status": "collected",
+      "collected_at": "2026-11-09T15:38:23.450898+00:00",
+      "saved_as": "D:\\FYP\\Custos Forensic Suite\\Artifacts Collectors\\A08 - Registry Hives\\Registry Hive_Output\\Registry Hives_Files\\NTUSER_xmfpq",
+      "size": 34254848,
+      "sha256": "c1348d41d3364f7ae7cbba81ce6da4f9de7cd40ee51eb8bcd8cc3aca38e3dd8d"
+    },
+    {
+      "hive": "UsrClass_xmfpq",
+      "source_key": "HKU\\S-1-5-21-1639246496-3885758045-511295027-1001_Classes",
+      "status": "collected",
+      "collected_at": "2026-11-09T15:38:23.719722+00:00",
+      "saved_as": "D:\\FYP\\Custos Forensic Suite\\Artifacts Collectors\\A08 - Registry Hives\\Registry Hive_Output\\Registry Hives_Files\\UsrClass_xmfpq",
+      "size": 5255168,
+      "sha256": "b6cb83359c0d19a396f40eab3653747d5bf7008f26cb4a1a3b6af949decf94d9"
+    }
+  ]
+}
