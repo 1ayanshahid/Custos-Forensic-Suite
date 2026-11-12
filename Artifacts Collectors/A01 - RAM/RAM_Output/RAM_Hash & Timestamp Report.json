@@ -1,4 +1,4 @@
-{
+ {
   "schema_version": 1,
   "artifact_id": "A01",
   "artifact_name": "RAM",
@@ -6,37 +6,37 @@
   "hash_algorithm": "SHA-256",
   "verification_status": "verified",
   "verification_method": "Two independent reads of saved output files; SHA-256 comparison and size, mtime, ctime, device and file identity stability checks. Not acquisition-time hashing.",
-  "collection_started_at_utc": "2026-11-09T11:11:37Z",
-  "collection_ended_at_utc": "2026-11-09T11:12:41Z",
+  "collection_started_at_utc": "2026-11-12T06:15:20Z",
+  "collection_ended_at_utc": "2026-11-12T06:17:43Z",
   "collection_status": "completed",
   "collection_exit_code": 0,
   "output_directory": "E:\\FYP Working Individually\\Ayan Shahid\\Artifacts Collectors\\A01 - RAM\\RAM_Output",
   "outputs": [
     {
-      "path": "A01_memory_20261109T111137.000000Z.raw",
+      "path": "A01_memory_20261112T061520.000000Z.raw",
       "size_bytes": 18211667968,
-      "sha256": "83b8e451d773bc75b279ae3417f061416a9bf800d510c91cfa5a205721f54d06",
-      "verification_sha256": "83b8e451d773bc75b279ae3417f061416a9bf800d510c91cfa5a205721f54d06",
-      "last_modified_utc": "2026-11-09T11:11:51.102083+00:00",
-      "hash_timestamp_utc": "2026-11-09T11:13:32.974396+00:00",
-      "verification_timestamp_utc": "2026-11-09T11:14:23.218605+00:00",
+      "sha256": "ef7d85761ae3ab70852198ff445cc8462ca9cd4a962f6199b95df00f54d7474c",
+      "verification_sha256": "ef7d85761ae3ab70852198ff445cc8462ca9cd4a962f6199b95df00f54d7474c",
+      "last_modified_utc": "2026-11-12T06:15:46.809410+00:00",
+      "hash_timestamp_utc": "2026-11-12T06:19:30.350638+00:00",
+      "verification_timestamp_utc": "2026-11-12T06:20:59.444187+00:00",
       "verification_status": "verified",
       "error": null
     },
     {
-      "path": "RAM_collection_20261109T111137.000000Z.json",
+      "path": "RAM_collection_20261112T061520.000000Z.json",
       "size_bytes": 7754,
-      "sha256": "7e50d2420e567f7385af93c96093b7821941d445e6fba3591768462f7511d942",
-      "verification_sha256": "7e50d2420e567f7385af93c96093b7821941d445e6fba3591768462f7511d942",
-      "last_modified_utc": "2026-11-09T11:12:41.910346+00:00",
-      "hash_timestamp_utc": "2026-11-09T11:14:23.218605+00:00",
-      "verification_timestamp_utc": "2026-11-09T11:14:23.218605+00:00",
+      "sha256": "41d73e3c50475b19727f0cf70ccb72a59adca9025d27011bcf9445a96e59fcf9",
+      "verification_sha256": "41d73e3c50475b19727f0cf70ccb72a59adca9025d27011bcf9445a96e59fcf9",
+      "last_modified_utc": "2026-11-12T06:17:43.763818+00:00",
+      "hash_timestamp_utc": "2026-11-12T06:20:59.448485+00:00",
+      "verification_timestamp_utc": "2026-11-12T06:20:59.448789+00:00",
       "verification_status": "verified",
       "error": null
     }
   ],
   "error": null,
   "errors": [],
-  "generated_at_utc": "2026-11-09T11:14:23.218605+00:00",
-  "generated_at_local": "2026-11-09T16:14:23.218605+05:00"
+  "generated_at_utc": "2026-11-12T06:20:59.448789+00:00",
+  "generated_at_local": "2026-11-12T11:20:59.448789+05:00"
 }
