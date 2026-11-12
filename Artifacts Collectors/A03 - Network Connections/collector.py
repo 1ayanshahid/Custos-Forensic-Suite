@@ -1200,7 +1200,10 @@ def _finalize_endpoint(endpoint: dict[str, Any]) -> None:
     endpoint["collection_status"] = (
         "partial"
         if endpoint.get("field_errors")
-        or endpoint.get("field_unavailability")
+        or any(
+            endpoint["field_status"].get(field) != "not_applicable"
+            for field in endpoint.get("field_unavailability", {})
+        )
         or endpoint.get("owning_pid") is None
         or endpoint.get("owning_process_name") is None
         else endpoint.get("collection_status", "success")
@@ -1546,8 +1549,8 @@ def _run_with_integrity_manifest(main):
         "A40": "--output", "A41": "--output", "A42": "--output",
         "A46": "--output", "A47": "--output", "A48": "--output",
         "A51": "--output-dir", "A52": "--output-dir",
-        "A60": "--output-dir", "A67": "--output-dir",
-        "A69": "--output-dir", "X14": "--output-dir",
+        "A59": "--output-dir", "A66": "--output-dir",
+        "A68": "--output-dir", "X14": "--output-dir",
         "X15": "--output-dir", "X16": "--output-dir",
         "X18": "--output-dir", "X20": "--output-dir",
         "X22": "--output-dir", "X23": "--output-dir",
@@ -1580,7 +1583,7 @@ def _run_with_integrity_manifest(main):
         if artifact_id in {
             "A01", "A17", "A18", "A23", "A25", "A30", "A31",
             "A40", "A41", "A42", "A46", "A47", "A48", "A51",
-            "A52", "A60", "A67", "A69",
+            "A52", "A59", "A66", "A68",
         }:
             launcher_output_response = str(output_directory)
         else:
