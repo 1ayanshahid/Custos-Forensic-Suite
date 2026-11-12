@@ -1,0 +1,1960 @@
+{
+  "schema_version": 1,
+  "artifact_name": "Scheduled Tasks Enumeration",
+  "collector": "collector.py",
+  "hash_algorithm": "SHA-256",
+  "verification_status": "verified",
+  "verification_method": "Two independent reads of saved output files; SHA-256 comparison and size, mtime, ctime, device and file identity stability checks. Not acquisition-time hashing.",
+  "collection_status": "completed",
+  "collection_exit_code": 0,
+  "output_directory": "E:\\Custos Forensic Suite\\Artifacts Collectors\\A07 - Scheduled Tasks Enumeration\\Scheduled Tasks Enumeration_Output",
+  "outputs": [
+    {
+      "path": "Scheduled Tasks Enumeration_20261112T052739Z_27179ec8.json",
+      "size_bytes": 2985750,
+      "sha256": "c468d35662efcdfc1dfb1c0ebacc01e238221a2d1bb150c5f45e9ff2d84e586d",
+      "verification_sha256": "c468d35662efcdfc1dfb1c0ebacc01e238221a2d1bb150c5f45e9ff2d84e586d",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/GoogleSystem/GoogleUpdater/GoogleUpdaterTaskSystem157.0.8089.0{06B717C1-2B29-4939-AED1-FAFB98DA6DBF}",
+      "size_bytes": 4324,
+      "sha256": "0252ead4d6db8eb9dae47206445ca1a64bfd930023919ff2a9c055f9276fe558",
+      "verification_sha256": "0252ead4d6db8eb9dae47206445ca1a64bfd930023919ff2a9c055f9276fe558",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/GoogleSystem/GoogleUpdater/GoogleUpdaterTaskSystem157.0.8089.0{077AD2C0-BC86-4B73-BF3F-969AC3E60386}",
+      "size_bytes": 4324,
+      "sha256": "e7c14be5746c39c8f3b1d45023005ee1571766462275ab176bb027d58dbf6584",
+      "verification_sha256": "e7c14be5746c39c8f3b1d45023005ee1571766462275ab176bb027d58dbf6584",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/GoogleUserPEH/RunPlatformExperienceHelper_Daily",
+      "size_bytes": 3834,
+      "sha256": "b520d27f35b86c391d957e8b345278b637b5b6577740a0c8b76d711ba17930be",
+      "verification_sha256": "b520d27f35b86c391d957e8b345278b637b5b6577740a0c8b76d711ba17930be",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/GoogleUserPEH/RunPlatformExperienceHelper_Metrics",
+      "size_bytes": 3782,
+      "sha256": "fc16c54d816913feea97848238b85c1c83b82e6b57b25b18c851c0ce4d54ae22",
+      "verification_sha256": "fc16c54d816913feea97848238b85c1c83b82e6b57b25b18c851c0ce4d54ae22",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/GoogleUserPEH/RunPlatformExperienceHelperOnUnlock",
+      "size_bytes": 3850,
+      "sha256": "7ad327c2c87cd77afc703896a64bd49392b399602c6b57f652d816584b908fa5",
+      "verification_sha256": "7ad327c2c87cd77afc703896a64bd49392b399602c6b57f652d816584b908fa5",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Intel PTT EK Recertification",
+      "size_bytes": 3840,
+      "sha256": "6d885cfcabdd90c6d8e4d46970f910114ce65b73836806095d0632043c87ed50",
+      "verification_sha256": "6d885cfcabdd90c6d8e4d46970f910114ce65b73836806095d0632043c87ed50",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/.NET Framework/.NET Framework NGEN v4.0.30319",
+      "size_bytes": 3706,
+      "sha256": "088a2c2b82c48863b333ad56d31486ea994e9b1ffa6eed77e111e202b6b19338",
+      "verification_sha256": "088a2c2b82c48863b333ad56d31486ea994e9b1ffa6eed77e111e202b6b19338",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/.NET Framework/.NET Framework NGEN v4.0.30319 64",
+      "size_bytes": 3712,
+      "sha256": "e8c65acf9907efced4b22e727d2f1ca9ad8388b1a91ca740f6033495501b2db4",
+      "verification_sha256": "e8c65acf9907efced4b22e727d2f1ca9ad8388b1a91ca740f6033495501b2db4",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/.NET Framework/.NET Framework NGEN v4.0.30319 64 Critical",
+      "size_bytes": 2882,
+      "sha256": "6a1a6058efdd7becf0b2784f6ea78a898687b761791550d349f9dd3741653798",
+      "verification_sha256": "6a1a6058efdd7becf0b2784f6ea78a898687b761791550d349f9dd3741653798",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/.NET Framework/.NET Framework NGEN v4.0.30319 Critical",
+      "size_bytes": 2876,
+      "sha256": "d201d333df6e508a1786f59f22c0ca01d6f8aec744870c6c4f2ebed9a49695e3",
+      "verification_sha256": "d201d333df6e508a1786f59f22c0ca01d6f8aec744870c6c4f2ebed9a49695e3",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Active Directory Rights Management Services Client/AD RMS Rights Policy Template Management (Automated)",
+      "size_bytes": 3978,
+      "sha256": "e11d74b2ee5667a36820a3449db7774b166a22be60a8df980fb1ca2b1f5f3d24",
+      "verification_sha256": "e11d74b2ee5667a36820a3449db7774b166a22be60a8df980fb1ca2b1f5f3d24",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Active Directory Rights Management Services Client/AD RMS Rights Policy Template Management (Manual)",
+      "size_bytes": 3426,
+      "sha256": "3259b3b00b1db73a02a6320c38b8fad95675fe074916705303cf328a5dd603f0",
+      "verification_sha256": "3259b3b00b1db73a02a6320c38b8fad95675fe074916705303cf328a5dd603f0",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/AppID/EDP Policy Manager",
+      "size_bytes": 3436,
+      "sha256": "a53e6899df53586d3c7486b1fb85848d20fd00ae2a157e01032037b0a1363f28",
+      "verification_sha256": "a53e6899df53586d3c7486b1fb85848d20fd00ae2a157e01032037b0a1363f28",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/AppID/PolicyConverter",
+      "size_bytes": 2810,
+      "sha256": "e198488eaa23c7ea764c4f2991d8c7080ef620bd1e1750fe0ffaaf5b1ee5eb75",
+      "verification_sha256": "e198488eaa23c7ea764c4f2991d8c7080ef620bd1e1750fe0ffaaf5b1ee5eb75",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/AppID/VerifiedPublisherCertStoreCheck",
+      "size_bytes": 3288,
+      "sha256": "fadbc67ac6b88741349987f1d8e6916020dd9813136f01cdc7988ff726b2fb65",
+      "verification_sha256": "fadbc67ac6b88741349987f1d8e6916020dd9813136f01cdc7988ff726b2fb65",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Application Experience/MareBackup",
+      "size_bytes": 3360,
+      "sha256": "7c7e4a48f86be63276a41bab758d1751769267069658fb68c07cb7d719445380",
+      "verification_sha256": "7c7e4a48f86be63276a41bab758d1751769267069658fb68c07cb7d719445380",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Application Experience/Microsoft Compatibility Appraiser",
+      "size_bytes": 3344,
+      "sha256": "07946f12e0a7986818a509094956f85c642c5b291d82595d2b2c59e5d917cb7f",
+      "verification_sha256": "07946f12e0a7986818a509094956f85c642c5b291d82595d2b2c59e5d917cb7f",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Application Experience/PcaPatchDbTask",
+      "size_bytes": 4368,
+      "sha256": "2e45b19a08f38a948d25b4f8a8459770531df09a185633d61ae7b9dac986a1a9",
+      "verification_sha256": "2e45b19a08f38a948d25b4f8a8459770531df09a185633d61ae7b9dac986a1a9",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Application Experience/PcaWallpaperAppDetect",
+      "size_bytes": 4366,
+      "sha256": "f0c6c0d58e43d8941f7e72b7141ec06820955b9f66383e2edc56fe2630459436",
+      "verification_sha256": "f0c6c0d58e43d8941f7e72b7141ec06820955b9f66383e2edc56fe2630459436",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Application Experience/SdbinstMergeDbTask",
+      "size_bytes": 3430,
+      "sha256": "85e73b65093f0c94c39478bc8eab62ac608c0f2c5d94a1fb68f2c9bcbd00c7d6",
+      "verification_sha256": "85e73b65093f0c94c39478bc8eab62ac608c0f2c5d94a1fb68f2c9bcbd00c7d6",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Application Experience/StartupAppTask",
+      "size_bytes": 3090,
+      "sha256": "78c9bb91a173fec99ed549854ec81dc4768665f6d2cc579495b19205598143c4",
+      "verification_sha256": "78c9bb91a173fec99ed549854ec81dc4768665f6d2cc579495b19205598143c4",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/ApplicationData/appuriverifierdaily",
+      "size_bytes": 3316,
+      "sha256": "f664858003f31c66cae2a36685080d6d4b1578dc891919ef8791e720ce970da3",
+      "verification_sha256": "f664858003f31c66cae2a36685080d6d4b1578dc891919ef8791e720ce970da3",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/ApplicationData/appuriverifierinstall",
+      "size_bytes": 3422,
+      "sha256": "eabad2ef7c98a4b156e993b89ee14892ecf9555ab0cb8805a8ebd863c74b9abe",
+      "verification_sha256": "eabad2ef7c98a4b156e993b89ee14892ecf9555ab0cb8805a8ebd863c74b9abe",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/ApplicationData/CleanupTemporaryState",
+      "size_bytes": 3052,
+      "sha256": "592760f890e9bd0bdd4d5f1fd1b67328512c3baafbaf2a84597589d4d4606a73",
+      "verification_sha256": "592760f890e9bd0bdd4d5f1fd1b67328512c3baafbaf2a84597589d4d4606a73",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/ApplicationData/DsSvcCleanup",
+      "size_bytes": 2716,
+      "sha256": "73fd96075465ab9451537650ac3ff1914dbdb88e6ac7a39078a5e01f0075b867",
+      "verification_sha256": "73fd96075465ab9451537650ac3ff1914dbdb88e6ac7a39078a5e01f0075b867",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/AppListBackup/Backup",
+      "size_bytes": 2796,
+      "sha256": "25c0e840969d4c073e72725f2bd664f364162cf46a137bf311cb5cc38056bbaf",
+      "verification_sha256": "25c0e840969d4c073e72725f2bd664f364162cf46a137bf311cb5cc38056bbaf",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/AppListBackup/BackupNonMaintenance",
+      "size_bytes": 3086,
+      "sha256": "aea38c4cc76ca8d3be2d19eeb9fed1125f80b37c092a60a5b5d7feb3b0fe7660",
+      "verification_sha256": "aea38c4cc76ca8d3be2d19eeb9fed1125f80b37c092a60a5b5d7feb3b0fe7660",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/AppxDeploymentClient/AppInstallerUpdater",
+      "size_bytes": 3262,
+      "sha256": "02bd93930ba55107af7e6080fa4d87f6c846ead1f45f286436b41d7f93b198db",
+      "verification_sha256": "02bd93930ba55107af7e6080fa4d87f6c846ead1f45f286436b41d7f93b198db",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/AppxDeploymentClient/Pre-staged app cleanup",
+      "size_bytes": 3086,
+      "sha256": "9308b1a28c4dd92bce2f2816fcc5362c6a460fa6f558688af021ec5f750e811d",
+      "verification_sha256": "9308b1a28c4dd92bce2f2816fcc5362c6a460fa6f558688af021ec5f750e811d",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/AppxDeploymentClient/UCPD velocity",
+      "size_bytes": 2546,
+      "sha256": "b7a0373d97a6a314cabbb001c3296da693ec3aced7262137e4b73a76548aecf3",
+      "verification_sha256": "b7a0373d97a6a314cabbb001c3296da693ec3aced7262137e4b73a76548aecf3",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Autochk/Proxy",
+      "size_bytes": 3314,
+      "sha256": "8fe99dc887f1fc65940ccf07b475212008cac1febe4d282355d3fbc95be5bcb1",
+      "verification_sha256": "8fe99dc887f1fc65940ccf07b475212008cac1febe4d282355d3fbc95be5bcb1",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/BitLocker/BitLocker Encrypt All Drives",
+      "size_bytes": 2496,
+      "sha256": "0a9d1219dc36c41bb68cd837747d1933c90ed5119a2f1d8981d248d2785d2493",
+      "verification_sha256": "0a9d1219dc36c41bb68cd837747d1933c90ed5119a2f1d8981d248d2785d2493",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/BitLocker/BitLocker MDM policy Refresh",
+      "size_bytes": 2344,
+      "sha256": "96b16e094d964edbec681b21f71a6c5dd7d6d6388659c3833f149314ad7a37a8",
+      "verification_sha256": "96b16e094d964edbec681b21f71a6c5dd7d6d6388659c3833f149314ad7a37a8",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Bluetooth/UninstallDeviceTask",
+      "size_bytes": 2328,
+      "sha256": "4f3f5959754f132fb2addfbc14534da38e3042639cdebe713e83285b0f3f714d",
+      "verification_sha256": "4f3f5959754f132fb2addfbc14534da38e3042639cdebe713e83285b0f3f714d",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/BrokerInfrastructure/BgTaskRegistrationMaintenanceTask",
+      "size_bytes": 3088,
+      "sha256": "467c9fb9ea79e5967431b65eaa52cbcc6c7c5d08716c9eccd5340eeb21c40d4f",
+      "verification_sha256": "467c9fb9ea79e5967431b65eaa52cbcc6c7c5d08716c9eccd5340eeb21c40d4f",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/capabilityaccessmanager/maintenancetasks",
+      "size_bytes": 3082,
+      "sha256": "d88b1a8761cc4b9141dc02a59c9fdcce2fe3b661f7d2fc27f324e4b92cbfb693",
+      "verification_sha256": "d88b1a8761cc4b9141dc02a59c9fdcce2fe3b661f7d2fc27f324e4b92cbfb693",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/CertificateServicesClient/AikCertEnrollTask",
+      "size_bytes": 4030,
+      "sha256": "ae7e205de1527a5f19f8fbd0f99eba42d9f91470c639780458da16109cbd4e50",
+      "verification_sha256": "ae7e205de1527a5f19f8fbd0f99eba42d9f91470c639780458da16109cbd4e50",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/CertificateServicesClient/CryptoPolicyTask",
+      "size_bytes": 2830,
+      "sha256": "e3ae6dccd45b1a490163531496fb7c94b410f619a813a487894ebc48316269a0",
+      "verification_sha256": "e3ae6dccd45b1a490163531496fb7c94b410f619a813a487894ebc48316269a0",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/CertificateServicesClient/KeyPreGenTask",
+      "size_bytes": 5486,
+      "sha256": "4544947b5723785b433d6c776a6ee1c6ff708dff591e7674764ddd544323b0bd",
+      "verification_sha256": "4544947b5723785b433d6c776a6ee1c6ff708dff591e7674764ddd544323b0bd",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/CertificateServicesClient/SystemTask",
+      "size_bytes": 3694,
+      "sha256": "94c8734a04adf82eb97e317e1dbddb701fbf5c67c47dcd85f4fb7246d0ab84ab",
+      "verification_sha256": "94c8734a04adf82eb97e317e1dbddb701fbf5c67c47dcd85f4fb7246d0ab84ab",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/CertificateServicesClient/UserTask",
+      "size_bytes": 4816,
+      "sha256": "3e138da5499c1a44c3c3f4f428a7bd1c4d31925b32ff26179ed82b619ec8cccf",
+      "verification_sha256": "3e138da5499c1a44c3c3f4f428a7bd1c4d31925b32ff26179ed82b619ec8cccf",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/CertificateServicesClient/UserTask-Roam",
+      "size_bytes": 3554,
+      "sha256": "4c31c642cc7f9242ed762eb1706750a54b92e72df3106bf3e6afb8119725c987",
+      "verification_sha256": "4c31c642cc7f9242ed762eb1706750a54b92e72df3106bf3e6afb8119725c987",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Chkdsk/ProactiveScan",
+      "size_bytes": 2780,
+      "sha256": "b8b2034385efd239b5126a89279fb5cdeaf92769fcd93d0fc0f01e9324adb7d9",
+      "verification_sha256": "b8b2034385efd239b5126a89279fb5cdeaf92769fcd93d0fc0f01e9324adb7d9",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Chkdsk/SyspartRepair",
+      "size_bytes": 2448,
+      "sha256": "bd78f58171ce7d7af0031c7535439b7e988e53ef487b4fba5ab6d2871d36d8c1",
+      "verification_sha256": "bd78f58171ce7d7af0031c7535439b7e988e53ef487b4fba5ab6d2871d36d8c1",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Clip/License Validation",
+      "size_bytes": 3428,
+      "sha256": "981e5915183b192db02b8a97392ee0120e5dfaf0589ada0a524f9312188be4a9",
+      "verification_sha256": "981e5915183b192db02b8a97392ee0120e5dfaf0589ada0a524f9312188be4a9",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Clip/LicenseImdsIntegration",
+      "size_bytes": 3688,
+      "sha256": "a6e74515843b5618f981b7c54c36111a3e67f50af3bdeb0c719128505e7aa225",
+      "verification_sha256": "a6e74515843b5618f981b7c54c36111a3e67f50af3bdeb0c719128505e7aa225",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/CloudExperienceHost/CreateObjectTask",
+      "size_bytes": 2240,
+      "sha256": "1bd9125b5857c1db1693a6fb1ccfd2c0cfb6c245b52af03d5a1f493edb59c2dc",
+      "verification_sha256": "1bd9125b5857c1db1693a6fb1ccfd2c0cfb6c245b52af03d5a1f493edb59c2dc",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/CloudRestore/Backup",
+      "size_bytes": 3852,
+      "sha256": "b1653c0739ad03c4e9dc7c15f2eb350c81784cd624c38ccc1447d137527f7352",
+      "verification_sha256": "b1653c0739ad03c4e9dc7c15f2eb350c81784cd624c38ccc1447d137527f7352",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/CloudRestore/Restore",
+      "size_bytes": 3164,
+      "sha256": "ef1b78abaf7103b5226d0f9a5e9cb7a2f3cf9c8d65fb75eac428f064db269920",
+      "verification_sha256": "ef1b78abaf7103b5226d0f9a5e9cb7a2f3cf9c8d65fb75eac428f064db269920",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/ConsentUX/UnifiedConsent/UnifiedConsentSyncTask",
+      "size_bytes": 4404,
+      "sha256": "f1885bc28d1194d6fa6d25edbe3e4f8bc26211c9bed565348ede7f5444880e0b",
+      "verification_sha256": "f1885bc28d1194d6fa6d25edbe3e4f8bc26211c9bed565348ede7f5444880e0b",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Customer Experience Improvement Program/Consolidator",
+      "size_bytes": 3266,
+      "sha256": "8f0319f06ec11d15660d7c66b6359368f7dcdc77c6e691f9187bfbf25bc2c8e3",
+      "verification_sha256": "8f0319f06ec11d15660d7c66b6359368f7dcdc77c6e691f9187bfbf25bc2c8e3",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Customer Experience Improvement Program/UsbCeip",
+      "size_bytes": 3372,
+      "sha256": "b2c4b8030316be004c6e251e6abe4879f3c5d15bb69b78fea63c31f7758fdbb5",
+      "verification_sha256": "b2c4b8030316be004c6e251e6abe4879f3c5d15bb69b78fea63c31f7758fdbb5",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Data Integrity Scan/Data Integrity Check And Scan",
+      "size_bytes": 3594,
+      "sha256": "7ac7fadae1562c637fb41f41eff25b42bbdbb4870f0546c4db20a684f1ab24f8",
+      "verification_sha256": "7ac7fadae1562c637fb41f41eff25b42bbdbb4870f0546c4db20a684f1ab24f8",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Data Integrity Scan/Data Integrity Scan",
+      "size_bytes": 2862,
+      "sha256": "c400f7ac21a9090cdabd085acac1ee6f0220da0382afbaca3846db52f71c32df",
+      "verification_sha256": "c400f7ac21a9090cdabd085acac1ee6f0220da0382afbaca3846db52f71c32df",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Data Integrity Scan/Data Integrity Scan for Crash Recovery",
+      "size_bytes": 3354,
+      "sha256": "72d7009b2e9f0a32ad05d9030847f0f7ef0fcec419c12a44167da56d304b1024",
+      "verification_sha256": "72d7009b2e9f0a32ad05d9030847f0f7ef0fcec419c12a44167da56d304b1024",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Defrag/ScheduledDefrag",
+      "size_bytes": 3472,
+      "sha256": "a8d7d45acaa97697d925bc8eea021706e9c597e37477d89f66a35d1f20a703d5",
+      "verification_sha256": "a8d7d45acaa97697d925bc8eea021706e9c597e37477d89f66a35d1f20a703d5",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Device Information/Device",
+      "size_bytes": 4326,
+      "sha256": "d93bfabc7029718b562c5a6db093e710ded1267c79af2863b081b72e3a552b82",
+      "verification_sha256": "d93bfabc7029718b562c5a6db093e710ded1267c79af2863b081b72e3a552b82",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Device Information/Device User",
+      "size_bytes": 2866,
+      "sha256": "c2d507e3d1d2edb1662f984fbdefbd1ba63bf1e9228ad952ef938179365282ee",
+      "verification_sha256": "c2d507e3d1d2edb1662f984fbdefbd1ba63bf1e9228ad952ef938179365282ee",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Device Setup/Metadata Refresh",
+      "size_bytes": 2984,
+      "sha256": "f3bb9c24e2b424b5d380fcf393a093d0c642b6a54abd363b256b27c6145a0c5a",
+      "verification_sha256": "f3bb9c24e2b424b5d380fcf393a093d0c642b6a54abd363b256b27c6145a0c5a",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/DeviceDirectoryClient/HandleCommand",
+      "size_bytes": 2784,
+      "sha256": "6d14ad1964ec0ac4b1034e502224e8c8de89258113e59f5d37e153948069d715",
+      "verification_sha256": "6d14ad1964ec0ac4b1034e502224e8c8de89258113e59f5d37e153948069d715",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/DeviceDirectoryClient/HandleWnsCommand",
+      "size_bytes": 2784,
+      "sha256": "6ff9c7e6239855121983a1f9ce89b1a842e975ac5c8b6e54e519acd92ec8033d",
+      "verification_sha256": "6ff9c7e6239855121983a1f9ce89b1a842e975ac5c8b6e54e519acd92ec8033d",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/DeviceDirectoryClient/IntegrityCheck",
+      "size_bytes": 3500,
+      "sha256": "145c6e2fd4c79ebfebb3ecf3c5142e759b753d121fc9c740f759c1cbe338fe9a",
+      "verification_sha256": "145c6e2fd4c79ebfebb3ecf3c5142e759b753d121fc9c740f759c1cbe338fe9a",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/DeviceDirectoryClient/LocateCommandUserSession",
+      "size_bytes": 2810,
+      "sha256": "d927800060ba3a601a8e46ef78b5b769150e6178b1f541f9a92804f0c0f5e469",
+      "verification_sha256": "d927800060ba3a601a8e46ef78b5b769150e6178b1f541f9a92804f0c0f5e469",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/DeviceDirectoryClient/RegisterDeviceAccountChange",
+      "size_bytes": 3404,
+      "sha256": "a569af59605693f96460aa4ecb6effd0a4adb6d701a87eebb8488ce99b97cc96",
+      "verification_sha256": "a569af59605693f96460aa4ecb6effd0a4adb6d701a87eebb8488ce99b97cc96",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/DeviceDirectoryClient/RegisterDeviceLocationRightsChange",
+      "size_bytes": 3486,
+      "sha256": "c5aa4d302bc016bb79d287553e9bc5875d35cee35df9a3443a90f5f62efc175d",
+      "verification_sha256": "c5aa4d302bc016bb79d287553e9bc5875d35cee35df9a3443a90f5f62efc175d",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/DeviceDirectoryClient/RegisterDevicePeriodic24",
+      "size_bytes": 3622,
+      "sha256": "adb07c5613a3c726c3b65b733e5a6cabef68d3d65a3b4baee38d85f37223e7ea",
+      "verification_sha256": "adb07c5613a3c726c3b65b733e5a6cabef68d3d65a3b4baee38d85f37223e7ea",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/DeviceDirectoryClient/RegisterDevicePolicyChange",
+      "size_bytes": 3402,
+      "sha256": "657e33cd7af34b41105ca5ecdc54a7a559a2fee4eec8ca639607470191fd549d",
+      "verification_sha256": "657e33cd7af34b41105ca5ecdc54a7a559a2fee4eec8ca639607470191fd549d",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/DeviceDirectoryClient/RegisterDeviceProtectionStateChanged",
+      "size_bytes": 3154,
+      "sha256": "e1dace466e79707a9ebcbffcb21fc57001d8bdebe35cdc6f3e93e8943956c2f9",
+      "verification_sha256": "e1dace466e79707a9ebcbffcb21fc57001d8bdebe35cdc6f3e93e8943956c2f9",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/DeviceDirectoryClient/RegisterDeviceSettingChange",
+      "size_bytes": 3414,
+      "sha256": "9758dbc67ae6850ddf39b0c1dc53d40ad10c4c8b85074201abff53e3a6c2dd88",
+      "verification_sha256": "9758dbc67ae6850ddf39b0c1dc53d40ad10c4c8b85074201abff53e3a6c2dd88",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/DeviceDirectoryClient/RegisterDeviceWnsFallback",
+      "size_bytes": 3458,
+      "sha256": "6b146a7c758e7d3f1b775d5511df94ce12ab0ff0ff1419366b40594d01158eef",
+      "verification_sha256": "6b146a7c758e7d3f1b775d5511df94ce12ab0ff0ff1419366b40594d01158eef",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/DeviceDirectoryClient/RegisterUserDevice",
+      "size_bytes": 3520,
+      "sha256": "eb77786af658389e37207622b8a36abdbb6c4947f574800c21bd1de0145e50cc",
+      "verification_sha256": "eb77786af658389e37207622b8a36abdbb6c4947f574800c21bd1de0145e50cc",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Diagnosis/RecommendedTroubleshootingScanner",
+      "size_bytes": 3852,
+      "sha256": "e78766709c67d47fb47a871b1483b8a60961c8fe80b03613b74ec3aa2381ecbc",
+      "verification_sha256": "e78766709c67d47fb47a871b1483b8a60961c8fe80b03613b74ec3aa2381ecbc",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Diagnosis/Scheduled",
+      "size_bytes": 3092,
+      "sha256": "2550e83b438d0fc69de8e0cbe9530a412420bbf39295d53db4d36e5e2d0f7b0a",
+      "verification_sha256": "2550e83b438d0fc69de8e0cbe9530a412420bbf39295d53db4d36e5e2d0f7b0a",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/DirectX/DirectXDatabaseUpdater",
+      "size_bytes": 3630,
+      "sha256": "6ae293d41088033a60de775b82bebab425bda8a049025a51fb9c885fdde36e5e",
+      "verification_sha256": "6ae293d41088033a60de775b82bebab425bda8a049025a51fb9c885fdde36e5e",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/DirectX/DXGIAdapterCache",
+      "size_bytes": 2900,
+      "sha256": "93e21dcd8b44366ac056abd0a3173bfb1e30539c0e42f02dd7bc11a29b489e1e",
+      "verification_sha256": "93e21dcd8b44366ac056abd0a3173bfb1e30539c0e42f02dd7bc11a29b489e1e",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/DiskCleanup/SilentCleanup",
+      "size_bytes": 3200,
+      "sha256": "d87288f33ca267bef6e06f56d85338313be4cc321f73244771f809b641c962d7",
+      "verification_sha256": "d87288f33ca267bef6e06f56d85338313be4cc321f73244771f809b641c962d7",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/DiskDiagnostic/Microsoft-Windows-DiskDiagnosticDataCollector",
+      "size_bytes": 3094,
+      "sha256": "cfb8670684e4dfa22b947d091fbbee33c0fbb88766ba9ceb3e366cb4fadde761",
+      "verification_sha256": "cfb8670684e4dfa22b947d091fbbee33c0fbb88766ba9ceb3e366cb4fadde761",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/DiskDiagnostic/Microsoft-Windows-DiskDiagnosticResolver",
+      "size_bytes": 2766,
+      "sha256": "07612271901062011d287d175193adeb545b09b755f7833a5598f0fbaf37fc59",
+      "verification_sha256": "07612271901062011d287d175193adeb545b09b755f7833a5598f0fbaf37fc59",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/DiskFootprint/Diagnostics",
+      "size_bytes": 2398,
+      "sha256": "263bc3614d046e8a4e9e4a0791538945a3b0f46a390dc9228c8e7d1ed82bbafd",
+      "verification_sha256": "263bc3614d046e8a4e9e4a0791538945a3b0f46a390dc9228c8e7d1ed82bbafd",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/DiskFootprint/StorageSense",
+      "size_bytes": 2366,
+      "sha256": "ea0aded7c4604a637e106f09bb219d918e5c2f97a8a23e12a990f2513d2767f0",
+      "verification_sha256": "ea0aded7c4604a637e106f09bb219d918e5c2f97a8a23e12a990f2513d2767f0",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/DUSM/dusmtask",
+      "size_bytes": 2384,
+      "sha256": "22cd766574406f3dcb155e31c0ca69b264d79ab5947c4935a5041190fdd40315",
+      "verification_sha256": "22cd766574406f3dcb155e31c0ca69b264d79ab5947c4935a5041190fdd40315",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/EDP/EDP App Launch Task",
+      "size_bytes": 2302,
+      "sha256": "5e5dfb630b6a570d2ad4e64d5726d0e19443687c8c6a487c196bf2008a0313cc",
+      "verification_sha256": "5e5dfb630b6a570d2ad4e64d5726d0e19443687c8c6a487c196bf2008a0313cc",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/EDP/EDP Auth Task",
+      "size_bytes": 2284,
+      "sha256": "7597097241effeff28a5fff7cf24a4bb74a7adccb3e6bad26da6b066492b7a04",
+      "verification_sha256": "7597097241effeff28a5fff7cf24a4bb74a7adccb3e6bad26da6b066492b7a04",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/EDP/EDP Inaccessible Credentials Task",
+      "size_bytes": 2348,
+      "sha256": "32f95d814cced6f11baa613d04ae4142735441e0c52b5210942749eb7411df29",
+      "verification_sha256": "32f95d814cced6f11baa613d04ae4142735441e0c52b5210942749eb7411df29",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/EDP/StorageCardEncryption Task",
+      "size_bytes": 2344,
+      "sha256": "59a90ac3cea3df5fcaed7f43402770c9dcdfa0407544f72e35c9f1cc48315487",
+      "verification_sha256": "59a90ac3cea3df5fcaed7f43402770c9dcdfa0407544f72e35c9f1cc48315487",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/ExploitGuard/ExploitGuard MDM policy Refresh",
+      "size_bytes": 3172,
+      "sha256": "41e80254ee643bbd469d4381fe1270ef0affcf29e039c542dc82c9d27289fd98",
+      "verification_sha256": "41e80254ee643bbd469d4381fe1270ef0affcf29e039c542dc82c9d27289fd98",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Feedback/Siuf/DmClient",
+      "size_bytes": 2880,
+      "sha256": "734bf8135528881cbc463aeaf35e9b14e7dc637b1c8218ffa37175de96611729",
+      "verification_sha256": "734bf8135528881cbc463aeaf35e9b14e7dc637b1c8218ffa37175de96611729",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Feedback/Siuf/DmClientOnScenarioDownload",
+      "size_bytes": 2998,
+      "sha256": "c5277cf4f8fcb6645f391c865162185d651d4f661e66180689b2595cdb38631d",
+      "verification_sha256": "c5277cf4f8fcb6645f391c865162185d651d4f661e66180689b2595cdb38631d",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/File Classification Infrastructure/Property Definition Sync",
+      "size_bytes": 3596,
+      "sha256": "f4c2d8422d66f7ffd2d777450f9e6656bacbdad8452e7105d1c50c86a7218795",
+      "verification_sha256": "f4c2d8422d66f7ffd2d777450f9e6656bacbdad8452e7105d1c50c86a7218795",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/FileHistory/File History (maintenance mode)",
+      "size_bytes": 2996,
+      "sha256": "b7230fc64ff9bff499594dce2828885e28a0a19aa14178cefedc773e39aef616",
+      "verification_sha256": "b7230fc64ff9bff499594dce2828885e28a0a19aa14178cefedc773e39aef616",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Flighting/FeatureConfig/BootstrapUsageDataReporting",
+      "size_bytes": 4352,
+      "sha256": "38d643a98958ba1e94fd101453c6900c3bfa1db46b4dc1e659bab965b1a11c08",
+      "verification_sha256": "38d643a98958ba1e94fd101453c6900c3bfa1db46b4dc1e659bab965b1a11c08",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Flighting/FeatureConfig/ReconcileConfigs",
+      "size_bytes": 3984,
+      "sha256": "17f8d57792c4b6cb2599889ac4e1cb1c6a444d1170002db6a843d3403918793b",
+      "verification_sha256": "17f8d57792c4b6cb2599889ac4e1cb1c6a444d1170002db6a843d3403918793b",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Flighting/FeatureConfig/ReconcileFeatures",
+      "size_bytes": 5564,
+      "sha256": "08bc650bdca6da1ea3c91d7c4325f935ea79430e4d4d6dc77e5cb66f400717bb",
+      "verification_sha256": "08bc650bdca6da1ea3c91d7c4325f935ea79430e4d4d6dc77e5cb66f400717bb",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Flighting/FeatureConfig/UsageDataFlushing",
+      "size_bytes": 4532,
+      "sha256": "b76afb55f967cb7bc8da5864a280debaf77360357e685429eb6d0fb44603ac7b",
+      "verification_sha256": "b76afb55f967cb7bc8da5864a280debaf77360357e685429eb6d0fb44603ac7b",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Flighting/FeatureConfig/UsageDataReceiver",
+      "size_bytes": 3976,
+      "sha256": "1c71f73ca65b61ec8466f2e503e0b08abf16ab4294c1c5625d8000a8691ea67d",
+      "verification_sha256": "1c71f73ca65b61ec8466f2e503e0b08abf16ab4294c1c5625d8000a8691ea67d",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Flighting/FeatureConfig/UsageDataReporting",
+      "size_bytes": 4288,
+      "sha256": "03b45099f54bca21b9a55a487fc5450f051d0e0cf07f3998b3debf390b2461dc",
+      "verification_sha256": "03b45099f54bca21b9a55a487fc5450f051d0e0cf07f3998b3debf390b2461dc",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Flighting/OneSettings/RefreshCache",
+      "size_bytes": 4756,
+      "sha256": "7af53b1d71e2aa611b653c3fee73ec576aae88b4e1fbb7ff28af7eeeab28ba55",
+      "verification_sha256": "7af53b1d71e2aa611b653c3fee73ec576aae88b4e1fbb7ff28af7eeeab28ba55",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Input/InputSettingsRestoreDataAvailable",
+      "size_bytes": 3812,
+      "sha256": "68cafb20dfa20e6ebaca72aa2b2f27462c6e91a82fd147169460385aa2028fad",
+      "verification_sha256": "68cafb20dfa20e6ebaca72aa2b2f27462c6e91a82fd147169460385aa2028fad",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Input/LocalUserSyncDataAvailable",
+      "size_bytes": 3512,
+      "sha256": "bf36f961d3567579ba4833b6a729f729b1d07bfadb3cfa5b0ec40d56b8918351",
+      "verification_sha256": "bf36f961d3567579ba4833b6a729f729b1d07bfadb3cfa5b0ec40d56b8918351",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Input/MouseSyncDataAvailable",
+      "size_bytes": 3496,
+      "sha256": "12a5fce33b6479e0dc26d85a9c1ae77fa584aadec495cf1821d47279eed5dfd4",
+      "verification_sha256": "12a5fce33b6479e0dc26d85a9c1ae77fa584aadec495cf1821d47279eed5dfd4",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Input/PenSyncDataAvailable",
+      "size_bytes": 3488,
+      "sha256": "091e809a5cf65fee8a8501a13892c970a40e0e6ab1ae79dd355d40abcdd0a66f",
+      "verification_sha256": "091e809a5cf65fee8a8501a13892c970a40e0e6ab1ae79dd355d40abcdd0a66f",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Input/RemoteMouseSyncDataAvailable",
+      "size_bytes": 3520,
+      "sha256": "30238d0926c9d6d4e5ea694ee467eb3ae0ade996b7d044af1ee53fa4ac8cc385",
+      "verification_sha256": "30238d0926c9d6d4e5ea694ee467eb3ae0ade996b7d044af1ee53fa4ac8cc385",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Input/RemotePenSyncDataAvailable",
+      "size_bytes": 3512,
+      "sha256": "4d92a60e19249f672d8f6c4dbfbce115aca1e805ae981826b53ef57d3f7464ee",
+      "verification_sha256": "4d92a60e19249f672d8f6c4dbfbce115aca1e805ae981826b53ef57d3f7464ee",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Input/RemoteTouchpadSyncDataAvailable",
+      "size_bytes": 3532,
+      "sha256": "5fb9b679bc6207b8911e61e81b17074d84bd4e0dbb6e4a4c7b204c9740527d2f",
+      "verification_sha256": "5fb9b679bc6207b8911e61e81b17074d84bd4e0dbb6e4a4c7b204c9740527d2f",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Input/syncpensettings",
+      "size_bytes": 2714,
+      "sha256": "f408512c4ad0a978272bbe23c47349dd7ebda030751a48ffb2e2e3eacdf4eaca",
+      "verification_sha256": "f408512c4ad0a978272bbe23c47349dd7ebda030751a48ffb2e2e3eacdf4eaca",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Input/TouchpadSyncDataAvailable",
+      "size_bytes": 3508,
+      "sha256": "db2323b379fb353bd8ea6cbf9ccaf85b2552607dc0c100b851cebc00708aee61",
+      "verification_sha256": "db2323b379fb353bd8ea6cbf9ccaf85b2552607dc0c100b851cebc00708aee61",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/InstallService/RestoreDevice",
+      "size_bytes": 3418,
+      "sha256": "b80a7271b902b8cc66cc7dc771406ab0f614bfb637eb54b87a2f3b7785774db9",
+      "verification_sha256": "b80a7271b902b8cc66cc7dc771406ab0f614bfb637eb54b87a2f3b7785774db9",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/InstallService/ScanForUpdates",
+      "size_bytes": 4048,
+      "sha256": "36e51ad7c09b87787ef6dab78e844fd312b9f65b457bec21a864652a86d98899",
+      "verification_sha256": "36e51ad7c09b87787ef6dab78e844fd312b9f65b457bec21a864652a86d98899",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/InstallService/ScanForUpdatesAsUser",
+      "size_bytes": 2950,
+      "sha256": "7cdb52ffe77011b7a491610fe97b0e56c8231cbd9fd17cca4aed7333ad8df997",
+      "verification_sha256": "7cdb52ffe77011b7a491610fe97b0e56c8231cbd9fd17cca4aed7333ad8df997",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/InstallService/SmartRetry",
+      "size_bytes": 5156,
+      "sha256": "d3ecbf182a3900e42417f734603445165ec004cf8c4e05afb695bb38805977c1",
+      "verification_sha256": "d3ecbf182a3900e42417f734603445165ec004cf8c4e05afb695bb38805977c1",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/InstallService/WakeUpAndContinueUpdates",
+      "size_bytes": 2738,
+      "sha256": "4492e85f90ea5840e9df14ed9df87b4747fd2d3e7d6a4958f470f227bb43a69a",
+      "verification_sha256": "4492e85f90ea5840e9df14ed9df87b4747fd2d3e7d6a4958f470f227bb43a69a",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/InstallService/WakeUpAndScanForUpdates",
+      "size_bytes": 3362,
+      "sha256": "070130da33387750f2e2344e7a346a71c38d59ff65e99512c5256c14c3f5184b",
+      "verification_sha256": "070130da33387750f2e2344e7a346a71c38d59ff65e99512c5256c14c3f5184b",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/International/Synchronize Language Settings",
+      "size_bytes": 3276,
+      "sha256": "ec64c770530c3650b86d4a97788871b0233616ed82b05e7237d18df74c6482d8",
+      "verification_sha256": "ec64c770530c3650b86d4a97788871b0233616ed82b05e7237d18df74c6482d8",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Kernel/La57Cleanup",
+      "size_bytes": 3754,
+      "sha256": "55fd0ee142ab3ac7a95d4f4d3182983f21e6de002f177c02ccf892bc8d5debcb",
+      "verification_sha256": "55fd0ee142ab3ac7a95d4f4d3182983f21e6de002f177c02ccf892bc8d5debcb",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/LanguageComponentsInstaller/Installation",
+      "size_bytes": 3450,
+      "sha256": "8d83137fb3047a9a06d5ec78987fa06027559fa86cd2f42f48a7bc0d85273675",
+      "verification_sha256": "8d83137fb3047a9a06d5ec78987fa06027559fa86cd2f42f48a7bc0d85273675",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/LanguageComponentsInstaller/ReconcileLanguageResources",
+      "size_bytes": 3242,
+      "sha256": "54205970b3053c9f5f06c98508ad8044a42ebb62dfe9b305fda050dd6c2cbbe1",
+      "verification_sha256": "54205970b3053c9f5f06c98508ad8044a42ebb62dfe9b305fda050dd6c2cbbe1",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/LanguageComponentsInstaller/Uninstallation",
+      "size_bytes": 3232,
+      "sha256": "df5fe8efb970bec2e5b432aec3dddee4d0d36ad973f316c3b7dcb2df96cfda08",
+      "verification_sha256": "df5fe8efb970bec2e5b432aec3dddee4d0d36ad973f316c3b7dcb2df96cfda08",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/License Manager/TempSignedLicenseExchange",
+      "size_bytes": 3340,
+      "sha256": "a074a128fb01f838c44c23f37003a1926ff90e6889cfe036b6b1dfdf6ac97506",
+      "verification_sha256": "a074a128fb01f838c44c23f37003a1926ff90e6889cfe036b6b1dfdf6ac97506",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Location/Notifications",
+      "size_bytes": 3484,
+      "sha256": "cc6953d9a7e0a5b51ae6dc51f49edcedc05e1c631ecf3154aab862f3073b6d38",
+      "verification_sha256": "cc6953d9a7e0a5b51ae6dc51f49edcedc05e1c631ecf3154aab862f3073b6d38",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Location/WindowsActionDialog",
+      "size_bytes": 3350,
+      "sha256": "94fb805348d487661e622aa312c9e70f119471d9d1f3c320c2dac7b1ef92fd66",
+      "verification_sha256": "94fb805348d487661e622aa312c9e70f119471d9d1f3c320c2dac7b1ef92fd66",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Maintenance/WinSAT",
+      "size_bytes": 3290,
+      "sha256": "df189b2fe55fc4fd34435a07843e085aabe117d489a07ff7795a9e3cd06e0bcc",
+      "verification_sha256": "df189b2fe55fc4fd34435a07843e085aabe117d489a07ff7795a9e3cd06e0bcc",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Management/Autopilot/DetectHardwareChange",
+      "size_bytes": 3016,
+      "sha256": "a2d037717303e06855d3124c8231f75de6bbe0db863e0142a9bfca8582c32776",
+      "verification_sha256": "a2d037717303e06855d3124c8231f75de6bbe0db863e0142a9bfca8582c32776",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Management/Autopilot/RemediateHardwareChange",
+      "size_bytes": 2866,
+      "sha256": "6cbd06c9e2672d42e2f0278466cbedec15aacf553fdb803e6c473c9ce280cf72",
+      "verification_sha256": "6cbd06c9e2672d42e2f0278466cbedec15aacf553fdb803e6c473c9ce280cf72",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Management/Provisioning/Cellular",
+      "size_bytes": 2690,
+      "sha256": "95061606cd1b02fd6df2c14ae5cd477b3ede7964e1e691da07c974272a84f5d9",
+      "verification_sha256": "95061606cd1b02fd6df2c14ae5cd477b3ede7964e1e691da07c974272a84f5d9",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Management/Provisioning/Logon",
+      "size_bytes": 2704,
+      "sha256": "813366b399da253ad130afc4efd63a3f19221b3cb653518c25ea0725ed2c9190",
+      "verification_sha256": "813366b399da253ad130afc4efd63a3f19221b3cb653518c25ea0725ed2c9190",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Management/Provisioning/MdmDiagnosticsCleanup",
+      "size_bytes": 2602,
+      "sha256": "855441ffb2406fc869aadee5147ec127f183f82684f21109e07f2469e8a1fd48",
+      "verification_sha256": "855441ffb2406fc869aadee5147ec127f183f82684f21109e07f2469e8a1fd48",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Management/Provisioning/Retry",
+      "size_bytes": 2610,
+      "sha256": "fe910e78dc57063b6b3b2818441490fb78ffa429f300febfddfbf8c15dfe8c2c",
+      "verification_sha256": "fe910e78dc57063b6b3b2818441490fb78ffa429f300febfddfbf8c15dfe8c2c",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Management/Provisioning/RunOnReboot",
+      "size_bytes": 2634,
+      "sha256": "5daad4b2af1f3deb1f8b004e1fa181cc547f8f6108b92cf284f333c665f212ba",
+      "verification_sha256": "5daad4b2af1f3deb1f8b004e1fa181cc547f8f6108b92cf284f333c665f212ba",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Maps/MapsToastTask",
+      "size_bytes": 3010,
+      "sha256": "716961280e3b566e9aafa3ae4643b3a7d190e53194f2f035808da0cc681784e6",
+      "verification_sha256": "716961280e3b566e9aafa3ae4643b3a7d190e53194f2f035808da0cc681784e6",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Maps/MapsUpdateTask",
+      "size_bytes": 3474,
+      "sha256": "c7d15619ad5cc5934e65ebb477f238632e9f95c5cd8c9544828e51e4906d671f",
+      "verification_sha256": "c7d15619ad5cc5934e65ebb477f238632e9f95c5cd8c9544828e51e4906d671f",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/MemoryDiagnostic/ProcessMemoryDiagnosticEvents",
+      "size_bytes": 6330,
+      "sha256": "c969cfaac747366d6a1b0a762f846a0735f67e336238c22a34cb154c76907a99",
+      "verification_sha256": "c969cfaac747366d6a1b0a762f846a0735f67e336238c22a34cb154c76907a99",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/MemoryDiagnostic/RunFullMemoryDiagnostic",
+      "size_bytes": 3776,
+      "sha256": "3ec65476309271a9642ff8811073a98ccd8b1d906b470edb15e11a100baee454",
+      "verification_sha256": "3ec65476309271a9642ff8811073a98ccd8b1d906b470edb15e11a100baee454",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/MUI/LPRemove",
+      "size_bytes": 2726,
+      "sha256": "cff1e9712ac9da052be02e6a1eccffc9eaf88ff2f59dae9518baa0c53733468f",
+      "verification_sha256": "cff1e9712ac9da052be02e6a1eccffc9eaf88ff2f59dae9518baa0c53733468f",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Multimedia/SystemSoundsService",
+      "size_bytes": 2574,
+      "sha256": "1e94f9190789d854b3bb0c813fbb3b36f943b0158c5398d60ef7bcd117f6f5dd",
+      "verification_sha256": "1e94f9190789d854b3bb0c813fbb3b36f943b0158c5398d60ef7bcd117f6f5dd",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/NetTrace/GatherNetworkInfo",
+      "size_bytes": 2444,
+      "sha256": "c899a87185397331ea961b6035e551409c1d11bf5322d27ac2fbc668cd615163",
+      "verification_sha256": "c899a87185397331ea961b6035e551409c1d11bf5322d27ac2fbc668cd615163",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/NlaSvc/WiFiTask",
+      "size_bytes": 2992,
+      "sha256": "a779392fa31e3c0a98ea417167906fe1545d573e0ae2f5a05b9766db0f5c85c2",
+      "verification_sha256": "a779392fa31e3c0a98ea417167906fe1545d573e0ae2f5a05b9766db0f5c85c2",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Offline Files/Background Synchronization",
+      "size_bytes": 3170,
+      "sha256": "a32558f19a8792a449ec032a7a38cf32430840abdaa869d4d5c99f2da75e7b56",
+      "verification_sha256": "a32558f19a8792a449ec032a7a38cf32430840abdaa869d4d5c99f2da75e7b56",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Offline Files/Logon Synchronization",
+      "size_bytes": 2840,
+      "sha256": "2b5a9cf7349f7072bd941b279d072aba5cfe7f819636f310875d24c5fab0c551",
+      "verification_sha256": "2b5a9cf7349f7072bd941b279d072aba5cfe7f819636f310875d24c5fab0c551",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/PI/Secure-Boot-Update",
+      "size_bytes": 3450,
+      "sha256": "8577bd92c2a6ca373c7835a6ea39bf26f4f1c87f4561e76ffa61452bdb50ad0a",
+      "verification_sha256": "8577bd92c2a6ca373c7835a6ea39bf26f4f1c87f4561e76ffa61452bdb50ad0a",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/PI/Sqm-Tasks",
+      "size_bytes": 3102,
+      "sha256": "36749f7606ba2fc9c6696068865f305cbaeb2139d99fffbd67a8457d3fa2f1a6",
+      "verification_sha256": "36749f7606ba2fc9c6696068865f305cbaeb2139d99fffbd67a8457d3fa2f1a6",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Plug and Play/Device Install Group Policy",
+      "size_bytes": 2972,
+      "sha256": "7487b5f98cce29bed15414ab1abf0d011a6b5f9022a1affd2972f412a953e8e9",
+      "verification_sha256": "7487b5f98cce29bed15414ab1abf0d011a6b5f9022a1affd2972f412a953e8e9",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Plug and Play/Device Install Reboot Required",
+      "size_bytes": 3028,
+      "sha256": "7e8fd57db539e6361467f02857b90476ea720409e6bb52f028f875f7be7d8ba3",
+      "verification_sha256": "7e8fd57db539e6361467f02857b90476ea720409e6bb52f028f875f7be7d8ba3",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Plug and Play/Sysprep Generalize Drivers",
+      "size_bytes": 2338,
+      "sha256": "d93d09f94327deb661eb90e855540d365feb0dcb571425ea8d79b4ede303fc3d",
+      "verification_sha256": "d93d09f94327deb661eb90e855540d365feb0dcb571425ea8d79b4ede303fc3d",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Power Efficiency Diagnostics/AnalyzeSystem",
+      "size_bytes": 3128,
+      "sha256": "874563981ea1f9fe6e0951e78bad545ef5aebbdcf996a81d5ee08b7fdeb902ad",
+      "verification_sha256": "874563981ea1f9fe6e0951e78bad545ef5aebbdcf996a81d5ee08b7fdeb902ad",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Printing/EduPrintProv",
+      "size_bytes": 2590,
+      "sha256": "4c674127ec98f4913df26ae9c9c034db4cd375ccd8682ce9e15ada6bab6627fb",
+      "verification_sha256": "4c674127ec98f4913df26ae9c9c034db4cd375ccd8682ce9e15ada6bab6627fb",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Printing/PrinterCleanupTask",
+      "size_bytes": 2840,
+      "sha256": "5f089d9f145350fd0592b122acc62f9f133a6eae9fe13dbbab5bdc09279d798d",
+      "verification_sha256": "5f089d9f145350fd0592b122acc62f9f133a6eae9fe13dbbab5bdc09279d798d",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Printing/PrintJobCleanupTask",
+      "size_bytes": 2900,
+      "sha256": "cad6ff425fc7da3bcdf64daafc67826203471944f967873fff37c2c49319e128",
+      "verification_sha256": "cad6ff425fc7da3bcdf64daafc67826203471944f967873fff37c2c49319e128",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/PushToInstall/LoginCheck",
+      "size_bytes": 3282,
+      "sha256": "7c6589add05dd03a4b6db387a603a07d58f60e59e2b4f5da5b16134eda0899bc",
+      "verification_sha256": "7c6589add05dd03a4b6db387a603a07d58f60e59e2b4f5da5b16134eda0899bc",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/PushToInstall/Registration",
+      "size_bytes": 4280,
+      "sha256": "56f355d1bda945737a598a53cb8956726041bb89d108ee7f0517c5d6f9031768",
+      "verification_sha256": "56f355d1bda945737a598a53cb8956726041bb89d108ee7f0517c5d6f9031768",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Ras/MobilityManager",
+      "size_bytes": 3462,
+      "sha256": "898ff33759977646d15a4d0b3e52a4c2cace31b4d755cfcdde6313f247f9ee6c",
+      "verification_sha256": "898ff33759977646d15a4d0b3e52a4c2cace31b4d755cfcdde6313f247f9ee6c",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/RecoveryEnvironment/VerifyWinRE",
+      "size_bytes": 3420,
+      "sha256": "163fe3c18e64b3eb16856e9f4b7eaaa281a7aa8952075ad217e1aa8e37ec48fb",
+      "verification_sha256": "163fe3c18e64b3eb16856e9f4b7eaaa281a7aa8952075ad217e1aa8e37ec48fb",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Registry/RegIdleBackup",
+      "size_bytes": 3218,
+      "sha256": "7c932995ac31acb2373f80a5d3de878c4f3e90d1b8baea88a94de384050e1b3f",
+      "verification_sha256": "7c932995ac31acb2373f80a5d3de878c4f3e90d1b8baea88a94de384050e1b3f",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/RemoteAssistance/RemoteAssistanceTask",
+      "size_bytes": 3796,
+      "sha256": "511b65bab143f04d2c3515b0e0c0e3d223738445c9907864ef965c987fe4afa1",
+      "verification_sha256": "511b65bab143f04d2c3515b0e0c0e3d223738445c9907864ef965c987fe4afa1",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Servicing/StartComponentCleanup",
+      "size_bytes": 2502,
+      "sha256": "0e6656a800521d7c3a2cc0dbbe9aedcf71c8c1dd916b7647c477b96fd1f79fd6",
+      "verification_sha256": "0e6656a800521d7c3a2cc0dbbe9aedcf71c8c1dd916b7647c477b96fd1f79fd6",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/SharedPC/Account Cleanup",
+      "size_bytes": 2766,
+      "sha256": "504a9783d21d5b6f8711fe5f901dd6c60284e677e1a8ca759bd8198f6f614cd5",
+      "verification_sha256": "504a9783d21d5b6f8711fe5f901dd6c60284e677e1a8ca759bd8198f6f614cd5",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Shell/CreateObjectTask",
+      "size_bytes": 2636,
+      "sha256": "b4e9d9a5564fd70226ad50b8f796d7501920c3d0a0322a45688af69bccabb585",
+      "verification_sha256": "b4e9d9a5564fd70226ad50b8f796d7501920c3d0a0322a45688af69bccabb585",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Shell/FamilySafetyMonitor",
+      "size_bytes": 2440,
+      "sha256": "437240bfee35a656c6c077546e212f36af33f984d9d549d5f894f40dfcc463b3",
+      "verification_sha256": "437240bfee35a656c6c077546e212f36af33f984d9d549d5f894f40dfcc463b3",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Shell/FamilySafetyRefreshTask",
+      "size_bytes": 3136,
+      "sha256": "cbab368f602582166e0fc3c37381c8d28d1da46b9c16a88e60f3ec46028d6922",
+      "verification_sha256": "cbab368f602582166e0fc3c37381c8d28d1da46b9c16a88e60f3ec46028d6922",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Shell/IndexerAutomaticMaintenance",
+      "size_bytes": 2858,
+      "sha256": "d33888064b7bcb2f31999faa3a27c400b7bc46346925c4d8ffb0ec9a0f937fb4",
+      "verification_sha256": "d33888064b7bcb2f31999faa3a27c400b7bc46346925c4d8ffb0ec9a0f937fb4",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Shell/ThemeAssetTask_SyncFODState",
+      "size_bytes": 2850,
+      "sha256": "d05f988bbc1c91b30ee69d7e7055f84757f3403fdc7f58c49e9c97aaac4f058b",
+      "verification_sha256": "d05f988bbc1c91b30ee69d7e7055f84757f3403fdc7f58c49e9c97aaac4f058b",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Shell/ThemesSyncedImageDownload",
+      "size_bytes": 3104,
+      "sha256": "8a0971010dc745c7f8e50ba4a3f7625aff5e300b3b91a66ac9d061b28bff0ef0",
+      "verification_sha256": "8a0971010dc745c7f8e50ba4a3f7625aff5e300b3b91a66ac9d061b28bff0ef0",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Shell/UpdateUserPictureTask",
+      "size_bytes": 2330,
+      "sha256": "5b3545722384cd395c5ad6bcc14ba9ef44b2649e28f3f3c7d308f179811feb2f",
+      "verification_sha256": "5b3545722384cd395c5ad6bcc14ba9ef44b2649e28f3f3c7d308f179811feb2f",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/SoftwareProtectionPlatform/SvcRestartTask",
+      "size_bytes": 4676,
+      "sha256": "ebb6a58f43c74896f50f64777494640cd8526158767c69ea8568adb727b0ee14",
+      "verification_sha256": "ebb6a58f43c74896f50f64777494640cd8526158767c69ea8568adb727b0ee14",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/SoftwareProtectionPlatform/SvcRestartTaskLogon",
+      "size_bytes": 3372,
+      "sha256": "395d811c0d37aa51a3e5646613a7c0a94c4036ef7b57dc085faba2e1600b63ad",
+      "verification_sha256": "395d811c0d37aa51a3e5646613a7c0a94c4036ef7b57dc085faba2e1600b63ad",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/SoftwareProtectionPlatform/SvcRestartTaskNetwork",
+      "size_bytes": 4044,
+      "sha256": "d8829f94b502a6fc04db2d08ad0884a66670c9d4f2e988f8da87ca27174a9ce4",
+      "verification_sha256": "d8829f94b502a6fc04db2d08ad0884a66670c9d4f2e988f8da87ca27174a9ce4",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/SpacePort/SpaceAgentTask",
+      "size_bytes": 3006,
+      "sha256": "d3dfa45ead99c040852d32881f5bb4e89539c71b11b3de1dd572e4cf7584f9f3",
+      "verification_sha256": "d3dfa45ead99c040852d32881f5bb4e89539c71b11b3de1dd572e4cf7584f9f3",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/SpacePort/SpaceManagerTask",
+      "size_bytes": 3066,
+      "sha256": "496e9cdfa8e43e730688f56932a7375f4c7288999c0403f7090eb41e827b08aa",
+      "verification_sha256": "496e9cdfa8e43e730688f56932a7375f4c7288999c0403f7090eb41e827b08aa",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Speech/SpeechModelDownloadTask",
+      "size_bytes": 3276,
+      "sha256": "7f630e39663cd4b15e4e2aa01719e222c829a6f8774b52865c07afd1ed8971bb",
+      "verification_sha256": "7f630e39663cd4b15e4e2aa01719e222c829a6f8774b52865c07afd1ed8971bb",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/StateRepository/MaintenanceTasks",
+      "size_bytes": 3112,
+      "sha256": "a7e9e380db7e0ca9a62a5c438ac2b6890287d52d7bb95bf19f410c2ecb77bd30",
+      "verification_sha256": "a7e9e380db7e0ca9a62a5c438ac2b6890287d52d7bb95bf19f410c2ecb77bd30",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Storage Tiers Management/Storage Tiers Management Initialization",
+      "size_bytes": 3204,
+      "sha256": "f22e22a36ac91d76ae3c6b90c8f77ea7d2c2ea55afdced563f7a7ac482fda59f",
+      "verification_sha256": "f22e22a36ac91d76ae3c6b90c8f77ea7d2c2ea55afdced563f7a7ac482fda59f",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Storage Tiers Management/Storage Tiers Optimization",
+      "size_bytes": 3290,
+      "sha256": "e27979641f94260cdf5ca24b35c40ae111b458b8438a68effaf24d8820257e07",
+      "verification_sha256": "e27979641f94260cdf5ca24b35c40ae111b458b8438a68effaf24d8820257e07",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Subscription/EnableLicenseAcquisition",
+      "size_bytes": 4684,
+      "sha256": "6722db89dc6eceff4e93ee83ffb7ed2304a2d83ac5b2c60c0ccb353c4338e5d7",
+      "verification_sha256": "6722db89dc6eceff4e93ee83ffb7ed2304a2d83ac5b2c60c0ccb353c4338e5d7",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Subscription/LicenseAcquisition",
+      "size_bytes": 3758,
+      "sha256": "dee15f816a1ac9def711780f144abdaaf8be3b78fdbb97201c7c60a0707c2d06",
+      "verification_sha256": "dee15f816a1ac9def711780f144abdaaf8be3b78fdbb97201c7c60a0707c2d06",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Sysmain/HybridDriveCachePrepopulate",
+      "size_bytes": 3056,
+      "sha256": "4e83ac2a85137fa00c0ab15ad61bfc5b000f269af098fb3359e8dde12feb8f08",
+      "verification_sha256": "4e83ac2a85137fa00c0ab15ad61bfc5b000f269af098fb3359e8dde12feb8f08",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Sysmain/HybridDriveCacheRebalance",
+      "size_bytes": 3126,
+      "sha256": "198bd4ed3b27821e0112a856d4825948cf21e361aa49131377c8066a26daf7dd",
+      "verification_sha256": "198bd4ed3b27821e0112a856d4825948cf21e361aa49131377c8066a26daf7dd",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Sysmain/ResPriStaticDbSync",
+      "size_bytes": 2972,
+      "sha256": "4cec380a0a6adc3ab1de675a4f573b9a43c38262da44b4d7d5bd108e53f61570",
+      "verification_sha256": "4cec380a0a6adc3ab1de675a4f573b9a43c38262da44b4d7d5bd108e53f61570",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Sysmain/WsSwapAssessmentTask",
+      "size_bytes": 3858,
+      "sha256": "d3152b9140bcb0fc9a88af2c59dc72d39b72f11b1d5661a6e94af0a175566e81",
+      "verification_sha256": "d3152b9140bcb0fc9a88af2c59dc72d39b72f11b1d5661a6e94af0a175566e81",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/SystemRestore/SR",
+      "size_bytes": 2976,
+      "sha256": "3c0abc30b0765c34624100202f43d49c5bddd0238be3d91acdf0cd37a118cb11",
+      "verification_sha256": "3c0abc30b0765c34624100202f43d49c5bddd0238be3d91acdf0cd37a118cb11",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Task Manager/Interactive",
+      "size_bytes": 2762,
+      "sha256": "b7cc58bf4cb003df6877b8d10ab4f3e28e81291f7a5bdfa3f885cf6dbf6561d7",
+      "verification_sha256": "b7cc58bf4cb003df6877b8d10ab4f3e28e81291f7a5bdfa3f885cf6dbf6561d7",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/TextServicesFramework/MsCtfMonitor",
+      "size_bytes": 2622,
+      "sha256": "c89dc5b8de939315093c750b0cbe9533585a9b6f85c079c9cb998d98cd50778d",
+      "verification_sha256": "c89dc5b8de939315093c750b0cbe9533585a9b6f85c079c9cb998d98cd50778d",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Time Synchronization/ForceSynchronizeTime",
+      "size_bytes": 3190,
+      "sha256": "0b3405de5aa586e57544d0833bf45c2d709933c59b395f4579f6b6466590795c",
+      "verification_sha256": "0b3405de5aa586e57544d0833bf45c2d709933c59b395f4579f6b6466590795c",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Time Synchronization/SynchronizeTime",
+      "size_bytes": 2900,
+      "sha256": "ec4c6a01b565658d07844173bdb4779e65aa8f663e0571a6b765a8b45817b830",
+      "verification_sha256": "ec4c6a01b565658d07844173bdb4779e65aa8f663e0571a6b765a8b45817b830",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Time Zone/SynchronizeTimeZone",
+      "size_bytes": 2600,
+      "sha256": "3540d5aa966e7745d59327109824347bcb82a602b7f5173af1cbfb80c54461b8",
+      "verification_sha256": "3540d5aa966e7745d59327109824347bcb82a602b7f5173af1cbfb80c54461b8",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/TPM/Tpm-HASCertRetr",
+      "size_bytes": 2986,
+      "sha256": "d72b435d1751a4d0b768edc16432f05f79b996c7c5025c2270472424a760c8c3",
+      "verification_sha256": "d72b435d1751a4d0b768edc16432f05f79b996c7c5025c2270472424a760c8c3",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/TPM/Tpm-Maintenance",
+      "size_bytes": 3762,
+      "sha256": "68a5aad4b945f1504f7f3d2eec6bad3c675ee9988b5d341c542d7b7c500e85d9",
+      "verification_sha256": "68a5aad4b945f1504f7f3d2eec6bad3c675ee9988b5d341c542d7b7c500e85d9",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/UNP/RunUpdateNotificationMgr",
+      "size_bytes": 3084,
+      "sha256": "207e23843aa392e8c7a04b818d588ce099667e79b24e8923b6148afba2f8cdd9",
+      "verification_sha256": "207e23843aa392e8c7a04b818d588ce099667e79b24e8923b6148afba2f8cdd9",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/UpdateOrchestrator/Report policies",
+      "size_bytes": 3320,
+      "sha256": "857ba691cef57241564043cd088b42ed203e4b9427692701fc8368b65365c5fd",
+      "verification_sha256": "857ba691cef57241564043cd088b42ed203e4b9427692701fc8368b65365c5fd",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/UpdateOrchestrator/Schedule Maintenance Work",
+      "size_bytes": 3114,
+      "sha256": "d5d6df1e6ef8f591778d774b236de43d42e654121f317a521e5d240fc56ad418",
+      "verification_sha256": "d5d6df1e6ef8f591778d774b236de43d42e654121f317a521e5d240fc56ad418",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/UpdateOrchestrator/Schedule Scan",
+      "size_bytes": 3692,
+      "sha256": "0480dcda35addad74ed7fda6bd6e01276b248d4aa643da7082b38b5f172e119c",
+      "verification_sha256": "0480dcda35addad74ed7fda6bd6e01276b248d4aa643da7082b38b5f172e119c",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/UpdateOrchestrator/Schedule Scan Static Task",
+      "size_bytes": 5640,
+      "sha256": "b57a3d4003a478c61cf1121f603bd6cda4bd7c051d9c8c8d38a9aa1d50865e3f",
+      "verification_sha256": "b57a3d4003a478c61cf1121f603bd6cda4bd7c051d9c8c8d38a9aa1d50865e3f",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/UpdateOrchestrator/Schedule Wake To Work",
+      "size_bytes": 3376,
+      "sha256": "4507458b2cb2049c527e86a6e5ee0de0cfae9482b70c07fe6774c57bb33f193e",
+      "verification_sha256": "4507458b2cb2049c527e86a6e5ee0de0cfae9482b70c07fe6774c57bb33f193e",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/UpdateOrchestrator/Schedule Work",
+      "size_bytes": 3358,
+      "sha256": "78b2e311f05569358f3f0d9ccdaecd53c7f6460d3cff45e44aee886ef07cdbe2",
+      "verification_sha256": "78b2e311f05569358f3f0d9ccdaecd53c7f6460d3cff45e44aee886ef07cdbe2",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/UpdateOrchestrator/Start Oobe Expedite Work",
+      "size_bytes": 3026,
+      "sha256": "e5fe58d34401de35201b75e8273d63a54c2fa21c783ecf025f7e875052b7c358",
+      "verification_sha256": "e5fe58d34401de35201b75e8273d63a54c2fa21c783ecf025f7e875052b7c358",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/UpdateOrchestrator/StartOobeAppsScan_LicenseAccepted",
+      "size_bytes": 3004,
+      "sha256": "10bddf49c83dc74c932a45664c202ba7e864492b7916a0054f0f517c9916ebf4",
+      "verification_sha256": "10bddf49c83dc74c932a45664c202ba7e864492b7916a0054f0f517c9916ebf4",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/UpdateOrchestrator/StartOobeAppsScanAfterUpdate",
+      "size_bytes": 3026,
+      "sha256": "5441ba1c6ede0b57c44a5c81d914f10420830a6f7f9164bf4a570390fa5cdbcc",
+      "verification_sha256": "5441ba1c6ede0b57c44a5c81d914f10420830a6f7f9164bf4a570390fa5cdbcc",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/UpdateOrchestrator/UIEOrchestrator",
+      "size_bytes": 4072,
+      "sha256": "70c6da578b0ba1d609f23aed67f913c2dfcdc1b3d0451bc2bace40576761b569",
+      "verification_sha256": "70c6da578b0ba1d609f23aed67f913c2dfcdc1b3d0451bc2bace40576761b569",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/UpdateOrchestrator/USO_UxBroker",
+      "size_bytes": 3282,
+      "sha256": "59f2caa2e43ae273cc2346e2ee40f9bb1b195d74957fda50c06e2ac533035953",
+      "verification_sha256": "59f2caa2e43ae273cc2346e2ee40f9bb1b195d74957fda50c06e2ac533035953",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/UpdateOrchestrator/UUS Failover Task",
+      "size_bytes": 2998,
+      "sha256": "e28829c7b8906d1d9eebea265d85f2e2b569ebcbb78c0a122110865920587995",
+      "verification_sha256": "e28829c7b8906d1d9eebea265d85f2e2b569ebcbb78c0a122110865920587995",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/UPnP/UPnPHostConfig",
+      "size_bytes": 2328,
+      "sha256": "3139579a305457e36743b380324a651a9c1cfebe5acff459aa76ce914158125d",
+      "verification_sha256": "3139579a305457e36743b380324a651a9c1cfebe5acff459aa76ce914158125d",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/USB/Usb-Notifications",
+      "size_bytes": 3496,
+      "sha256": "411aa9bd43de734ae8616b4e61fbba8c3c2d5b590df644b8af2886ea44ef729c",
+      "verification_sha256": "411aa9bd43de734ae8616b4e61fbba8c3c2d5b590df644b8af2886ea44ef729c",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/User Profile Service/HiveUploadTask",
+      "size_bytes": 3650,
+      "sha256": "94886f05651a04411c0936198eaf8611d7f1551b540ad9e160885ec865deda68",
+      "verification_sha256": "94886f05651a04411c0936198eaf8611d7f1551b540ad9e160885ec865deda68",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/WaaSMedic/DeferredWork",
+      "size_bytes": 2898,
+      "sha256": "b89d6beeb338dda950200f612847a7c1528654c9f27f1b9618ec9076c72fae3e",
+      "verification_sha256": "b89d6beeb338dda950200f612847a7c1528654c9f27f1b9618ec9076c72fae3e",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/WaaSMedic/PerformRemediation",
+      "size_bytes": 3158,
+      "sha256": "4c9c95ec703d9fe5f68be79944c2817ce86d5098e1cf2a0ff63ebaa70f33c65a",
+      "verification_sha256": "4c9c95ec703d9fe5f68be79944c2817ce86d5098e1cf2a0ff63ebaa70f33c65a",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/WCM/WiFiTask",
+      "size_bytes": 2922,
+      "sha256": "f9542505abd8705e8d05a783a693e00b6bddfb1e9be146ff2fe737b12b54adbd",
+      "verification_sha256": "f9542505abd8705e8d05a783a693e00b6bddfb1e9be146ff2fe737b12b54adbd",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/WDI/ResolutionHost",
+      "size_bytes": 2892,
+      "sha256": "f308bb5ba7cfc406f6c2a3b7dd8a09fcc6ef7fd02540bb6ad8c6b83d127e9ee0",
+      "verification_sha256": "f308bb5ba7cfc406f6c2a3b7dd8a09fcc6ef7fd02540bb6ad8c6b83d127e9ee0",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Windows Defender/Windows Defender Cache Maintenance",
+      "size_bytes": 3816,
+      "sha256": "ff841fd2d825f0bf599b8134fe93985074d36b7f7ec8d5644268fac4e4c414a5",
+      "verification_sha256": "ff841fd2d825f0bf599b8134fe93985074d36b7f7ec8d5644268fac4e4c414a5",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Windows Defender/Windows Defender Cleanup",
+      "size_bytes": 3770,
+      "sha256": "ba6e5aecf0c2747e924d809099224b79bd0b75f59e44f512d9a2c8aabaff4b8b",
+      "verification_sha256": "ba6e5aecf0c2747e924d809099224b79bd0b75f59e44f512d9a2c8aabaff4b8b",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Windows Defender/Windows Defender Scheduled Scan",
+      "size_bytes": 3822,
+      "sha256": "7b3ae0ba758c7eb2780c316d297f246661ef52035f5771f8000674f069e6b505",
+      "verification_sha256": "7b3ae0ba758c7eb2780c316d297f246661ef52035f5771f8000674f069e6b505",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Windows Defender/Windows Defender Verification",
+      "size_bytes": 3800,
+      "sha256": "6e6b85cda69f64ef76eb0a90950f24b34efab90f04efd59d17c4ccbb38e5bc72",
+      "verification_sha256": "6e6b85cda69f64ef76eb0a90950f24b34efab90f04efd59d17c4ccbb38e5bc72",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Windows Error Reporting/QueueReporting",
+      "size_bytes": 4522,
+      "sha256": "88db6f3e2640ae915b5a299701d9df623b9eb93dd9dd791eb132401ce885ea79",
+      "verification_sha256": "88db6f3e2640ae915b5a299701d9df623b9eb93dd9dd791eb132401ce885ea79",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Windows Filtering Platform/BfeOnServiceStartTypeChange",
+      "size_bytes": 3288,
+      "sha256": "d354cf8f6010392b8de353107d33e0f01f13273bdb0a21a1a644fc6ad2dcda83",
+      "verification_sha256": "d354cf8f6010392b8de353107d33e0f01f13273bdb0a21a1a644fc6ad2dcda83",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Windows Media Sharing/UpdateLibrary",
+      "size_bytes": 3420,
+      "sha256": "5926a2150d55d04b11b55c3b3095d0133bd4257c58a2ce91e3c35ec05b16b92c",
+      "verification_sha256": "5926a2150d55d04b11b55c3b3095d0133bd4257c58a2ce91e3c35ec05b16b92c",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/WindowsColorSystem/Calibration Loader",
+      "size_bytes": 3164,
+      "sha256": "1125c2f93e33e9399bb8bd85d2f5dab05ce163651fdd4ec53397444e43b41f42",
+      "verification_sha256": "1125c2f93e33e9399bb8bd85d2f5dab05ce163651fdd4ec53397444e43b41f42",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/WindowsUpdate/Refresh Group Policy Cache",
+      "size_bytes": 4096,
+      "sha256": "47dce41aa7b937fb835443918943175802719cfaf3d86b54f24bc698aebd384b",
+      "verification_sha256": "47dce41aa7b937fb835443918943175802719cfaf3d86b54f24bc698aebd384b",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/WindowsUpdate/Scheduled Start",
+      "size_bytes": 3962,
+      "sha256": "1a3d70cec18258b79e16bc707f95bb4cb5d7c3d5c126a66f5b87a9392cf26ed7",
+      "verification_sha256": "1a3d70cec18258b79e16bc707f95bb4cb5d7c3d5c126a66f5b87a9392cf26ed7",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Wininet/CacheTask",
+      "size_bytes": 2564,
+      "sha256": "1df858fddbdc7a839276fac14b4211d463425fc984b0a366538d747274995316",
+      "verification_sha256": "1df858fddbdc7a839276fac14b4211d463425fc984b0a366538d747274995316",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/WlanSvc/CDSSync",
+      "size_bytes": 2646,
+      "sha256": "cf0e8148c1bdbbb8124dd06e21765a29e68c1e1cfbdece8dd4ec3323d202eb57",
+      "verification_sha256": "cf0e8148c1bdbbb8124dd06e21765a29e68c1e1cfbdece8dd4ec3323d202eb57",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/WlanSvc/MoProfileManagement",
+      "size_bytes": 2860,
+      "sha256": "0fc2abbefbf5fb089fc8ce8635d42ac7cc677e1cf3336ee46b548332e1881ef3",
+      "verification_sha256": "0fc2abbefbf5fb089fc8ce8635d42ac7cc677e1cf3336ee46b548332e1881ef3",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/WOF/WIM-Hash-Management",
+      "size_bytes": 3060,
+      "sha256": "43f5ad71f0375f4177550278bd5b7ed9097f522d3939df2cf8949c680ef8825e",
+      "verification_sha256": "43f5ad71f0375f4177550278bd5b7ed9097f522d3939df2cf8949c680ef8825e",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/WOF/WIM-Hash-Validation",
+      "size_bytes": 2854,
+      "sha256": "aaa6c1ac0820bdc274897f3e32d64ef680d11bee4a52723760881df9bb36a7d0",
+      "verification_sha256": "aaa6c1ac0820bdc274897f3e32d64ef680d11bee4a52723760881df9bb36a7d0",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Work Folders/Work Folders Logon Synchronization",
+      "size_bytes": 2790,
+      "sha256": "65be2c91b2434658365462a83d842fc73e67615621dff59f9c3404347c8c54be",
+      "verification_sha256": "65be2c91b2434658365462a83d842fc73e67615621dff59f9c3404347c8c54be",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Work Folders/Work Folders Maintenance Work",
+      "size_bytes": 3090,
+      "sha256": "c1006925487031f7627ff0c314231207f66564346ea756bbad8be16a34e9e853",
+      "verification_sha256": "c1006925487031f7627ff0c314231207f66564346ea756bbad8be16a34e9e853",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Workplace Join/Automatic-Device-Join",
+      "size_bytes": 3832,
+      "sha256": "4982ef251683e8015d89e4896ef078245e93abe0ecbbe4dde10bd687d34aca17",
+      "verification_sha256": "4982ef251683e8015d89e4896ef078245e93abe0ecbbe4dde10bd687d34aca17",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Workplace Join/Device-Sync",
+      "size_bytes": 3150,
+      "sha256": "5838e6fdb317536cf5b5379ff1aef11b9e0dc6d9cb9956dface177e2765582ba",
+      "verification_sha256": "5838e6fdb317536cf5b5379ff1aef11b9e0dc6d9cb9956dface177e2765582ba",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/Workplace Join/Recovery-Check",
+      "size_bytes": 2848,
+      "sha256": "7b4fb09f03fe7f80a92ed3ad0fb5f6b36ce19da5e070e1cc2128464336d817df",
+      "verification_sha256": "7b4fb09f03fe7f80a92ed3ad0fb5f6b36ce19da5e070e1cc2128464336d817df",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/WwanSvc/NotificationTask",
+      "size_bytes": 3012,
+      "sha256": "ae25361b4951341dbcdcd2e59f3db96023614443ff7377c63a6a0cde25e1f356",
+      "verification_sha256": "ae25361b4951341dbcdcd2e59f3db96023614443ff7377c63a6a0cde25e1f356",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/Windows/WwanSvc/OobeDiscovery",
+      "size_bytes": 4292,
+      "sha256": "9adb3bfa1f7fc6dafe98dcd9e9fde6a70f4d48bf63c3a11ae8bcda01a6f6ca38",
+      "verification_sha256": "9adb3bfa1f7fc6dafe98dcd9e9fde6a70f4d48bf63c3a11ae8bcda01a6f6ca38",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/Microsoft/XblGameSave/XblGameSaveTask",
+      "size_bytes": 2622,
+      "sha256": "24267c0c2de0c270f500652168dd72fd35b8eb041dff7a3b2f1c70c47f93c749",
+      "verification_sha256": "24267c0c2de0c270f500652168dd72fd35b8eb041dff7a3b2f1c70c47f93c749",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/MicrosoftEdgeUpdateTaskMachineCore",
+      "size_bytes": 3464,
+      "sha256": "1ead737224d9189124bd11fdf8c19b1b7c84aa0cf2c88dc3130fe05882a87680",
+      "verification_sha256": "1ead737224d9189124bd11fdf8c19b1b7c84aa0cf2c88dc3130fe05882a87680",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/MicrosoftEdgeUpdateTaskMachineUA",
+      "size_bytes": 3536,
+      "sha256": "b0a594c378ec860981f0e7af6b24647e76e114e651f1254d807e05d188d631f7",
+      "verification_sha256": "b0a594c378ec860981f0e7af6b24647e76e114e651f1254d807e05d188d631f7",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/npcapwatchdog",
+      "size_bytes": 3460,
+      "sha256": "01b890c4dcb4928e1faead304b1ee11c8c0917b99502280ba86236ae4988f8b5",
+      "verification_sha256": "01b890c4dcb4928e1faead304b1ee11c8c0917b99502280ba86236ae4988f8b5",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/PlatformExperiencesHelper_Daily",
+      "size_bytes": 4014,
+      "sha256": "0573650cc005e91577d28c8d82d590445c53dab03828972a64d086668dfc8fcb",
+      "verification_sha256": "0573650cc005e91577d28c8d82d590445c53dab03828972a64d086668dfc8fcb",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/PlatformExperiencesHelper_Metrics",
+      "size_bytes": 4126,
+      "sha256": "634622953a6e917337a15614eceabcbd82b625bc87bd2216f2e50c7a41b2c299",
+      "verification_sha256": "634622953a6e917337a15614eceabcbd82b625bc87bd2216f2e50c7a41b2c299",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/PlatformExperiencesHelper_OnUnlock",
+      "size_bytes": 3938,
+      "sha256": "669fdc349ce3dff7e1f4dfc7f04031bb27c0a268fd6611e7573290e1241fab1c",
+      "verification_sha256": "669fdc349ce3dff7e1f4dfc7f04031bb27c0a268fd6611e7573290e1241fab1c",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/PowerToys/Autorun for masab",
+      "size_bytes": 3626,
+      "sha256": "5358291553caae1c88c2270962075819f59cbc2699bfd58ed53b6f3b5a019cc5",
+      "verification_sha256": "5358291553caae1c88c2270962075819f59cbc2699bfd58ed53b6f3b5a019cc5",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/VivaldiUpdateCheck-1f7f32b129f76aaf",
+      "size_bytes": 3840,
+      "sha256": "9f832ad499341d929aaefd55eb59772129e9d1a2b72c4d847c89438e5cb857c8",
+      "verification_sha256": "9f832ad499341d929aaefd55eb59772129e9d1a2b72c4d847c89438e5cb857c8",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/WpsExternal_masab_interval",
+      "size_bytes": 4082,
+      "sha256": "45c87df3cbed8ef0bd0b7a16ac2542760ee1abf74edabcc708581b4bb5f9690d",
+      "verification_sha256": "45c87df3cbed8ef0bd0b7a16ac2542760ee1abf74edabcc708581b4bb5f9690d",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/WpsExternal_masab_startup",
+      "size_bytes": 3818,
+      "sha256": "ce7b7b2317cd9778b6bfef51de709c5975d157a9da96a1f3baf68db1e267307a",
+      "verification_sha256": "ce7b7b2317cd9778b6bfef51de709c5975d157a9da96a1f3baf68db1e267307a",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/WpsUpdateLogonTask_masab",
+      "size_bytes": 3456,
+      "sha256": "ac0c90d4beff9d67392bebd03b143b678d132771fd1ed56d72bd0d5373724388",
+      "verification_sha256": "ac0c90d4beff9d67392bebd03b143b678d132771fd1ed56d72bd0d5373724388",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/WpsUpdateTask_masab",
+      "size_bytes": 3764,
+      "sha256": "4d0eedb43a799368881641f517a6832778c7dc4490d63586cfff2ef24c086c98",
+      "verification_sha256": "4d0eedb43a799368881641f517a6832778c7dc4490d63586cfff2ef24c086c98",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskDefinitionFiles/WpsWakeWnsLogonTask",
+      "size_bytes": 3414,
+      "sha256": "2560f4304a27300b5b64cb6562249c65a3fcd31aa5bb8d5b432d33223ca2dc27",
+      "verification_sha256": "2560f4304a27300b5b64cb6562249c65a3fcd31aa5bb8d5b432d33223ca2dc27",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Scheduled Tasks Enumeration_Files/TaskScheduler_Operational.evtx",
+      "size_bytes": 69632,
+      "sha256": "9609dd505d3c3f138dc54bc9001db7b9b43b385fb146a6311e2887620b1e6c8d",
+      "verification_sha256": "9609dd505d3c3f138dc54bc9001db7b9b43b385fb146a6311e2887620b1e6c8d",
+      "verification_status": "verified",
+      "error": null
+    }
+  ],
+  "error": null,
+  "errors": [],
+  "generated_at_utc": "2026-11-12T05:27:52.961282+00:00"
+}
