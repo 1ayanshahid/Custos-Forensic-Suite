@@ -88,6 +88,18 @@ SERVICE_TYPE_BITS = {
     0x00000400: "SERVICE_USERSERVICE_INSTANCE",
     0x00000800: "SERVICE_PKG_SERVICE",
 }
+ACE_TYPE_LABELS = {
+    0: "ACCESS_ALLOWED_ACE",
+    1: "ACCESS_DENIED_ACE",
+    2: "SYSTEM_AUDIT_ACE",
+    3: "SYSTEM_ALARM_ACE",
+    4: "ACCESS_ALLOWED_COMPOUND_ACE",
+    5: "ACCESS_ALLOWED_OBJECT_ACE",
+    6: "ACCESS_DENIED_OBJECT_ACE",
+    7: "SYSTEM_AUDIT_OBJECT_ACE",
+    8: "SYSTEM_ALARM_OBJECT_ACE",
+    9: "ACCESS_ALLOWED_CALLBACK_ACE",
+}
 CONTROL_BITS = {
     0x0001: "SERVICE_ACCEPT_STOP",
     0x0002: "SERVICE_ACCEPT_PAUSE_CONTINUE",
@@ -570,12 +582,42 @@ class WindowsServiceApi:
         dacl = descriptor.GetSecurityDescriptorDacl()
         security_control, _revision = descriptor.GetSecurityDescriptorControl()
         dacl_present = bool(security_control & 0x0004)
-        acl_entries = None
         errors = []
+        try:
+            sddl = self.win32security.ConvertSecurityDescriptorToStringSecurityDescriptor(
+                descriptor, self.win32security.SDDL_REVISION_1, info
+            )
+        except Exception as exc:
+            sddl = None
+            errors.append({"field": "sddl", **classify_error(exc)})
+        acl_entries = None
         if dacl is not None:
-            acl_entries = []
-            for index in range(dacl.GetAceCount()):
-                header, mask, sid = dacl.GetAce(index)
+            try:
+                ace_count = dacl.GetAceCount()
+                acl_entries = []
+            except Exception as exc:
+                errors.append({"field": "dacl_aces", **classify_error(exc)})
+                acl_entries = None
+                ace_count = 0
+            for index in range(ace_count):
+                try:
+                    ace = dacl.GetAce(index)
+                    if len(ace) < 3:
+                        raise ValueError("The ACE decoder returned an incomplete record.")
+                    header, mask, sid = ace[:3]
+                    ace_header = list(header)
+                    ace_type = int(header[0])
+                except Exception as exc:
+                    errors.append(
+                        {
+                            "field": f"dacl_aces[{index}]",
+                            **classify_error(exc),
+                        }
+                    )
+                    acl_entries.append(
+                        {"ace_index": index, "decode_status": "failed"}
+                    )
+                    continue
                 try:
                     trustee_sid = self.win32security.ConvertSidToStringSid(sid)
                 except Exception as exc:
@@ -588,18 +630,16 @@ class WindowsServiceApi:
                     )
                 acl_entries.append(
                     {
-                        "ace_header": list(header),
+                        "ace_index": index,
+                        "ace_header": ace_header,
+                        "ace_type": {
+                            "value": ace_type,
+                            "label": ACE_TYPE_LABELS.get(ace_type, "UNKNOWN_ACE_TYPE"),
+                        },
                         "access_mask": mask,
                         "trustee_sid": trustee_sid,
                     }
                 )
-        try:
-            sddl = self.win32security.ConvertSecurityDescriptorToStringSecurityDescriptor(
-                descriptor, self.win32security.SDDL_REVISION_1, info
-            )
-        except Exception as exc:
-            sddl = None
-            errors.append({"field": "sddl", **classify_error(exc)})
         try:
             owner_sid = (
                 self.win32security.ConvertSidToStringSid(owner) if owner else None
@@ -667,9 +707,31 @@ def _query_extended(
             "winerror"
         ) == ERROR_INVALID_PARAMETER:
             item["category"] = "unsupported"
+            if (
+                field_name == "preferred_node"
+                and item.get("winerror") == ERROR_INVALID_PARAMETER
+            ):
+                item["diagnostic"] = (
+                    "QueryServiceConfig2W was called with "
+                    "SERVICE_CONFIG_PREFERRED_NODE (dwInfoLevel=9). The A06 native "
+                    "query passes SERVICE_QUERY_CONFIG access and an 8192-byte "
+                    "output buffer; _PreferredNodeInfo is decoded only after the "
+                    "API succeeds. ERROR_INVALID_PARAMETER therefore comes from "
+                    "the Windows query call, not from response decoding. The error "
+                    "code does not identify whether this service or the Windows "
+                    "provider rejects that information level."
+                )
             limitation = (
-                f"{field_name} is unsupported by this Windows version/provider "
-                f"(Win32 error {item.get('winerror')})."
+                f"{field_name} returned ERROR_INVALID_PARAMETER (87) from "
+                "QueryServiceConfig2W for SERVICE_CONFIG_PREFERRED_NODE (9); "
+                "the error does not identify why this service/provider rejected "
+                "the request."
+                if field_name == "preferred_node"
+                and item.get("winerror") == ERROR_INVALID_PARAMETER
+                else (
+                    f"{field_name} is unsupported by this Windows version/provider "
+                    f"(Win32 error {item.get('winerror')})."
+                )
             )
             if limitation not in limitations:
                 limitations.append(limitation)
@@ -1109,8 +1171,8 @@ def _run_with_integrity_manifest(main):
         "A40": "--output", "A41": "--output", "A42": "--output",
         "A46": "--output", "A47": "--output", "A48": "--output",
         "A51": "--output-dir", "A52": "--output-dir",
-        "A60": "--output-dir", "A67": "--output-dir",
-        "A69": "--output-dir", "X14": "--output-dir",
+        "A59": "--output-dir", "A66": "--output-dir",
+        "A68": "--output-dir", "X14": "--output-dir",
         "X15": "--output-dir", "X16": "--output-dir",
         "X18": "--output-dir", "X20": "--output-dir",
         "X22": "--output-dir", "X23": "--output-dir",
@@ -1143,7 +1205,7 @@ def _run_with_integrity_manifest(main):
         if artifact_id in {
             "A01", "A17", "A18", "A23", "A25", "A30", "A31",
             "A40", "A41", "A42", "A46", "A47", "A48", "A51",
-            "A52", "A60", "A67", "A69",
+            "A52", "A59", "A66", "A68",
         }:
             launcher_output_response = str(output_directory)
         else:
