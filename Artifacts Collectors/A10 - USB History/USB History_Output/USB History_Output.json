@@ -1,0 +1,33 @@
+{
+  "status": "collected",
+  "source_hive": "D:\\FYP\\Custos Forensic Suite\\Artifacts Collectors\\.custos-backend\\A08 - Registry Hives\\Registry Hives_Files\\SYSTEM",
+  "control_set": "ControlSet001",
+  "utc": "2026-11-09T11:00:44.419646+00:00",
+  "count": 3,
+  "records": [
+    {
+      "device_class": "Disk&Ven_VendorCo&Prod_ProductCode&Rev_2.00",
+      "instance_id": "1019641206886714052&0",
+      "friendly_name": "VendorCo ProductCode USB Device",
+      "device_desc": "@disk.inf,%disk_devdesc%;Disk drive",
+      "service": "disk",
+      "container_id": "{135a7d7f-cc72-5609-87e3-1e6fb2dcd218}"
+    },
+    {
+      "device_class": "Disk&Ven_VendorCo&Prod_ProductCode&Rev_2.00",
+      "instance_id": "3653121292346495028&0",
+      "friendly_name": "VendorCo ProductCode USB Device",
+      "device_desc": "@disk.inf,%disk_devdesc%;Disk drive",
+      "service": "disk",
+      "container_id": "{6701520a-d49e-522c-9e8c-4ddacd3eebca}"
+    },
+    {
+      "device_class": "Disk&Ven_VendorCo&Prod_ProductCode&Rev_2.00",
+      "instance_id": "4616571261130293913&0",
+      "friendly_name": "VendorCo ProductCode USB Device",
+      "device_desc": "@disk.inf,%disk_devdesc%;Disk drive",
+      "service": "disk",
+      "container_id": "{4c80c6f1-496d-562f-8972-7ee19cc86c1d}"
+    }
+  ]
+}
