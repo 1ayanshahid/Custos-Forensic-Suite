@@ -1,0 +1,282 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "A20",
+  "artifact_name": "Windows Startup Folders",
+  "collector_version": "1.0.0",
+  "run_id": "20261113T043312Z_71dbcf79",
+  "started_utc": "2026-11-13T04:33:12.886048+00:00",
+  "finished_utc": "2026-11-13T04:33:13.011047+00:00",
+  "case_root": "C:\\Custos\\Case001",
+  "run_directory": "E:\\Custos Forensic Suite\\Artifacts Collectors\\A20 - Startup Folders\\Startup Folders_Output",
+  "acquired_files_directory": "E:\\Custos Forensic Suite\\Artifacts Collectors\\A20 - Startup Folders\\Startup Folders_Output\\Startup Folders_Files",
+  "system": {
+    "hostname": "DESKTOP-59D11IC",
+    "platform": "Windows-11-10.0.22631-SP0",
+    "windows_version": "10.0.22631",
+    "python_version": "3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]",
+    "administrator": true
+  },
+  "timestamp_field_meanings": {
+    "mtime_utc": "Filesystem-reported last content modification time.",
+    "ctime_utc": "On Windows with Python 3.12, file creation time, not Unix metadata-change time. For a copied file, this is typically when the copy was created.",
+    "atime_utc": "Filesystem-reported last access time; reading a file during collection may update it.",
+    "utc": "The _utc values are ISO-8601 timestamps in UTC.",
+    "nanosecond_fields": "mtime_ns, ctime_ns, and atime_ns are integer filesystem timestamp values in nanoseconds, not UTC timestamps."
+  },
+  "sources": [
+    {
+      "source_id": "CommonStartup",
+      "scope": "all_users",
+      "source_path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup",
+      "exists": true,
+      "enumeration_status": "ENUMERATED",
+      "files_discovered": 1
+    },
+    {
+      "source_id": "User_S-1-5-18",
+      "scope": "user",
+      "sid": "S-1-5-18",
+      "profile_path": "C:\\Windows\\system32\\config\\systemprofile",
+      "source_path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup",
+      "exists": false,
+      "enumeration_status": "SOURCE_MISSING"
+    },
+    {
+      "source_id": "User_S-1-5-19",
+      "scope": "user",
+      "sid": "S-1-5-19",
+      "profile_path": "C:\\Windows\\ServiceProfiles\\LocalService",
+      "source_path": "C:\\Windows\\ServiceProfiles\\LocalService\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup",
+      "exists": false,
+      "enumeration_status": "SOURCE_MISSING"
+    },
+    {
+      "source_id": "User_S-1-5-20",
+      "scope": "user",
+      "sid": "S-1-5-20",
+      "profile_path": "C:\\Windows\\ServiceProfiles\\NetworkService",
+      "source_path": "C:\\Windows\\ServiceProfiles\\NetworkService\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup",
+      "exists": false,
+      "enumeration_status": "SOURCE_MISSING"
+    },
+    {
+      "source_id": "User_S-1-5-21-1571265256-2295760488-3479019236-1000",
+      "scope": "user",
+      "sid": "S-1-5-21-1571265256-2295760488-3479019236-1000",
+      "profile_path": "C:\\Users\\masab",
+      "source_path": "C:\\Users\\masab\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup",
+      "exists": true,
+      "enumeration_status": "ENUMERATED",
+      "files_discovered": 1
+    },
+    {
+      "source_id": "User_S-1-5-21-1571265256-2295760488-3479019236-1019",
+      "scope": "user",
+      "sid": "S-1-5-21-1571265256-2295760488-3479019236-1019",
+      "profile_path": "C:\\Users\\TEMP.DESKTOP-59D11IC.001",
+      "source_path": "C:\\Users\\TEMP.DESKTOP-59D11IC.001\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup",
+      "exists": true,
+      "enumeration_status": "ENUMERATED",
+      "files_discovered": 1
+    },
+    {
+      "source_id": "User_S-1-5-21-1571265256-2295760488-3479019236-1019.bak",
+      "scope": "user",
+      "sid": "S-1-5-21-1571265256-2295760488-3479019236-1019.bak",
+      "profile_path": "C:\\Users\\Matloob",
+      "source_path": "C:\\Users\\Matloob\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup",
+      "exists": false,
+      "enumeration_status": "SOURCE_MISSING"
+    },
+    {
+      "source_id": "User_S-1-5-80-1374824361-465945973-1635723809-3190017912-3513974881",
+      "scope": "user",
+      "sid": "S-1-5-80-1374824361-465945973-1635723809-3190017912-3513974881",
+      "profile_path": "C:\\Windows\\ServiceProfiles\\OracleOraDB21Home1TNSListener",
+      "source_path": "C:\\Windows\\ServiceProfiles\\OracleOraDB21Home1TNSListener\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup",
+      "exists": false,
+      "enumeration_status": "SOURCE_MISSING"
+    },
+    {
+      "source_id": "User_S-1-5-80-1464070106-3570761766-2172374724-783153558-1381522724",
+      "scope": "user",
+      "sid": "S-1-5-80-1464070106-3570761766-2172374724-783153558-1381522724",
+      "profile_path": "C:\\Windows\\ServiceProfiles\\OracleServiceXE",
+      "source_path": "C:\\Windows\\ServiceProfiles\\OracleServiceXE\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup",
+      "exists": false,
+      "enumeration_status": "SOURCE_MISSING"
+    },
+    {
+      "source_id": "User_S-1-5-80-3191021196-3668848460-1609882449-918409182-1203010618",
+      "scope": "user",
+      "sid": "S-1-5-80-3191021196-3668848460-1609882449-918409182-1203010618",
+      "profile_path": "C:\\Windows\\ServiceProfiles\\Splunkd",
+      "source_path": "C:\\Windows\\ServiceProfiles\\Splunkd\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup",
+      "exists": false,
+      "enumeration_status": "SOURCE_MISSING"
+    },
+    {
+      "source_id": "User_S-1-5-80-3850495238-697030721-643989029-4057494824-707097437",
+      "scope": "user",
+      "sid": "S-1-5-80-3850495238-697030721-643989029-4057494824-707097437",
+      "profile_path": "C:\\Windows\\ServiceProfiles\\OracleVssWriterXE",
+      "source_path": "C:\\Windows\\ServiceProfiles\\OracleVssWriterXE\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup",
+      "exists": false,
+      "enumeration_status": "SOURCE_MISSING"
+    },
+    {
+      "source_id": "User_S-1-5-80-526369210-1730866775-3035121100-1937364911-2593483836",
+      "scope": "user",
+      "sid": "S-1-5-80-526369210-1730866775-3035121100-1937364911-2593483836",
+      "profile_path": "C:\\Windows\\ServiceProfiles\\OracleOraDB21Home1MTSRecoveryService",
+      "source_path": "C:\\Windows\\ServiceProfiles\\OracleOraDB21Home1MTSRecoveryService\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup",
+      "exists": false,
+      "enumeration_status": "SOURCE_MISSING"
+    }
+  ],
+  "files": [
+    {
+      "source_id": "CommonStartup",
+      "source_path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\desktop.ini",
+      "relative_path": "desktop.ini",
+      "destination_path": "E:\\Custos Forensic Suite\\Artifacts Collectors\\A20 - Startup Folders\\Startup Folders_Output\\Startup Folders_Files\\CommonStartup\\desktop.ini",
+      "status": "COPIED_VERIFIED",
+      "sha256_before": "cdb11958506a5ba5478e22ed472fa3ae422fe9916d674f290207e1fc29ae5a76",
+      "sha256_copy": "cdb11958506a5ba5478e22ed472fa3ae422fe9916d674f290207e1fc29ae5a76",
+      "sha256_after": "cdb11958506a5ba5478e22ed472fa3ae422fe9916d674f290207e1fc29ae5a76",
+      "hash_verified": true,
+      "source_changed_or_unstable": false,
+      "errors": [],
+      "source_metadata_before": {
+        "size_bytes": 174,
+        "mtime_ns": 1651900952473190700,
+        "ctime_ns": 1651901094108008500,
+        "atime_ns": 1794470442031469500,
+        "mtime_utc": "2022-05-07T05:22:32.473191+00:00",
+        "ctime_utc": "2022-05-07T05:24:54.108008+00:00",
+        "atime_utc": "2026-11-12T08:00:42.031470+00:00"
+      },
+      "copy_metadata": {
+        "size_bytes": 174,
+        "mtime_ns": 1651900952473190700,
+        "ctime_ns": 1794544392979797900,
+        "atime_ns": 1794544392995430800,
+        "mtime_utc": "2022-05-07T05:22:32.473191+00:00",
+        "ctime_utc": "2026-11-13T04:33:12.979798+00:00",
+        "atime_utc": "2026-11-13T04:33:12.995431+00:00"
+      },
+      "source_metadata_after": {
+        "size_bytes": 174,
+        "mtime_ns": 1651900952473190700,
+        "ctime_ns": 1651901094108008500,
+        "atime_ns": 1794544392979797900,
+        "mtime_utc": "2022-05-07T05:22:32.473191+00:00",
+        "ctime_utc": "2022-05-07T05:24:54.108008+00:00",
+        "atime_utc": "2026-11-13T04:33:12.979798+00:00"
+      },
+      "finished_utc": "2026-11-13T04:33:12.995430+00:00"
+    },
+    {
+      "source_id": "User_S-1-5-21-1571265256-2295760488-3479019236-1000",
+      "source_path": "C:\\Users\\masab\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\desktop.ini",
+      "relative_path": "desktop.ini",
+      "destination_path": "E:\\Custos Forensic Suite\\Artifacts Collectors\\A20 - Startup Folders\\Startup Folders_Output\\Startup Folders_Files\\User_S-1-5-21-1571265256-2295760488-3479019236-1000\\desktop.ini",
+      "status": "COPIED_VERIFIED",
+      "sha256_before": "cdb11958506a5ba5478e22ed472fa3ae422fe9916d674f290207e1fc29ae5a76",
+      "sha256_copy": "cdb11958506a5ba5478e22ed472fa3ae422fe9916d674f290207e1fc29ae5a76",
+      "sha256_after": "cdb11958506a5ba5478e22ed472fa3ae422fe9916d674f290207e1fc29ae5a76",
+      "hash_verified": true,
+      "source_changed_or_unstable": false,
+      "errors": [],
+      "source_metadata_before": {
+        "size_bytes": 174,
+        "mtime_ns": 1745777383561515000,
+        "ctime_ns": 1745777383561515000,
+        "atime_ns": 1794470543934698700,
+        "mtime_utc": "2025-04-27T18:09:43.561515+00:00",
+        "ctime_utc": "2025-04-27T18:09:43.561515+00:00",
+        "atime_utc": "2026-11-12T08:02:23.934699+00:00"
+      },
+      "copy_metadata": {
+        "size_bytes": 174,
+        "mtime_ns": 1745777383561515000,
+        "ctime_ns": 1794544392995430800,
+        "atime_ns": 1794544392995430800,
+        "mtime_utc": "2025-04-27T18:09:43.561515+00:00",
+        "ctime_utc": "2026-11-13T04:33:12.995431+00:00",
+        "atime_utc": "2026-11-13T04:33:12.995431+00:00"
+      },
+      "source_metadata_after": {
+        "size_bytes": 174,
+        "mtime_ns": 1745777383561515000,
+        "ctime_ns": 1745777383561515000,
+        "atime_ns": 1794544392995430800,
+        "mtime_utc": "2025-04-27T18:09:43.561515+00:00",
+        "ctime_utc": "2025-04-27T18:09:43.561515+00:00",
+        "atime_utc": "2026-11-13T04:33:12.995431+00:00"
+      },
+      "finished_utc": "2026-11-13T04:33:12.995430+00:00"
+    },
+    {
+      "source_id": "User_S-1-5-21-1571265256-2295760488-3479019236-1019",
+      "source_path": "C:\\Users\\TEMP.DESKTOP-59D11IC.001\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\desktop.ini",
+      "relative_path": "desktop.ini",
+      "destination_path": "E:\\Custos Forensic Suite\\Artifacts Collectors\\A20 - Startup Folders\\Startup Folders_Output\\Startup Folders_Files\\User_S-1-5-21-1571265256-2295760488-3479019236-1019\\desktop.ini",
+      "status": "COPIED_VERIFIED",
+      "sha256_before": "cdb11958506a5ba5478e22ed472fa3ae422fe9916d674f290207e1fc29ae5a76",
+      "sha256_copy": "cdb11958506a5ba5478e22ed472fa3ae422fe9916d674f290207e1fc29ae5a76",
+      "sha256_after": "cdb11958506a5ba5478e22ed472fa3ae422fe9916d674f290207e1fc29ae5a76",
+      "hash_verified": true,
+      "source_changed_or_unstable": false,
+      "errors": [],
+      "source_metadata_before": {
+        "size_bytes": 174,
+        "mtime_ns": 1788072869879607400,
+        "ctime_ns": 1788072869879607400,
+        "atime_ns": 1794474301460246600,
+        "mtime_utc": "2026-08-30T06:54:29.879607+00:00",
+        "ctime_utc": "2026-08-30T06:54:29.879607+00:00",
+        "atime_utc": "2026-11-12T09:05:01.460247+00:00"
+      },
+      "copy_metadata": {
+        "size_bytes": 174,
+        "mtime_ns": 1788072869879607400,
+        "ctime_ns": 1794544392995430800,
+        "atime_ns": 1794544393011047700,
+        "mtime_utc": "2026-08-30T06:54:29.879607+00:00",
+        "ctime_utc": "2026-11-13T04:33:12.995431+00:00",
+        "atime_utc": "2026-11-13T04:33:13.011048+00:00"
+      },
+      "source_metadata_after": {
+        "size_bytes": 174,
+        "mtime_ns": 1788072869879607400,
+        "ctime_ns": 1788072869879607400,
+        "atime_ns": 1794544392995430800,
+        "mtime_utc": "2026-08-30T06:54:29.879607+00:00",
+        "ctime_utc": "2026-08-30T06:54:29.879607+00:00",
+        "atime_utc": "2026-11-13T04:33:12.995431+00:00"
+      },
+      "finished_utc": "2026-11-13T04:33:13.011047+00:00"
+    }
+  ],
+  "errors": [],
+  "skipped_paths": [],
+  "summary": {
+    "source_folders_examined": 12,
+    "source_folders_found": 3,
+    "files_discovered": 3,
+    "files_copied": 3,
+    "hash_verified": 3,
+    "failed_files": 0,
+    "source_changed_or_unstable": 0,
+    "bytes_copied": 522,
+    "errors_recorded": 0,
+    "skipped_paths": 0
+  },
+  "limitations": [
+    "Startup folders are only one Windows persistence location.",
+    "Profile discovery relies on the ProfileList registry key.",
+    "Live acquisition is not an application-consistent snapshot."
+  ],
+  "result": "COMPLETED"
+}
