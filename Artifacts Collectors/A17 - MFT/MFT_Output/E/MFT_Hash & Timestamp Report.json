@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "artifact_id": "A17",
+  "artifact_name": "MFT",
+  "collector": "collector.py",
+  "hash_algorithm": "SHA-256",
+  "verification_status": "verified",
+  "verification_method": "Two independent reads of saved output files; SHA-256 comparison and size, mtime, ctime, device and file identity stability checks. Not acquisition-time hashing.",
+  "collection_started_at_utc": "2026-11-13T17:32:44.322769Z",
+  "collection_ended_at_utc": "2026-11-13T17:32:45.995436Z",
+  "collection_status": "completed",
+  "collection_exit_code": 0,
+  "output_directory": "E:\\FYP Working Individually\\Ayan Shahid\\Artifacts Collectors\\A17 - MFT\\MFT\\E",
+  "outputs": [
+    {
+      "path": "MFT-collection-20261113T173244_322769Z.json",
+      "size_bytes": 4599,
+      "sha256": "d8335ce0f1d741b24eb722e9b72f8f30241505136bd0e8540aa3ec4ae0c7e025",
+      "verification_sha256": "d8335ce0f1d741b24eb722e9b72f8f30241505136bd0e8540aa3ec4ae0c7e025",
+      "last_modified_utc": "2026-11-13T17:32:45.995436+00:00",
+      "hash_timestamp_utc": "2026-11-13T17:32:47.075785+00:00",
+      "verification_timestamp_utc": "2026-11-13T17:32:47.077132+00:00",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "MFT-MFT-E.bin",
+      "size_bytes": 408682496,
+      "sha256": "bec816cb7d7b6d7bd2e173ac1bcdf218934d079a9d9bdbb0a919b32c97cb89c4",
+      "verification_sha256": "bec816cb7d7b6d7bd2e173ac1bcdf218934d079a9d9bdbb0a919b32c97cb89c4",
+      "last_modified_utc": "2026-11-13T17:32:45.932241+00:00",
+      "hash_timestamp_utc": "2026-11-13T17:32:48.138650+00:00",
+      "verification_timestamp_utc": "2026-11-13T17:32:49.317559+00:00",
+      "verification_status": "verified",
+      "error": null
+    }
+  ],
+  "error": null,
+  "errors": [],
+  "generated_at_utc": "2026-11-13T17:32:49.317559+00:00",
+  "generated_at_local": "2026-11-13T22:32:49.317559+05:00"
+}
