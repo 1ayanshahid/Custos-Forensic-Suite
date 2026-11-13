@@ -1,0 +1,117 @@
+{
+  "artifact_id": "A17",
+  "artifact_name": "MFT",
+  "collection_started_at_utc": "2026-11-13T17:32:39.985858+00:00",
+  "collection_ended_at_utc": "2026-11-13T17:32:41.373387+00:00",
+  "collection_started_at_local": "2026-11-13T22:32:39.985858+05:00",
+  "collection_ended_at_local": "2026-11-13T22:32:41.373387+05:00",
+  "collection_time_zone_id": "Pakistan Standard Time",
+  "collection_time_zone_id_source": "HKLM\\SYSTEM\\CurrentControlSet\\Control\\TimeZoneInformation\\TimeZoneKeyName",
+  "collection_time_zone_id_error": null,
+  "collection_clock_adjusted": false,
+  "acquisition_status": "success",
+  "parsing_status": "not_requested",
+  "collection_host": {
+    "operating_system": "Windows-11-10.0.26300-SP0",
+    "python_version": "3.12.10",
+    "python_architecture": "64bit"
+  },
+  "source": {
+    "volume_specification": "D:",
+    "volume": {
+      "volume_root": "D:\\",
+      "volume_label": "Software Installation & Setups",
+      "volume_serial_number": "3F3E1170",
+      "filesystem": "NTFS",
+      "filesystem_flags": 65482495,
+      "maximum_component_length": 255,
+      "total_bytes": 112809996288,
+      "free_bytes_available_to_caller": 38580191232,
+      "ntfs": {
+        "bytes_per_sector": 512,
+        "bytes_per_cluster": 4096,
+        "bytes_per_file_record_segment": 1024,
+        "mft_valid_data_length_bytes": 351125504,
+        "mft_start_lcn": 11239519
+      }
+    }
+  },
+  "acquisition_tool": {
+    "name": "RawCopy64",
+    "path": "E:\\FYP Working Individually\\Ayan Shahid\\Artifacts Collectors\\A17 - MFT\\RawCopy64.exe",
+    "file_version_resource": "1.0.0.22",
+    "pe_machine": "0x8664",
+    "pinned_upstream_binary_match": true,
+    "upstream_version_documented": "1.0.0.22",
+    "upstream_source": "https://github.com/jschicht/RawCopy",
+    "upstream_revision": "jschicht/RawCopy commit 0d8d690c0f0fe9d2c68c5fce02d26d0efa53459c",
+    "acquisition_semantics": "Extracts NTFS file reference 0 ($MFT) using the tool's low-level NTFS reader; default attribute behavior is used."
+  },
+  "invocation_arguments": [
+    "E:\\FYP Working Individually\\Ayan Shahid\\Artifacts Collectors\\A17 - MFT\\RawCopy64.exe",
+    "/FileNamePath:D:0",
+    "/OutputPath:E:\\FYP Working Individually\\Ayan Shahid\\Artifacts Collectors\\A17 - MFT\\MFT\\D",
+    "/OutputName:.A17-MFT-D.acquire-0fdc3f18ade34e3eaf98aa394af13615.tmp"
+  ],
+  "tool_exit_code": 0,
+  "output": {
+    "mft_binary_path": "E:\\FYP Working Individually\\Ayan Shahid\\Artifacts Collectors\\A17 - MFT\\MFT\\D\\MFT-MFT-D.bin",
+    "mft_size_bytes": 351125504,
+    "result_json_path": "E:\\FYP Working Individually\\Ayan Shahid\\Artifacts Collectors\\A17 - MFT\\MFT\\D\\MFT-collection-20261113T173239_989863Z.json"
+  },
+  "diagnostics": {
+    "stdout": "RawCopy v1.0.0.22\n\nWriting: .A17-MFT-D.acquire-0fdc3f18ade34e3eaf98aa394af13615.tmp\n\nJob took 1.31 seconds\n",
+    "stderr": "",
+    "interrupted": false
+  },
+  "validation_checks": {
+    "exists": true,
+    "size_bytes": 351125504,
+    "record_size_bytes": 1024,
+    "expected_mft_length_bytes": 351125504,
+    "record_size_aligned": true,
+    "expected_length_matches": true,
+    "sampled_record_offsets": [
+      {
+        "record_index": 0,
+        "signature": "FILE",
+        "recognized": true
+      },
+      {
+        "record_index": 85724,
+        "signature": "FILE",
+        "recognized": true
+      },
+      {
+        "record_index": 171448,
+        "signature": "FILE",
+        "recognized": true
+      },
+      {
+        "record_index": 257172,
+        "signature": "FILE",
+        "recognized": true
+      },
+      {
+        "record_index": 342895,
+        "signature": "\u0000\u0000\u0000\u0000",
+        "recognized": false
+      }
+    ],
+    "sampled_file_signatures": 4,
+    "sampled_records": 5,
+    "record_zero_signature": "FILE",
+    "valid": true,
+    "limitations": [
+      "Bounded FILE/BAAD signature sampling checks plausibility, not full MFT integrity."
+    ]
+  },
+  "errors": [],
+  "limitations": [
+    "RawCopy is a third-party low-level NTFS acquisition utility; its executable must be manually obtained and verified.",
+    "A live volume may change during acquisition; this is not an atomic snapshot or hardware write-blocked acquisition.",
+    "FILE/BAAD sampling and length comparison are plausibility checks, not a complete integrity proof.",
+    "No parser was run. Raw MFT records, including deleted records, are not a parsed inventory or proof that file contents are recoverable.",
+    "Only the MFT file reference is acquired; no file contents, alternate-stream contents, USN Journal, $LogFile, or other artifacts are collected."
+  ]
+}
