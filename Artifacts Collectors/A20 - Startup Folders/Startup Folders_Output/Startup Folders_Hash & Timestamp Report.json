@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "artifact_name": "Startup Folders",
+  "collector": "collector.py",
+  "hash_algorithm": "SHA-256",
+  "verification_status": "verified",
+  "verification_method": "Two independent reads of saved output files; SHA-256 comparison and size, mtime, ctime, device and file identity stability checks. Not acquisition-time hashing.",
+  "collection_status": "completed",
+  "collection_exit_code": 0,
+  "output_directory": "E:\\Custos Forensic Suite\\Artifacts Collectors\\A20 - Startup Folders\\Startup Folders_Output",
+  "outputs": [
+    {
+      "path": "Startup Folders_Files/CommonStartup/desktop.ini",
+      "size_bytes": 174,
+      "sha256": "cdb11958506a5ba5478e22ed472fa3ae422fe9916d674f290207e1fc29ae5a76",
+      "verification_sha256": "cdb11958506a5ba5478e22ed472fa3ae422fe9916d674f290207e1fc29ae5a76",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Startup Folders_Files/User_S-1-5-21-1571265256-2295760488-3479019236-1000/desktop.ini",
+      "size_bytes": 174,
+      "sha256": "cdb11958506a5ba5478e22ed472fa3ae422fe9916d674f290207e1fc29ae5a76",
+      "verification_sha256": "cdb11958506a5ba5478e22ed472fa3ae422fe9916d674f290207e1fc29ae5a76",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Startup Folders_Files/User_S-1-5-21-1571265256-2295760488-3479019236-1019/desktop.ini",
+      "size_bytes": 174,
+      "sha256": "cdb11958506a5ba5478e22ed472fa3ae422fe9916d674f290207e1fc29ae5a76",
+      "verification_sha256": "cdb11958506a5ba5478e22ed472fa3ae422fe9916d674f290207e1fc29ae5a76",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Startup Folders_Inventory.json",
+      "size_bytes": 13355,
+      "sha256": "9d2120fc6d1c1b5be893a2ab8fac3fcaad01664d91fd36f4e0d5a68582717ff4",
+      "verification_sha256": "9d2120fc6d1c1b5be893a2ab8fac3fcaad01664d91fd36f4e0d5a68582717ff4",
+      "verification_status": "verified",
+      "error": null
+    }
+  ],
+  "error": null,
+  "errors": [],
+  "generated_at_utc": "2026-11-13T04:33:13.042295+00:00"
+}
