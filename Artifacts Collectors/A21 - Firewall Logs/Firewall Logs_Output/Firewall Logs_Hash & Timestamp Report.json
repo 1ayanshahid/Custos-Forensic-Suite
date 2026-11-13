@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "artifact_name": "Firewall Logs",
+  "collector": "collector.py",
+  "hash_algorithm": "SHA-256",
+  "verification_status": "verified",
+  "verification_method": "Two independent reads of saved output files; SHA-256 comparison and size, mtime, ctime, device and file identity stability checks. Not acquisition-time hashing.",
+  "collection_status": "completed",
+  "collection_exit_code": 0,
+  "output_directory": "E:\\Custos Forensic Suite\\Artifacts Collectors\\A21 - Firewall Logs\\Firewall Logs_Output",
+  "outputs": [
+    {
+      "path": "Firewall Logs.json",
+      "size_bytes": 9043796,
+      "sha256": "0f00ff93d08089630422339258fb4cb66c50b73b23f99a0f33ce5ed2ceff3948",
+      "verification_sha256": "0f00ff93d08089630422339258fb4cb66c50b73b23f99a0f33ce5ed2ceff3948",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Firewall Logs_Files/pfirewall.log",
+      "size_bytes": 1440935,
+      "sha256": "79854ceff8ebe38c6028f5f582c9d50021e0e26668dbf0f18ae1e7d769501c5f",
+      "verification_sha256": "79854ceff8ebe38c6028f5f582c9d50021e0e26668dbf0f18ae1e7d769501c5f",
+      "verification_status": "verified",
+      "error": null
+    }
+  ],
+  "error": null,
+  "errors": [],
+  "generated_at_utc": "2026-11-13T15:03:11.597824+00:00"
+}
