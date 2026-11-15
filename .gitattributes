@@ -1,0 +1,1 @@
+Artifacts[[:space:]]Collectors/A17[[:space:]]-[[:space:]]MFT/MFT_Output/*/MFT-MFT-*.bin filter=lfs diff=lfs merge=lfs -text
