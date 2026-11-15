@@ -1,0 +1,73 @@
+{
+   "checksum": "306bd3e59587a75b501e88eb21ae837e",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13398929060538284",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13398636819656854",
+            "date_last_used": "0",
+            "guid": "bdbdd41b-fe3f-444b-afe7-92662c48ec44",
+            "id": "8",
+            "name": "simownership.net",
+            "show_icon": false,
+            "source": "import_continuous_from_chrome",
+            "type": "url",
+            "url": "https://simownership.net/",
+            "visit_count": 0
+         }, {
+            "date_added": "13401411987274765",
+            "date_last_used": "0",
+            "guid": "0cf56458-1e84-4adb-862c-25d9d76cb11a",
+            "id": "9",
+            "name": "Emkei's Fake Mailer",
+            "show_icon": false,
+            "source": "import_continuous_from_chrome",
+            "type": "url",
+            "url": "https://emkei.cz/",
+            "visit_count": 0
+         } ],
+         "date_added": "13398929060538284",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13398929060538284",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "workspaces_v2": {
+         "children": [  ],
+         "date_added": "13415764848199739",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "75aa6670-344f-549d-b742-660f029506ab",
+         "id": "5",
+         "name": "Workspaces",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CjEKDgiIgQISCCQhE+ScAQAAEgAqGEJGVnZqZURydFZ3T1hjanpoaGtsU3c9PUgDoAYEEo4BCAMSiQEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJDQzYzUyNDE2LTNjMTctNTc3Ny05NzkwLWI2OTRhZWJkYmZlNRgAIAAoADCS6fvYhzM43vD72IczQN7w+9iHM0oceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAADCPgJgABKsAQgJEqcBChx6Q1JLUVhxSEFEbmFObmpRUmtYV2tpQUt6Z289EiQwY2Y1NjQ1OC0xZTg0LTRhZGItODYyYy0yNWQ5ZDc2Y2IxMWEYACACKAIwnsLMoM4zOPLdx5HKM0D33ceRyjNKHGM2a0RTL0l1WlpnRTRWRExmSENKRm9sc2tQOD1aHiIcZGRiRUVZUTFYN2R5MHdaanV3RC94b0daOWdFPWWwddn5wj4CYAsSjgEIBRKJAQocd1JCclpMKzZQQTlhdktnak5QN0pYRExjZnZzPRIkZmY0OGQ2NGUtN2VmOS01MTAyLWEwM2UtZWIzZTQ0MGZmYWU2GAAgACgAMIKm1rOwMzj8p9azsDNA/KfWs7AzShxubXg2NXNRRHZ4SThUZ0VlditBK250dG9TbjQ9WgBlAAAAAMI+AmAAEo4BCAISiQEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SJDUxOWJiYjJlLWEwNTUtNWQ3YS05OWI0LTljZjA2MGVkZDNjOBgAIAAoADCN6fvYhzM4lvD72IczQJbw+9iHM0ocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAADCPgJgABKsAQgIEqcBChxMSXpMTGtoNkhqUUlkb1FjMjNFVi8xQWFyRUU9EiRiZGJkZDQxYi1mZTNmLTQ0NGItYWZlNy05MjY2MmM0OGVjNDQYACABKAEwncLMoM4zOPHdx5HKM0Dx3ceRyjNKHHBqNExZTGdsZ05uVEl0bGJXNnhNeUtxemxtST1aHiIcUXB0bWRyVjk3a1ZUZUJxeTJDK3BFYml1Q2ZrPWUAAAAAwj4CYAsSjgEIARKJAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRIkOWFiNzY2NjItZGQ5Ni01YTUzLWJkMjQtM2FiNmVlNWUwMGVhGAAgACgAMIzp+9iHMzj37/vYhzNA9+/72IczShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAAMI+AmAAMAA4AA==",
+   "version": 1
+}

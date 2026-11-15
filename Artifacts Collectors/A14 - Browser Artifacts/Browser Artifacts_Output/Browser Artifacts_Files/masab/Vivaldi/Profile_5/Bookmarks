@@ -1,0 +1,370 @@
+{
+   "checksum": "893e9de2af746f65959cf9df9d652345",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13390316524801913",
+               "date_last_used": "0",
+               "guid": "b095403c-0348-4d47-b03e-c9b408bfc92b",
+               "id": "7",
+               "meta_info": {
+                  "Partner": "b095403c-0348-4d47-b03e-c9b408bfc92b",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_vivaldi.png"
+               },
+               "name": "Vivaldi Browser",
+               "type": "url",
+               "url": "https://vivaldi.com/"
+            }, {
+               "date_added": "13390316524802018",
+               "date_last_used": "0",
+               "guid": "848a4ba4-5f69-4a38-8ccc-d0cea9fe0709",
+               "id": "8",
+               "meta_info": {
+                  "Partner": "848a4ba4-5f69-4a38-8ccc-d0cea9fe0709",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_vivaldi_social.png"
+               },
+               "name": "Vivaldi Social",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/sd-social"
+            }, {
+               "date_added": "13390316524802081",
+               "date_last_used": "0",
+               "guid": "cbe202d3-71df-4491-a825-448e4d745e43",
+               "id": "9",
+               "meta_info": {
+                  "Description": "vivaldi",
+                  "Partner": "cbe202d3-71df-4491-a825-448e4d745e43",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_vivaldi_community.png"
+               },
+               "name": "Vivaldi Community",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/sd-community"
+            }, {
+               "date_added": "13390316524802125",
+               "date_last_used": "0",
+               "guid": "4e1fc0cf-08f4-40d9-acc9-dc79ea44cf82",
+               "id": "10",
+               "meta_info": {
+                  "Partner": "4e1fc0cf-08f4-40d9-acc9-dc79ea44cf82",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_accuweather.png"
+               },
+               "name": "AccuWeather",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/sd-accuweather"
+            }, {
+               "date_added": "13390316524802169",
+               "date_last_used": "0",
+               "guid": "10415f5d-2e0c-4f08-8e49-23fcd2de0943",
+               "id": "11",
+               "meta_info": {
+                  "Partner": "10415f5d-2e0c-4f08-8e49-23fcd2de0943",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_vivaldia_games.png"
+               },
+               "name": "Vivaldia Games",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/vivaldia-game"
+            } ],
+            "date_added": "13390316524801705",
+            "date_last_used": "0",
+            "date_modified": "13390316524802169",
+            "guid": "e5c019f8-c8a4-403c-99c8-d3502d7d09b3",
+            "id": "6",
+            "meta_info": {
+               "Partner": "e5c019f8-c8a4-403c-99c8-d3502d7d09b3",
+               "Speeddial": "true"
+            },
+            "name": "Home",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13390316524802235",
+               "date_last_used": "0",
+               "guid": "c49a405e-ba3d-42b4-ad9a-4831e2ed35e4",
+               "id": "13",
+               "meta_info": {
+                  "Description": "shopping, electronics",
+                  "Partner": "c49a405e-ba3d-42b4-ad9a-4831e2ed35e4",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_amazon.png"
+               },
+               "name": "Amazon",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/amazon"
+            }, {
+               "date_added": "13390316524802274",
+               "date_last_used": "0",
+               "guid": "44d32981-5dcf-4a1f-be5b-3c0d03c7a0a1",
+               "id": "14",
+               "meta_info": {
+                  "Description": "shopping",
+                  "Partner": "44d32981-5dcf-4a1f-be5b-3c0d03c7a0a1",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_ebay.png"
+               },
+               "name": "eBay",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/ebay-en-us"
+            }, {
+               "date_added": "13390316524802314",
+               "date_last_used": "0",
+               "guid": "0efbb5fb-d366-4a91-95b1-b5690a0cf0ef",
+               "id": "15",
+               "meta_info": {
+                  "Description": "shopping",
+                  "Partner": "0efbb5fb-d366-4a91-95b1-b5690a0cf0ef",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_aliexpress.png"
+               },
+               "name": "AliExpress",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/aliexpresscom-us"
+            }, {
+               "date_added": "13390316524802359",
+               "date_last_used": "0",
+               "guid": "cef4093f-aea3-4ee0-a450-864df2cae2bf",
+               "id": "16",
+               "meta_info": {
+                  "Description": "shopping",
+                  "Partner": "cef4093f-aea3-4ee0-a450-864df2cae2bf",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_eneba.png"
+               },
+               "name": "Eneba",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/eneba-en"
+            }, {
+               "date_added": "13390316524802402",
+               "date_last_used": "0",
+               "guid": "a0f4094c-8182-479d-9e40-bdfc7da16846",
+               "id": "17",
+               "meta_info": {
+                  "Description": "shopping",
+                  "Partner": "a0f4094c-8182-479d-9e40-bdfc7da16846",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_temu.png"
+               },
+               "name": "Temu",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/sd-temu"
+            }, {
+               "date_added": "13390316524802440",
+               "date_last_used": "0",
+               "guid": "6ccd6c69-d23c-4b57-a6b3-b13b9fd676db",
+               "id": "18",
+               "meta_info": {
+                  "Description": "shopping",
+                  "Partner": "6ccd6c69-d23c-4b57-a6b3-b13b9fd676db",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_shein.png"
+               },
+               "name": "SHEIN",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/sd-shein"
+            } ],
+            "date_added": "13390316524802217",
+            "date_last_used": "0",
+            "date_modified": "13390316524802440",
+            "guid": "7dc00b6d-b26b-4371-83cb-2cd63274b9b8",
+            "id": "12",
+            "meta_info": {
+               "Partner": "7dc00b6d-b26b-4371-83cb-2cd63274b9b8",
+               "Speeddial": "true"
+            },
+            "name": "Shopping",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13390316524802501",
+               "date_last_used": "0",
+               "guid": "68fc9516-59ac-447e-a8a6-ff27d558da91",
+               "id": "20",
+               "meta_info": {
+                  "Description": "hotels, booking, apartments",
+                  "Partner": "68fc9516-59ac-447e-a8a6-ff27d558da91",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_booking.com.png"
+               },
+               "name": "Booking.com",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/bookingcom-en-us"
+            } ],
+            "date_added": "13390316524802482",
+            "date_last_used": "0",
+            "date_modified": "13390316524802501",
+            "guid": "0f0a0d3a-bf40-4367-a65c-ed43f85888ed",
+            "id": "19",
+            "meta_info": {
+               "Partner": "0f0a0d3a-bf40-4367-a65c-ed43f85888ed",
+               "Speeddial": "true"
+            },
+            "name": "Travel",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13390316524802623",
+                  "date_last_used": "0",
+                  "guid": "a91e4453-0a84-4a58-be63-eb3d7c257c35",
+                  "id": "23",
+                  "meta_info": {
+                     "Description": "vivaldi",
+                     "Partner": "a91e4453-0a84-4a58-be63-eb3d7c257c35",
+                     "Thumbnail": "/resources/sd_thumbnails/sd_vivaldi.png"
+                  },
+                  "name": "Vivaldi Features",
+                  "type": "url",
+                  "url": "https://vivaldi.com/bk/sd-browser-features"
+               }, {
+                  "date_added": "13390316524802694",
+                  "date_last_used": "0",
+                  "guid": "eb5c2f32-c648-4f69-a875-472da896d50b",
+                  "id": "24",
+                  "meta_info": {
+                     "Partner": "eb5c2f32-c648-4f69-a875-472da896d50b",
+                     "Thumbnail": "/resources/sd_thumbnails/sd_webmail.png"
+                  },
+                  "name": "Vivaldi Webmail",
+                  "type": "url",
+                  "url": "https://vivaldi.com/bk/sd-webmail"
+               }, {
+                  "date_added": "13390316524802782",
+                  "date_last_used": "0",
+                  "guid": "37166148-e194-4693-98ca-590c102ab5a5",
+                  "id": "25",
+                  "meta_info": {
+                     "Partner": "37166148-e194-4693-98ca-590c102ab5a5",
+                     "Thumbnail": "/resources/sd_thumbnails/sd_help.png"
+                  },
+                  "name": "Vivaldi Help",
+                  "type": "url",
+                  "url": "https://vivaldi.com/bk/sd-vivaldi-help-en"
+               } ],
+               "date_added": "13390316524802604",
+               "date_last_used": "0",
+               "date_modified": "13390316524802782",
+               "guid": "04f107b7-203e-49e6-ab97-d6b9e613cc4a",
+               "id": "22",
+               "meta_info": {
+                  "Partner": "04f107b7-203e-49e6-ab97-d6b9e613cc4a"
+               },
+               "name": "Vivaldi",
+               "type": "folder"
+            }, {
+               "date_added": "13390316524802836",
+               "date_last_used": "0",
+               "guid": "f56c1a38-3e9e-48fc-8d6c-b800f226dbfb",
+               "id": "26",
+               "meta_info": {
+                  "Partner": "f56c1a38-3e9e-48fc-8d6c-b800f226dbfb",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_booking.com.png"
+               },
+               "name": "Booking.com",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/booking-us-bk"
+            }, {
+               "date_added": "13390316524802889",
+               "date_last_used": "0",
+               "guid": "0a9612a0-625e-47c4-abde-72b5620469d5",
+               "id": "27",
+               "meta_info": {
+                  "Partner": "0a9612a0-625e-47c4-abde-72b5620469d5",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_kayak.png"
+               },
+               "name": "Kayak",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/kayak-en-us"
+            }, {
+               "date_added": "13390316524802929",
+               "date_last_used": "0",
+               "guid": "f79cd6e8-ebc0-444d-ac96-00da456dcb59",
+               "id": "28",
+               "meta_info": {
+                  "Partner": "f79cd6e8-ebc0-444d-ac96-00da456dcb59",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_aliexpress.png"
+               },
+               "name": "AliExpress",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/ali-us-bk"
+            }, {
+               "date_added": "13390316524802967",
+               "date_last_used": "0",
+               "guid": "4ac3d5a6-bbdd-4b1d-92a1-eaea6df81e84",
+               "id": "29",
+               "meta_info": {
+                  "Partner": "4ac3d5a6-bbdd-4b1d-92a1-eaea6df81e84",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_amazon.png"
+               },
+               "name": "Amazon",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/amazon-us-bk"
+            }, {
+               "date_added": "13390316524803018",
+               "date_last_used": "0",
+               "guid": "930d9804-4a0f-45ee-9317-b78ed2b548fd",
+               "id": "30",
+               "meta_info": {
+                  "Partner": "930d9804-4a0f-45ee-9317-b78ed2b548fd",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_ebay.png"
+               },
+               "name": "eBay",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/ebay-us-bk"
+            }, {
+               "date_added": "13390316524803057",
+               "date_last_used": "0",
+               "guid": "c5ceea21-8d73-4eec-89d1-be72552cf9c8",
+               "id": "31",
+               "meta_info": {
+                  "Partner": "c5ceea21-8d73-4eec-89d1-be72552cf9c8",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_expedia.png"
+               },
+               "name": "Expedia",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/expedia-eu"
+            } ],
+            "date_added": "13390316524802580",
+            "date_last_used": "0",
+            "date_modified": "13390316524803057",
+            "guid": "12c04539-d01e-4fd3-9fbf-aa09a91e91ba",
+            "id": "21",
+            "meta_info": {
+               "Partner": "12c04539-d01e-4fd3-9fbf-aa09a91e91ba"
+            },
+            "name": "Bookmarks",
+            "type": "folder"
+         } ],
+         "date_added": "13390316520507019",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13390316520507024",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13390316520507030",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      },
+      "trash": {
+         "children": [  ],
+         "date_added": "13390316520507036",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "9f32a0fb-bfd9-5032-be46-07afe4a25400",
+         "id": "4",
+         "name": "Trash",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

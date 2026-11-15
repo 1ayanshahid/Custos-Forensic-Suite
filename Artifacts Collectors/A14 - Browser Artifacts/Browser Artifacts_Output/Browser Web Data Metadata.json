@@ -1,0 +1,5147 @@
+{
+  "schema_version": 1,
+  "artifact_id": "A14",
+  "module": "Browser Artifacts",
+  "version": "1.0.0",
+  "run_id": "20261115T024123Z_de79faa1",
+  "category": "Browser Web Data Metadata",
+  "generated_utc": "2026-11-15T02:54:46.456003+00:00",
+  "collection_status": "SUCCESS",
+  "profile_count": 12,
+  "record_count": 440,
+  "profiles": [
+    {
+      "user": "masab",
+      "browser": "Chrome",
+      "profile": "Default",
+      "sources": [
+        "C:\\Users\\masab\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Web Data",
+        "C:\\Users\\masab\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Web Data-journal"
+      ],
+      "tables": {
+        "web_data_metadata": [
+          {
+            "table": "address_type_tokens",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "type",
+              "value",
+              "verification_status",
+              "observations"
+            ]
+          },
+          {
+            "table": "addresses",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "use_count",
+              "use_date",
+              "date_modified",
+              "language_code",
+              "label",
+              "initial_creator_id",
+              "record_type"
+            ]
+          },
+          {
+            "table": "autocomplete",
+            "record_count": 0,
+            "columns": [
+              "name",
+              "label",
+              "label_normalized",
+              "value",
+              "value_lower",
+              "date_created",
+              "date_last_used",
+              "count"
+            ]
+          },
+          {
+            "table": "autofill",
+            "record_count": 74,
+            "columns": [
+              "name",
+              "value",
+              "value_lower",
+              "date_created",
+              "date_last_used",
+              "count"
+            ]
+          },
+          {
+            "table": "autofill_ai_attributes",
+            "record_count": 0,
+            "columns": [
+              "entity_guid",
+              "attribute_type",
+              "field_type",
+              "value_encrypted",
+              "verification_status"
+            ]
+          },
+          {
+            "table": "autofill_ai_entities",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "entity_type",
+              "nickname",
+              "record_type",
+              "attributes_read_only",
+              "frecency_override"
+            ]
+          },
+          {
+            "table": "autofill_ai_entities_metadata",
+            "record_count": 0,
+            "columns": [
+              "entity_guid",
+              "use_count",
+              "use_date",
+              "date_modified"
+            ]
+          },
+          {
+            "table": "autofill_ai_entities_metadata_wallet",
+            "record_count": 0,
+            "columns": [
+              "entity_guid",
+              "management_url"
+            ]
+          },
+          {
+            "table": "autofill_model_type_state",
+            "record_count": 3,
+            "columns": [
+              "model_type",
+              "value"
+            ]
+          },
+          {
+            "table": "autofill_sync_metadata",
+            "record_count": 1,
+            "columns": [
+              "model_type",
+              "storage_key",
+              "value"
+            ]
+          },
+          {
+            "table": "benefit_merchant_domains",
+            "record_count": 0,
+            "columns": [
+              "benefit_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "credit_cards",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "name_on_card",
+              "expiration_month",
+              "expiration_year",
+              "card_number_encrypted",
+              "date_modified",
+              "use_count",
+              "use_date",
+              "billing_address_id",
+              "nickname",
+              "is_user_confirmed"
+            ]
+          },
+          {
+            "table": "generic_payment_instruments",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "serialized_value_encrypted"
+            ]
+          },
+          {
+            "table": "keywords",
+            "record_count": 13,
+            "columns": [
+              "id",
+              "short_name",
+              "keyword",
+              "favicon_url",
+              "url",
+              "safe_for_autoreplace",
+              "originating_url",
+              "date_created",
+              "usage_count",
+              "input_encodings",
+              "suggest_url",
+              "prepopulate_id",
+              "created_by_policy",
+              "last_modified",
+              "sync_guid",
+              "alternate_urls",
+              "image_url",
+              "search_url_post_params",
+              "suggest_url_post_params",
+              "image_url_post_params",
+              "new_tab_url",
+              "last_visited",
+              "created_from_play_api",
+              "is_active",
+              "starter_pack_id",
+              "enforced_by_policy",
+              "featured_by_policy",
+              "url_hash"
+            ]
+          },
+          {
+            "table": "local_ibans",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "use_count",
+              "use_date",
+              "value_encrypted",
+              "nickname"
+            ]
+          },
+          {
+            "table": "local_stored_cvc",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "value_encrypted",
+              "last_updated_timestamp"
+            ]
+          },
+          {
+            "table": "loyalty_card_merchant_domain",
+            "record_count": 0,
+            "columns": [
+              "loyalty_card_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "loyalty_cards",
+            "record_count": 0,
+            "columns": [
+              "loyalty_card_id",
+              "merchant_name",
+              "program_name",
+              "program_logo",
+              "loyalty_card_number"
+            ]
+          },
+          {
+            "table": "masked_bank_accounts",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "bank_name",
+              "account_number_suffix",
+              "account_type",
+              "display_icon_url",
+              "nickname"
+            ]
+          },
+          {
+            "table": "masked_bank_accounts_metadata",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "masked_credit_card_benefits",
+            "record_count": 0,
+            "columns": [
+              "benefit_id",
+              "instrument_id",
+              "benefit_type",
+              "benefit_category",
+              "benefit_description",
+              "start_time",
+              "end_time"
+            ]
+          },
+          {
+            "table": "masked_credit_cards",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "name_on_card",
+              "network",
+              "last_four",
+              "exp_month",
+              "exp_year",
+              "bank_name",
+              "nickname",
+              "card_issuer",
+              "instrument_id",
+              "virtual_card_enrollment_state",
+              "card_art_url",
+              "product_description",
+              "card_issuer_id",
+              "virtual_card_enrollment_type",
+              "product_terms_url",
+              "card_info_retrieval_enrollment_state",
+              "card_benefit_source",
+              "card_creation_source"
+            ]
+          },
+          {
+            "table": "masked_ibans",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "prefix",
+              "suffix",
+              "nickname"
+            ]
+          },
+          {
+            "table": "masked_ibans_metadata",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "meta",
+            "record_count": 7,
+            "columns": [
+              "key",
+              "value"
+            ]
+          },
+          {
+            "table": "offer_data",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "offer_reward_amount",
+              "expiry",
+              "offer_details_url",
+              "merchant_domain",
+              "promo_code",
+              "value_prop_text",
+              "see_details_text",
+              "usage_instructions_text",
+              "issue_time"
+            ]
+          },
+          {
+            "table": "offer_merchant_domain",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "payment_instrument_creation_options",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "serialized_value_encrypted"
+            ]
+          },
+          {
+            "table": "payment_method_manifest",
+            "record_count": 0,
+            "columns": [
+              "expire_date",
+              "method_name",
+              "web_app_id"
+            ]
+          },
+          {
+            "table": "payments_customer_data",
+            "record_count": 0,
+            "columns": [
+              "customer_id"
+            ]
+          },
+          {
+            "table": "secure_payment_confirmation_browser_bound_key",
+            "record_count": 0,
+            "columns": [
+              "credential_id",
+              "relying_party_id",
+              "browser_bound_key_id",
+              "last_used"
+            ]
+          },
+          {
+            "table": "secure_payment_confirmation_instrument",
+            "record_count": 0,
+            "columns": [
+              "credential_id",
+              "relying_party_id",
+              "label",
+              "icon",
+              "date_created",
+              "user_id"
+            ]
+          },
+          {
+            "table": "server_card_cloud_token_data",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "suffix",
+              "exp_month",
+              "exp_year",
+              "card_art_url",
+              "instrument_token"
+            ]
+          },
+          {
+            "table": "server_card_metadata",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "use_count",
+              "use_date",
+              "billing_address_id"
+            ]
+          },
+          {
+            "table": "server_stored_cvc",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "value_encrypted",
+              "last_updated_timestamp"
+            ]
+          },
+          {
+            "table": "token_service",
+            "record_count": 1,
+            "columns": [
+              "service",
+              "encrypted_token",
+              "binding_key",
+              "mtls_token_binding"
+            ]
+          },
+          {
+            "table": "valuables_metadata",
+            "record_count": 0,
+            "columns": [
+              "valuable_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "virtual_card_usage_data",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "instrument_id",
+              "merchant_domain",
+              "last_four"
+            ]
+          },
+          {
+            "table": "web_app_manifest_section",
+            "record_count": 0,
+            "columns": [
+              "expire_date",
+              "id",
+              "min_version",
+              "fingerprints",
+              "method_name"
+            ]
+          }
+        ]
+      },
+      "errors": [],
+      "record_count": 39
+    },
+    {
+      "user": "masab",
+      "browser": "Chrome",
+      "profile": "Guest Profile",
+      "sources": [
+        "C:\\Users\\masab\\AppData\\Local\\Google\\Chrome\\User Data\\Guest Profile\\Web Data",
+        "C:\\Users\\masab\\AppData\\Local\\Google\\Chrome\\User Data\\Guest Profile\\Web Data-journal"
+      ],
+      "tables": {
+        "web_data_metadata": [
+          {
+            "table": "address_type_tokens",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "type",
+              "value",
+              "verification_status",
+              "observations"
+            ]
+          },
+          {
+            "table": "addresses",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "use_count",
+              "use_date",
+              "date_modified",
+              "language_code",
+              "label",
+              "initial_creator_id",
+              "record_type"
+            ]
+          },
+          {
+            "table": "autocomplete",
+            "record_count": 0,
+            "columns": [
+              "name",
+              "label",
+              "label_normalized",
+              "value",
+              "value_lower",
+              "date_created",
+              "date_last_used",
+              "count"
+            ]
+          },
+          {
+            "table": "autofill",
+            "record_count": 0,
+            "columns": [
+              "name",
+              "value",
+              "value_lower",
+              "date_created",
+              "date_last_used",
+              "count"
+            ]
+          },
+          {
+            "table": "autofill_ai_attributes",
+            "record_count": 0,
+            "columns": [
+              "entity_guid",
+              "attribute_type",
+              "field_type",
+              "value_encrypted",
+              "verification_status"
+            ]
+          },
+          {
+            "table": "autofill_ai_entities",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "entity_type",
+              "nickname",
+              "record_type",
+              "attributes_read_only",
+              "frecency_override"
+            ]
+          },
+          {
+            "table": "autofill_ai_entities_metadata",
+            "record_count": 0,
+            "columns": [
+              "entity_guid",
+              "use_count",
+              "use_date",
+              "date_modified"
+            ]
+          },
+          {
+            "table": "autofill_model_type_state",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "value"
+            ]
+          },
+          {
+            "table": "autofill_sync_metadata",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "storage_key",
+              "value"
+            ]
+          },
+          {
+            "table": "benefit_merchant_domains",
+            "record_count": 0,
+            "columns": [
+              "benefit_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "credit_cards",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "name_on_card",
+              "expiration_month",
+              "expiration_year",
+              "card_number_encrypted",
+              "date_modified",
+              "use_count",
+              "use_date",
+              "billing_address_id",
+              "nickname",
+              "is_user_confirmed"
+            ]
+          },
+          {
+            "table": "generic_payment_instruments",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "serialized_value_encrypted"
+            ]
+          },
+          {
+            "table": "keywords",
+            "record_count": 11,
+            "columns": [
+              "id",
+              "short_name",
+              "keyword",
+              "favicon_url",
+              "url",
+              "safe_for_autoreplace",
+              "originating_url",
+              "date_created",
+              "usage_count",
+              "input_encodings",
+              "suggest_url",
+              "prepopulate_id",
+              "created_by_policy",
+              "last_modified",
+              "sync_guid",
+              "alternate_urls",
+              "image_url",
+              "search_url_post_params",
+              "suggest_url_post_params",
+              "image_url_post_params",
+              "new_tab_url",
+              "last_visited",
+              "created_from_play_api",
+              "is_active",
+              "starter_pack_id",
+              "enforced_by_policy",
+              "featured_by_policy",
+              "url_hash"
+            ]
+          },
+          {
+            "table": "local_ibans",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "use_count",
+              "use_date",
+              "value_encrypted",
+              "nickname"
+            ]
+          },
+          {
+            "table": "local_stored_cvc",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "value_encrypted",
+              "last_updated_timestamp"
+            ]
+          },
+          {
+            "table": "loyalty_card_merchant_domain",
+            "record_count": 0,
+            "columns": [
+              "loyalty_card_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "loyalty_cards",
+            "record_count": 0,
+            "columns": [
+              "loyalty_card_id",
+              "merchant_name",
+              "program_name",
+              "program_logo",
+              "loyalty_card_number"
+            ]
+          },
+          {
+            "table": "masked_bank_accounts",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "bank_name",
+              "account_number_suffix",
+              "account_type",
+              "display_icon_url",
+              "nickname"
+            ]
+          },
+          {
+            "table": "masked_bank_accounts_metadata",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "masked_credit_card_benefits",
+            "record_count": 0,
+            "columns": [
+              "benefit_id",
+              "instrument_id",
+              "benefit_type",
+              "benefit_category",
+              "benefit_description",
+              "start_time",
+              "end_time"
+            ]
+          },
+          {
+            "table": "masked_credit_cards",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "name_on_card",
+              "network",
+              "last_four",
+              "exp_month",
+              "exp_year",
+              "bank_name",
+              "nickname",
+              "card_issuer",
+              "instrument_id",
+              "virtual_card_enrollment_state",
+              "card_art_url",
+              "product_description",
+              "card_issuer_id",
+              "virtual_card_enrollment_type",
+              "product_terms_url",
+              "card_info_retrieval_enrollment_state",
+              "card_benefit_source",
+              "card_creation_source"
+            ]
+          },
+          {
+            "table": "masked_ibans",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "prefix",
+              "suffix",
+              "nickname"
+            ]
+          },
+          {
+            "table": "masked_ibans_metadata",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "meta",
+            "record_count": 7,
+            "columns": [
+              "key",
+              "value"
+            ]
+          },
+          {
+            "table": "offer_data",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "offer_reward_amount",
+              "expiry",
+              "offer_details_url",
+              "merchant_domain",
+              "promo_code",
+              "value_prop_text",
+              "see_details_text",
+              "usage_instructions_text"
+            ]
+          },
+          {
+            "table": "offer_eligible_instrument",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "instrument_id"
+            ]
+          },
+          {
+            "table": "offer_merchant_domain",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "payment_instrument_creation_options",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "serialized_value_encrypted"
+            ]
+          },
+          {
+            "table": "payment_method_manifest",
+            "record_count": 0,
+            "columns": [
+              "expire_date",
+              "method_name",
+              "web_app_id"
+            ]
+          },
+          {
+            "table": "payments_customer_data",
+            "record_count": 0,
+            "columns": [
+              "customer_id"
+            ]
+          },
+          {
+            "table": "plus_address_sync_entity_metadata",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "storage_key",
+              "value"
+            ]
+          },
+          {
+            "table": "plus_address_sync_model_type_state",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "value"
+            ]
+          },
+          {
+            "table": "plus_addresses",
+            "record_count": 0,
+            "columns": [
+              "profile_id",
+              "facet",
+              "plus_address"
+            ]
+          },
+          {
+            "table": "secure_payment_confirmation_browser_bound_key",
+            "record_count": 0,
+            "columns": [
+              "credential_id",
+              "relying_party_id",
+              "browser_bound_key_id",
+              "last_used"
+            ]
+          },
+          {
+            "table": "secure_payment_confirmation_instrument",
+            "record_count": 0,
+            "columns": [
+              "credential_id",
+              "relying_party_id",
+              "label",
+              "icon",
+              "date_created",
+              "user_id"
+            ]
+          },
+          {
+            "table": "server_card_cloud_token_data",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "suffix",
+              "exp_month",
+              "exp_year",
+              "card_art_url",
+              "instrument_token"
+            ]
+          },
+          {
+            "table": "server_card_metadata",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "use_count",
+              "use_date",
+              "billing_address_id"
+            ]
+          },
+          {
+            "table": "server_stored_cvc",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "value_encrypted",
+              "last_updated_timestamp"
+            ]
+          },
+          {
+            "table": "token_service",
+            "record_count": 0,
+            "columns": [
+              "service",
+              "encrypted_token",
+              "binding_key",
+              "mtls_token_binding"
+            ]
+          },
+          {
+            "table": "valuables_metadata",
+            "record_count": 0,
+            "columns": [
+              "valuable_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "virtual_card_usage_data",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "instrument_id",
+              "merchant_domain",
+              "last_four"
+            ]
+          },
+          {
+            "table": "web_app_manifest_section",
+            "record_count": 0,
+            "columns": [
+              "expire_date",
+              "id",
+              "min_version",
+              "fingerprints"
+            ]
+          }
+        ]
+      },
+      "errors": [],
+      "record_count": 42
+    },
+    {
+      "user": "masab",
+      "browser": "Chrome",
+      "profile": "Profile 5",
+      "sources": [
+        "C:\\Users\\masab\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 5\\Web Data",
+        "C:\\Users\\masab\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 5\\Web Data-journal"
+      ],
+      "tables": {
+        "web_data_metadata": [
+          {
+            "table": "address_type_tokens",
+            "record_count": 37,
+            "columns": [
+              "guid",
+              "type",
+              "value",
+              "verification_status",
+              "observations"
+            ]
+          },
+          {
+            "table": "addresses",
+            "record_count": 1,
+            "columns": [
+              "guid",
+              "use_count",
+              "use_date",
+              "date_modified",
+              "language_code",
+              "label",
+              "initial_creator_id",
+              "record_type"
+            ]
+          },
+          {
+            "table": "autocomplete",
+            "record_count": 0,
+            "columns": [
+              "name",
+              "label",
+              "label_normalized",
+              "value",
+              "value_lower",
+              "date_created",
+              "date_last_used",
+              "count"
+            ]
+          },
+          {
+            "table": "autofill",
+            "record_count": 7,
+            "columns": [
+              "name",
+              "value",
+              "value_lower",
+              "date_created",
+              "date_last_used",
+              "count"
+            ]
+          },
+          {
+            "table": "autofill_ai_attributes",
+            "record_count": 0,
+            "columns": [
+              "entity_guid",
+              "attribute_type",
+              "field_type",
+              "value_encrypted",
+              "verification_status"
+            ]
+          },
+          {
+            "table": "autofill_ai_entities",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "entity_type",
+              "nickname",
+              "record_type",
+              "attributes_read_only",
+              "frecency_override"
+            ]
+          },
+          {
+            "table": "autofill_ai_entities_metadata",
+            "record_count": 0,
+            "columns": [
+              "entity_guid",
+              "use_count",
+              "use_date",
+              "date_modified"
+            ]
+          },
+          {
+            "table": "autofill_model_type_state",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "value"
+            ]
+          },
+          {
+            "table": "autofill_sync_metadata",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "storage_key",
+              "value"
+            ]
+          },
+          {
+            "table": "benefit_merchant_domains",
+            "record_count": 0,
+            "columns": [
+              "benefit_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "credit_cards",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "name_on_card",
+              "expiration_month",
+              "expiration_year",
+              "card_number_encrypted",
+              "date_modified",
+              "use_count",
+              "use_date",
+              "billing_address_id",
+              "nickname",
+              "is_user_confirmed"
+            ]
+          },
+          {
+            "table": "generic_payment_instruments",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "serialized_value_encrypted"
+            ]
+          },
+          {
+            "table": "keywords",
+            "record_count": 14,
+            "columns": [
+              "id",
+              "short_name",
+              "keyword",
+              "favicon_url",
+              "url",
+              "safe_for_autoreplace",
+              "originating_url",
+              "date_created",
+              "usage_count",
+              "input_encodings",
+              "suggest_url",
+              "prepopulate_id",
+              "created_by_policy",
+              "last_modified",
+              "sync_guid",
+              "alternate_urls",
+              "image_url",
+              "search_url_post_params",
+              "suggest_url_post_params",
+              "image_url_post_params",
+              "new_tab_url",
+              "last_visited",
+              "created_from_play_api",
+              "is_active",
+              "starter_pack_id",
+              "enforced_by_policy",
+              "featured_by_policy",
+              "url_hash"
+            ]
+          },
+          {
+            "table": "local_ibans",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "use_count",
+              "use_date",
+              "value_encrypted",
+              "nickname"
+            ]
+          },
+          {
+            "table": "local_stored_cvc",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "value_encrypted",
+              "last_updated_timestamp"
+            ]
+          },
+          {
+            "table": "loyalty_card_merchant_domain",
+            "record_count": 0,
+            "columns": [
+              "loyalty_card_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "loyalty_cards",
+            "record_count": 0,
+            "columns": [
+              "loyalty_card_id",
+              "merchant_name",
+              "program_name",
+              "program_logo",
+              "loyalty_card_number"
+            ]
+          },
+          {
+            "table": "masked_bank_accounts",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "bank_name",
+              "account_number_suffix",
+              "account_type",
+              "display_icon_url",
+              "nickname"
+            ]
+          },
+          {
+            "table": "masked_bank_accounts_metadata",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "masked_credit_card_benefits",
+            "record_count": 0,
+            "columns": [
+              "benefit_id",
+              "instrument_id",
+              "benefit_type",
+              "benefit_category",
+              "benefit_description",
+              "start_time",
+              "end_time"
+            ]
+          },
+          {
+            "table": "masked_credit_cards",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "name_on_card",
+              "network",
+              "last_four",
+              "exp_month",
+              "exp_year",
+              "bank_name",
+              "nickname",
+              "card_issuer",
+              "instrument_id",
+              "virtual_card_enrollment_state",
+              "card_art_url",
+              "product_description",
+              "card_issuer_id",
+              "virtual_card_enrollment_type",
+              "product_terms_url",
+              "card_info_retrieval_enrollment_state",
+              "card_benefit_source",
+              "card_creation_source"
+            ]
+          },
+          {
+            "table": "masked_ibans",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "prefix",
+              "suffix",
+              "nickname"
+            ]
+          },
+          {
+            "table": "masked_ibans_metadata",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "meta",
+            "record_count": 7,
+            "columns": [
+              "key",
+              "value"
+            ]
+          },
+          {
+            "table": "offer_data",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "offer_reward_amount",
+              "expiry",
+              "offer_details_url",
+              "merchant_domain",
+              "promo_code",
+              "value_prop_text",
+              "see_details_text",
+              "usage_instructions_text"
+            ]
+          },
+          {
+            "table": "offer_eligible_instrument",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "instrument_id"
+            ]
+          },
+          {
+            "table": "offer_merchant_domain",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "payment_instrument_creation_options",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "serialized_value_encrypted"
+            ]
+          },
+          {
+            "table": "payment_method_manifest",
+            "record_count": 0,
+            "columns": [
+              "expire_date",
+              "method_name",
+              "web_app_id"
+            ]
+          },
+          {
+            "table": "payments_customer_data",
+            "record_count": 0,
+            "columns": [
+              "customer_id"
+            ]
+          },
+          {
+            "table": "plus_address_sync_entity_metadata",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "storage_key",
+              "value"
+            ]
+          },
+          {
+            "table": "plus_address_sync_model_type_state",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "value"
+            ]
+          },
+          {
+            "table": "plus_addresses",
+            "record_count": 0,
+            "columns": [
+              "profile_id",
+              "facet",
+              "plus_address"
+            ]
+          },
+          {
+            "table": "secure_payment_confirmation_browser_bound_key",
+            "record_count": 0,
+            "columns": [
+              "credential_id",
+              "relying_party_id",
+              "browser_bound_key_id",
+              "last_used"
+            ]
+          },
+          {
+            "table": "secure_payment_confirmation_instrument",
+            "record_count": 0,
+            "columns": [
+              "credential_id",
+              "relying_party_id",
+              "label",
+              "icon",
+              "date_created",
+              "user_id"
+            ]
+          },
+          {
+            "table": "server_card_cloud_token_data",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "suffix",
+              "exp_month",
+              "exp_year",
+              "card_art_url",
+              "instrument_token"
+            ]
+          },
+          {
+            "table": "server_card_metadata",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "use_count",
+              "use_date",
+              "billing_address_id"
+            ]
+          },
+          {
+            "table": "server_stored_cvc",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "value_encrypted",
+              "last_updated_timestamp"
+            ]
+          },
+          {
+            "table": "token_service",
+            "record_count": 1,
+            "columns": [
+              "service",
+              "encrypted_token",
+              "binding_key",
+              "mtls_token_binding"
+            ]
+          },
+          {
+            "table": "valuables_metadata",
+            "record_count": 0,
+            "columns": [
+              "valuable_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "virtual_card_usage_data",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "instrument_id",
+              "merchant_domain",
+              "last_four"
+            ]
+          },
+          {
+            "table": "web_app_manifest_section",
+            "record_count": 0,
+            "columns": [
+              "expire_date",
+              "id",
+              "min_version",
+              "fingerprints"
+            ]
+          }
+        ]
+      },
+      "errors": [],
+      "record_count": 42
+    },
+    {
+      "user": "masab",
+      "browser": "Chrome",
+      "profile": "Profile 7",
+      "sources": [
+        "C:\\Users\\masab\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 7\\Web Data",
+        "C:\\Users\\masab\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 7\\Web Data-journal"
+      ],
+      "tables": {
+        "web_data_metadata": [
+          {
+            "table": "address_type_tokens",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "type",
+              "value",
+              "verification_status",
+              "observations"
+            ]
+          },
+          {
+            "table": "addresses",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "use_count",
+              "use_date",
+              "date_modified",
+              "language_code",
+              "label",
+              "initial_creator_id",
+              "record_type"
+            ]
+          },
+          {
+            "table": "autocomplete",
+            "record_count": 0,
+            "columns": [
+              "name",
+              "label",
+              "label_normalized",
+              "value",
+              "value_lower",
+              "date_created",
+              "date_last_used",
+              "count"
+            ]
+          },
+          {
+            "table": "autofill",
+            "record_count": 19,
+            "columns": [
+              "name",
+              "value",
+              "value_lower",
+              "date_created",
+              "date_last_used",
+              "count"
+            ]
+          },
+          {
+            "table": "autofill_ai_attributes",
+            "record_count": 0,
+            "columns": [
+              "entity_guid",
+              "attribute_type",
+              "field_type",
+              "value_encrypted",
+              "verification_status"
+            ]
+          },
+          {
+            "table": "autofill_ai_entities",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "entity_type",
+              "nickname",
+              "record_type",
+              "attributes_read_only",
+              "frecency_override"
+            ]
+          },
+          {
+            "table": "autofill_ai_entities_metadata",
+            "record_count": 0,
+            "columns": [
+              "entity_guid",
+              "use_count",
+              "use_date",
+              "date_modified"
+            ]
+          },
+          {
+            "table": "autofill_model_type_state",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "value"
+            ]
+          },
+          {
+            "table": "autofill_sync_metadata",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "storage_key",
+              "value"
+            ]
+          },
+          {
+            "table": "benefit_merchant_domains",
+            "record_count": 0,
+            "columns": [
+              "benefit_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "credit_cards",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "name_on_card",
+              "expiration_month",
+              "expiration_year",
+              "card_number_encrypted",
+              "date_modified",
+              "use_count",
+              "use_date",
+              "billing_address_id",
+              "nickname",
+              "is_user_confirmed"
+            ]
+          },
+          {
+            "table": "generic_payment_instruments",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "serialized_value_encrypted"
+            ]
+          },
+          {
+            "table": "keywords",
+            "record_count": 13,
+            "columns": [
+              "id",
+              "short_name",
+              "keyword",
+              "favicon_url",
+              "url",
+              "safe_for_autoreplace",
+              "originating_url",
+              "date_created",
+              "usage_count",
+              "input_encodings",
+              "suggest_url",
+              "prepopulate_id",
+              "created_by_policy",
+              "last_modified",
+              "sync_guid",
+              "alternate_urls",
+              "image_url",
+              "search_url_post_params",
+              "suggest_url_post_params",
+              "image_url_post_params",
+              "new_tab_url",
+              "last_visited",
+              "created_from_play_api",
+              "is_active",
+              "starter_pack_id",
+              "enforced_by_policy",
+              "featured_by_policy",
+              "url_hash"
+            ]
+          },
+          {
+            "table": "local_ibans",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "use_count",
+              "use_date",
+              "value_encrypted",
+              "nickname"
+            ]
+          },
+          {
+            "table": "local_stored_cvc",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "value_encrypted",
+              "last_updated_timestamp"
+            ]
+          },
+          {
+            "table": "loyalty_card_merchant_domain",
+            "record_count": 0,
+            "columns": [
+              "loyalty_card_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "loyalty_cards",
+            "record_count": 0,
+            "columns": [
+              "loyalty_card_id",
+              "merchant_name",
+              "program_name",
+              "program_logo",
+              "loyalty_card_number"
+            ]
+          },
+          {
+            "table": "masked_bank_accounts",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "bank_name",
+              "account_number_suffix",
+              "account_type",
+              "display_icon_url",
+              "nickname"
+            ]
+          },
+          {
+            "table": "masked_bank_accounts_metadata",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "masked_credit_card_benefits",
+            "record_count": 0,
+            "columns": [
+              "benefit_id",
+              "instrument_id",
+              "benefit_type",
+              "benefit_category",
+              "benefit_description",
+              "start_time",
+              "end_time"
+            ]
+          },
+          {
+            "table": "masked_credit_cards",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "name_on_card",
+              "network",
+              "last_four",
+              "exp_month",
+              "exp_year",
+              "bank_name",
+              "nickname",
+              "card_issuer",
+              "instrument_id",
+              "virtual_card_enrollment_state",
+              "card_art_url",
+              "product_description",
+              "card_issuer_id",
+              "virtual_card_enrollment_type",
+              "product_terms_url",
+              "card_info_retrieval_enrollment_state",
+              "card_benefit_source",
+              "card_creation_source"
+            ]
+          },
+          {
+            "table": "masked_ibans",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "prefix",
+              "suffix",
+              "nickname"
+            ]
+          },
+          {
+            "table": "masked_ibans_metadata",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "meta",
+            "record_count": 7,
+            "columns": [
+              "key",
+              "value"
+            ]
+          },
+          {
+            "table": "offer_data",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "offer_reward_amount",
+              "expiry",
+              "offer_details_url",
+              "merchant_domain",
+              "promo_code",
+              "value_prop_text",
+              "see_details_text",
+              "usage_instructions_text"
+            ]
+          },
+          {
+            "table": "offer_eligible_instrument",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "instrument_id"
+            ]
+          },
+          {
+            "table": "offer_merchant_domain",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "payment_instrument_creation_options",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "serialized_value_encrypted"
+            ]
+          },
+          {
+            "table": "payment_method_manifest",
+            "record_count": 0,
+            "columns": [
+              "expire_date",
+              "method_name",
+              "web_app_id"
+            ]
+          },
+          {
+            "table": "payments_customer_data",
+            "record_count": 0,
+            "columns": [
+              "customer_id"
+            ]
+          },
+          {
+            "table": "secure_payment_confirmation_browser_bound_key",
+            "record_count": 0,
+            "columns": [
+              "credential_id",
+              "relying_party_id",
+              "browser_bound_key_id",
+              "last_used"
+            ]
+          },
+          {
+            "table": "secure_payment_confirmation_instrument",
+            "record_count": 0,
+            "columns": [
+              "credential_id",
+              "relying_party_id",
+              "label",
+              "icon",
+              "date_created",
+              "user_id"
+            ]
+          },
+          {
+            "table": "server_card_cloud_token_data",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "suffix",
+              "exp_month",
+              "exp_year",
+              "card_art_url",
+              "instrument_token"
+            ]
+          },
+          {
+            "table": "server_card_metadata",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "use_count",
+              "use_date",
+              "billing_address_id"
+            ]
+          },
+          {
+            "table": "server_stored_cvc",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "value_encrypted",
+              "last_updated_timestamp"
+            ]
+          },
+          {
+            "table": "token_service",
+            "record_count": 2,
+            "columns": [
+              "service",
+              "encrypted_token",
+              "binding_key",
+              "mtls_token_binding"
+            ]
+          },
+          {
+            "table": "valuables_metadata",
+            "record_count": 0,
+            "columns": [
+              "valuable_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "virtual_card_usage_data",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "instrument_id",
+              "merchant_domain",
+              "last_four"
+            ]
+          },
+          {
+            "table": "web_app_manifest_section",
+            "record_count": 0,
+            "columns": [
+              "expire_date",
+              "id",
+              "min_version",
+              "fingerprints",
+              "method_name"
+            ]
+          }
+        ]
+      },
+      "errors": [],
+      "record_count": 39
+    },
+    {
+      "user": "masab",
+      "browser": "Edge",
+      "profile": "Default",
+      "sources": [
+        "C:\\Users\\masab\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\Continuous Migration\\Snapshots\\Autofill\\Web Data",
+        "C:\\Users\\masab\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\Continuous Migration\\Snapshots\\Payments\\Web Data",
+        "C:\\Users\\masab\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\Web Data",
+        "C:\\Users\\masab\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\Web Data-journal"
+      ],
+      "tables": {
+        "web_data_metadata": [
+          {
+            "table": "address_type_tokens",
+            "record_count": 75,
+            "columns": [
+              "guid",
+              "type",
+              "value",
+              "verification_status",
+              "observations"
+            ]
+          },
+          {
+            "table": "addresses",
+            "record_count": 2,
+            "columns": [
+              "guid",
+              "use_count",
+              "use_date",
+              "date_modified",
+              "language_code",
+              "label",
+              "initial_creator_id",
+              "record_type"
+            ]
+          },
+          {
+            "table": "autocomplete",
+            "record_count": 0,
+            "columns": [
+              "name",
+              "label",
+              "label_normalized",
+              "value",
+              "value_lower",
+              "date_created",
+              "date_last_used",
+              "count"
+            ]
+          },
+          {
+            "table": "autofill",
+            "record_count": 198,
+            "columns": [
+              "name",
+              "value",
+              "value_lower",
+              "date_created",
+              "date_last_used",
+              "count"
+            ]
+          },
+          {
+            "table": "autofill_ai_attributes",
+            "record_count": 0,
+            "columns": [
+              "entity_guid",
+              "attribute_type",
+              "field_type",
+              "value_encrypted",
+              "verification_status"
+            ]
+          },
+          {
+            "table": "autofill_ai_entities",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "entity_type",
+              "nickname",
+              "record_type",
+              "attributes_read_only",
+              "frecency_override"
+            ]
+          },
+          {
+            "table": "autofill_ai_entities_metadata",
+            "record_count": 0,
+            "columns": [
+              "entity_guid",
+              "use_count",
+              "use_date",
+              "date_modified"
+            ]
+          },
+          {
+            "table": "autofill_ai_entities_metadata_wallet",
+            "record_count": 0,
+            "columns": [
+              "entity_guid",
+              "management_url"
+            ]
+          },
+          {
+            "table": "autofill_edge_extended",
+            "record_count": 74,
+            "columns": [
+              "name",
+              "value",
+              "label",
+              "guid",
+              "url_domain",
+              "form_signature",
+              "field_signature",
+              "date_created",
+              "date_last_used",
+              "source"
+            ]
+          },
+          {
+            "table": "autofill_edge_field_client_info",
+            "record_count": 631,
+            "columns": [
+              "field_id",
+              "form_signature_v1",
+              "form_signature_v2",
+              "field_signature_v1",
+              "field_signature_v2",
+              "domain_signature",
+              "domain_value",
+              "label",
+              "date_created"
+            ]
+          },
+          {
+            "table": "autofill_edge_field_values",
+            "record_count": 670,
+            "columns": [
+              "field_id",
+              "value",
+              "count",
+              "date_created",
+              "date_last_used",
+              "submission_source",
+              "is_masked"
+            ]
+          },
+          {
+            "table": "autofill_edge_fieldid_cid_mapping",
+            "record_count": 0,
+            "columns": [
+              "field_id",
+              "c_id",
+              "last_sync_time"
+            ]
+          },
+          {
+            "table": "autofill_model_type_state",
+            "record_count": 3,
+            "columns": [
+              "model_type",
+              "value"
+            ]
+          },
+          {
+            "table": "autofill_profile_edge_extended",
+            "record_count": 2,
+            "columns": [
+              "guid",
+              "date_of_birth_day",
+              "date_of_birth_month",
+              "date_of_birth_year",
+              "source",
+              "source_id",
+              "digital_id_category"
+            ]
+          },
+          {
+            "table": "autofill_sync_metadata",
+            "record_count": 126,
+            "columns": [
+              "model_type",
+              "storage_key",
+              "value"
+            ]
+          },
+          {
+            "table": "benefit_merchant_domains",
+            "record_count": 0,
+            "columns": [
+              "benefit_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "credit_cards",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "name_on_card",
+              "expiration_month",
+              "expiration_year",
+              "card_number_encrypted",
+              "date_modified",
+              "use_count",
+              "use_date",
+              "billing_address_id",
+              "nickname",
+              "is_user_confirmed"
+            ]
+          },
+          {
+            "table": "credit_cards_edge_extended",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "tag",
+              "date_modified",
+              "source",
+              "is_exported_card",
+              "is_partial_card",
+              "token_id",
+              "is_tokenization_eligible",
+              "use_tokenized_autofill",
+              "is_tokenization_consented",
+              "tokenization_eligible_modified_date",
+              "is_syncing_card",
+              "is_roaming_consented"
+            ]
+          },
+          {
+            "table": "credit_cards_edge_metadata",
+            "record_count": 0,
+            "columns": [
+              "card_id",
+              "art_url",
+              "card_title",
+              "date_modified"
+            ]
+          },
+          {
+            "table": "edge_meta",
+            "record_count": 1,
+            "columns": [
+              "key",
+              "value"
+            ]
+          },
+          {
+            "table": "edge_server_addresses",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "use_count",
+              "use_date",
+              "date_modified",
+              "language_code",
+              "label",
+              "initial_creator_id",
+              "last_modifier_id",
+              "use_date2",
+              "use_date3"
+            ]
+          },
+          {
+            "table": "edge_server_addresses_type_tokens",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "type",
+              "value",
+              "verification_status",
+              "observations"
+            ]
+          },
+          {
+            "table": "edge_tokenized_credit_cards",
+            "record_count": 0,
+            "columns": [
+              "token_id",
+              "funding_server_card_id",
+              "last_four",
+              "exp_month",
+              "exp_year",
+              "tokenization_status",
+              "device_binding_required",
+              "device_binding_complete"
+            ]
+          },
+          {
+            "table": "generic_payment_instruments",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "serialized_value_encrypted"
+            ]
+          },
+          {
+            "table": "keywords",
+            "record_count": 10,
+            "columns": [
+              "id",
+              "short_name",
+              "keyword",
+              "favicon_url",
+              "url",
+              "safe_for_autoreplace",
+              "originating_url",
+              "date_created",
+              "usage_count",
+              "input_encodings",
+              "suggest_url",
+              "prepopulate_id",
+              "created_by_policy",
+              "last_modified",
+              "sync_guid",
+              "alternate_urls",
+              "image_url",
+              "search_url_post_params",
+              "suggest_url_post_params",
+              "image_url_post_params",
+              "new_tab_url",
+              "last_visited",
+              "created_from_play_api",
+              "is_active",
+              "starter_pack_id",
+              "enforced_by_policy",
+              "featured_by_policy",
+              "url_hash"
+            ]
+          },
+          {
+            "table": "local_ibans",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "use_count",
+              "use_date",
+              "value_encrypted",
+              "nickname"
+            ]
+          },
+          {
+            "table": "local_stored_cvc",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "value_encrypted",
+              "last_updated_timestamp"
+            ]
+          },
+          {
+            "table": "loyalty_card_merchant_domain",
+            "record_count": 0,
+            "columns": [
+              "loyalty_card_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "loyalty_cards",
+            "record_count": 0,
+            "columns": [
+              "loyalty_card_id",
+              "merchant_name",
+              "program_name",
+              "program_logo",
+              "loyalty_card_number"
+            ]
+          },
+          {
+            "table": "masked_bank_accounts",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "bank_name",
+              "account_number_suffix",
+              "account_type",
+              "display_icon_url",
+              "nickname"
+            ]
+          },
+          {
+            "table": "masked_bank_accounts_metadata",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "masked_credit_card_benefits",
+            "record_count": 0,
+            "columns": [
+              "benefit_id",
+              "instrument_id",
+              "benefit_type",
+              "benefit_category",
+              "benefit_description",
+              "start_time",
+              "end_time"
+            ]
+          },
+          {
+            "table": "masked_credit_cards",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "name_on_card",
+              "network",
+              "last_four",
+              "exp_month",
+              "exp_year",
+              "bank_name",
+              "nickname",
+              "card_issuer",
+              "instrument_id",
+              "virtual_card_enrollment_state",
+              "card_art_url",
+              "product_description",
+              "card_issuer_id",
+              "virtual_card_enrollment_type",
+              "product_terms_url",
+              "card_info_retrieval_enrollment_state",
+              "card_benefit_source",
+              "card_creation_source"
+            ]
+          },
+          {
+            "table": "masked_ibans",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "prefix",
+              "suffix",
+              "nickname"
+            ]
+          },
+          {
+            "table": "masked_ibans_metadata",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "meta",
+            "record_count": 7,
+            "columns": [
+              "key",
+              "value"
+            ]
+          },
+          {
+            "table": "offer_data",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "offer_reward_amount",
+              "expiry",
+              "offer_details_url",
+              "merchant_domain",
+              "promo_code",
+              "value_prop_text",
+              "see_details_text",
+              "usage_instructions_text",
+              "issue_time"
+            ]
+          },
+          {
+            "table": "offer_merchant_domain",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "payment_instrument_creation_options",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "serialized_value_encrypted"
+            ]
+          },
+          {
+            "table": "payment_method_manifest",
+            "record_count": 0,
+            "columns": [
+              "expire_date",
+              "method_name",
+              "web_app_id"
+            ]
+          },
+          {
+            "table": "payments_customer_data",
+            "record_count": 0,
+            "columns": [
+              "customer_id"
+            ]
+          },
+          {
+            "table": "secure_payment_confirmation_browser_bound_key",
+            "record_count": 0,
+            "columns": [
+              "credential_id",
+              "relying_party_id",
+              "browser_bound_key_id",
+              "last_used"
+            ]
+          },
+          {
+            "table": "secure_payment_confirmation_instrument",
+            "record_count": 0,
+            "columns": [
+              "credential_id",
+              "relying_party_id",
+              "label",
+              "icon",
+              "date_created",
+              "user_id"
+            ]
+          },
+          {
+            "table": "server_card_cloud_token_data",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "suffix",
+              "exp_month",
+              "exp_year",
+              "card_art_url",
+              "instrument_token"
+            ]
+          },
+          {
+            "table": "server_card_metadata",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "use_count",
+              "use_date",
+              "billing_address_id"
+            ]
+          },
+          {
+            "table": "server_credit_cards",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "card_number_encrypted",
+              "unmask_date"
+            ]
+          },
+          {
+            "table": "server_stored_cvc",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "value_encrypted",
+              "last_updated_timestamp"
+            ]
+          },
+          {
+            "table": "token_service",
+            "record_count": 0,
+            "columns": [
+              "service",
+              "encrypted_token",
+              "binding_key",
+              "mtls_token_binding"
+            ]
+          },
+          {
+            "table": "typosquatting_allowed_urls",
+            "record_count": 0,
+            "columns": [
+              "allowed_url"
+            ]
+          },
+          {
+            "table": "unmasked_credit_cards",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "card_number_encrypted",
+              "unmask_date"
+            ]
+          },
+          {
+            "table": "valuables_metadata",
+            "record_count": 0,
+            "columns": [
+              "valuable_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "virtual_card_usage_data",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "instrument_id",
+              "merchant_domain",
+              "last_four"
+            ]
+          },
+          {
+            "table": "web_app_manifest_section",
+            "record_count": 0,
+            "columns": [
+              "expire_date",
+              "id",
+              "min_version",
+              "fingerprints",
+              "method_name"
+            ]
+          }
+        ]
+      },
+      "errors": [],
+      "record_count": 53
+    },
+    {
+      "user": "masab",
+      "browser": "Firefox",
+      "profile": "2skpou7f.default-release",
+      "sources": [
+        "C:\\Users\\masab\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\2skpou7f.default-release\\formhistory.sqlite"
+      ],
+      "tables": {
+        "form_history": [
+          {
+            "record_count": 2,
+            "columns": [
+              "id",
+              "fieldname",
+              "value",
+              "timesUsed",
+              "firstUsed",
+              "lastUsed",
+              "guid"
+            ]
+          }
+        ]
+      },
+      "errors": [],
+      "record_count": 1
+    },
+    {
+      "user": "masab",
+      "browser": "Vivaldi",
+      "profile": "Default",
+      "sources": [
+        "C:\\Users\\masab\\AppData\\Local\\Vivaldi\\User Data\\Default\\Web Data",
+        "C:\\Users\\masab\\AppData\\Local\\Vivaldi\\User Data\\Default\\Web Data-journal"
+      ],
+      "tables": {
+        "web_data_metadata": [
+          {
+            "table": "address_type_tokens",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "type",
+              "value",
+              "verification_status",
+              "observations"
+            ]
+          },
+          {
+            "table": "addresses",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "use_count",
+              "use_date",
+              "date_modified",
+              "language_code",
+              "label",
+              "initial_creator_id",
+              "last_modifier_id",
+              "use_date2",
+              "use_date3",
+              "record_type"
+            ]
+          },
+          {
+            "table": "attributes",
+            "record_count": 0,
+            "columns": [
+              "entity_guid",
+              "type",
+              "value",
+              "context"
+            ]
+          },
+          {
+            "table": "autofill",
+            "record_count": 4,
+            "columns": [
+              "name",
+              "value",
+              "value_lower",
+              "date_created",
+              "date_last_used",
+              "count"
+            ]
+          },
+          {
+            "table": "autofill_model_type_state",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "value"
+            ]
+          },
+          {
+            "table": "autofill_sync_metadata",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "storage_key",
+              "value"
+            ]
+          },
+          {
+            "table": "benefit_merchant_domains",
+            "record_count": 0,
+            "columns": [
+              "benefit_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "credit_cards",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "name_on_card",
+              "expiration_month",
+              "expiration_year",
+              "card_number_encrypted",
+              "date_modified",
+              "origin",
+              "use_count",
+              "use_date",
+              "billing_address_id",
+              "nickname"
+            ]
+          },
+          {
+            "table": "entities",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "type",
+              "nickname",
+              "date_modified"
+            ]
+          },
+          {
+            "table": "generic_payment_instruments",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "serialized_value_encrypted"
+            ]
+          },
+          {
+            "table": "keywords",
+            "record_count": 9,
+            "columns": [
+              "id",
+              "short_name",
+              "keyword",
+              "favicon_url",
+              "url",
+              "safe_for_autoreplace",
+              "originating_url",
+              "date_created",
+              "usage_count",
+              "input_encodings",
+              "suggest_url",
+              "prepopulate_id",
+              "created_by_policy",
+              "last_modified",
+              "sync_guid",
+              "alternate_urls",
+              "image_url",
+              "search_url_post_params",
+              "suggest_url_post_params",
+              "image_url_post_params",
+              "new_tab_url",
+              "last_visited",
+              "created_from_play_api",
+              "is_active",
+              "position",
+              "starter_pack_id",
+              "enforced_by_policy",
+              "featured_by_policy",
+              "url_hash"
+            ]
+          },
+          {
+            "table": "local_ibans",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "use_count",
+              "use_date",
+              "value_encrypted",
+              "nickname"
+            ]
+          },
+          {
+            "table": "local_stored_cvc",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "value_encrypted",
+              "last_updated_timestamp"
+            ]
+          },
+          {
+            "table": "masked_bank_accounts",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "bank_name",
+              "account_number_suffix",
+              "account_type",
+              "display_icon_url",
+              "nickname"
+            ]
+          },
+          {
+            "table": "masked_bank_accounts_metadata",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "masked_credit_card_benefits",
+            "record_count": 0,
+            "columns": [
+              "benefit_id",
+              "instrument_id",
+              "benefit_type",
+              "benefit_category",
+              "benefit_description",
+              "start_time",
+              "end_time"
+            ]
+          },
+          {
+            "table": "masked_credit_cards",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "name_on_card",
+              "network",
+              "last_four",
+              "exp_month",
+              "exp_year",
+              "bank_name",
+              "nickname",
+              "card_issuer",
+              "instrument_id",
+              "virtual_card_enrollment_state",
+              "card_art_url",
+              "product_description",
+              "card_issuer_id",
+              "virtual_card_enrollment_type",
+              "product_terms_url",
+              "card_info_retrieval_enrollment_state"
+            ]
+          },
+          {
+            "table": "masked_ibans",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "prefix",
+              "suffix",
+              "nickname"
+            ]
+          },
+          {
+            "table": "masked_ibans_metadata",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "meta",
+            "record_count": 7,
+            "columns": [
+              "key",
+              "value"
+            ]
+          },
+          {
+            "table": "offer_data",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "offer_reward_amount",
+              "expiry",
+              "offer_details_url",
+              "merchant_domain",
+              "promo_code",
+              "value_prop_text",
+              "see_details_text",
+              "usage_instructions_text"
+            ]
+          },
+          {
+            "table": "offer_eligible_instrument",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "instrument_id"
+            ]
+          },
+          {
+            "table": "offer_merchant_domain",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "payment_instrument_creation_options",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "serialized_value_encrypted"
+            ]
+          },
+          {
+            "table": "payment_method_manifest",
+            "record_count": 0,
+            "columns": [
+              "expire_date",
+              "method_name",
+              "web_app_id"
+            ]
+          },
+          {
+            "table": "payments_customer_data",
+            "record_count": 0,
+            "columns": [
+              "customer_id"
+            ]
+          },
+          {
+            "table": "plus_address_sync_entity_metadata",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "storage_key",
+              "value"
+            ]
+          },
+          {
+            "table": "plus_address_sync_model_type_state",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "value"
+            ]
+          },
+          {
+            "table": "plus_addresses",
+            "record_count": 0,
+            "columns": [
+              "profile_id",
+              "facet",
+              "plus_address"
+            ]
+          },
+          {
+            "table": "secure_payment_confirmation_browser_bound_key",
+            "record_count": 0,
+            "columns": [
+              "credential_id",
+              "relying_party_id",
+              "browser_bound_key_id"
+            ]
+          },
+          {
+            "table": "secure_payment_confirmation_instrument",
+            "record_count": 0,
+            "columns": [
+              "credential_id",
+              "relying_party_id",
+              "label",
+              "icon",
+              "date_created",
+              "user_id"
+            ]
+          },
+          {
+            "table": "server_card_cloud_token_data",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "suffix",
+              "exp_month",
+              "exp_year",
+              "card_art_url",
+              "instrument_token"
+            ]
+          },
+          {
+            "table": "server_card_metadata",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "use_count",
+              "use_date",
+              "billing_address_id"
+            ]
+          },
+          {
+            "table": "server_stored_cvc",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "value_encrypted",
+              "last_updated_timestamp"
+            ]
+          },
+          {
+            "table": "token_service",
+            "record_count": 0,
+            "columns": [
+              "service",
+              "encrypted_token",
+              "binding_key"
+            ]
+          },
+          {
+            "table": "virtual_card_usage_data",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "instrument_id",
+              "merchant_domain",
+              "last_four"
+            ]
+          },
+          {
+            "table": "web_app_manifest_section",
+            "record_count": 0,
+            "columns": [
+              "expire_date",
+              "id",
+              "min_version",
+              "fingerprints"
+            ]
+          }
+        ]
+      },
+      "errors": [],
+      "record_count": 37
+    },
+    {
+      "user": "masab",
+      "browser": "Vivaldi",
+      "profile": "Profile 1",
+      "sources": [
+        "C:\\Users\\masab\\AppData\\Local\\Vivaldi\\User Data\\Profile 1\\Web Data",
+        "C:\\Users\\masab\\AppData\\Local\\Vivaldi\\User Data\\Profile 1\\Web Data-journal"
+      ],
+      "tables": {
+        "web_data_metadata": [
+          {
+            "table": "address_type_tokens",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "type",
+              "value",
+              "verification_status",
+              "observations"
+            ]
+          },
+          {
+            "table": "addresses",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "use_count",
+              "use_date",
+              "date_modified",
+              "language_code",
+              "label",
+              "initial_creator_id",
+              "last_modifier_id",
+              "use_date2",
+              "use_date3",
+              "record_type"
+            ]
+          },
+          {
+            "table": "attributes",
+            "record_count": 0,
+            "columns": [
+              "entity_guid",
+              "type",
+              "value",
+              "context"
+            ]
+          },
+          {
+            "table": "autofill",
+            "record_count": 2,
+            "columns": [
+              "name",
+              "value",
+              "value_lower",
+              "date_created",
+              "date_last_used",
+              "count"
+            ]
+          },
+          {
+            "table": "autofill_model_type_state",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "value"
+            ]
+          },
+          {
+            "table": "autofill_sync_metadata",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "storage_key",
+              "value"
+            ]
+          },
+          {
+            "table": "benefit_merchant_domains",
+            "record_count": 0,
+            "columns": [
+              "benefit_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "credit_cards",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "name_on_card",
+              "expiration_month",
+              "expiration_year",
+              "card_number_encrypted",
+              "date_modified",
+              "origin",
+              "use_count",
+              "use_date",
+              "billing_address_id",
+              "nickname"
+            ]
+          },
+          {
+            "table": "entities",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "type",
+              "nickname",
+              "date_modified"
+            ]
+          },
+          {
+            "table": "generic_payment_instruments",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "serialized_value_encrypted"
+            ]
+          },
+          {
+            "table": "keywords",
+            "record_count": 9,
+            "columns": [
+              "id",
+              "short_name",
+              "keyword",
+              "favicon_url",
+              "url",
+              "safe_for_autoreplace",
+              "originating_url",
+              "date_created",
+              "usage_count",
+              "input_encodings",
+              "suggest_url",
+              "prepopulate_id",
+              "created_by_policy",
+              "last_modified",
+              "sync_guid",
+              "alternate_urls",
+              "image_url",
+              "search_url_post_params",
+              "suggest_url_post_params",
+              "image_url_post_params",
+              "new_tab_url",
+              "last_visited",
+              "created_from_play_api",
+              "is_active",
+              "position",
+              "starter_pack_id",
+              "enforced_by_policy",
+              "featured_by_policy",
+              "url_hash"
+            ]
+          },
+          {
+            "table": "local_ibans",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "use_count",
+              "use_date",
+              "value_encrypted",
+              "nickname"
+            ]
+          },
+          {
+            "table": "local_stored_cvc",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "value_encrypted",
+              "last_updated_timestamp"
+            ]
+          },
+          {
+            "table": "masked_bank_accounts",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "bank_name",
+              "account_number_suffix",
+              "account_type",
+              "display_icon_url",
+              "nickname"
+            ]
+          },
+          {
+            "table": "masked_bank_accounts_metadata",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "masked_credit_card_benefits",
+            "record_count": 0,
+            "columns": [
+              "benefit_id",
+              "instrument_id",
+              "benefit_type",
+              "benefit_category",
+              "benefit_description",
+              "start_time",
+              "end_time"
+            ]
+          },
+          {
+            "table": "masked_credit_cards",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "name_on_card",
+              "network",
+              "last_four",
+              "exp_month",
+              "exp_year",
+              "bank_name",
+              "nickname",
+              "card_issuer",
+              "instrument_id",
+              "virtual_card_enrollment_state",
+              "card_art_url",
+              "product_description",
+              "card_issuer_id",
+              "virtual_card_enrollment_type",
+              "product_terms_url",
+              "card_info_retrieval_enrollment_state"
+            ]
+          },
+          {
+            "table": "masked_ibans",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "prefix",
+              "suffix",
+              "nickname"
+            ]
+          },
+          {
+            "table": "masked_ibans_metadata",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "meta",
+            "record_count": 7,
+            "columns": [
+              "key",
+              "value"
+            ]
+          },
+          {
+            "table": "offer_data",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "offer_reward_amount",
+              "expiry",
+              "offer_details_url",
+              "merchant_domain",
+              "promo_code",
+              "value_prop_text",
+              "see_details_text",
+              "usage_instructions_text"
+            ]
+          },
+          {
+            "table": "offer_eligible_instrument",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "instrument_id"
+            ]
+          },
+          {
+            "table": "offer_merchant_domain",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "payment_instrument_creation_options",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "serialized_value_encrypted"
+            ]
+          },
+          {
+            "table": "payment_method_manifest",
+            "record_count": 0,
+            "columns": [
+              "expire_date",
+              "method_name",
+              "web_app_id"
+            ]
+          },
+          {
+            "table": "payments_customer_data",
+            "record_count": 0,
+            "columns": [
+              "customer_id"
+            ]
+          },
+          {
+            "table": "plus_address_sync_entity_metadata",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "storage_key",
+              "value"
+            ]
+          },
+          {
+            "table": "plus_address_sync_model_type_state",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "value"
+            ]
+          },
+          {
+            "table": "plus_addresses",
+            "record_count": 0,
+            "columns": [
+              "profile_id",
+              "facet",
+              "plus_address"
+            ]
+          },
+          {
+            "table": "secure_payment_confirmation_browser_bound_key",
+            "record_count": 0,
+            "columns": [
+              "credential_id",
+              "relying_party_id",
+              "browser_bound_key_id"
+            ]
+          },
+          {
+            "table": "secure_payment_confirmation_instrument",
+            "record_count": 0,
+            "columns": [
+              "credential_id",
+              "relying_party_id",
+              "label",
+              "icon",
+              "date_created",
+              "user_id"
+            ]
+          },
+          {
+            "table": "server_card_cloud_token_data",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "suffix",
+              "exp_month",
+              "exp_year",
+              "card_art_url",
+              "instrument_token"
+            ]
+          },
+          {
+            "table": "server_card_metadata",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "use_count",
+              "use_date",
+              "billing_address_id"
+            ]
+          },
+          {
+            "table": "server_stored_cvc",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "value_encrypted",
+              "last_updated_timestamp"
+            ]
+          },
+          {
+            "table": "token_service",
+            "record_count": 0,
+            "columns": [
+              "service",
+              "encrypted_token",
+              "binding_key"
+            ]
+          },
+          {
+            "table": "virtual_card_usage_data",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "instrument_id",
+              "merchant_domain",
+              "last_four"
+            ]
+          },
+          {
+            "table": "web_app_manifest_section",
+            "record_count": 0,
+            "columns": [
+              "expire_date",
+              "id",
+              "min_version",
+              "fingerprints"
+            ]
+          }
+        ]
+      },
+      "errors": [],
+      "record_count": 37
+    },
+    {
+      "user": "masab",
+      "browser": "Vivaldi",
+      "profile": "Profile 2",
+      "sources": [
+        "C:\\Users\\masab\\AppData\\Local\\Vivaldi\\User Data\\Profile 2\\Web Data",
+        "C:\\Users\\masab\\AppData\\Local\\Vivaldi\\User Data\\Profile 2\\Web Data-journal"
+      ],
+      "tables": {
+        "web_data_metadata": [
+          {
+            "table": "address_type_tokens",
+            "record_count": 38,
+            "columns": [
+              "guid",
+              "type",
+              "value",
+              "verification_status",
+              "observations"
+            ]
+          },
+          {
+            "table": "addresses",
+            "record_count": 1,
+            "columns": [
+              "guid",
+              "use_count",
+              "use_date",
+              "date_modified",
+              "language_code",
+              "label",
+              "initial_creator_id",
+              "record_type"
+            ]
+          },
+          {
+            "table": "autocomplete",
+            "record_count": 0,
+            "columns": [
+              "name",
+              "label",
+              "label_normalized",
+              "value",
+              "value_lower",
+              "date_created",
+              "date_last_used",
+              "count"
+            ]
+          },
+          {
+            "table": "autofill",
+            "record_count": 692,
+            "columns": [
+              "name",
+              "value",
+              "value_lower",
+              "date_created",
+              "date_last_used",
+              "count"
+            ]
+          },
+          {
+            "table": "autofill_ai_attributes",
+            "record_count": 0,
+            "columns": [
+              "entity_guid",
+              "attribute_type",
+              "field_type",
+              "value_encrypted",
+              "verification_status"
+            ]
+          },
+          {
+            "table": "autofill_ai_entities",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "entity_type",
+              "nickname",
+              "record_type",
+              "attributes_read_only",
+              "frecency_override"
+            ]
+          },
+          {
+            "table": "autofill_ai_entities_metadata",
+            "record_count": 0,
+            "columns": [
+              "entity_guid",
+              "use_count",
+              "use_date",
+              "date_modified"
+            ]
+          },
+          {
+            "table": "autofill_model_type_state",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "value"
+            ]
+          },
+          {
+            "table": "autofill_sync_metadata",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "storage_key",
+              "value"
+            ]
+          },
+          {
+            "table": "benefit_merchant_domains",
+            "record_count": 0,
+            "columns": [
+              "benefit_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "credit_cards",
+            "record_count": 2,
+            "columns": [
+              "guid",
+              "name_on_card",
+              "expiration_month",
+              "expiration_year",
+              "card_number_encrypted",
+              "date_modified",
+              "use_count",
+              "use_date",
+              "billing_address_id",
+              "nickname",
+              "is_user_confirmed"
+            ]
+          },
+          {
+            "table": "generic_payment_instruments",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "serialized_value_encrypted"
+            ]
+          },
+          {
+            "table": "keywords",
+            "record_count": 12,
+            "columns": [
+              "id",
+              "short_name",
+              "keyword",
+              "favicon_url",
+              "url",
+              "safe_for_autoreplace",
+              "originating_url",
+              "date_created",
+              "usage_count",
+              "input_encodings",
+              "suggest_url",
+              "prepopulate_id",
+              "created_by_policy",
+              "last_modified",
+              "sync_guid",
+              "alternate_urls",
+              "image_url",
+              "search_url_post_params",
+              "suggest_url_post_params",
+              "image_url_post_params",
+              "new_tab_url",
+              "last_visited",
+              "created_from_play_api",
+              "is_active",
+              "position",
+              "starter_pack_id",
+              "enforced_by_policy",
+              "featured_by_policy",
+              "url_hash"
+            ]
+          },
+          {
+            "table": "local_ibans",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "use_count",
+              "use_date",
+              "value_encrypted",
+              "nickname"
+            ]
+          },
+          {
+            "table": "local_stored_cvc",
+            "record_count": 2,
+            "columns": [
+              "guid",
+              "value_encrypted",
+              "last_updated_timestamp"
+            ]
+          },
+          {
+            "table": "loyalty_card_merchant_domain",
+            "record_count": 0,
+            "columns": [
+              "loyalty_card_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "loyalty_cards",
+            "record_count": 0,
+            "columns": [
+              "loyalty_card_id",
+              "merchant_name",
+              "program_name",
+              "program_logo",
+              "loyalty_card_number"
+            ]
+          },
+          {
+            "table": "masked_bank_accounts",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "bank_name",
+              "account_number_suffix",
+              "account_type",
+              "display_icon_url",
+              "nickname"
+            ]
+          },
+          {
+            "table": "masked_bank_accounts_metadata",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "masked_credit_card_benefits",
+            "record_count": 0,
+            "columns": [
+              "benefit_id",
+              "instrument_id",
+              "benefit_type",
+              "benefit_category",
+              "benefit_description",
+              "start_time",
+              "end_time"
+            ]
+          },
+          {
+            "table": "masked_credit_cards",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "name_on_card",
+              "network",
+              "last_four",
+              "exp_month",
+              "exp_year",
+              "bank_name",
+              "nickname",
+              "card_issuer",
+              "instrument_id",
+              "virtual_card_enrollment_state",
+              "card_art_url",
+              "product_description",
+              "card_issuer_id",
+              "virtual_card_enrollment_type",
+              "product_terms_url",
+              "card_info_retrieval_enrollment_state",
+              "card_benefit_source",
+              "card_creation_source"
+            ]
+          },
+          {
+            "table": "masked_ibans",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "prefix",
+              "suffix",
+              "nickname"
+            ]
+          },
+          {
+            "table": "masked_ibans_metadata",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "meta",
+            "record_count": 7,
+            "columns": [
+              "key",
+              "value"
+            ]
+          },
+          {
+            "table": "offer_data",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "offer_reward_amount",
+              "expiry",
+              "offer_details_url",
+              "merchant_domain",
+              "promo_code",
+              "value_prop_text",
+              "see_details_text",
+              "usage_instructions_text"
+            ]
+          },
+          {
+            "table": "offer_merchant_domain",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "payment_instrument_creation_options",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "serialized_value_encrypted"
+            ]
+          },
+          {
+            "table": "payment_method_manifest",
+            "record_count": 0,
+            "columns": [
+              "expire_date",
+              "method_name",
+              "web_app_id"
+            ]
+          },
+          {
+            "table": "payments_customer_data",
+            "record_count": 0,
+            "columns": [
+              "customer_id"
+            ]
+          },
+          {
+            "table": "secure_payment_confirmation_browser_bound_key",
+            "record_count": 0,
+            "columns": [
+              "credential_id",
+              "relying_party_id",
+              "browser_bound_key_id",
+              "last_used"
+            ]
+          },
+          {
+            "table": "secure_payment_confirmation_instrument",
+            "record_count": 0,
+            "columns": [
+              "credential_id",
+              "relying_party_id",
+              "label",
+              "icon",
+              "date_created",
+              "user_id"
+            ]
+          },
+          {
+            "table": "server_card_cloud_token_data",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "suffix",
+              "exp_month",
+              "exp_year",
+              "card_art_url",
+              "instrument_token"
+            ]
+          },
+          {
+            "table": "server_card_metadata",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "use_count",
+              "use_date",
+              "billing_address_id"
+            ]
+          },
+          {
+            "table": "server_stored_cvc",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "value_encrypted",
+              "last_updated_timestamp"
+            ]
+          },
+          {
+            "table": "token_service",
+            "record_count": 0,
+            "columns": [
+              "service",
+              "encrypted_token",
+              "binding_key",
+              "mtls_token_binding"
+            ]
+          },
+          {
+            "table": "valuables_metadata",
+            "record_count": 0,
+            "columns": [
+              "valuable_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "virtual_card_usage_data",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "instrument_id",
+              "merchant_domain",
+              "last_four"
+            ]
+          },
+          {
+            "table": "web_app_manifest_section",
+            "record_count": 0,
+            "columns": [
+              "expire_date",
+              "id",
+              "min_version",
+              "fingerprints",
+              "method_name"
+            ]
+          }
+        ]
+      },
+      "errors": [],
+      "record_count": 38
+    },
+    {
+      "user": "masab",
+      "browser": "Vivaldi",
+      "profile": "Profile 3",
+      "sources": [
+        "C:\\Users\\masab\\AppData\\Local\\Vivaldi\\User Data\\Profile 3\\Web Data",
+        "C:\\Users\\masab\\AppData\\Local\\Vivaldi\\User Data\\Profile 3\\Web Data-journal"
+      ],
+      "tables": {
+        "web_data_metadata": [
+          {
+            "table": "address_type_tokens",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "type",
+              "value",
+              "verification_status",
+              "observations"
+            ]
+          },
+          {
+            "table": "addresses",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "use_count",
+              "use_date",
+              "date_modified",
+              "language_code",
+              "label",
+              "initial_creator_id",
+              "record_type"
+            ]
+          },
+          {
+            "table": "autocomplete",
+            "record_count": 0,
+            "columns": [
+              "name",
+              "label",
+              "label_normalized",
+              "value",
+              "value_lower",
+              "date_created",
+              "date_last_used",
+              "count"
+            ]
+          },
+          {
+            "table": "autofill",
+            "record_count": 99,
+            "columns": [
+              "name",
+              "value",
+              "value_lower",
+              "date_created",
+              "date_last_used",
+              "count"
+            ]
+          },
+          {
+            "table": "autofill_ai_attributes",
+            "record_count": 0,
+            "columns": [
+              "entity_guid",
+              "attribute_type",
+              "field_type",
+              "value_encrypted",
+              "verification_status"
+            ]
+          },
+          {
+            "table": "autofill_ai_entities",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "entity_type",
+              "nickname",
+              "record_type",
+              "attributes_read_only",
+              "frecency_override"
+            ]
+          },
+          {
+            "table": "autofill_ai_entities_metadata",
+            "record_count": 0,
+            "columns": [
+              "entity_guid",
+              "use_count",
+              "use_date",
+              "date_modified"
+            ]
+          },
+          {
+            "table": "autofill_model_type_state",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "value"
+            ]
+          },
+          {
+            "table": "autofill_sync_metadata",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "storage_key",
+              "value"
+            ]
+          },
+          {
+            "table": "benefit_merchant_domains",
+            "record_count": 0,
+            "columns": [
+              "benefit_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "credit_cards",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "name_on_card",
+              "expiration_month",
+              "expiration_year",
+              "card_number_encrypted",
+              "date_modified",
+              "use_count",
+              "use_date",
+              "billing_address_id",
+              "nickname",
+              "is_user_confirmed"
+            ]
+          },
+          {
+            "table": "generic_payment_instruments",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "serialized_value_encrypted"
+            ]
+          },
+          {
+            "table": "keywords",
+            "record_count": 12,
+            "columns": [
+              "id",
+              "short_name",
+              "keyword",
+              "favicon_url",
+              "url",
+              "safe_for_autoreplace",
+              "originating_url",
+              "date_created",
+              "usage_count",
+              "input_encodings",
+              "suggest_url",
+              "prepopulate_id",
+              "created_by_policy",
+              "last_modified",
+              "sync_guid",
+              "alternate_urls",
+              "image_url",
+              "search_url_post_params",
+              "suggest_url_post_params",
+              "image_url_post_params",
+              "new_tab_url",
+              "last_visited",
+              "created_from_play_api",
+              "is_active",
+              "position",
+              "starter_pack_id",
+              "enforced_by_policy",
+              "featured_by_policy",
+              "url_hash"
+            ]
+          },
+          {
+            "table": "local_ibans",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "use_count",
+              "use_date",
+              "value_encrypted",
+              "nickname"
+            ]
+          },
+          {
+            "table": "local_stored_cvc",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "value_encrypted",
+              "last_updated_timestamp"
+            ]
+          },
+          {
+            "table": "loyalty_card_merchant_domain",
+            "record_count": 0,
+            "columns": [
+              "loyalty_card_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "loyalty_cards",
+            "record_count": 0,
+            "columns": [
+              "loyalty_card_id",
+              "merchant_name",
+              "program_name",
+              "program_logo",
+              "loyalty_card_number"
+            ]
+          },
+          {
+            "table": "masked_bank_accounts",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "bank_name",
+              "account_number_suffix",
+              "account_type",
+              "display_icon_url",
+              "nickname"
+            ]
+          },
+          {
+            "table": "masked_bank_accounts_metadata",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "masked_credit_card_benefits",
+            "record_count": 0,
+            "columns": [
+              "benefit_id",
+              "instrument_id",
+              "benefit_type",
+              "benefit_category",
+              "benefit_description",
+              "start_time",
+              "end_time"
+            ]
+          },
+          {
+            "table": "masked_credit_cards",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "name_on_card",
+              "network",
+              "last_four",
+              "exp_month",
+              "exp_year",
+              "bank_name",
+              "nickname",
+              "card_issuer",
+              "instrument_id",
+              "virtual_card_enrollment_state",
+              "card_art_url",
+              "product_description",
+              "card_issuer_id",
+              "virtual_card_enrollment_type",
+              "product_terms_url",
+              "card_info_retrieval_enrollment_state",
+              "card_benefit_source",
+              "card_creation_source"
+            ]
+          },
+          {
+            "table": "masked_ibans",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "prefix",
+              "suffix",
+              "nickname"
+            ]
+          },
+          {
+            "table": "masked_ibans_metadata",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "meta",
+            "record_count": 7,
+            "columns": [
+              "key",
+              "value"
+            ]
+          },
+          {
+            "table": "offer_data",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "offer_reward_amount",
+              "expiry",
+              "offer_details_url",
+              "merchant_domain",
+              "promo_code",
+              "value_prop_text",
+              "see_details_text",
+              "usage_instructions_text"
+            ]
+          },
+          {
+            "table": "offer_merchant_domain",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "payment_instrument_creation_options",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "serialized_value_encrypted"
+            ]
+          },
+          {
+            "table": "payment_method_manifest",
+            "record_count": 0,
+            "columns": [
+              "expire_date",
+              "method_name",
+              "web_app_id"
+            ]
+          },
+          {
+            "table": "payments_customer_data",
+            "record_count": 0,
+            "columns": [
+              "customer_id"
+            ]
+          },
+          {
+            "table": "secure_payment_confirmation_browser_bound_key",
+            "record_count": 0,
+            "columns": [
+              "credential_id",
+              "relying_party_id",
+              "browser_bound_key_id",
+              "last_used"
+            ]
+          },
+          {
+            "table": "secure_payment_confirmation_instrument",
+            "record_count": 0,
+            "columns": [
+              "credential_id",
+              "relying_party_id",
+              "label",
+              "icon",
+              "date_created",
+              "user_id"
+            ]
+          },
+          {
+            "table": "server_card_cloud_token_data",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "suffix",
+              "exp_month",
+              "exp_year",
+              "card_art_url",
+              "instrument_token"
+            ]
+          },
+          {
+            "table": "server_card_metadata",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "use_count",
+              "use_date",
+              "billing_address_id"
+            ]
+          },
+          {
+            "table": "server_stored_cvc",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "value_encrypted",
+              "last_updated_timestamp"
+            ]
+          },
+          {
+            "table": "token_service",
+            "record_count": 0,
+            "columns": [
+              "service",
+              "encrypted_token",
+              "binding_key",
+              "mtls_token_binding"
+            ]
+          },
+          {
+            "table": "valuables_metadata",
+            "record_count": 0,
+            "columns": [
+              "valuable_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "virtual_card_usage_data",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "instrument_id",
+              "merchant_domain",
+              "last_four"
+            ]
+          },
+          {
+            "table": "web_app_manifest_section",
+            "record_count": 0,
+            "columns": [
+              "expire_date",
+              "id",
+              "min_version",
+              "fingerprints",
+              "method_name"
+            ]
+          }
+        ]
+      },
+      "errors": [],
+      "record_count": 38
+    },
+    {
+      "user": "masab",
+      "browser": "Vivaldi",
+      "profile": "Profile 4",
+      "sources": [
+        "C:\\Users\\masab\\AppData\\Local\\Vivaldi\\User Data\\Profile 4\\Web Data",
+        "C:\\Users\\masab\\AppData\\Local\\Vivaldi\\User Data\\Profile 4\\Web Data-journal"
+      ],
+      "tables": {
+        "web_data_metadata": [
+          {
+            "table": "address_type_tokens",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "type",
+              "value",
+              "verification_status",
+              "observations"
+            ]
+          },
+          {
+            "table": "addresses",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "use_count",
+              "use_date",
+              "date_modified",
+              "language_code",
+              "label",
+              "initial_creator_id",
+              "last_modifier_id",
+              "use_date2",
+              "use_date3",
+              "record_type"
+            ]
+          },
+          {
+            "table": "attributes",
+            "record_count": 0,
+            "columns": [
+              "entity_guid",
+              "type",
+              "value",
+              "context"
+            ]
+          },
+          {
+            "table": "autofill",
+            "record_count": 4,
+            "columns": [
+              "name",
+              "value",
+              "value_lower",
+              "date_created",
+              "date_last_used",
+              "count"
+            ]
+          },
+          {
+            "table": "autofill_model_type_state",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "value"
+            ]
+          },
+          {
+            "table": "autofill_sync_metadata",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "storage_key",
+              "value"
+            ]
+          },
+          {
+            "table": "benefit_merchant_domains",
+            "record_count": 0,
+            "columns": [
+              "benefit_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "credit_cards",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "name_on_card",
+              "expiration_month",
+              "expiration_year",
+              "card_number_encrypted",
+              "date_modified",
+              "origin",
+              "use_count",
+              "use_date",
+              "billing_address_id",
+              "nickname"
+            ]
+          },
+          {
+            "table": "entities",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "type",
+              "nickname",
+              "date_modified"
+            ]
+          },
+          {
+            "table": "generic_payment_instruments",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "serialized_value_encrypted"
+            ]
+          },
+          {
+            "table": "keywords",
+            "record_count": 9,
+            "columns": [
+              "id",
+              "short_name",
+              "keyword",
+              "favicon_url",
+              "url",
+              "safe_for_autoreplace",
+              "originating_url",
+              "date_created",
+              "usage_count",
+              "input_encodings",
+              "suggest_url",
+              "prepopulate_id",
+              "created_by_policy",
+              "last_modified",
+              "sync_guid",
+              "alternate_urls",
+              "image_url",
+              "search_url_post_params",
+              "suggest_url_post_params",
+              "image_url_post_params",
+              "new_tab_url",
+              "last_visited",
+              "created_from_play_api",
+              "is_active",
+              "position",
+              "starter_pack_id",
+              "enforced_by_policy",
+              "featured_by_policy",
+              "url_hash"
+            ]
+          },
+          {
+            "table": "local_ibans",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "use_count",
+              "use_date",
+              "value_encrypted",
+              "nickname"
+            ]
+          },
+          {
+            "table": "local_stored_cvc",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "value_encrypted",
+              "last_updated_timestamp"
+            ]
+          },
+          {
+            "table": "masked_bank_accounts",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "bank_name",
+              "account_number_suffix",
+              "account_type",
+              "display_icon_url",
+              "nickname"
+            ]
+          },
+          {
+            "table": "masked_bank_accounts_metadata",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "masked_credit_card_benefits",
+            "record_count": 0,
+            "columns": [
+              "benefit_id",
+              "instrument_id",
+              "benefit_type",
+              "benefit_category",
+              "benefit_description",
+              "start_time",
+              "end_time"
+            ]
+          },
+          {
+            "table": "masked_credit_cards",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "name_on_card",
+              "network",
+              "last_four",
+              "exp_month",
+              "exp_year",
+              "bank_name",
+              "nickname",
+              "card_issuer",
+              "instrument_id",
+              "virtual_card_enrollment_state",
+              "card_art_url",
+              "product_description",
+              "card_issuer_id",
+              "virtual_card_enrollment_type",
+              "product_terms_url",
+              "card_info_retrieval_enrollment_state"
+            ]
+          },
+          {
+            "table": "masked_ibans",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "prefix",
+              "suffix",
+              "nickname"
+            ]
+          },
+          {
+            "table": "masked_ibans_metadata",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "meta",
+            "record_count": 7,
+            "columns": [
+              "key",
+              "value"
+            ]
+          },
+          {
+            "table": "offer_data",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "offer_reward_amount",
+              "expiry",
+              "offer_details_url",
+              "merchant_domain",
+              "promo_code",
+              "value_prop_text",
+              "see_details_text",
+              "usage_instructions_text"
+            ]
+          },
+          {
+            "table": "offer_eligible_instrument",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "instrument_id"
+            ]
+          },
+          {
+            "table": "offer_merchant_domain",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "payment_instrument_creation_options",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "serialized_value_encrypted"
+            ]
+          },
+          {
+            "table": "payment_method_manifest",
+            "record_count": 0,
+            "columns": [
+              "expire_date",
+              "method_name",
+              "web_app_id"
+            ]
+          },
+          {
+            "table": "payments_customer_data",
+            "record_count": 0,
+            "columns": [
+              "customer_id"
+            ]
+          },
+          {
+            "table": "plus_address_sync_entity_metadata",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "storage_key",
+              "value"
+            ]
+          },
+          {
+            "table": "plus_address_sync_model_type_state",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "value"
+            ]
+          },
+          {
+            "table": "plus_addresses",
+            "record_count": 0,
+            "columns": [
+              "profile_id",
+              "facet",
+              "plus_address"
+            ]
+          },
+          {
+            "table": "secure_payment_confirmation_browser_bound_key",
+            "record_count": 0,
+            "columns": [
+              "credential_id",
+              "relying_party_id",
+              "browser_bound_key_id"
+            ]
+          },
+          {
+            "table": "secure_payment_confirmation_instrument",
+            "record_count": 0,
+            "columns": [
+              "credential_id",
+              "relying_party_id",
+              "label",
+              "icon",
+              "date_created",
+              "user_id"
+            ]
+          },
+          {
+            "table": "server_card_cloud_token_data",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "suffix",
+              "exp_month",
+              "exp_year",
+              "card_art_url",
+              "instrument_token"
+            ]
+          },
+          {
+            "table": "server_card_metadata",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "use_count",
+              "use_date",
+              "billing_address_id"
+            ]
+          },
+          {
+            "table": "server_stored_cvc",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "value_encrypted",
+              "last_updated_timestamp"
+            ]
+          },
+          {
+            "table": "token_service",
+            "record_count": 0,
+            "columns": [
+              "service",
+              "encrypted_token",
+              "binding_key"
+            ]
+          },
+          {
+            "table": "virtual_card_usage_data",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "instrument_id",
+              "merchant_domain",
+              "last_four"
+            ]
+          },
+          {
+            "table": "web_app_manifest_section",
+            "record_count": 0,
+            "columns": [
+              "expire_date",
+              "id",
+              "min_version",
+              "fingerprints"
+            ]
+          }
+        ]
+      },
+      "errors": [],
+      "record_count": 37
+    },
+    {
+      "user": "masab",
+      "browser": "Vivaldi",
+      "profile": "Profile 5",
+      "sources": [
+        "C:\\Users\\masab\\AppData\\Local\\Vivaldi\\User Data\\Profile 5\\Web Data",
+        "C:\\Users\\masab\\AppData\\Local\\Vivaldi\\User Data\\Profile 5\\Web Data-journal"
+      ],
+      "tables": {
+        "web_data_metadata": [
+          {
+            "table": "address_type_tokens",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "type",
+              "value",
+              "verification_status",
+              "observations"
+            ]
+          },
+          {
+            "table": "addresses",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "use_count",
+              "use_date",
+              "date_modified",
+              "language_code",
+              "label",
+              "initial_creator_id",
+              "last_modifier_id",
+              "use_date2",
+              "use_date3",
+              "record_type"
+            ]
+          },
+          {
+            "table": "attributes",
+            "record_count": 0,
+            "columns": [
+              "entity_guid",
+              "type",
+              "value",
+              "context"
+            ]
+          },
+          {
+            "table": "autofill",
+            "record_count": 3,
+            "columns": [
+              "name",
+              "value",
+              "value_lower",
+              "date_created",
+              "date_last_used",
+              "count"
+            ]
+          },
+          {
+            "table": "autofill_model_type_state",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "value"
+            ]
+          },
+          {
+            "table": "autofill_sync_metadata",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "storage_key",
+              "value"
+            ]
+          },
+          {
+            "table": "benefit_merchant_domains",
+            "record_count": 0,
+            "columns": [
+              "benefit_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "credit_cards",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "name_on_card",
+              "expiration_month",
+              "expiration_year",
+              "card_number_encrypted",
+              "date_modified",
+              "origin",
+              "use_count",
+              "use_date",
+              "billing_address_id",
+              "nickname"
+            ]
+          },
+          {
+            "table": "entities",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "type",
+              "nickname",
+              "date_modified"
+            ]
+          },
+          {
+            "table": "generic_payment_instruments",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "serialized_value_encrypted"
+            ]
+          },
+          {
+            "table": "keywords",
+            "record_count": 9,
+            "columns": [
+              "id",
+              "short_name",
+              "keyword",
+              "favicon_url",
+              "url",
+              "safe_for_autoreplace",
+              "originating_url",
+              "date_created",
+              "usage_count",
+              "input_encodings",
+              "suggest_url",
+              "prepopulate_id",
+              "created_by_policy",
+              "last_modified",
+              "sync_guid",
+              "alternate_urls",
+              "image_url",
+              "search_url_post_params",
+              "suggest_url_post_params",
+              "image_url_post_params",
+              "new_tab_url",
+              "last_visited",
+              "created_from_play_api",
+              "is_active",
+              "position",
+              "starter_pack_id",
+              "enforced_by_policy",
+              "featured_by_policy",
+              "url_hash"
+            ]
+          },
+          {
+            "table": "local_ibans",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "use_count",
+              "use_date",
+              "value_encrypted",
+              "nickname"
+            ]
+          },
+          {
+            "table": "local_stored_cvc",
+            "record_count": 0,
+            "columns": [
+              "guid",
+              "value_encrypted",
+              "last_updated_timestamp"
+            ]
+          },
+          {
+            "table": "masked_bank_accounts",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "bank_name",
+              "account_number_suffix",
+              "account_type",
+              "display_icon_url",
+              "nickname"
+            ]
+          },
+          {
+            "table": "masked_bank_accounts_metadata",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "masked_credit_card_benefits",
+            "record_count": 0,
+            "columns": [
+              "benefit_id",
+              "instrument_id",
+              "benefit_type",
+              "benefit_category",
+              "benefit_description",
+              "start_time",
+              "end_time"
+            ]
+          },
+          {
+            "table": "masked_credit_cards",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "name_on_card",
+              "network",
+              "last_four",
+              "exp_month",
+              "exp_year",
+              "bank_name",
+              "nickname",
+              "card_issuer",
+              "instrument_id",
+              "virtual_card_enrollment_state",
+              "card_art_url",
+              "product_description",
+              "card_issuer_id",
+              "virtual_card_enrollment_type",
+              "product_terms_url",
+              "card_info_retrieval_enrollment_state"
+            ]
+          },
+          {
+            "table": "masked_ibans",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "prefix",
+              "suffix",
+              "nickname"
+            ]
+          },
+          {
+            "table": "masked_ibans_metadata",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "use_count",
+              "use_date"
+            ]
+          },
+          {
+            "table": "meta",
+            "record_count": 7,
+            "columns": [
+              "key",
+              "value"
+            ]
+          },
+          {
+            "table": "offer_data",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "offer_reward_amount",
+              "expiry",
+              "offer_details_url",
+              "merchant_domain",
+              "promo_code",
+              "value_prop_text",
+              "see_details_text",
+              "usage_instructions_text"
+            ]
+          },
+          {
+            "table": "offer_eligible_instrument",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "instrument_id"
+            ]
+          },
+          {
+            "table": "offer_merchant_domain",
+            "record_count": 0,
+            "columns": [
+              "offer_id",
+              "merchant_domain"
+            ]
+          },
+          {
+            "table": "payment_instrument_creation_options",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "serialized_value_encrypted"
+            ]
+          },
+          {
+            "table": "payment_method_manifest",
+            "record_count": 0,
+            "columns": [
+              "expire_date",
+              "method_name",
+              "web_app_id"
+            ]
+          },
+          {
+            "table": "payments_customer_data",
+            "record_count": 0,
+            "columns": [
+              "customer_id"
+            ]
+          },
+          {
+            "table": "plus_address_sync_entity_metadata",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "storage_key",
+              "value"
+            ]
+          },
+          {
+            "table": "plus_address_sync_model_type_state",
+            "record_count": 0,
+            "columns": [
+              "model_type",
+              "value"
+            ]
+          },
+          {
+            "table": "plus_addresses",
+            "record_count": 0,
+            "columns": [
+              "profile_id",
+              "facet",
+              "plus_address"
+            ]
+          },
+          {
+            "table": "secure_payment_confirmation_browser_bound_key",
+            "record_count": 0,
+            "columns": [
+              "credential_id",
+              "relying_party_id",
+              "browser_bound_key_id"
+            ]
+          },
+          {
+            "table": "secure_payment_confirmation_instrument",
+            "record_count": 0,
+            "columns": [
+              "credential_id",
+              "relying_party_id",
+              "label",
+              "icon",
+              "date_created",
+              "user_id"
+            ]
+          },
+          {
+            "table": "server_card_cloud_token_data",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "suffix",
+              "exp_month",
+              "exp_year",
+              "card_art_url",
+              "instrument_token"
+            ]
+          },
+          {
+            "table": "server_card_metadata",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "use_count",
+              "use_date",
+              "billing_address_id"
+            ]
+          },
+          {
+            "table": "server_stored_cvc",
+            "record_count": 0,
+            "columns": [
+              "instrument_id",
+              "value_encrypted",
+              "last_updated_timestamp"
+            ]
+          },
+          {
+            "table": "token_service",
+            "record_count": 0,
+            "columns": [
+              "service",
+              "encrypted_token",
+              "binding_key"
+            ]
+          },
+          {
+            "table": "virtual_card_usage_data",
+            "record_count": 0,
+            "columns": [
+              "id",
+              "instrument_id",
+              "merchant_domain",
+              "last_four"
+            ]
+          },
+          {
+            "table": "web_app_manifest_section",
+            "record_count": 0,
+            "columns": [
+              "expire_date",
+              "id",
+              "min_version",
+              "fingerprints"
+            ]
+          }
+        ]
+      },
+      "errors": [],
+      "record_count": 37
+    }
+  ],
+  "errors": [],
+  "run_status": "PARTIAL"
+}

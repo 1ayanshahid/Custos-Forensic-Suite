@@ -1,0 +1,59 @@
+{
+   "checksum": "3547a09cb87cdc5854fedc99497ff4c3",
+   "checksum_sha256": "d8e5c1134adb8d69007eb9470ef73e0cc0947e2e207b42d58c1dee711dc87076",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13398631928044188",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13398636819656854",
+            "date_last_used": "0",
+            "guid": "c83e1f57-a65f-4cd9-9452-d03eaac1533b",
+            "id": "3",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "simownership.net",
+            "type": "url",
+            "url": "https://simownership.net/"
+         }, {
+            "date_added": "13401411987274765",
+            "date_last_used": "0",
+            "guid": "a15977f4-4953-4112-a80f-04e6ee9419af",
+            "id": "4",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Emkei's Fake Mailer",
+            "type": "url",
+            "url": "https://emkei.cz/"
+         } ],
+         "date_added": "13398631928044188",
+         "date_last_used": "0",
+         "date_modified": "13401411987274765",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13398631928044188",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "5",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

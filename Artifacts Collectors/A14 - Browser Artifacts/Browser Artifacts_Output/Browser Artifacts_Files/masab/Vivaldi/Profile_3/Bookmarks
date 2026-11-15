@@ -1,0 +1,851 @@
+{
+   "checksum": "7284cf47ad6ad5a96b0b26e8fc314c74",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13405161163984787",
+               "date_last_used": "0",
+               "guid": "08f37192-da8b-484a-9ed1-c95c90fd2fd9",
+               "id": "69",
+               "meta_info": {
+                  "Thumbnail": "chrome://vivaldi-data/thumbnail/LZSWTXV5TSNQCO5FK77SLKKGW27M3CFW.png",
+                  "power_bookmark_meta": ""
+               },
+               "name": "Chat",
+               "type": "url",
+               "url": "https://chatgpt.com/"
+            }, {
+               "date_added": "13390315347829639",
+               "date_last_used": "0",
+               "guid": "b095403c-0348-4d47-b03e-c9b408bfc92b",
+               "id": "7",
+               "meta_info": {
+                  "DisplayURL": "https://vivaldi.com/",
+                  "Partner": "b095403c-0348-4d47-b03e-c9b408bfc92b",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_vivaldi.png"
+               },
+               "name": "Vivaldi Browser",
+               "type": "url",
+               "url": "https://vivaldi.com/"
+            }, {
+               "date_added": "13390315347829691",
+               "date_last_used": "0",
+               "guid": "848a4ba4-5f69-4a38-8ccc-d0cea9fe0709",
+               "id": "8",
+               "meta_info": {
+                  "DisplayURL": "https://social.vivaldi.net/",
+                  "Partner": "848a4ba4-5f69-4a38-8ccc-d0cea9fe0709",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_vivaldi_social.png"
+               },
+               "name": "Vivaldi Social",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/sd-social"
+            }, {
+               "date_added": "13390315347829752",
+               "date_last_used": "0",
+               "guid": "cbe202d3-71df-4491-a825-448e4d745e43",
+               "id": "9",
+               "meta_info": {
+                  "Description": "vivaldi",
+                  "DisplayURL": "https://vivaldi.net/",
+                  "Partner": "cbe202d3-71df-4491-a825-448e4d745e43",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_vivaldi_community.png"
+               },
+               "name": "Vivaldi Community",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/sd-community"
+            }, {
+               "date_added": "13390315347829800",
+               "date_last_used": "0",
+               "guid": "4e1fc0cf-08f4-40d9-acc9-dc79ea44cf82",
+               "id": "10",
+               "meta_info": {
+                  "DisplayURL": "https://www.accuweather.com/",
+                  "Partner": "4e1fc0cf-08f4-40d9-acc9-dc79ea44cf82",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_accuweather.png"
+               },
+               "name": "AccuWeather",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/sd-accuweather"
+            }, {
+               "date_added": "13390315347829844",
+               "date_last_used": "0",
+               "guid": "10415f5d-2e0c-4f08-8e49-23fcd2de0943",
+               "id": "11",
+               "meta_info": {
+                  "Partner": "10415f5d-2e0c-4f08-8e49-23fcd2de0943",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_vivaldia_games.png"
+               },
+               "name": "Vivaldia Games",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/vivaldia-game"
+            }, {
+               "date_added": "13391554966809782",
+               "date_last_used": "0",
+               "guid": "c40927bc-93e0-4ffa-ab69-60bde0af7030",
+               "id": "37",
+               "meta_info": {
+                  "ThemeColor": "4211081215",
+                  "Thumbnail": "chrome://vivaldi-data/thumbnail/LIJH5DBJ2LQ7CTTDMACRLHR3AQEHYRWF.png",
+                  "power_bookmark_meta": ""
+               },
+               "name": "YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/"
+            }, {
+               "date_added": "13391554970650378",
+               "date_last_used": "0",
+               "guid": "90daa11f-4d5b-4e53-8a16-15cfe76c017a",
+               "id": "38",
+               "meta_info": {
+                  "ThemeColor": "4294967295",
+                  "Thumbnail": "chrome://vivaldi-data/thumbnail/GIAM4437X3KE35GFGUVNN362IQCJY5FM.png",
+                  "power_bookmark_meta": ""
+               },
+               "name": "https://x.com/",
+               "type": "url",
+               "url": "https://x.com/"
+            }, {
+               "date_added": "13393308534643592",
+               "date_last_used": "0",
+               "guid": "dd18a1d8-5574-4eea-8aae-e7fdc775839e",
+               "id": "53",
+               "meta_info": {
+                  "Thumbnail": "chrome://vivaldi-data/thumbnail/Q3RT3HQAINSOYHM3O6VSISYY6VEV44TH.png",
+                  "power_bookmark_meta": ""
+               },
+               "name": "Mail",
+               "type": "url",
+               "url": "https://mail.google.com/"
+            }, {
+               "date_added": "13390315347830234",
+               "date_last_used": "0",
+               "guid": "68fc9516-59ac-447e-a8a6-ff27d558da91",
+               "id": "20",
+               "meta_info": {
+                  "Description": "travel, airfare, hotels",
+                  "DisplayURL": "https://www.booking.com/",
+                  "Partner": "68fc9516-59ac-447e-a8a6-ff27d558da91",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_booking.com.png"
+               },
+               "name": "Booking.com",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/bookingcom-en-us"
+            } ],
+            "date_added": "13390315347829577",
+            "date_last_used": "0",
+            "date_modified": "13410471381676547",
+            "guid": "e5c019f8-c8a4-403c-99c8-d3502d7d09b3",
+            "id": "6",
+            "meta_info": {
+               "Partner": "e5c019f8-c8a4-403c-99c8-d3502d7d09b3",
+               "Speeddial": "true"
+            },
+            "name": "Home",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13390315347829916",
+               "date_last_used": "0",
+               "guid": "c49a405e-ba3d-42b4-ad9a-4831e2ed35e4",
+               "id": "13",
+               "meta_info": {
+                  "Description": "shopping, electronics",
+                  "DisplayURL": "https://www.amazon.com/",
+                  "Partner": "c49a405e-ba3d-42b4-ad9a-4831e2ed35e4",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_amazon.png"
+               },
+               "name": "Amazon",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/amazon"
+            }, {
+               "date_added": "13390315347829964",
+               "date_last_used": "0",
+               "guid": "44d32981-5dcf-4a1f-be5b-3c0d03c7a0a1",
+               "id": "14",
+               "meta_info": {
+                  "Description": "shopping",
+                  "DisplayURL": "https://www.ebay.com/",
+                  "Partner": "44d32981-5dcf-4a1f-be5b-3c0d03c7a0a1",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_ebay.png"
+               },
+               "name": "eBay",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/ebay-en-us"
+            }, {
+               "date_added": "13390315347830022",
+               "date_last_used": "0",
+               "guid": "0efbb5fb-d366-4a91-95b1-b5690a0cf0ef",
+               "id": "15",
+               "meta_info": {
+                  "Description": "shopping",
+                  "DisplayURL": "https://www.aliexpress.com/",
+                  "Partner": "0efbb5fb-d366-4a91-95b1-b5690a0cf0ef",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_aliexpress.png"
+               },
+               "name": "AliExpress",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/aliexpresscom-us"
+            }, {
+               "date_added": "13390315347830077",
+               "date_last_used": "0",
+               "guid": "cef4093f-aea3-4ee0-a450-864df2cae2bf",
+               "id": "16",
+               "meta_info": {
+                  "Description": "shopping",
+                  "DisplayURL": "https://www.eneba.com/",
+                  "Partner": "cef4093f-aea3-4ee0-a450-864df2cae2bf",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_eneba.png"
+               },
+               "name": "Eneba",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/eneba-en"
+            }, {
+               "date_added": "13390315347830126",
+               "date_last_used": "0",
+               "guid": "a0f4094c-8182-479d-9e40-bdfc7da16846",
+               "id": "17",
+               "meta_info": {
+                  "Description": "shopping",
+                  "Partner": "a0f4094c-8182-479d-9e40-bdfc7da16846",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_temu.png"
+               },
+               "name": "Temu",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/sd-temu"
+            }, {
+               "date_added": "13390315347830166",
+               "date_last_used": "0",
+               "guid": "6ccd6c69-d23c-4b57-a6b3-b13b9fd676db",
+               "id": "18",
+               "meta_info": {
+                  "Description": "shopping",
+                  "DisplayURL": "https://www.shein.com/",
+                  "Partner": "6ccd6c69-d23c-4b57-a6b3-b13b9fd676db",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_shein.png"
+               },
+               "name": "SHEIN",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/sd-shein"
+            } ],
+            "date_added": "13390315347829898",
+            "date_last_used": "0",
+            "date_modified": "13390315347830166",
+            "guid": "7dc00b6d-b26b-4371-83cb-2cd63274b9b8",
+            "id": "12",
+            "meta_info": {
+               "Partner": "7dc00b6d-b26b-4371-83cb-2cd63274b9b8",
+               "Speeddial": "true"
+            },
+            "name": "Shopping",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13392192638205916",
+               "date_last_used": "0",
+               "guid": "37ca0399-d4b3-44f8-9fa8-5e678c59aed5",
+               "id": "40",
+               "meta_info": {
+                  "Description": "travel, airfare, hotels",
+                  "DisplayURL": "https://www.trip.com/",
+                  "Partner": "37ca0399-d4b3-44f8-9fa8-5e678c59aed5",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_trip.png"
+               },
+               "name": "Trip.com",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/sd-trip"
+            }, {
+               "date_added": "13392192638206016",
+               "date_last_used": "0",
+               "guid": "6dafc780-86dc-40e6-ac81-92b033fd8083",
+               "id": "41",
+               "meta_info": {
+                  "Description": "travel, airfare, hotels",
+                  "DisplayURL": "https://www.getyourguide.com/",
+                  "Partner": "6dafc780-86dc-40e6-ac81-92b033fd8083",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_getyourguide.png"
+               },
+               "name": "GetYourGuide",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/sd-getyourguide"
+            }, {
+               "date_added": "13403467817657115",
+               "date_last_used": "0",
+               "guid": "576c0090-2626-4554-bb9a-6f9c0bacaf47",
+               "id": "67",
+               "meta_info": {
+                  "Description": "travel, airfare",
+                  "DisplayURL": "https://skyscanner.com/",
+                  "Partner": "576c0090-2626-4554-bb9a-6f9c0bacaf47",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_skyscanner.png"
+               },
+               "name": "Skyscanner",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/skyscanner"
+            }, {
+               "date_added": "13407871039093053",
+               "date_last_used": "0",
+               "guid": "25672435-2187-4c7b-aacc-8ca9c75e69b5",
+               "id": "71",
+               "meta_info": {
+                  "Description": "travel, airfare, hotels",
+                  "DisplayURL": "https://www.tripadvisor.com/",
+                  "Partner": "25672435-2187-4c7b-aacc-8ca9c75e69b5",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_tripadvisor.png"
+               },
+               "name": "Tripadvisor",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/tripadvisor-world"
+            } ],
+            "date_added": "13390315347830215",
+            "date_last_used": "0",
+            "date_modified": "13407871039093053",
+            "guid": "0f0a0d3a-bf40-4367-a65c-ed43f85888ed",
+            "id": "19",
+            "meta_info": {
+               "Partner": "0f0a0d3a-bf40-4367-a65c-ed43f85888ed",
+               "Speeddial": "true"
+            },
+            "name": "Travel",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13390315347830335",
+                  "date_last_used": "0",
+                  "guid": "a91e4453-0a84-4a58-be63-eb3d7c257c35",
+                  "id": "23",
+                  "meta_info": {
+                     "Description": "vivaldi",
+                     "DisplayURL": "https://vivaldi.com/features",
+                     "Partner": "a91e4453-0a84-4a58-be63-eb3d7c257c35",
+                     "Thumbnail": "/resources/sd_thumbnails/sd_vivaldi.png"
+                  },
+                  "name": "Vivaldi Features",
+                  "type": "url",
+                  "url": "https://vivaldi.com/bk/sd-browser-features"
+               }, {
+                  "date_added": "13390315347830396",
+                  "date_last_used": "0",
+                  "guid": "eb5c2f32-c648-4f69-a875-472da896d50b",
+                  "id": "24",
+                  "meta_info": {
+                     "DisplayURL": "https://webmail.vivaldi.net/",
+                     "Partner": "eb5c2f32-c648-4f69-a875-472da896d50b",
+                     "Thumbnail": "/resources/sd_thumbnails/sd_webmail.png"
+                  },
+                  "name": "Vivaldi Webmail",
+                  "type": "url",
+                  "url": "https://vivaldi.com/bk/sd-webmail"
+               }, {
+                  "date_added": "13390315347830442",
+                  "date_last_used": "0",
+                  "guid": "37166148-e194-4693-98ca-590c102ab5a5",
+                  "id": "25",
+                  "meta_info": {
+                     "DisplayURL": "https://help.vivaldi.com/",
+                     "Partner": "37166148-e194-4693-98ca-590c102ab5a5",
+                     "Thumbnail": "/resources/sd_thumbnails/sd_help.png"
+                  },
+                  "name": "Vivaldi Help",
+                  "type": "url",
+                  "url": "https://vivaldi.com/bk/sd-vivaldi-help-en"
+               }, {
+                  "date_added": "13397395196389213",
+                  "date_last_used": "0",
+                  "guid": "01d6f4e4-a695-4450-a65d-f69366027dae",
+                  "id": "59",
+                  "meta_info": {
+                     "DisplayURL": "https://vivaldi.com/game",
+                     "Partner": "01d6f4e4-a695-4450-a65d-f69366027dae",
+                     "Thumbnail": "/resources/sd_thumbnails/sd_vivaldia_games.png"
+                  },
+                  "name": "Vivaldia Games",
+                  "type": "url",
+                  "url": "https://vivaldi.com/bk/vivaldia-game"
+               } ],
+               "date_added": "13390315347830311",
+               "date_last_used": "0",
+               "date_modified": "13397395196389213",
+               "guid": "04f107b7-203e-49e6-ab97-d6b9e613cc4a",
+               "id": "22",
+               "meta_info": {
+                  "Partner": "04f107b7-203e-49e6-ab97-d6b9e613cc4a"
+               },
+               "name": "Vivaldi",
+               "type": "folder"
+            }, {
+               "date_added": "13390315347830489",
+               "date_last_used": "0",
+               "guid": "f56c1a38-3e9e-48fc-8d6c-b800f226dbfb",
+               "id": "26",
+               "meta_info": {
+                  "DisplayURL": "https://www.booking.com/",
+                  "Partner": "f56c1a38-3e9e-48fc-8d6c-b800f226dbfb",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_booking.com.png"
+               },
+               "name": "Booking.com",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/booking-us-bk"
+            }, {
+               "date_added": "13390315347830940",
+               "date_last_used": "0",
+               "guid": "0a9612a0-625e-47c4-abde-72b5620469d5",
+               "id": "27",
+               "meta_info": {
+                  "DisplayURL": "https://www.kayak.com/",
+                  "Partner": "0a9612a0-625e-47c4-abde-72b5620469d5",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_kayak.png"
+               },
+               "name": "Kayak",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/kayak-en-us"
+            }, {
+               "date_added": "13390315347831115",
+               "date_last_used": "0",
+               "guid": "f79cd6e8-ebc0-444d-ac96-00da456dcb59",
+               "id": "28",
+               "meta_info": {
+                  "DisplayURL": "https://www.aliexpress.com/",
+                  "Partner": "f79cd6e8-ebc0-444d-ac96-00da456dcb59",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_aliexpress.png"
+               },
+               "name": "AliExpress",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/ali-us-bk"
+            }, {
+               "date_added": "13390315347831154",
+               "date_last_used": "0",
+               "guid": "4ac3d5a6-bbdd-4b1d-92a1-eaea6df81e84",
+               "id": "29",
+               "meta_info": {
+                  "DisplayURL": "https://www.amazon.com/",
+                  "Partner": "4ac3d5a6-bbdd-4b1d-92a1-eaea6df81e84",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_amazon.png"
+               },
+               "name": "Amazon",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/amazon-us-bk"
+            }, {
+               "date_added": "13390315347831187",
+               "date_last_used": "0",
+               "guid": "930d9804-4a0f-45ee-9317-b78ed2b548fd",
+               "id": "30",
+               "meta_info": {
+                  "DisplayURL": "https://www.ebay.com/",
+                  "Partner": "930d9804-4a0f-45ee-9317-b78ed2b548fd",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_ebay.png"
+               },
+               "name": "eBay",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/ebay-us-bk"
+            }, {
+               "date_added": "13390315347831248",
+               "date_last_used": "0",
+               "guid": "c5ceea21-8d73-4eec-89d1-be72552cf9c8",
+               "id": "31",
+               "meta_info": {
+                  "DisplayURL": "https://www.expedia.com/eu",
+                  "Partner": "c5ceea21-8d73-4eec-89d1-be72552cf9c8",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_expedia.png"
+               },
+               "name": "Expedia",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/expedia-eu"
+            }, {
+               "date_added": "13407871039093277",
+               "date_last_used": "0",
+               "guid": "d5158dd0-fb6a-49e4-922a-75266cde3f84",
+               "id": "72",
+               "meta_info": {
+                  "DisplayURL": "https://www.tripadvisor.com/",
+                  "Partner": "d5158dd0-fb6a-49e4-922a-75266cde3f84",
+                  "Thumbnail": "/resources/sd_thumbnails/sd_tripadvisor.png"
+               },
+               "name": "Tripadvisor",
+               "type": "url",
+               "url": "https://vivaldi.com/bk/tripadvisor-bk"
+            } ],
+            "date_added": "13390315347830293",
+            "date_last_used": "0",
+            "date_modified": "13407871039093277",
+            "guid": "12c04539-d01e-4fd3-9fbf-aa09a91e91ba",
+            "id": "21",
+            "meta_info": {
+               "Partner": "12c04539-d01e-4fd3-9fbf-aa09a91e91ba"
+            },
+            "name": "Bookmarks bar",
+            "type": "folder"
+         }, {
+            "date_added": "13391118577478947",
+            "date_last_used": "0",
+            "guid": "f818de1d-02aa-49e5-b0e2-a68db0bf1fb1",
+            "id": "33",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Videohunt.Ai - Grasp video moments and create viral clips in a flash",
+            "type": "url",
+            "url": "https://videohunt.ai/?utm_source=google&utm_medium=CPC&gad_source=2&gclid=Cj0KCQjw5ubABhDIARIsAHMighaWyqxMGveU_QxKFJNTTSm6c4LF93uJulzEhxw2jfyzcExf2GXt3oEaAqTlEALw_wcB"
+         }, {
+            "date_added": "13391409344518754",
+            "date_last_used": "0",
+            "guid": "50ab1be2-8a09-414b-bfcf-c4af240d999c",
+            "id": "35",
+            "meta_info": {
+               "Description": "Envelope Design 164",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/WB4EO3H6Q4IQDPFYUZD2A7XCYW7RAE5E.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Envelope 485 – Lifafay.pk",
+            "type": "url",
+            "url": "https://lifafay.pk/products/envelope-485?variant=49706655482165"
+         }, {
+            "date_added": "13392246335807088",
+            "date_last_used": "0",
+            "guid": "727d6fd2-8b43-4678-b60c-0c434744fbfe",
+            "id": "43",
+            "meta_info": {
+               "Description": "Build, test and deploy voice agents for your website, app or call center. Low latency, configurable and scalable. ",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/7WUWUP3EKETF25PZA6YS5BD6GNYJSYFI.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Deploy Conversational AI agents in minutes not months | ElevenLabs",
+            "type": "url",
+            "url": "https://elevenlabs.io/conversational-ai?utm_source=google&utm_medium=cpc&utm_campaign=t1t2t3_youtube_conversationalai_english&utm_id=22183073408&utm_term=&utm_content=conversationalal&gad_source=2&gclid=Cj0KCQjw0LDBBhCnARIsAMpYlAof7eDPuC_EiRtfi5DdsQ7uEhooYYIIhyO07EC57V-hcz9m5aN9OOMaAq-CEALw_wcB"
+         }, {
+            "date_added": "13392274442421162",
+            "date_last_used": "0",
+            "guid": "0603c664-cf49-4bf4-8b03-6e6b2511cc07",
+            "id": "44",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "PKCERT - The National CERT of Pakistan",
+            "type": "url",
+            "url": "https://pkcert.gov.pk/internships"
+         }, {
+            "date_added": "13392274482561136",
+            "date_last_used": "0",
+            "guid": "672686b9-4489-4401-aed5-fedad547f33e",
+            "id": "45",
+            "meta_info": {
+               "Description": "Internship Program\nPKCERT offers internships opportunities for individuals interested in pursuing a career in cybersecurity. These internships will provide individuals with the opportunity to work with experienced professionals in the field of cybersecurity. Interns will have the chance to gain hands-on experience in various aspects of cybersecurity.",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/73QOV3JDESEHNZV2RQ46S3MSCXKBZQWP.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Internship Application Form",
+            "type": "url",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSeIUOJvIJMy73VkURFjq0c6KIej08JtlIdU-0XLRfVMaC7lAQ/viewform"
+         }, {
+            "date_added": "13392933353654972",
+            "date_last_used": "0",
+            "guid": "52609472-6eef-49c7-a2a3-8da98b23a177",
+            "id": "47",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Register - DataPlus",
+            "type": "url",
+            "url": "https://datapp.ai/register"
+         }, {
+            "date_added": "13393315315838300",
+            "date_last_used": "0",
+            "guid": "68f2e92d-997c-42e1-a859-96ee82640a9d",
+            "id": "54",
+            "meta_info": {
+               "Description": "Webcric.com Live Cricket Streaming. Indian Premier League 2024/25, Mumbai Indians vs Punjab Kings Live Cricket Streaming on Webcric. Qualifier 2 Mumbai Indians vs Punjab Kings Live at Narendra Modi Stadium, Ahmedabad, India on 1 June 2025. Webcric is streaming all the International and Domestic Cricket Games and all the Live Cricket Streams are Freely available on this website.",
+               "power_bookmark_meta": ""
+            },
+            "name": "Watch Mumbai Indians vs Punjab Kings Live Streaming | Watch Live Cricket Streaming on Webcric",
+            "type": "url",
+            "url": "https://me.webcric.com/watch-indian-premier-league-live-cricket-streaming.htm"
+         }, {
+            "date_added": "13397292085788817",
+            "date_last_used": "0",
+            "guid": "3bd9a303-6f2b-4a30-96d8-93dc5e3f4600",
+            "id": "56",
+            "meta_info": {
+               "Description": "Follows the personal and professional lives of six twenty to thirty year-old friends living in the Manhattan borough of New York City. all in Moviebox Official",
+               "ThemeColor": "4294967295",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/ZM7MN3P7QBSOB4UWXJIHWIBZVYZTYZC7.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Friends - Moviebox Official",
+            "type": "url",
+            "url": "https://moviebox.ng/movies/friends-QqM8Vz4IoH?id=587490095175978800&scene=&page_from=search_detail&type=/movie/detail&utm_source=h5seo_www.google.com"
+         }, {
+            "date_added": "13397292085809973",
+            "date_last_used": "0",
+            "guid": "34516559-4ce4-4de9-b455-9b6ec25adf24",
+            "id": "57",
+            "meta_info": {
+               "Description": "Follows the personal and professional lives of six twenty to thirty year-old friends living in the Manhattan borough of New York City. all in Moviebox Official",
+               "ThemeColor": "4294967295",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/ZM7MN3P7QBSOB4UWXJIHWIBZVYZTYZC7.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Friends - Moviebox Official",
+            "type": "url",
+            "url": "https://moviebox.ng/movies/friends-QqM8Vz4IoH?id=587490095175978800&scene=&page_from=search_detail&type=/movie/detail&utm_source=h5seo_www.google.com"
+         }, {
+            "date_added": "13398507428852824",
+            "date_last_used": "0",
+            "guid": "cd5336b5-54c2-4862-91ad-9ba6ed8aaadf",
+            "id": "63",
+            "meta_info": {
+               "Description": "Pakistan’s most trusted outlet for the breaking, latest and top news across the country and the world.",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/AINNWVSLMBJORMNEMQSVHQPV2M773ZOB.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Pakistan - DAWN.COM",
+            "type": "url",
+            "url": "https://www.dawn.com/pakistan"
+         }, {
+            "date_added": "13402657231494000",
+            "date_last_used": "0",
+            "guid": "aa0594b7-42cb-4017-b706-9b364284cf6c",
+            "id": "65",
+            "meta_info": {
+               "Description": "Build stunning apps and websites by chatting with AI",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/VRHAFVLVLA5D6MCLDRQLF774XA74ODTZ.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Hercules",
+            "type": "url",
+            "url": "https://hercules.app/pricing"
+         }, {
+            "date_added": "13427984897989188",
+            "date_last_used": "0",
+            "guid": "77f74949-92d8-48f2-ad9c-730dc99659af",
+            "id": "77",
+            "meta_info": {
+               "Description": "Watch all episodes of India's Got Latent with Samay Raina – Season 1, Season 2, bonus and deleted scenes. Free fan archive.",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/6X5EW2UOUOVPDL76AZC3AZ5AVJ43S26K.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "India's Got Latent: Watch & Stream Free Episodes",
+            "type": "url",
+            "url": "https://lapentgoottaleent.lessgooguys.tech/"
+         }, {
+            "date_added": "13427984897995712",
+            "date_last_used": "0",
+            "guid": "0f8b9eee-2cd4-48cd-b160-9605b2d75a43",
+            "id": "78",
+            "meta_info": {
+               "Description": "Watch all episodes of India's Got Latent with Samay Raina – Season 1, Season 2, bonus and deleted scenes. Free fan archive.",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/6X5EW2UOUOVPDL76AZC3AZ5AVJ43S26K.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "India's Got Latent: Watch & Stream Free Episodes",
+            "type": "url",
+            "url": "https://lapentgoottaleent.lessgooguys.tech/"
+         }, {
+            "date_added": "13427984897996671",
+            "date_last_used": "0",
+            "guid": "e38e5c30-4e0a-418e-be08-2500582f4746",
+            "id": "79",
+            "meta_info": {
+               "Description": "Watch all episodes of India's Got Latent with Samay Raina – Season 1, Season 2, bonus and deleted scenes. Free fan archive.",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/6X5EW2UOUOVPDL76AZC3AZ5AVJ43S26K.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "India's Got Latent: Watch & Stream Free Episodes",
+            "type": "url",
+            "url": "https://lapentgoottaleent.lessgooguys.tech/"
+         }, {
+            "date_added": "13427984897978157",
+            "date_last_used": "0",
+            "guid": "aa6c707c-1fe2-41e9-9d56-ec35f115d720",
+            "id": "76",
+            "meta_info": {
+               "Description": "Watch all episodes of India's Got Latent with Samay Raina – Season 1, Season 2, bonus and deleted scenes. Free fan archive.",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/6X5EW2UOUOVPDL76AZC3AZ5AVJ43S26K.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "India's Got Latent: Watch & Stream Free Episodes",
+            "type": "url",
+            "url": "https://lapentgoottaleent.lessgooguys.tech/"
+         }, {
+            "date_added": "13427985890412298",
+            "date_last_used": "0",
+            "guid": "96b1111b-6f72-4a31-b25a-a3ae42982e72",
+            "id": "80",
+            "meta_info": {
+               "Description": "Bonus segment 6 featuring Ranveer Allahbadia.",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/JQAD2MGYXCJE3RZACJRCQSOMN3ZXT7V2.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Bonus Segment 06 | ft. Ranveer Allahbadia — India's Got Latent",
+            "type": "url",
+            "url": "https://lapentgoottaleent.lessgooguys.tech/player.html?id=bonus-06"
+         }, {
+            "date_added": "13427985890433730",
+            "date_last_used": "0",
+            "guid": "54294721-5ed8-43de-8d0b-2c5ad990f4a4",
+            "id": "81",
+            "meta_info": {
+               "Description": "Bonus segment 6 featuring Ranveer Allahbadia.",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/JQAD2MGYXCJE3RZACJRCQSOMN3ZXT7V2.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Bonus Segment 06 | ft. Ranveer Allahbadia — India's Got Latent",
+            "type": "url",
+            "url": "https://lapentgoottaleent.lessgooguys.tech/player.html?id=bonus-06"
+         }, {
+            "date_added": "13427985890480957",
+            "date_last_used": "0",
+            "guid": "5c7384e0-643a-4a80-9445-c871ee9d74bc",
+            "id": "82",
+            "meta_info": {
+               "Description": "Bonus segment 6 featuring Ranveer Allahbadia.",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/JQAD2MGYXCJE3RZACJRCQSOMN3ZXT7V2.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Bonus Segment 06 | ft. Ranveer Allahbadia — India's Got Latent",
+            "type": "url",
+            "url": "https://lapentgoottaleent.lessgooguys.tech/player.html?id=bonus-06"
+         }, {
+            "date_added": "13427985890520139",
+            "date_last_used": "0",
+            "guid": "98cf2397-2ff9-49b2-b5cc-0d4b3dacc79f",
+            "id": "83",
+            "meta_info": {
+               "Description": "Bonus segment 6 featuring Ranveer Allahbadia.",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/JQAD2MGYXCJE3RZACJRCQSOMN3ZXT7V2.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Bonus Segment 06 | ft. Ranveer Allahbadia — India's Got Latent",
+            "type": "url",
+            "url": "https://lapentgoottaleent.lessgooguys.tech/player.html?id=bonus-06"
+         }, {
+            "date_added": "13427985890528103",
+            "date_last_used": "0",
+            "guid": "d5486b97-49fb-4039-ade9-f4751814ff9f",
+            "id": "84",
+            "meta_info": {
+               "Description": "Bonus segment 6 featuring Ranveer Allahbadia.",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/JQAD2MGYXCJE3RZACJRCQSOMN3ZXT7V2.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Bonus Segment 06 | ft. Ranveer Allahbadia — India's Got Latent",
+            "type": "url",
+            "url": "https://lapentgoottaleent.lessgooguys.tech/player.html?id=bonus-06"
+         }, {
+            "date_added": "13437856189596915",
+            "date_last_used": "0",
+            "guid": "2773ab6f-6d0a-4504-875f-0aec7df250b7",
+            "id": "86",
+            "meta_info": {
+               "Description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/EDAIIXLCS3UL45LFSSBLUAUKGWTCNZIU.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "FRACTAL+ BIAS + STRUCTURE + LIQUIDITY =TRUE ICT | HINDI | Lecture~11 - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=0zmD8iYhvpc"
+         } ],
+         "date_added": "13390315344950126",
+         "date_last_used": "0",
+         "date_modified": "13437856189596915",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13390315344950130",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13390315344950135",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      },
+      "trash": {
+         "children": [ {
+            "date_added": "13410471381676547",
+            "date_last_used": "0",
+            "guid": "ee16a0da-9636-4d37-a769-97d35c1f49c2",
+            "id": "74",
+            "meta_info": {
+               "ThemeColor": "4294967295",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/X34H5ZZBH4DQDUYZXHGDDLIZYI6H4D5B.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "SC",
+            "type": "url",
+            "url": "https://www.snapchat.com/web"
+         }, {
+            "date_added": "13397631397113627",
+            "date_last_used": "0",
+            "guid": "580a9510-2ce9-4b82-9bf9-70164fa3023a",
+            "id": "61",
+            "meta_info": {
+               "Thumbnail": "",
+               "power_bookmark_meta": ""
+            },
+            "name": "Halwa Puri",
+            "type": "url",
+            "url": "http://halwa/"
+         }, {
+            "date_added": "13393097459794160",
+            "date_last_used": "0",
+            "guid": "53a70226-b318-495c-9e5c-56260a787803",
+            "id": "51",
+            "meta_info": {
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/3O75IGT2FFCUX5ZNWWTIV7WBKUDBW3OP.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "(no subject) - javeddost78@gmail.com - Gmail",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/0/#sent/KtbxLzFvRhLRtVkwSZPvXLrvbRCfsSTqqB"
+         }, {
+            "date_added": "13393097362932103",
+            "date_last_used": "0",
+            "guid": "269e0be6-c2e2-477c-a2a6-b19adc282cb9",
+            "id": "50",
+            "meta_info": {
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/3O75IGT2FFCUX5ZNWWTIV7WBKUDBW3OP.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "(no subject) - javeddost78@gmail.com - Gmail",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/0/#sent/KtbxLzFvRhLRtVkwSZPvXLrvbRCfsSTqqB"
+         }, {
+            "date_added": "13393011852904674",
+            "date_last_used": "0",
+            "guid": "c4c5675a-68e4-47b0-9c8e-ebb408821818",
+            "id": "49",
+            "meta_info": {
+               "ThemeColor": "4294967295",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/SVUEMCK2SAQQ5A3MPIFTTQLO3TF66L7Z.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "(no subject) - javeddost78@gmail.com - Gmail",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/0/#sent/KtbxLzFvRhLRtVkwSZPvXLrvbRCfsSTqqB"
+         } ],
+         "date_added": "13390315344950140",
+         "date_last_used": "0",
+         "date_modified": "13411305862818275",
+         "guid": "9f32a0fb-bfd9-5032-be46-07afe4a25400",
+         "id": "4",
+         "name": "Trash",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

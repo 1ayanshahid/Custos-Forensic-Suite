@@ -1,0 +1,1149 @@
+{
+   "checksum": "b0c42122d6840d2599e35e868ded0f49",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13391980540379415",
+            "date_last_used": "0",
+            "guid": "cb2b45ae-57eb-48ea-aeca-956cfab095cf",
+            "id": "52",
+            "meta_info": {
+               "ThemeColor": "4294967295",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/2H4TOCBLFGHS33EO6I5I2NFLVVIJBKZ5.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Templates",
+            "type": "url",
+            "url": "https://www.canva.com/templates/EAGQCs8spsk-blue-yellow-modern-geometric-project-proposal-cover-a4-document/"
+         }, {
+            "date_added": "13391980540695249",
+            "date_last_used": "0",
+            "guid": "b55f76ed-337f-411c-8ed8-bca0ef94f7e6",
+            "id": "53",
+            "meta_info": {
+               "ThemeColor": "4294967295",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/2H4TOCBLFGHS33EO6I5I2NFLVVIJBKZ5.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Templates",
+            "type": "url",
+            "url": "https://www.canva.com/templates/EAGQCs8spsk-blue-yellow-modern-geometric-project-proposal-cover-a4-document/"
+         }, {
+            "date_added": "13392595028855843",
+            "date_last_used": "0",
+            "guid": "6d1f1b35-d27a-45ed-ad12-24b510596563",
+            "id": "58",
+            "meta_info": {
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/IIRDQMJOMJHRRXELGH6A52UOZVEY6CCV.jpg",
+               "power_bookmark_meta": ""
+            },
+            "name": "For Myself - Anime World India - Best Source For Hindi, Tamil, Telugu Anime & Cartoons - Anime World India",
+            "type": "url",
+            "url": "https://watchanimeworld.in/episode/jujutsu-kaisen-1x2/"
+         }, {
+            "children": [ {
+               "date_added": "13393010698268929",
+               "date_last_used": "0",
+               "guid": "7e07aac2-f48d-4ba9-aa8f-3b142936a7a1",
+               "id": "63",
+               "meta_info": {
+                  "ThemeColor": "4294967295",
+                  "Thumbnail": "chrome://vivaldi-data/thumbnail/2ARYXM6NX7X4VC6EVH5FS4HOTYXGFZXC.png",
+                  "power_bookmark_meta": ""
+               },
+               "name": "ChatGPT",
+               "type": "url",
+               "url": "https://chatgpt.com/"
+            }, {
+               "date_added": "13393010696604369",
+               "date_last_used": "0",
+               "guid": "02abf3f0-8d4c-4c24-9968-fc00032c030c",
+               "id": "62",
+               "meta_info": {
+                  "ThemeColor": "4294967295",
+                  "Thumbnail": "chrome://vivaldi-data/thumbnail/AJK2Y5B3DICGFDQV4LZLCP6PGPSEKUXP.png",
+                  "power_bookmark_meta": ""
+               },
+               "name": "Dashboard",
+               "type": "url",
+               "url": "https://moellim.riphah.edu.pk/my/"
+            }, {
+               "date_added": "13393011795274148",
+               "date_last_used": "0",
+               "guid": "5e0c2f36-8ed2-4d63-b8c8-24d0defc382f",
+               "id": "64",
+               "meta_info": {
+                  "ThemeColor": "4294967295",
+                  "Thumbnail": "chrome://vivaldi-data/thumbnail/BGXTZFTRHZJ75J5JK73UQHOVERECE4R6.png",
+                  "power_bookmark_meta": ""
+               },
+               "name": "Gmail",
+               "type": "url",
+               "url": "https://mail.google.com/mail/u/2/#inbox"
+            }, {
+               "date_added": "13402647203319180",
+               "date_last_used": "0",
+               "guid": "dfc507cf-2477-48b5-ab8d-1404b273878f",
+               "id": "96",
+               "meta_info": {
+                  "ThemeColor": "4294967295",
+                  "Thumbnail": "chrome://vivaldi-data/thumbnail/TU5OD3IPCFLYR3J5C5MUW3M6PIGCBY5G.png",
+                  "power_bookmark_meta": ""
+               },
+               "name": "LinkedIn",
+               "type": "url",
+               "url": "https://www.linkedin.com/"
+            }, {
+               "date_added": "13404808828538932",
+               "date_last_used": "0",
+               "guid": "b506e9dd-0337-42f6-b9f7-4649b1dfd4d3",
+               "id": "115",
+               "meta_info": {
+                  "Thumbnail": "chrome://vivaldi-data/thumbnail/GMVIYMEBRLFZT4ARG5EN7KIPJVJHXDDB.png",
+                  "power_bookmark_meta": ""
+               },
+               "name": "Gemini",
+               "type": "url",
+               "url": "https://gemini.google.com/u/2/app?pageId=none"
+            }, {
+               "date_added": "13405395179039020",
+               "date_last_used": "0",
+               "guid": "b185aaf3-ba5b-44ab-9883-d34f7ecb82c8",
+               "id": "118",
+               "meta_info": {
+                  "ThemeColor": "4211081215",
+                  "Thumbnail": "chrome://vivaldi-data/thumbnail/QDOAABACZI6KHLLQLKR5DCRAA3KRM4WL.png",
+                  "power_bookmark_meta": ""
+               },
+               "name": "YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/"
+            }, {
+               "date_added": "13405395186164286",
+               "date_last_used": "0",
+               "guid": "5d2324be-7254-4e5e-bd9f-483159bcf0b3",
+               "id": "119",
+               "meta_info": {
+                  "Thumbnail": "",
+                  "power_bookmark_meta": ""
+               },
+               "name": "Watch Live Cricket, Sports, News, Pakistani and English Movies Online Free - Tamasha",
+               "type": "url",
+               "url": "https://tamashaweb.com/"
+            }, {
+               "date_added": "13408095688759170",
+               "date_last_used": "0",
+               "guid": "f4640437-2d56-44ba-a145-01ee60c2d399",
+               "id": "126",
+               "meta_info": {
+                  "ThemeColor": "4294177776",
+                  "Thumbnail": "chrome://vivaldi-data/thumbnail/2PLOGEZO75NJMTQ7V6O7LYV554VWYUSI.png",
+                  "power_bookmark_meta": ""
+               },
+               "name": "Claude",
+               "type": "url",
+               "url": "https://claude.ai/"
+            }, {
+               "date_added": "13417109649057800",
+               "date_last_used": "0",
+               "guid": "f458d8d8-2ec9-4f7e-aa6a-726b1b70cd35",
+               "id": "137",
+               "meta_info": {
+                  "Thumbnail": "chrome://vivaldi-data/thumbnail/ZTLZXTNIBERAQ3DEHWZ774PZD26MGJSV.png",
+                  "power_bookmark_meta": ""
+               },
+               "name": "Canva",
+               "type": "url",
+               "url": "https://www.canva.com/"
+            }, {
+               "date_added": "13419475878560772",
+               "date_last_used": "0",
+               "guid": "84e0a2da-e547-4333-babb-97f029ec8ab8",
+               "id": "139",
+               "meta_info": {
+                  "ThemeColor": "4294572279",
+                  "Thumbnail": "chrome://vivaldi-data/thumbnail/FHKE324H2G7IJ45TI65FVIXLQSEK3PAW.png",
+                  "power_bookmark_meta": ""
+               },
+               "name": "Grok",
+               "type": "url",
+               "url": "https://grok.com/"
+            }, {
+               "date_added": "13421355762659434",
+               "date_last_used": "0",
+               "guid": "da3acf82-ff35-4ba2-b92a-fb7de521a26b",
+               "id": "141",
+               "meta_info": {
+                  "ThemeColor": "4280165159",
+                  "Thumbnail": "chrome://vivaldi-data/thumbnail/43ZKBJYTBGJISP5C23UYLC2JKPYCOM2L.png",
+                  "power_bookmark_meta": ""
+               },
+               "name": "Github",
+               "type": "url",
+               "url": "https://github.com/Faizan8232403/CVE-Exploit-Research-Development"
+            } ],
+            "date_added": "13393010683436559",
+            "date_last_used": "0",
+            "date_modified": "13421355762659434",
+            "guid": "cc316d3f-cc7d-412b-9873-9ec9940705e8",
+            "id": "60",
+            "meta_info": {
+               "Speeddial": "true"
+            },
+            "name": "New Folder",
+            "type": "folder"
+         }, {
+            "date_added": "13393537299853358",
+            "date_last_used": "0",
+            "guid": "a874f897-07b4-4a86-b5ff-7aced3d71c5c",
+            "id": "66",
+            "meta_info": {
+               "Description": "A conversational AI system that listens, learns, and challenges",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/QN7QK5VCCE7C2HNDO5QUDZH2EEWHN43D.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "ترجمہ اور سادہ اردو",
+            "type": "url",
+            "url": "https://chatgpt.com/c/683fec61-e770-800c-b5f3-e84e2d4257e6"
+         }, {
+            "date_added": "13395181536452213",
+            "date_last_used": "0",
+            "guid": "11505e7f-e317-4279-8269-9ae67e558299",
+            "id": "68",
+            "meta_info": {
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/2H4TOCBLFGHS33EO6I5I2NFLVVIJBKZ5.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Blue Yellow Modern Geometric Project Proposal Cover A4 Document - A4",
+            "type": "url",
+            "url": "https://www.canva.com/design/DAGrJ68Vfpc/Yp8xAX-SkU_ug6fMjoAq6A/edit"
+         }, {
+            "date_added": "13395371466204571",
+            "date_last_used": "0",
+            "guid": "8ca706c6-f090-4d34-80ef-7a1554eee1be",
+            "id": "70",
+            "meta_info": {
+               "Description": "Discover recipes, home ideas, style inspiration and other ideas to try.",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/IHU2ZQDB75J7YYGQULXT6RSZB5E44DTT.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Pinterest",
+            "type": "url",
+            "url": "https://www.pinterest.com/pin/create/button/?desc=https%3A%2F%2Fwww.tiktok.com%2F%40mahiedits96%2Fvideo%2F7518584749951143176%3Fis_from_webapp%3D1%26sender_device%3Dpc&media=https%3A%2F%2Flf16-tiktok-web.ttwstatic.com%2Fobj%2Ftiktok-web-common-sg%2Fmtact%2Fstatic%2Fimages%2Fshare_img.png&url=https%3A%2F%2Fwww.tiktok.com%2F%40mahiedits96%2Fvideo%2F7518584749951143176%3Fis_from_webapp%3D1%26sender_device%3Dpc"
+         }, {
+            "date_added": "13395371467412710",
+            "date_last_used": "0",
+            "guid": "75849039-478d-413d-8c48-f05c3da2e64d",
+            "id": "71",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "TikTok - Make Your Day",
+            "type": "url",
+            "url": "https://www.tiktok.com/@mahiedits96/video/7518584749951143176?is_from_webapp=1&sender_device=pc\\"
+         }, {
+            "date_added": "13396852332611378",
+            "date_last_used": "0",
+            "guid": "7d896811-f635-40b9-9f45-1c14c076e986",
+            "id": "73",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Checkout - oral max",
+            "type": "url",
+            "url": "https://oralmax.pk/checkouts/cn/hWN0Xhl9iZUibiQwVRxxufIq"
+         }, {
+            "date_added": "13397108732860042",
+            "date_last_used": "0",
+            "guid": "1de75062-795f-4f0c-8a6d-ba5722963415",
+            "id": "75",
+            "meta_info": {
+               "Description": "Aasan Tarjuma Quran (Urdu) - Mufti Taqi Usmani",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/MY6D4XLQGLODGW3BCXMXOCQAL257X2SD.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Aasan Tarjuma Quran (Urdu) - Mufti Taqi Usmani : Free Download, Borrow, and Streaming : Internet Archive",
+            "type": "url",
+            "url": "https://archive.org/details/AasanTarjumaQuranurdu-MuftiTaqiUsmani/AasanTarjumaQuranVol.1/page/n21/mode/2up?view=theater"
+         }, {
+            "date_added": "13397174096507034",
+            "date_last_used": "0",
+            "guid": "99d9a07f-e904-42e3-a2e6-0e71b0823907",
+            "id": "77",
+            "meta_info": {
+               "ThemeColor": "4294967295",
+               "power_bookmark_meta": ""
+            },
+            "name": "128 Technologies",
+            "type": "url",
+            "url": "https://www.128technologies.com.pk/"
+         }, {
+            "date_added": "13398543483034147",
+            "date_last_used": "0",
+            "guid": "dfaa974a-ee1f-45e5-afbe-fa9400f9d7b5",
+            "id": "81",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Thank you for your purchase! - oral max - Checkout",
+            "type": "url",
+            "url": "https://oralmax.pk/checkouts/cn/hWN1Hgm9G7abWNG9DPOKum4C/thank-you"
+         }, {
+            "date_added": "13398686148058071",
+            "date_last_used": "0",
+            "guid": "76c8448b-4bdd-4a9d-9c1c-6499f7bc14e5",
+            "id": "83",
+            "meta_info": {
+               "Description": "Find latest news from every corner of the globe at Reuters.com, your online source for breaking international news coverage.",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/MVQ5VRIDUOLANZZXL55QJWIQHBGVMF23.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Reuters | Breaking International News & Views",
+            "type": "url",
+            "url": "https://www.reuters.com/"
+         }, {
+            "date_added": "13400463060586049",
+            "date_last_used": "0",
+            "guid": "e81a2bed-4a4c-45c5-bb85-2b9087bd16e4",
+            "id": "85",
+            "meta_info": {
+               "Description": "Share your videos with friends, family, and the world",
+               "ThemeColor": "4211081215",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/NDLH3DVKQ3T3L2ZLPHCGNV5C4LPDVDHP.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Full-Length Hacking Courses - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLLKT__MCUeixqHJ1TRqrHsEd6_EdEvo47"
+         }, {
+            "date_added": "13401341234931122",
+            "date_last_used": "0",
+            "guid": "0efccd25-1532-4896-b317-4d560f853958",
+            "id": "88",
+            "meta_info": {
+               "ThemeColor": "4294967295",
+               "power_bookmark_meta": ""
+            },
+            "name": "Why are SOCs important? - Student SOC Program Foundations training",
+            "type": "url",
+            "url": "https://microsoft.github.io/SOC/source/content/#/lessons/tOaT0q1OnYmrDJ3knd-e8Splz5wHEXT5"
+         }, {
+            "date_added": "13402029652720804",
+            "date_last_used": "0",
+            "guid": "ebe5c8f1-88c0-4b74-ab81-248b15532ba7",
+            "id": "90",
+            "meta_info": {
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/2H4TOCBLFGHS33EO6I5I2NFLVVIJBKZ5.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Blue Yellow Modern Geometric Project Proposal Cover A4 Document - A4",
+            "type": "url",
+            "url": "https://www.canva.com/design/DAGylcmAT6o/1O8-beoix8RZ9IPPffQo5Q/edit"
+         }, {
+            "date_added": "13402398577475769",
+            "date_last_used": "0",
+            "guid": "e9692242-b00f-406c-853a-34cd045f0582",
+            "id": "92",
+            "meta_info": {
+               "ThemeColor": "4294967295",
+               "power_bookmark_meta": ""
+            },
+            "name": "LinkedIn",
+            "type": "url",
+            "url": "https://www.linkedin.com/feed/"
+         }, {
+            "date_added": "13402481263694960",
+            "date_last_used": "0",
+            "guid": "a37dd509-97af-4725-b955-b66d201989e8",
+            "id": "93",
+            "meta_info": {
+               "Description": "A conversational AI system that listens, learns, and challenges",
+               "ThemeColor": "4294967295",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/QN7QK5VCCE7C2HNDO5QUDZH2EEWHN43D.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "ChatGPT",
+            "type": "url",
+            "url": "https://chatgpt.com/?model=auto"
+         }, {
+            "date_added": "13402558966388133",
+            "date_last_used": "0",
+            "guid": "30e15bef-0ae9-4c6e-b0e0-08ef8ba560d3",
+            "id": "94",
+            "meta_info": {
+               "ThemeColor": "4294967295",
+               "power_bookmark_meta": ""
+            },
+            "name": "jananzarar.myshopify.com",
+            "type": "url",
+            "url": "https://jananzarar.myshopify.com/cart/add"
+         }, {
+            "date_added": "13402607456335739",
+            "date_last_used": "0",
+            "guid": "fda14115-8753-4de6-8048-9a47a290739f",
+            "id": "95",
+            "meta_info": {
+               "Description": "Nexavise Consulting is seeking motivated and skilled individuals to join our cybersecurity team as Vulnerability Assessment & Penetration Testing (VAPT) Interns. This internship is designed for candidates with a strong interest in ethical hacking, security testing, and threat analysis.\nAs a VAPT Intern, you will work on real-world security assessments, assisting our consultants in identifying, analyzing, and mitigating vulnerabilities across networks, web applications, and cloud infrastructures. You’ll gain hands-on exposure to industry-standard tools and methodologies while learning how to approach cybersecurity challenges in a professional environment.",
+               "ThemeColor": "4281441460",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/BPGMDJABD7XQDBGR77VUAEYDFDRAB4SQ.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Internship Application Form",
+            "type": "url",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSe5tfzdfdt2JhFufgM1-hmv86JPsIU_0IuEH7j4C9hPTKaG7A/viewform"
+         }, {
+            "date_added": "13402654400013106",
+            "date_last_used": "0",
+            "guid": "6f0d8dd7-1127-4bf3-9b6e-0c0e90b9f379",
+            "id": "99",
+            "meta_info": {
+               "Description": "Check out cybersecurity articles relating to the Asia Pacific on Dark Reading's DR Global section.",
+               "ThemeColor": "4294967295",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/Z2VEX5TT5S4PYXZUZPLSZX4AFG4N5IR7.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Dark Reading Global: Asia Pacific",
+            "type": "url",
+            "url": "https://www.darkreading.com/keyword/asia-pacific"
+         }, {
+            "date_added": "13402654428347721",
+            "date_last_used": "0",
+            "guid": "f17bf84e-0327-4691-bb0b-a17dcac2325f",
+            "id": "100",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Krebs on Security – In-depth security news and investigation",
+            "type": "url",
+            "url": "https://krebsonsecurity.com/"
+         }, {
+            "date_added": "13402654448345396",
+            "date_last_used": "0",
+            "guid": "e9e883fe-cafa-40ee-aeb0-b254488c475f",
+            "id": "101",
+            "meta_info": {
+               "Description": "The Hacker News is the top cybersecurity news platform, delivering real-time updates, threat intelligence, data breach reports, expert analysis, and actionable insights for infosec professionals and decision-makers.",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/4PFCW2WYFOBL2SN4V5C5GXYHCYBNVGUX.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "The Hacker News | #1 Trusted Source for Cybersecurity News",
+            "type": "url",
+            "url": "https://thehackernews.com/"
+         }, {
+            "date_added": "13402654464740583",
+            "date_last_used": "0",
+            "guid": "4f286455-835c-4a39-9149-0f1fd768227b",
+            "id": "102",
+            "meta_info": {
+               "Description": "BleepingComputer is a premier destination for cybersecurity news for over 20 years, delivering breaking stories on the latest hacks, malware threats, and how to protect your devices.",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/CXQIV7X3SBQHT24XAZGR6Z5SXZ6O7XHK.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "BleepingComputer | Cybersecurity, Technology News and Support",
+            "type": "url",
+            "url": "https://www.bleepingcomputer.com/"
+         }, {
+            "date_added": "13402654482579121",
+            "date_last_used": "0",
+            "guid": "64a2bfbe-1d96-4572-baf0-6338605b97b7",
+            "id": "103",
+            "meta_info": {
+               "Description": "CyberScoop delivers up-to-the-minute breaking cybersecurity news and is the leading public sector media company reaching top leaders",
+               "ThemeColor": "4294967295",
+               "power_bookmark_meta": ""
+            },
+            "name": "CyberScoop | Breaking Cybersecurity News, Public Sector Threats",
+            "type": "url",
+            "url": "https://cyberscoop.com/"
+         }, {
+            "date_added": "13402654513239496",
+            "date_last_used": "0",
+            "guid": "933cef63-fb89-4e68-8c19-75a1fe802492",
+            "id": "104",
+            "meta_info": {
+               "Description": "News and reviews, covering IT, AI, science, space, health, gaming, cybersecurity, tech policy, computers, mobile devices, and operating systems.",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/UZJFEY6I7QZO32IJXEJBZHHQX5BR2IER.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Ars Technica - Serving the Technologist since 1998. News, reviews, and analysis.",
+            "type": "url",
+            "url": "https://arstechnica.com/"
+         }, {
+            "date_added": "13402654535364359",
+            "date_last_used": "0",
+            "guid": "7cc99ffd-0c96-4d0f-bdba-7a8426179548",
+            "id": "105",
+            "meta_info": {
+               "Description": "TechCrunch | Reporting on the business of technology, startups, venture capital funding, and Silicon Valley",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/46NDVJOGJC2SPQA36VKTJYWSB4KGVJKM.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "TechCrunch | Startup and Technology News",
+            "type": "url",
+            "url": "https://techcrunch.com/"
+         }, {
+            "date_added": "13402654547913923",
+            "date_last_used": "0",
+            "guid": "2047e9e4-461a-4659-9e77-b28522ffa3cf",
+            "id": "106",
+            "meta_info": {
+               "Description": "We bring you the future as it happens. From the latest in science and technology to the big stories in business and culture, we've got you covered.",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/TP5WVL2WE73MGI5D4NCTS2CYBXIU5XK4.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "WIRED - The Latest in Technology, Science, Culture and Business | WIRED",
+            "type": "url",
+            "url": "https://www.wired.com/"
+         }, {
+            "date_added": "13402654565049266",
+            "date_last_used": "0",
+            "guid": "a98b4203-74e5-46e9-8049-380f2d039f3d",
+            "id": "107",
+            "meta_info": {
+               "Description": "ZDNET news and advice keep professionals prepared to embrace innovation and ready to build a better future.",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/OTCRXVYG6S6FOKLJENE5LSMYH6NRHCSC.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Security | ZDNET",
+            "type": "url",
+            "url": "https://www.zdnet.com/topic/security/"
+         }, {
+            "date_added": "13402654579247547",
+            "date_last_used": "0",
+            "guid": "e467b6ae-8d76-40b3-a9b8-405563c1ea76",
+            "id": "108",
+            "meta_info": {
+               "Description": "CSO delivers the critical information about trends, practices, and products enterprise security leaders need to defend against criminal cyberattacks and other threats.",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/DYX2AMGXX6OEC65SYBYHQSG7RDWZ7CCU.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "CSO Online | Security at the speed of business",
+            "type": "url",
+            "url": "https://www.csoonline.com/"
+         }, {
+            "date_added": "13402654668268902",
+            "date_last_used": "0",
+            "guid": "7fd948ba-3636-4cb9-89db-cf8ed57a9840",
+            "id": "109",
+            "meta_info": {
+               "Description": "@ctrl/tinycolor and 40+ NPM packages trojanized in major attack, exposing developer credentials and cloud secrets. Shai-Hulud,",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/K6DLTJHTWIROLPRWSF3HWJXIL3EQCR4K.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "180+ NPM Packages Hit in Major Supply Chain Attack | OX Security NPM Supply Chain Hack: 40+ Packages Compromised Shai-Hulud,",
+            "type": "url",
+            "url": "https://www.ox.security/blog/npm-2-0-hack-40-npm-packages-hit-in-major-supply-chain-attack/"
+         }, {
+            "date_added": "13403688213633387",
+            "date_last_used": "0",
+            "guid": "a130c155-f549-4e4b-b3a6-160f8d66bb26",
+            "id": "113",
+            "meta_info": {
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/LP3C4KB2SVR4PJLEHCHMUNSSREGSMDWJ.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Blue Yellow Modern Geometric Project Proposal Cover A4 Document - A4",
+            "type": "url",
+            "url": "https://www.canva.com/design/DAG0Yl-Zpxw/yR9_vc9mdmZo2ZF5HZS5qg/edit"
+         }, {
+            "date_added": "13405395173694982",
+            "date_last_used": "0",
+            "guid": "0252544b-73a6-43c2-aaf0-92c7a854c087",
+            "id": "117",
+            "meta_info": {
+               "Description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+               "ThemeColor": "4211081215",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/EDAIIXLCS3UL45LFSSBLUAUKGWTCNZIU.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/"
+         }, {
+            "date_added": "13407511964746442",
+            "date_last_used": "0",
+            "guid": "4c0d0d7f-36e3-41ec-8c45-31af260f743f",
+            "id": "121",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Welcome",
+            "type": "url",
+            "url": "https://us75tactical.com/supplier/login"
+         }, {
+            "date_added": "13409570790661746",
+            "date_last_used": "0",
+            "guid": "dc081161-2037-45dc-a154-3468262eb7c1",
+            "id": "128",
+            "meta_info": {
+               "Description": "#",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/ZKNY4DDNVZRYSTDAV4NA4L27LIZPAE4P.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Try2Hack.Me",
+            "type": "url",
+            "url": "https://try2hack.me/ukoly/ukol-15"
+         }, {
+            "date_added": "13410380718967795",
+            "date_last_used": "0",
+            "guid": "0b16a532-47be-4580-9bf6-768ae1811216",
+            "id": "130",
+            "meta_info": {
+               "Description": "1.06K Posts, 55 Following, 2.22K Followers · We improve the security of apps with community-led open source projects, 260 local chapters, and tens of thousands of members worldwide",
+               "ThemeColor": "4294967295",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/YSFUDH4CHQZF7EWRWHEIRKLGXDJJPFWS.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Trending - Infosec Exchange",
+            "type": "url",
+            "url": "https://infosec.exchange/explore"
+         }, {
+            "date_added": "13410381376441491",
+            "date_last_used": "0",
+            "guid": "0d9d90f0-bfa4-45e6-bce8-0c17c201ded9",
+            "id": "131",
+            "meta_info": {
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/4DAI3OYJ7UJG4S3RGZY2CFQ7P56V4N2S.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "8 Million Users' AI Conversations Sold for Profit by \"Privacy\" Extensions | Koi Blog",
+            "type": "url",
+            "url": "https://www.koi.ai/blog/urban-vpn-browser-extension-ai-conversations-data-collection"
+         }, {
+            "date_added": "13416787995361955",
+            "date_last_used": "0",
+            "guid": "b0e144b5-7af3-493c-996e-476c0ef202b4",
+            "id": "135",
+            "meta_info": {
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/KIFCX62PUVZFVVHFX2NGMBXH5TZYVSOP.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Blue Yellow Modern Geometric Project Proposal Cover A4 Document - A4",
+            "type": "url",
+            "url": "https://www.canva.com/design/DAHCpG24whA/vnkslCZcOatZy9fem1PG3w/edit"
+         }, {
+            "date_added": "13422732329321100",
+            "date_last_used": "0",
+            "guid": "9244b36e-5d4b-4cdb-af2b-e4285a5948e4",
+            "id": "143",
+            "meta_info": {
+               "Description": "We are hiring Interns to join our team at truID, this Summer. Please complete this form to apply.  \nNote:\nFor queries, please contact the following: hr@truid.ai or abid.rafique@truid.ai",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/U4GQVRZUSBCGOJPTU244FOTBXIHMZBHL.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Internship Application Form - truID",
+            "type": "url",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSe6LdouvZc-6XFdZbqDMmUdYWJ3Ur_U_wfhs_wj3vwBC5544g/viewform"
+         }, {
+            "date_added": "13426071475648907",
+            "date_last_used": "0",
+            "guid": "67670708-3d44-4157-8d81-f6da142ae695",
+            "id": "145",
+            "meta_info": {
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/XVK6MEYVM4CRHMGY77Y4BFXZQUAYV5RJ.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "Summer Internship Form - QE",
+            "type": "url",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSeLoalZlYkP0Hnc1F_mNLYWx82SWlwgsVB6_g4O_hBLKLqeUQ/viewform"
+         }, {
+            "date_added": "13434190901096210",
+            "date_last_used": "0",
+            "guid": "b7661c5a-5c0f-4555-b5d5-947f6487c7e9",
+            "id": "147",
+            "meta_info": {
+               "Description": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis",
+               "power_bookmark_meta": ""
+            },
+            "name": "CyberChef",
+            "type": "url",
+            "url": "https://gchq.github.io/CyberChef/#input=Q1RGe2IxdF81aDFmdF8xNV80dzNzMG0zfQ"
+         }, {
+            "date_added": "13436802242293177",
+            "date_last_used": "0",
+            "guid": "b251b70d-52ef-4192-990e-2041bc04cc35",
+            "id": "149",
+            "meta_info": {
+               "Description": "Free, no watermarks or registration. Edit PDF files for free. Fill & sign PDFs. Change existing text and links. Find & replace text. Whiteout. Add text, images, links and annotations.",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/VNRX7NJ3PP3IQ2JEXFZTDD3QAVN7I3WS.jpg",
+               "power_bookmark_meta": ""
+            },
+            "name": "Task results SI3PCXTO-202610181502 - Easy to use Online PDF editor",
+            "type": "url",
+            "url": "https://www.sejda.com/pdf-editor#results-SI3PCXTO-202610181502"
+         } ],
+         "date_added": "13390315205692666",
+         "date_last_used": "0",
+         "date_modified": "13436802242293177",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13390315205692669",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13390315205692673",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      },
+      "trash": {
+         "children": [ {
+            "date_added": "13402647215318869",
+            "date_last_used": "0",
+            "guid": "e77a6ac8-7023-45ff-8b68-e81711aec79f",
+            "id": "98",
+            "meta_info": {
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/VP6OBUSWHR5PCMIVFCGI2L744AREMG4B.jpg",
+               "power_bookmark_meta": ""
+            },
+            "name": "Muhammad Faizan Ali - Google Sheets",
+            "type": "url",
+            "url": "https://docs.google.com/spreadsheets/d/14d8urmcGh9tMFKvAaiDDo_rEpe3Tz-7flaVSJnXlzq8/edit?usp=sharing"
+         }, {
+            "date_added": "13413577872741823",
+            "date_last_used": "0",
+            "guid": "277224af-4ddc-47c6-a8c8-2088e6d4f8cc",
+            "id": "133",
+            "meta_info": {
+               "ThemeColor": "4294967295",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/QQP7O2HYBE5SC47Z3UHNUW2YQY45B7Z3.png",
+               "power_bookmark_meta": ""
+            },
+            "name": "ChatGPT",
+            "type": "url",
+            "url": "https://chatgpt.com/?model=auto"
+         }, {
+            "date_added": "13402647208750345",
+            "date_last_used": "0",
+            "guid": "58794735-728c-427a-9985-dea32d73e233",
+            "id": "97",
+            "meta_info": {
+               "ThemeColor": "4294440435",
+               "Thumbnail": "chrome://vivaldi-data/thumbnail/2BC6QLWX2DVYWCKY5LSZGGJQFCA2TET4.jpg",
+               "power_bookmark_meta": ""
+            },
+            "name": "WhatsApp",
+            "type": "url",
+            "url": "https://web.whatsapp.com/"
+         }, {
+            "children": [ {
+               "children": [  ],
+               "date_added": "13438654658863724",
+               "date_last_used": "0",
+               "date_modified": "13438654658863724",
+               "guid": "598b2cab-ffe1-4468-9709-ef7a92ca2bb0",
+               "id": "152",
+               "meta_info": {
+                  "RemovedPartner": "01d6f4e4-a695-4450-a65d-f69366027dae"
+               },
+               "name": "01d6f4e4-a695-4450-a65d-f69366027dae",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658863826",
+               "date_last_used": "0",
+               "date_modified": "13438654658863826",
+               "guid": "f6862f88-6006-472c-b460-33a8c25c34ee",
+               "id": "153",
+               "meta_info": {
+                  "RemovedPartner": "04f107b7-203e-49e6-ab97-d6b9e613cc4a"
+               },
+               "name": "04f107b7-203e-49e6-ab97-d6b9e613cc4a",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658863908",
+               "date_last_used": "0",
+               "date_modified": "13438654658863908",
+               "guid": "1631e796-59a9-4e82-a887-c4b730df9d9a",
+               "id": "154",
+               "meta_info": {
+                  "RemovedPartner": "0a9612a0-625e-47c4-abde-72b5620469d5"
+               },
+               "name": "0a9612a0-625e-47c4-abde-72b5620469d5",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658863978",
+               "date_last_used": "0",
+               "date_modified": "13438654658863978",
+               "guid": "7501ffc7-a140-4a17-bfef-001a8abf8f6a",
+               "id": "155",
+               "meta_info": {
+                  "RemovedPartner": "0efbb5fb-d366-4a91-95b1-b5690a0cf0ef"
+               },
+               "name": "0efbb5fb-d366-4a91-95b1-b5690a0cf0ef",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658864054",
+               "date_last_used": "0",
+               "date_modified": "13438654658864054",
+               "guid": "30888a8a-572c-4132-bd71-8769f861fc4c",
+               "id": "156",
+               "meta_info": {
+                  "RemovedPartner": "0f0a0d3a-bf40-4367-a65c-ed43f85888ed"
+               },
+               "name": "0f0a0d3a-bf40-4367-a65c-ed43f85888ed",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658864138",
+               "date_last_used": "0",
+               "date_modified": "13438654658864138",
+               "guid": "4dec4ef3-881e-4c3b-bde5-1ef6bea604de",
+               "id": "157",
+               "meta_info": {
+                  "RemovedPartner": "10415f5d-2e0c-4f08-8e49-23fcd2de0943"
+               },
+               "name": "10415f5d-2e0c-4f08-8e49-23fcd2de0943",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658864210",
+               "date_last_used": "0",
+               "date_modified": "13438654658864210",
+               "guid": "024d503a-9a1b-4194-8a6f-744a11cfbb25",
+               "id": "158",
+               "meta_info": {
+                  "RemovedPartner": "12c04539-d01e-4fd3-9fbf-aa09a91e91ba"
+               },
+               "name": "12c04539-d01e-4fd3-9fbf-aa09a91e91ba",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658864272",
+               "date_last_used": "0",
+               "date_modified": "13438654658864272",
+               "guid": "8e005286-54b0-45e8-97cf-d0220294e663",
+               "id": "159",
+               "meta_info": {
+                  "RemovedPartner": "25672435-2187-4c7b-aacc-8ca9c75e69b5"
+               },
+               "name": "25672435-2187-4c7b-aacc-8ca9c75e69b5",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658864332",
+               "date_last_used": "0",
+               "date_modified": "13438654658864332",
+               "guid": "3b4eb779-e998-471d-971a-e3c3d98480dc",
+               "id": "160",
+               "meta_info": {
+                  "RemovedPartner": "37166148-e194-4693-98ca-590c102ab5a5"
+               },
+               "name": "37166148-e194-4693-98ca-590c102ab5a5",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658864395",
+               "date_last_used": "0",
+               "date_modified": "13438654658864395",
+               "guid": "95b4c5d6-1c51-481f-b711-781d8ae49498",
+               "id": "161",
+               "meta_info": {
+                  "RemovedPartner": "37ca0399-d4b3-44f8-9fa8-5e678c59aed5"
+               },
+               "name": "37ca0399-d4b3-44f8-9fa8-5e678c59aed5",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658864458",
+               "date_last_used": "0",
+               "date_modified": "13438654658864458",
+               "guid": "6bbdbee8-d790-48b0-b8d1-fee6bfebbf2e",
+               "id": "162",
+               "meta_info": {
+                  "RemovedPartner": "44d32981-5dcf-4a1f-be5b-3c0d03c7a0a1"
+               },
+               "name": "44d32981-5dcf-4a1f-be5b-3c0d03c7a0a1",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658864513",
+               "date_last_used": "0",
+               "date_modified": "13438654658864513",
+               "guid": "2172f535-c521-40d2-8112-635993f3d8f3",
+               "id": "163",
+               "meta_info": {
+                  "RemovedPartner": "4ac3d5a6-bbdd-4b1d-92a1-eaea6df81e84"
+               },
+               "name": "4ac3d5a6-bbdd-4b1d-92a1-eaea6df81e84",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658864570",
+               "date_last_used": "0",
+               "date_modified": "13438654658864570",
+               "guid": "3b64986c-4b97-44f2-866c-0faae6355b7e",
+               "id": "164",
+               "meta_info": {
+                  "RemovedPartner": "4e1fc0cf-08f4-40d9-acc9-dc79ea44cf82"
+               },
+               "name": "4e1fc0cf-08f4-40d9-acc9-dc79ea44cf82",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658864642",
+               "date_last_used": "0",
+               "date_modified": "13438654658864642",
+               "guid": "4da0de23-d709-4e0e-8576-6b150bd30230",
+               "id": "165",
+               "meta_info": {
+                  "RemovedPartner": "576c0090-2626-4554-bb9a-6f9c0bacaf47"
+               },
+               "name": "576c0090-2626-4554-bb9a-6f9c0bacaf47",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658864721",
+               "date_last_used": "0",
+               "date_modified": "13438654658864721",
+               "guid": "01e6929e-b647-4300-99cc-ac1ac509058e",
+               "id": "166",
+               "meta_info": {
+                  "RemovedPartner": "68fc9516-59ac-447e-a8a6-ff27d558da91"
+               },
+               "name": "68fc9516-59ac-447e-a8a6-ff27d558da91",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658864781",
+               "date_last_used": "0",
+               "date_modified": "13438654658864781",
+               "guid": "8fa440fe-e8a4-4d2c-bc63-3704036cd9bb",
+               "id": "167",
+               "meta_info": {
+                  "RemovedPartner": "6ccd6c69-d23c-4b57-a6b3-b13b9fd676db"
+               },
+               "name": "6ccd6c69-d23c-4b57-a6b3-b13b9fd676db",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658864908",
+               "date_last_used": "0",
+               "date_modified": "13438654658864908",
+               "guid": "a02fc57a-cbd3-44ad-bf37-d2589809f8d0",
+               "id": "168",
+               "meta_info": {
+                  "RemovedPartner": "6dafc780-86dc-40e6-ac81-92b033fd8083"
+               },
+               "name": "6dafc780-86dc-40e6-ac81-92b033fd8083",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658864985",
+               "date_last_used": "0",
+               "date_modified": "13438654658864985",
+               "guid": "2202f81e-7016-4262-b118-2e65e3908f05",
+               "id": "169",
+               "meta_info": {
+                  "RemovedPartner": "7dc00b6d-b26b-4371-83cb-2cd63274b9b8"
+               },
+               "name": "7dc00b6d-b26b-4371-83cb-2cd63274b9b8",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658865059",
+               "date_last_used": "0",
+               "date_modified": "13438654658865059",
+               "guid": "111e9fc3-2365-4128-a995-48155bfca851",
+               "id": "170",
+               "meta_info": {
+                  "RemovedPartner": "848a4ba4-5f69-4a38-8ccc-d0cea9fe0709"
+               },
+               "name": "848a4ba4-5f69-4a38-8ccc-d0cea9fe0709",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658865169",
+               "date_last_used": "0",
+               "date_modified": "13438654658865169",
+               "guid": "e3597ba3-10f7-4e57-9e38-14cfb07ecc16",
+               "id": "171",
+               "meta_info": {
+                  "RemovedPartner": "930d9804-4a0f-45ee-9317-b78ed2b548fd"
+               },
+               "name": "930d9804-4a0f-45ee-9317-b78ed2b548fd",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658865240",
+               "date_last_used": "0",
+               "date_modified": "13438654658865240",
+               "guid": "0a74fe4b-5679-4c58-b2b3-ed058346bfc1",
+               "id": "172",
+               "meta_info": {
+                  "RemovedPartner": "a0f4094c-8182-479d-9e40-bdfc7da16846"
+               },
+               "name": "a0f4094c-8182-479d-9e40-bdfc7da16846",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658865307",
+               "date_last_used": "0",
+               "date_modified": "13438654658865307",
+               "guid": "14f54bab-2e34-4b20-9b9d-e5f7b1c7adbd",
+               "id": "173",
+               "meta_info": {
+                  "RemovedPartner": "a91e4453-0a84-4a58-be63-eb3d7c257c35"
+               },
+               "name": "a91e4453-0a84-4a58-be63-eb3d7c257c35",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658865390",
+               "date_last_used": "0",
+               "date_modified": "13438654658865390",
+               "guid": "ff38a333-b7d7-4fc5-8185-a7cb6b60d9d5",
+               "id": "174",
+               "meta_info": {
+                  "RemovedPartner": "b095403c-0348-4d47-b03e-c9b408bfc92b"
+               },
+               "name": "b095403c-0348-4d47-b03e-c9b408bfc92b",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658865474",
+               "date_last_used": "0",
+               "date_modified": "13438654658865474",
+               "guid": "0f6f5c94-f9a0-4574-994a-994525071ced",
+               "id": "175",
+               "meta_info": {
+                  "RemovedPartner": "c49a405e-ba3d-42b4-ad9a-4831e2ed35e4"
+               },
+               "name": "c49a405e-ba3d-42b4-ad9a-4831e2ed35e4",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658865551",
+               "date_last_used": "0",
+               "date_modified": "13438654658865551",
+               "guid": "ed13286c-58c1-49d3-888c-29807b57b9b4",
+               "id": "176",
+               "meta_info": {
+                  "RemovedPartner": "c5ceea21-8d73-4eec-89d1-be72552cf9c8"
+               },
+               "name": "c5ceea21-8d73-4eec-89d1-be72552cf9c8",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658865635",
+               "date_last_used": "0",
+               "date_modified": "13438654658865635",
+               "guid": "670eaa06-be8b-4dbb-9f49-279fd176b6d4",
+               "id": "177",
+               "meta_info": {
+                  "RemovedPartner": "cbe202d3-71df-4491-a825-448e4d745e43"
+               },
+               "name": "cbe202d3-71df-4491-a825-448e4d745e43",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658865710",
+               "date_last_used": "0",
+               "date_modified": "13438654658865710",
+               "guid": "051746f6-879b-4fbe-9aa8-4ad7174b1c87",
+               "id": "178",
+               "meta_info": {
+                  "RemovedPartner": "cef4093f-aea3-4ee0-a450-864df2cae2bf"
+               },
+               "name": "cef4093f-aea3-4ee0-a450-864df2cae2bf",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658865829",
+               "date_last_used": "0",
+               "date_modified": "13438654658865829",
+               "guid": "a712e4c4-6d40-4fcf-b084-710263363ef8",
+               "id": "179",
+               "meta_info": {
+                  "RemovedPartner": "d5158dd0-fb6a-49e4-922a-75266cde3f84"
+               },
+               "name": "d5158dd0-fb6a-49e4-922a-75266cde3f84",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658865918",
+               "date_last_used": "0",
+               "date_modified": "13438654658865918",
+               "guid": "474114de-3793-4b81-8b78-d5bee8386a59",
+               "id": "180",
+               "meta_info": {
+                  "RemovedPartner": "e5c019f8-c8a4-403c-99c8-d3502d7d09b3"
+               },
+               "name": "e5c019f8-c8a4-403c-99c8-d3502d7d09b3",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658866001",
+               "date_last_used": "0",
+               "date_modified": "13438654658866001",
+               "guid": "340e7103-ef45-4d69-9df4-f8e1b813dfef",
+               "id": "181",
+               "meta_info": {
+                  "RemovedPartner": "eb5c2f32-c648-4f69-a875-472da896d50b"
+               },
+               "name": "eb5c2f32-c648-4f69-a875-472da896d50b",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658866089",
+               "date_last_used": "0",
+               "date_modified": "13438654658866089",
+               "guid": "cba76fc8-d171-483e-a96f-ed8a3c38c9b4",
+               "id": "182",
+               "meta_info": {
+                  "RemovedPartner": "f56c1a38-3e9e-48fc-8d6c-b800f226dbfb"
+               },
+               "name": "f56c1a38-3e9e-48fc-8d6c-b800f226dbfb",
+               "type": "folder"
+            }, {
+               "children": [  ],
+               "date_added": "13438654658866206",
+               "date_last_used": "0",
+               "date_modified": "13438654658866206",
+               "guid": "73eb92eb-eebf-4647-ae21-840203d0ca36",
+               "id": "183",
+               "meta_info": {
+                  "RemovedPartner": "f79cd6e8-ebc0-444d-ac96-00da456dcb59"
+               },
+               "name": "f79cd6e8-ebc0-444d-ac96-00da456dcb59",
+               "type": "folder"
+            } ],
+            "date_added": "13438654658863409",
+            "date_last_used": "0",
+            "date_modified": "13438654658863409",
+            "guid": "76d0b2e1-1d15-59dc-bf2b-dff8b73554a9",
+            "id": "151",
+            "meta_info": {
+               "RemovedPartnerList": "true"
+            },
+            "name": "Removed partners",
+            "type": "folder"
+         } ],
+         "date_added": "13390315205692701",
+         "date_last_used": "0",
+         "date_modified": "13429090639620335",
+         "guid": "9f32a0fb-bfd9-5032-be46-07afe4a25400",
+         "id": "4",
+         "name": "Trash",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
