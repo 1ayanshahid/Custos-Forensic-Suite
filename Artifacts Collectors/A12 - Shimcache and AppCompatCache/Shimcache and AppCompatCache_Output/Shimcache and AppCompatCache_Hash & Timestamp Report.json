@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "artifact_id": "A12",
+  "artifact_name": "Shimcache and AppCompatCache",
+  "collector": "collector.py",
+  "hash_algorithm": "SHA-256",
+  "verification_status": "verified",
+  "verification_method": "Two independent reads of saved output files; SHA-256 comparison and size, mtime, ctime, device and file identity stability checks. Not acquisition-time hashing.",
+  "collection_started_at_utc": "2026-11-15T02:39:01.610069+00:00",
+  "collection_ended_at_utc": "2026-11-15T02:39:09.115657+00:00",
+  "collection_status": "completed",
+  "collection_exit_code": 0,
+  "output_directory": "D:\\11\\Artifacts Collectors\\A12 - Shimcache and AppCompatCache\\Shimcache and AppCompatCache_Output",
+  "outputs": [
+    {
+      "path": "20261115023907_AppCompatCacheParser_2026.10.1_ConsoleLog.txt",
+      "size_bytes": 1112,
+      "sha256": "af99ccf8e8bc9a7493715617b8c37febd80033af1f405f0771f9976e717c955e",
+      "verification_sha256": "af99ccf8e8bc9a7493715617b8c37febd80033af1f405f0771f9976e717c955e",
+      "last_modified_utc": "2026-11-15T02:39:09.033373+00:00",
+      "hash_timestamp_utc": "2026-11-15T02:39:09.122666+00:00",
+      "verification_timestamp_utc": "2026-11-15T02:39:09.122666+00:00",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "20261115023907_Windows10C_11_SYSTEM_AppCompatCache.csv",
+      "size_bytes": 217576,
+      "sha256": "3655a6b2b0a87323156f1677c9289e64af3921991775aa4e5a7ea7443aa57892",
+      "verification_sha256": "3655a6b2b0a87323156f1677c9289e64af3921991775aa4e5a7ea7443aa57892",
+      "last_modified_utc": "2026-11-15T02:39:09.033373+00:00",
+      "hash_timestamp_utc": "2026-11-15T02:39:09.122666+00:00",
+      "verification_timestamp_utc": "2026-11-15T02:39:09.138303+00:00",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "Shimcache and AppCompatCache_Output.json",
+      "size_bytes": 446829,
+      "sha256": "09456fb44a69c64fbe6b1b65862ebae9c904bc763bef11223b4c666c25b99545",
+      "verification_sha256": "09456fb44a69c64fbe6b1b65862ebae9c904bc763bef11223b4c666c25b99545",
+      "last_modified_utc": "2026-11-15T02:39:09.115657+00:00",
+      "hash_timestamp_utc": "2026-11-15T02:39:09.139425+00:00",
+      "verification_timestamp_utc": "2026-11-15T02:39:09.139425+00:00",
+      "verification_status": "verified",
+      "error": null
+    }
+  ],
+  "error": null,
+  "errors": [],
+  "generated_at_utc": "2026-11-15T02:39:09.139425+00:00",
+  "generated_at_local": "2026-11-15T07:39:09.139425+05:00"
+}
