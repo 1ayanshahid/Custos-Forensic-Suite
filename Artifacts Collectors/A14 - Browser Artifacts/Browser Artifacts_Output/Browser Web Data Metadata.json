@@ -3,9 +3,9 @@
   "artifact_id": "A14",
   "module": "Browser Artifacts",
   "version": "1.0.0",
-  "run_id": "20261115T024123Z_de79faa1",
+  "run_id": "20261116T104141Z_b697087e",
   "category": "Browser Web Data Metadata",
-  "generated_utc": "2026-11-15T02:54:46.456003+00:00",
+  "generated_utc": "2026-11-16T10:53:42.688358+00:00",
   "collection_status": "SUCCESS",
   "profile_count": 12,
   "record_count": 440,
@@ -3442,7 +3442,7 @@
           },
           {
             "table": "autofill",
-            "record_count": 692,
+            "record_count": 694,
             "columns": [
               "name",
               "value",
