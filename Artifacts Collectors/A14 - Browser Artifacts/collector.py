@@ -435,11 +435,17 @@ def acquire_file(
                 f"Output collision; existing file was not overwritten: {destination}"
             )
         with source.open("rb") as source_stream, destination.open("xb") as target_stream:
-            shutil.copyfileobj(source_stream, target_stream)
+            acquired_digest = hashlib.sha256()
+            while True:
+                chunk = source_stream.read(1024 * 1024)
+                if not chunk:
+                    break
+                target_stream.write(chunk)
+                acquired_digest.update(chunk)
         shutil.copystat(source, destination)
 
         result["acquired_path"] = str(destination)
-        result["acquired_sha256"] = sha256_file(destination)
+        result["acquired_sha256"] = acquired_digest.hexdigest()
 
         try:
             result["source_sha256_after"] = sha256_file(source)
