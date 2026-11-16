@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "artifact_id": "A23",
+  "artifact_name": "Drivers",
+  "collector": "collector.py",
+  "hash_algorithm": "SHA-256",
+  "verification_status": "verified",
+  "verification_method": "Two independent reads of saved output files; SHA-256 comparison and size, mtime, ctime, device and file identity stability checks. Not acquisition-time hashing.",
+  "collection_started_at_utc": "2026-11-16T05:46:07.729156Z",
+  "collection_ended_at_utc": "2026-11-16T05:46:10.328915Z",
+  "collection_status": "partial",
+  "collection_exit_code": 1,
+  "output_directory": "E:\\FYP Working Individually\\Ayan Shahid\\Artifacts Collectors\\A23 - Drivers\\Drivers_Output",
+  "outputs": [
+    {
+      "path": "Drivers-20261116T054609_928104Z.json",
+      "size_bytes": 2769977,
+      "sha256": "b81bb1f5b989b18d48a6b6134aa59b6c92b376f3f8173cfdb18d8c453d1f28da",
+      "verification_sha256": "b81bb1f5b989b18d48a6b6134aa59b6c92b376f3f8173cfdb18d8c453d1f28da",
+      "last_modified_utc": "2026-11-16T05:46:10.312712+00:00",
+      "hash_timestamp_utc": "2026-11-16T05:46:10.344768+00:00",
+      "verification_timestamp_utc": "2026-11-16T05:46:10.365582+00:00",
+      "verification_status": "verified",
+      "error": null
+    }
+  ],
+  "error": null,
+  "errors": [],
+  "generated_at_utc": "2026-11-16T05:46:10.365582+00:00",
+  "generated_at_local": "2026-11-16T10:46:10.365582+05:00"
+}
