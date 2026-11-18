@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "artifact_id": "A42",
+  "artifact_name": "Logon Sessions",
+  "collector": "collector.py",
+  "hash_algorithm": "SHA-256",
+  "verification_status": "verified",
+  "verification_method": "Two independent reads of saved output files; SHA-256 comparison and size, mtime, ctime, device and file identity stability checks. Not acquisition-time hashing.",
+  "collection_started_at_utc": "2026-11-18T21:06:42.760571Z",
+  "collection_ended_at_utc": "2026-11-18T21:06:43.983778Z",
+  "collection_status": "completed",
+  "collection_exit_code": 0,
+  "output_directory": "E:\\FYP Working Individually\\Ayan Shahid\\Artifacts Collectors\\A42 - Logon Sessions\\Logon Sessions_Output",
+  "outputs": [
+    {
+      "path": "Logon Sessions-20261118T210642_761576Z.json",
+      "size_bytes": 13390968,
+      "sha256": "6311816d0313a461d500de04c3c3a583c8e5b3fbf7397ddc6d89f2b9ee930b18",
+      "verification_sha256": "6311816d0313a461d500de04c3c3a583c8e5b3fbf7397ddc6d89f2b9ee930b18",
+      "last_modified_utc": "2026-11-18T21:06:43.951142+00:00",
+      "hash_timestamp_utc": "2026-11-18T21:06:44.066907+00:00",
+      "verification_timestamp_utc": "2026-11-18T21:06:44.100424+00:00",
+      "verification_status": "verified",
+      "error": null
+    }
+  ],
+  "error": null,
+  "errors": [],
+  "generated_at_utc": "2026-11-18T21:06:44.100424+00:00",
+  "generated_at_local": "2026-11-19T02:06:44.100424+05:00"
+}
