@@ -447,12 +447,6 @@ The team shares responsibility for research, implementation, documentation, vali
 **Academic Program:** Bachelor of Science in Cyber Security  
 **Institution:** Riphah International University
 
-## 📄 Licensing and Third-Party Tools
-
-Project licensing is governed by the license file provided in the repository, when present. Academic development alone does not define a software license.
-
-Third-party tools and libraries retain their respective licenses and redistribution requirements.
-
 ## ⚠️ Usage
 
 Use Custos only on systems and evidence you are authorized to examine.
