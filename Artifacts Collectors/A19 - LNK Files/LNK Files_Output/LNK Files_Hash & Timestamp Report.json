@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "artifact_id": "A19",
+  "artifact_name": "LNK Files",
+  "collector": "collector.py",
+  "hash_algorithm": "SHA-256",
+  "verification_status": "verified",
+  "verification_method": "Two independent reads of saved output files; SHA-256 comparison and size, mtime, ctime, device and file identity stability checks. Not acquisition-time hashing.",
+  "collection_started_at_utc": "2026-11-22T13:30:55.444103+00:00",
+  "collection_ended_at_utc": "2026-11-22T13:30:57.225546+00:00",
+  "collection_status": "completed",
+  "collection_exit_code": 0,
+  "output_directory": "D:\\11\\Artifacts Collectors\\A19 - LNK Files\\LNK Files_Output",
+  "outputs": [
+    {
+      "path": "LNK Files_Files/lnk_parsed.csv",
+      "size_bytes": 1339,
+      "sha256": "845b1de492a525e2d6d4d5e6275e86a5e2a6b7a5d3979eca471e7e4c9887bce8",
+      "verification_sha256": "845b1de492a525e2d6d4d5e6275e86a5e2a6b7a5d3979eca471e7e4c9887bce8",
+      "last_modified_utc": "2026-11-22T13:30:57.175633+00:00",
+      "hash_timestamp_utc": "2026-11-22T13:30:57.240789+00:00",
+      "verification_timestamp_utc": "2026-11-22T13:30:57.241791+00:00",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "LNK Files_Files/TestLNK.lnk",
+      "size_bytes": 1314,
+      "sha256": "0126eafa260e43964d2759e38771bdd435434978d7723c36e423c0d335c84b9b",
+      "verification_sha256": "0126eafa260e43964d2759e38771bdd435434978d7723c36e423c0d335c84b9b",
+      "last_modified_utc": "2026-10-08T03:30:06.123304+00:00",
+      "hash_timestamp_utc": "2026-11-22T13:30:57.242789+00:00",
+      "verification_timestamp_utc": "2026-11-22T13:30:57.243790+00:00",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "LNK Files_Output.json",
+      "size_bytes": 1232,
+      "sha256": "f3957f90674b9efc8e46976379cb24779897050f0e51328200ac1671493bf900",
+      "verification_sha256": "f3957f90674b9efc8e46976379cb24779897050f0e51328200ac1671493bf900",
+      "last_modified_utc": "2026-11-22T13:30:57.225546+00:00",
+      "hash_timestamp_utc": "2026-11-22T13:30:57.244788+00:00",
+      "verification_timestamp_utc": "2026-11-22T13:30:57.244788+00:00",
+      "verification_status": "verified",
+      "error": null
+    }
+  ],
+  "error": null,
+  "errors": [],
+  "generated_at_utc": "2026-11-22T13:30:57.245788+00:00",
+  "generated_at_local": "2026-11-22T18:30:57.245788+05:00"
+}
