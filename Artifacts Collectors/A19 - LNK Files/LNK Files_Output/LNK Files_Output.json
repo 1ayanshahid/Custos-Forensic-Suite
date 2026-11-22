@@ -1,0 +1,39 @@
+{
+  "status": "collected",
+  "utc": "2026-11-22T13:30:57.224540+00:00",
+  "tool": "LECmd (Zimmerman)",
+  "source_dir": [
+    "C:\\Users\\xmfpq\\Recent",
+    "C:\\Users\\xmfpq\\Desktop"
+  ],
+  "count": 1,
+  "csv_file": "D:\\11\\Artifacts Collectors\\A19 - LNK Files\\LNK Files_Output\\LNK Files_Files\\lnk_parsed.csv",
+  "raw_files": [
+    {
+      "file": "TestLNK.lnk",
+      "size": 1314,
+      "sha256": "0126eafa260e43964d2759e38771bdd435434978d7723c36e423c0d335c84b9b"
+    }
+  ],
+  "records": [
+    {
+      "source_file": "TestLNK.lnk",
+      "target_created": "2025-08-16 07:15:26",
+      "target_modified": "2025-08-16 07:15:26",
+      "target_accessed": "2026-10-08 03:30:06",
+      "file_size": "360448",
+      "relative_path": "..\\..\\..\\Windows\\System32\\notepad.exe",
+      "working_dir": "C:\\Windows\\system32",
+      "local_path": "C:\\Windows\\System32\\notepad.exe",
+      "network_path": "",
+      "common_path": "",
+      "arguments": "",
+      "drive_type": "Fixed storage media (Hard drive)",
+      "volume_serial": "88219D36",
+      "volume_label": "",
+      "machine_id": "jamm",
+      "machine_mac": "34:48:ed:11:2a:12",
+      "target_mft_entry": "0x60CEC"
+    }
+  ]
+}
