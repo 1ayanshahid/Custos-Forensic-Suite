@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "artifact_id": "A28",
+  "artifact_name": "RDP History from Events and Server Context",
+  "collector": "collector.py",
+  "hash_algorithm": "SHA-256",
+  "verification_status": "not_run",
+  "verification_method": "Two independent reads of saved output files; SHA-256 comparison and size, mtime, ctime, device and file identity stability checks. Not acquisition-time hashing.",
+  "collection_started_at_utc": "2026-11-22T13:45:01.218741+00:00",
+  "collection_ended_at_utc": "2026-11-22T13:45:03.015739+00:00",
+  "collection_status": "partial",
+  "collection_exit_code": 1,
+  "output_directory": "D:\\11\\Artifacts Collectors\\A28 - RDP History from Events and Server Context\\RDP History from Events and Server Context_Output",
+  "outputs": [],
+  "error": null,
+  "errors": [],
+  "generated_at_utc": "2026-11-22T13:45:03.019593+00:00",
+  "generated_at_local": "2026-11-22T18:45:03.019593+05:00"
+}
