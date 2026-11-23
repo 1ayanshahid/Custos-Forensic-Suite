@@ -1,0 +1,224 @@
+[15:21:20.538 INF] JLECmd version 2026.10.6
+
+Author: Eric Zimmerman (saericzimmerman@gmail.com)
+https://github.com/EricZimmerman/JLECmd
+[15:21:20.552 INF] Command line: -d D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files --csv D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files -q
+[15:21:20.552 INF] Console log: D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\20261119102119_JLECmd_2026.10.6_ConsoleLog.txt
+[15:21:20.614 INF] Looking for jump list files in D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files
+[15:21:20.617 INF] Found 160 files
+[15:21:20.948 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\13b2edf98f3b93a8.customDestinations-ms in 0.16733900 seconds ----------
+[15:21:21.033 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\13d57d9bec61a0b3.automaticDestinations-ms in 0.00718860 seconds ----------
+[15:21:21.033 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\159c40e89fe4219c.automaticDestinations-ms in 0.00010440 seconds ----------
+[15:21:21.035 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\16f2f0042ddbe0e8.customDestinations-ms in 0.00188010 seconds ----------
+[15:21:21.036 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\18850a078b90ffd9.automaticDestinations-ms in 0.00011980 seconds ----------
+[15:21:21.036 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\188f5ec9d11ded56.customDestinations-ms in 0.00037510 seconds ----------
+[15:21:21.037 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\19bea694259df4a6.customDestinations-ms in 0.00034990 seconds ----------
+[15:21:21.054 WRN]   There are more items in the Directory (6) than are contained in the DestList (5). Use --withDir to view/export them
+[15:21:21.054 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\1b4dd67f29cb1962.automaticDestinations-ms in 0.01653110 seconds ----------
+[15:21:21.055 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\1bc9bbbe61f14501.customDestinations-ms in 0.00053980 seconds ----------
+[15:21:21.055 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\1c255d0e5ca755df.customDestinations-ms in 0.00032250 seconds ----------
+[15:21:21.062 WRN]   There are more items in the Directory (37) than are contained in the DestList (36). Use --withDir to view/export them
+[15:21:21.062 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\1c7a9be1b15a03ba.automaticDestinations-ms in 0.00633410 seconds ----------
+[15:21:21.062 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\1c7a9be1b15a03ba.customDestinations-ms in 0.00036800 seconds ----------
+[15:21:21.065 WRN]   There are more items in the Directory (29) than are contained in the DestList (28). Use --withDir to view/export them
+[15:21:21.065 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\1ced32d74a95c7bc.automaticDestinations-ms in 0.00269880 seconds ----------
+[15:21:21.066 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\1ced32d74a95c7bc.customDestinations-ms in 0.00098320 seconds ----------
+[15:21:21.067 WRN] ** JumpList has serialized property store(s)! View its contents via -f for details **
+[15:21:21.067 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\21c5a1b0fd396376.automaticDestinations-ms in 0.00007460 seconds ----------
+[15:21:21.067 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\256554c6e1824991.customDestinations-ms in 0.00035470 seconds ----------
+[15:21:21.068 WRN]   There are more items in the Directory (2) than are contained in the DestList (1). Use --withDir to view/export them
+[15:21:21.068 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\25ae2a516f67fe5e.automaticDestinations-ms in 0.00014870 seconds ----------
+[15:21:21.068 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\25ae2a516f67fe5e.customDestinations-ms in 0.00018850 seconds ----------
+[15:21:21.070 WRN] Error processing D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\264513456643c3ad.customDestinations-ms. Message: Empty custom destinations jump list
+[15:21:21.071 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\26c8e4b9a90483d.customDestinations-ms in 0.00024490 seconds ----------
+[15:21:21.071 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\2760c767d5a1ac21.automaticDestinations-ms in 0.00010810 seconds ----------
+[15:21:21.072 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\27afcd3e5ac40b6f.customDestinations-ms in 0.00036160 seconds ----------
+[15:21:21.072 WRN]   There are more items in the Directory (2) than are contained in the DestList (1). Use --withDir to view/export them
+[15:21:21.072 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\28c8b86deab549a1.automaticDestinations-ms in 0.00018020 seconds ----------
+[15:21:21.072 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\2a2e0412b8ad04a2.customDestinations-ms in 0.00036270 seconds ----------
+[15:21:21.073 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\2b85136b9c49e323.automaticDestinations-ms in 0.00012840 seconds ----------
+[15:21:21.073 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\2eda20898aab9641.automaticDestinations-ms in 0.00010550 seconds ----------
+[15:21:21.073 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\2f508cb063baec0a.customDestinations-ms in 0.00028990 seconds ----------
+[15:21:21.074 WRN]   There are more items in the Directory (8) than are contained in the DestList (7). Use --withDir to view/export them
+[15:21:21.074 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\303b947a1cfe71aa.automaticDestinations-ms in 0.00077590 seconds ----------
+[15:21:21.074 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\324d789715710934.automaticDestinations-ms in 0.00007400 seconds ----------
+[15:21:21.075 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\325030b18745d8ea.customDestinations-ms in 0.00075210 seconds ----------
+[15:21:21.076 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\333d042f53893445.customDestinations-ms in 0.00029560 seconds ----------
+[15:21:21.076 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\33612f0383013960.automaticDestinations-ms in 0.00011520 seconds ----------
+[15:21:21.076 WRN]   There are more items in the Directory (2) than are contained in the DestList (1). Use --withDir to view/export them
+[15:21:21.076 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\339621474fe0442e.automaticDestinations-ms in 0.00022480 seconds ----------
+[15:21:21.077 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\352fd027c0e8f0e5.customDestinations-ms in 0.00039840 seconds ----------
+[15:21:21.079 WRN]   There are more items in the Directory (22) than are contained in the DestList (21). Use --withDir to view/export them
+[15:21:21.079 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\3715238b5cf855ae.automaticDestinations-ms in 0.00229310 seconds ----------
+[15:21:21.080 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\372aacdd298c5994.customDestinations-ms in 0.00034150 seconds ----------
+[15:21:21.080 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\3c779d69d6473064.automaticDestinations-ms in 0.00008210 seconds ----------
+[15:21:21.080 WRN] ** JumpList has serialized property store(s)! View its contents via -f for details **
+[15:21:21.080 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\3dd83b637c7762df.automaticDestinations-ms in 0.00006580 seconds ----------
+[15:21:21.081 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\3dd83b637c7762df.customDestinations-ms in 0.00049270 seconds ----------
+[15:21:21.081 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\41f23bb65d5a09df.automaticDestinations-ms in 0.00007640 seconds ----------
+[15:21:21.081 WRN]   There are more items in the Directory (3) than are contained in the DestList (2). Use --withDir to view/export them
+[15:21:21.081 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\43dea41143485508.automaticDestinations-ms in 0.00027460 seconds ----------
+[15:21:21.082 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\4662a19ae41d2568.customDestinations-ms in 0.00033140 seconds ----------
+[15:21:21.082 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\4cb7cec8b7c64044.customDestinations-ms in 0.00031910 seconds ----------
+[15:21:21.082 WRN]   There are more items in the Directory (2) than are contained in the DestList (1). Use --withDir to view/export them
+[15:21:21.082 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\4cb9c5750d51c07f.automaticDestinations-ms in 0.00025280 seconds ----------
+[15:21:21.082 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\50620fe75ee0093.automaticDestinations-ms in 0.00005540 seconds ----------
+[15:21:21.083 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\5191232e8aefc804.customDestinations-ms in 0.00026240 seconds ----------
+[15:21:21.083 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\53fdc723824f5d84.automaticDestinations-ms in 0.00005510 seconds ----------
+[15:21:21.083 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\5784102860fa8bff.automaticDestinations-ms in 0.00005680 seconds ----------
+[15:21:21.084 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\590aee7bdd69b59b.customDestinations-ms in 0.00054460 seconds ----------
+[15:21:21.099 WRN] ** JumpList has serialized property store(s)! View its contents via -f for details **
+[15:21:21.099 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\5a2098e080cf7ac4.automaticDestinations-ms in 0.01532110 seconds ----------
+[15:21:21.100 WRN] ** JumpList has serialized property store(s)! View its contents via -f for details **
+[15:21:21.100 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\5a794779d13c9e5e.automaticDestinations-ms in 0.00006540 seconds ----------
+[15:21:21.100 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\5b60ff9d777810f7.automaticDestinations-ms in 0.00005960 seconds ----------
+[15:21:21.100 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\5c5e4638f6459826.automaticDestinations-ms in 0.00005770 seconds ----------
+[15:21:21.102 WRN]   There are more items in the Directory (11) than are contained in the DestList (10). Use --withDir to view/export them
+[15:21:21.102 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\5d696d521de238c3.automaticDestinations-ms in 0.00188300 seconds ----------
+[15:21:21.102 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\5d696d521de238c3.customDestinations-ms in 0.00039410 seconds ----------
+[15:21:21.192 WRN]   There are more items in the Directory (739) than are contained in the DestList (738). Use --withDir to view/export them
+[15:21:21.192 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\5f7b5f1e01b83767.automaticDestinations-ms in 0.08919910 seconds ----------
+[15:21:21.192 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\5fd40d254d00899.automaticDestinations-ms in 0.00014510 seconds ----------
+[15:21:21.192 WRN] ** JumpList has serialized property store(s)! View its contents via -f for details **
+[15:21:21.193 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\60c1d59ffe7b053.automaticDestinations-ms in 0.00007400 seconds ----------
+[15:21:21.193 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\62e6c3e16f980010.automaticDestinations-ms in 0.00012280 seconds ----------
+[15:21:21.193 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\62f52c5adce073d1.customDestinations-ms in 0.00033280 seconds ----------
+[15:21:21.194 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\63079128510d8842.customDestinations-ms in 0.00035530 seconds ----------
+[15:21:21.194 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\69639df789022856.customDestinations-ms in 0.00050010 seconds ----------
+[15:21:21.195 WRN]   There are more items in the Directory (2) than are contained in the DestList (1). Use --withDir to view/export them
+[15:21:21.195 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\6a19055025edb725.automaticDestinations-ms in 0.00021400 seconds ----------
+[15:21:21.195 WRN]   There are more items in the Directory (2) than are contained in the DestList (1). Use --withDir to view/export them
+[15:21:21.195 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\6d2bac8f1edf6668.automaticDestinations-ms in 0.00027120 seconds ----------
+[15:21:21.196 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\6d2bac8f1edf6668.customDestinations-ms in 0.00056340 seconds ----------
+[15:21:21.196 WRN]   There are more items in the Directory (4) than are contained in the DestList (3). Use --withDir to view/export them
+[15:21:21.196 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\6dc04f5ccc522861.automaticDestinations-ms in 0.00034620 seconds ----------
+[15:21:21.197 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\710eee451b9d3e09.automaticDestinations-ms in 0.00005930 seconds ----------
+[15:21:21.197 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\71678a3f37286387.automaticDestinations-ms in 0.00005380 seconds ----------
+[15:21:21.197 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\71d0d0896684e9bf.customDestinations-ms in 0.00028550 seconds ----------
+[15:21:21.197 WRN]   There are more items in the Directory (2) than are contained in the DestList (1). Use --withDir to view/export them
+[15:21:21.197 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\74d7f43c1561fc1e.automaticDestinations-ms in 0.00016740 seconds ----------
+[15:21:21.198 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\74d7f43c1561fc1e.customDestinations-ms in 0.00024140 seconds ----------
+[15:21:21.198 WRN]   There are more items in the Directory (4) than are contained in the DestList (3). Use --withDir to view/export them
+[15:21:21.198 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\75fdabdc3f4b24fc.automaticDestinations-ms in 0.00033780 seconds ----------
+[15:21:21.198 WRN] ** JumpList has serialized property store(s)! View its contents via -f for details **
+[15:21:21.199 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\766c6474ef2adc83.automaticDestinations-ms in 0.00005440 seconds ----------
+[15:21:21.199 WRN]   There are more items in the Directory (2) than are contained in the DestList (1). Use --withDir to view/export them
+[15:21:21.199 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\7b736cb2777b4e48.automaticDestinations-ms in 0.00016230 seconds ----------
+[15:21:21.199 WRN]   There are more items in the Directory (3) than are contained in the DestList (2). Use --withDir to view/export them
+[15:21:21.199 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\7c605a85d9a5e22.automaticDestinations-ms in 0.00015070 seconds ----------
+[15:21:21.199 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\7c605a85d9a5e22.customDestinations-ms in 0.00016300 seconds ----------
+[15:21:21.199 WRN] ** JumpList has serialized property store(s)! View its contents via -f for details **
+[15:21:21.199 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\7d271fe2c6b372e.automaticDestinations-ms in 0.00005120 seconds ----------
+[15:21:21.200 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\7d87ab9e657c9561.automaticDestinations-ms in 0.00005730 seconds ----------
+[15:21:21.212 WRN]   There are more items in the Directory (12) than are contained in the DestList (11). Use --withDir to view/export them
+[15:21:21.213 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\7e4dca80246863e3.automaticDestinations-ms in 0.01275360 seconds ----------
+[15:21:21.213 WRN] Error processing D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\7e4dca80246863e3.customDestinations-ms. Message: Empty custom destinations jump list
+[15:21:21.213 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\7ef24090ae26f1ad.automaticDestinations-ms in 0.00006630 seconds ----------
+[15:21:21.213 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\806c1c6958a02456.customDestinations-ms in 0.00032680 seconds ----------
+[15:21:21.214 WRN] ** JumpList has serialized property store(s)! View its contents via -f for details **
+[15:21:21.214 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\81abcda736e7a7b2.automaticDestinations-ms in 0.00005680 seconds ----------
+[15:21:21.214 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\82d105222a33430b.automaticDestinations-ms in 0.00005550 seconds ----------
+[15:21:21.214 WRN] ** JumpList has serialized property store(s)! View its contents via -f for details **
+[15:21:21.214 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\844a1234cd68c9f9.automaticDestinations-ms in 0.00004930 seconds ----------
+[15:21:21.214 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\8488a28a5e0f77d6.automaticDestinations-ms in 0.00005190 seconds ----------
+[15:21:21.214 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\864f5e06aee9fedf.customDestinations-ms in 0.00030760 seconds ----------
+[15:21:21.215 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\8aa737711f491901.automaticDestinations-ms in 0.00005830 seconds ----------
+[15:21:21.215 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\8e3c038b401d68f2.customDestinations-ms in 0.00025860 seconds ----------
+[15:21:21.215 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\8e4e81d9adc545b8.customDestinations-ms in 0.00034860 seconds ----------
+[15:21:21.216 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\8eafbd04ec8631ce.automaticDestinations-ms in 0.00006120 seconds ----------
+[15:21:21.216 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\90f895da8ce35420.customDestinations-ms in 0.00027610 seconds ----------
+[15:21:21.216 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\90f950fa08018a56.customDestinations-ms in 0.00025730 seconds ----------
+[15:21:21.217 WRN]   There are more items in the Directory (3) than are contained in the DestList (2). Use --withDir to view/export them
+[15:21:21.217 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\92efc6105814f5ef.automaticDestinations-ms in 0.00026990 seconds ----------
+[15:21:21.217 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\930cf1dd2266e2cb.automaticDestinations-ms in 0.00005660 seconds ----------
+[15:21:21.217 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\9501e18d7c2ab92e.customDestinations-ms in 0.00055270 seconds ----------
+[15:21:21.272 WRN]   There are more items in the Directory (184) than are contained in the DestList (183). Use --withDir to view/export them
+[15:21:21.272 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\95597e2f40dbd9aa.automaticDestinations-ms in 0.05475280 seconds ----------
+[15:21:21.273 WRN]   There are more items in the Directory (5) than are contained in the DestList (4). Use --withDir to view/export them
+[15:21:21.274 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\9a165f62edbfa161.automaticDestinations-ms in 0.00080730 seconds ----------
+[15:21:21.274 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\9a165f62edbfa161.customDestinations-ms in 0.00056620 seconds ----------
+[15:21:21.274 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\9cb95faf62675012.automaticDestinations-ms in 0.00007890 seconds ----------
+[15:21:21.275 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\9cd04a746a3a7be8.customDestinations-ms in 0.00034180 seconds ----------
+[15:21:21.275 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\9db663efb9ea95f4.customDestinations-ms in 0.00032660 seconds ----------
+[15:21:21.275 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\9e5d44a7e8db9420.automaticDestinations-ms in 0.00007180 seconds ----------
+[15:21:21.303 WRN]   There are more items in the Directory (275) than are contained in the DestList (274). Use --withDir to view/export them
+[15:21:21.303 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\a52b0784bd667468.automaticDestinations-ms in 0.02735970 seconds ----------
+[15:21:21.330 WRN]   There are more items in the Directory (227) than are contained in the DestList (226). Use --withDir to view/export them
+[15:21:21.330 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\a61657a5e5dfbdc.automaticDestinations-ms in 0.02633990 seconds ----------
+[15:21:21.330 WRN] Error processing D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\a7ba40025dac9a67.customDestinations-ms. Message: Empty custom destinations jump list
+[15:21:21.331 WRN]   There are more items in the Directory (2) than are contained in the DestList (1). Use --withDir to view/export them
+[15:21:21.331 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\a7c82d1058e532ad.automaticDestinations-ms in 0.00018990 seconds ----------
+[15:21:21.331 WRN] ** JumpList has serialized property store(s)! View its contents via -f for details **
+[15:21:21.331 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\a7fe467e048af69.automaticDestinations-ms in 0.00007540 seconds ----------
+[15:21:21.331 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\a8be7b13d2796b66.automaticDestinations-ms in 0.00005450 seconds ----------
+[15:21:21.331 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\a8e2cc3df9a1d37e.automaticDestinations-ms in 0.00005500 seconds ----------
+[15:21:21.332 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\aa4fec2db47477d7.customDestinations-ms in 0.00033010 seconds ----------
+[15:21:21.338 WRN]   There are more items in the Directory (75) than are contained in the DestList (74). Use --withDir to view/export them
+[15:21:21.338 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\ae6df75df512bd06.automaticDestinations-ms in 0.00619560 seconds ----------
+[15:21:21.339 WRN]   There are more items in the Directory (2) than are contained in the DestList (1). Use --withDir to view/export them
+[15:21:21.339 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\b2ee3f5a43968e55.automaticDestinations-ms in 0.00021340 seconds ----------
+[15:21:21.339 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\b37f432ffcc36ce3.automaticDestinations-ms in 0.00010300 seconds ----------
+[15:21:21.339 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\b7837cadd6c673f8.automaticDestinations-ms in 0.00013130 seconds ----------
+[15:21:21.342 WRN]   There are more items in the Directory (19) than are contained in the DestList (18). Use --withDir to view/export them
+[15:21:21.342 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\b8ab77100df80ab2.automaticDestinations-ms in 0.00288700 seconds ----------
+[15:21:21.343 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\b8ab77100df80ab2.customDestinations-ms in 0.00058880 seconds ----------
+[15:21:21.343 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\b8b3a97bfbf120b6.automaticDestinations-ms in 0.00007470 seconds ----------
+[15:21:21.343 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\b990baa5960e848d.automaticDestinations-ms in 0.00007910 seconds ----------
+[15:21:21.344 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\ba356edd7073bf53.automaticDestinations-ms in 0.00013530 seconds ----------
+[15:21:21.344 WRN]   There are more items in the Directory (2) than are contained in the DestList (1). Use --withDir to view/export them
+[15:21:21.344 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\bbab4f0ce657b5d0.automaticDestinations-ms in 0.00028220 seconds ----------
+[15:21:21.344 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\bc0c37e84e063727.automaticDestinations-ms in 0.00009760 seconds ----------
+[15:21:21.345 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\bc2f48ad68efc7cd.automaticDestinations-ms in 0.00007840 seconds ----------
+[15:21:21.345 WRN] ** JumpList has serialized property store(s)! View its contents via -f for details **
+[15:21:21.345 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\c457d6b6337f0683.automaticDestinations-ms in 0.00024380 seconds ----------
+[15:21:21.346 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\c547d771914041ac.customDestinations-ms in 0.00040770 seconds ----------
+[15:21:21.346 WRN] ** JumpList has serialized property store(s)! View its contents via -f for details **
+[15:21:21.346 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\c830762833f50d19.automaticDestinations-ms in 0.00006330 seconds ----------
+[15:21:21.346 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\c830762833f50d19.customDestinations-ms in 0.00044190 seconds ----------
+[15:21:21.346 WRN] ** JumpList has serialized property store(s)! View its contents via -f for details **
+[15:21:21.347 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\cb05cc8c5a282971.automaticDestinations-ms in 0.00008260 seconds ----------
+[15:21:21.388 WRN]   There are more items in the Directory (263) than are contained in the DestList (262). Use --withDir to view/export them
+[15:21:21.388 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\ccba5a5986c77e43.automaticDestinations-ms in 0.04156080 seconds ----------
+[15:21:21.389 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\ccba5a5986c77e43.customDestinations-ms in 0.00073700 seconds ----------
+[15:21:21.390 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\cd660fb919ceccf1.automaticDestinations-ms in 0.00011030 seconds ----------
+[15:21:21.390 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\ce321a0c2c4da3ae.automaticDestinations-ms in 0.00009440 seconds ----------
+[15:21:21.396 WRN]   There are more items in the Directory (14) than are contained in the DestList (13). Use --withDir to view/export them
+[15:21:21.396 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\d00655d2aa12ff6d.automaticDestinations-ms in 0.00574110 seconds ----------
+[15:21:21.396 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\d00655d2aa12ff6d.customDestinations-ms in 0.00038470 seconds ----------
+[15:21:21.397 WRN] ** JumpList has serialized property store(s)! View its contents via -f for details **
+[15:21:21.397 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\d06c94537ecaee12.automaticDestinations-ms in 0.00006420 seconds ----------
+[15:21:21.397 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\d10f6a3bd83a480.automaticDestinations-ms in 0.00009630 seconds ----------
+[15:21:21.397 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\d1c1ede217e71ceb.automaticDestinations-ms in 0.00005230 seconds ----------
+[15:21:21.397 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\d69f34973277f89e.automaticDestinations-ms in 0.00012760 seconds ----------
+[15:21:21.398 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\d93f411851d7c929.customDestinations-ms in 0.00044560 seconds ----------
+[15:21:21.398 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\dcb14a7f58c761ff.automaticDestinations-ms in 0.00009430 seconds ----------
+[15:21:21.399 WRN]   There are more items in the Directory (16) than are contained in the DestList (15). Use --withDir to view/export them
+[15:21:21.399 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\dd7c3b1adb1c168b.automaticDestinations-ms in 0.00064210 seconds ----------
+[15:21:21.399 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\e09d2629669ffa69.automaticDestinations-ms in 0.00012960 seconds ----------
+[15:21:21.400 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\e185bf1eea6c4439.customDestinations-ms in 0.00034480 seconds ----------
+[15:21:21.400 WRN] ** JumpList has serialized property store(s)! View its contents via -f for details **
+[15:21:21.400 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\e4ea035065b5789a.automaticDestinations-ms in 0.00011450 seconds ----------
+[15:21:21.400 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\edeeec16043b5fd3.customDestinations-ms in 0.00028060 seconds ----------
+[15:21:21.401 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\ee17ba32f17d463.customDestinations-ms in 0.00033470 seconds ----------
+[15:21:21.401 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\ee8e853b76fa762.customDestinations-ms in 0.00049100 seconds ----------
+[15:21:21.439 WRN]   There are more items in the Directory (369) than are contained in the DestList (368). Use --withDir to view/export them
+[15:21:21.439 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\f01b4d95cf55d32a.automaticDestinations-ms in 0.03768680 seconds ----------
+[15:21:21.440 WRN] Error processing D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\f01b4d95cf55d32a.customDestinations-ms. Message: Empty custom destinations jump list
+[15:21:21.440 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\f07d9c0d404283bc.automaticDestinations-ms in 0.00015260 seconds ----------
+[15:21:21.441 WRN]   There are more items in the Directory (11) than are contained in the DestList (10). Use --withDir to view/export them
+[15:21:21.441 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\f18460fded109990.automaticDestinations-ms in 0.00059930 seconds ----------
+[15:21:21.441 WRN] Error processing D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\f18460fded109990.customDestinations-ms. Message: Empty custom destinations jump list
+[15:21:21.441 WRN]   There are more items in the Directory (3) than are contained in the DestList (2). Use --withDir to view/export them
+[15:21:21.442 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\f7699cf2eed599ac.automaticDestinations-ms in 0.00021310 seconds ----------
+[15:21:21.442 WRN] ** JumpList has serialized property store(s)! View its contents via -f for details **
+[15:21:21.442 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\fa10833b3a7d3f9b.automaticDestinations-ms in 0.00010730 seconds ----------
+[15:21:21.442 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\fb1d5b2fbb0e4556.customDestinations-ms in 0.00035380 seconds ----------
+[15:21:21.478 WRN]   There are more items in the Directory (240) than are contained in the DestList (239). Use --withDir to view/export them
+[15:21:21.479 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\fb3b0dbfee58fac8.automaticDestinations-ms in 0.03603830 seconds ----------
+[15:21:21.480 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\fb3b0dbfee58fac8.customDestinations-ms in 0.00075150 seconds ----------
+[15:21:21.480 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\fbbf7a782aadca3f.automaticDestinations-ms in 0.00013380 seconds ----------
+[15:21:21.480 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\fc2a3f43163d0a8e.automaticDestinations-ms in 0.00009740 seconds ----------
+[15:21:21.481 INF] ---------- Processed D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\ff99ba2fb2e34b73.customDestinations-ms in 0.00041450 seconds ----------
+[15:21:21.481 INF] Processed 160 out of 160 files in 0.8626 seconds
+[15:21:21.712 INF] AutomaticDestinations CSV output will be saved to D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\20261119102119_AutomaticDestinations.csv
+[15:21:21.931 INF] CustomDestinations CSV output will be saved to D:\11\Artifacts Collectors\A15 - Jump Lists\Jump Lists_Output\Jump Lists_Files\20261119102119_CustomDestinations.csv
