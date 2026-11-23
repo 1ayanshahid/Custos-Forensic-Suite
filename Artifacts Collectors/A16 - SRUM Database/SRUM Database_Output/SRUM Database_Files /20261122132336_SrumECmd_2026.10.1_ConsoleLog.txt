@@ -1,0 +1,21 @@
+[18:23:36.933 INF] SrumECmd version 2026.10.1
+
+Author: Eric Zimmerman (saericzimmerman@gmail.com)
+https://github.com/EricZimmerman/Srum
+[18:23:36.952 INF] Command line: -f D:\11\Artifacts Collectors\A16 - SRUM Database\SRUM Database_Output\SRUDB.dat -r D:\11\Artifacts Collectors\.custos-backend\A08 - Registry Hives\Registry Hives_Files\SOFTWARE --csv D:\11\Artifacts Collectors\A16 - SRUM Database\SRUM Database_Output
+
+[18:23:36.953 INF] Console log: D:\11\Artifacts Collectors\A16 - SRUM Database\SRUM Database_Output\20261122132336_SrumECmd_2026.10.1_ConsoleLog.txt
+
+[18:23:37.022 INF] Processing 'D:\11\Artifacts Collectors\A16 - SRUM Database\SRUM Database_Output\SRUDB.dat'...
+[18:23:39.168 INF] Processing complete!
+[18:23:39.169 INF] Energy Usage count:            765
+[18:23:39.171 INF] AppTimelineProvider count:     16,664
+[18:23:39.172 INF] vfuprov count:                 1,251
+[18:23:39.172 INF] App Resource Usage count:      18,030
+[18:23:39.172 INF] Network Connection count:      465
+[18:23:39.172 INF] Network Usage count:           4,914
+[18:23:39.172 INF] Push Notification count:       242
+[18:23:39.172 INF] CSV output will be saved to 'D:\11\Artifacts Collectors\A16 - SRUM Database\SRUM Database_Output'
+
+[18:23:39.625 INF] Processing completed in 2.6042 seconds
+
