@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "artifact_name": "Installed Software",
+  "collector": "collector.py",
+  "hash_algorithm": "SHA-256",
+  "verification_status": "verified",
+  "verification_method": "Two independent reads of saved output files; SHA-256 comparison and size, mtime, ctime, device and file identity stability checks. Not acquisition-time hashing.",
+  "collection_status": "completed",
+  "collection_exit_code": 0,
+  "output_directory": "E:\\Custos Forensic Suite\\Artifacts Collectors\\A22 - Installed Software\\Installed Software_Output",
+  "outputs": [
+    {
+      "path": "Installed Software_Inventory.json",
+      "size_bytes": 741216,
+      "sha256": "61a1cc6016fb389a28713a40e0093b8f71436fdb4fda566fceb95fc7df6daede",
+      "verification_sha256": "61a1cc6016fb389a28713a40e0093b8f71436fdb4fda566fceb95fc7df6daede",
+      "verification_status": "verified",
+      "error": null
+    }
+  ],
+  "error": null,
+  "errors": [],
+  "generated_at_utc": "2026-11-26T15:33:27.220600+00:00"
+}
