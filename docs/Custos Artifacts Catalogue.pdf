@@ -2,21 +2,35 @@
 %‚„œ”
 1 0 obj
 <<
-/Producer (pypdf)
-/Title (Custos Forensic Suite \174 Complete Artifact Catalogue)
+/Type /Catalog
+/Pages 2 0 R
+/AF [ 17 0 R ]
+/Names <<
+/EmbeddedFiles <<
+/Names [ (Content Credentials) 17 0 R ]
+>>
+>>
 >>
 endobj
 2 0 obj
 <<
 /Type /Pages
 /Count 6
-/Kids [ 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R ]
+/Kids [ 3 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R ]
 >>
 endobj
 3 0 obj
 <<
-/Type /Catalog
-/Pages 2 0 R
+/Type /Page
+/Resources <<
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+>>
+>>
+/MediaBox [ 0.0 0.0 842 595 ]
+/Parent 2 0 R
+/Contents 6 0 R
 >>
 endobj
 4 0 obj
@@ -36,20 +50,6 @@ endobj
 >>
 endobj
 6 0 obj
-<<
-/Type /Page
-/Resources <<
-/Font <<
-/F1 4 0 R
-/F2 5 0 R
->>
->>
-/MediaBox [ 0.0 0.0 842 595 ]
-/Parent 2 0 R
-/Contents 7 0 R
->>
-endobj
-7 0 obj
 <<
 /Length 2176
 >>
@@ -82,7 +82,7 @@ BT /F1 8 Tf 0.24 0.33 0.42 rg 1 0 0 1 34 22 Tm (Custos Forensic Suite | Complete
 BT /F1 8 Tf 0.24 0.33 0.42 rg 1 0 0 1 778 22 Tm (Page 1) Tj ET
 endstream
 endobj
-8 0 obj
+7 0 obj
 <<
 /Type /Page
 /Resources <<
@@ -93,10 +93,10 @@ endobj
 >>
 /MediaBox [ 0.0 0.0 842 595 ]
 /Parent 2 0 R
-/Contents 9 0 R
+/Contents 8 0 R
 >>
 endobj
-9 0 obj
+8 0 obj
 <<
 /Length 8769
 >>
@@ -209,7 +209,7 @@ BT /F1 8 Tf 0.24 0.33 0.42 rg 1 0 0 1 34 22 Tm (Custos Forensic Suite | Complete
 BT /F1 8 Tf 0.24 0.33 0.42 rg 1 0 0 1 778 22 Tm (Page 2) Tj ET
 endstream
 endobj
-10 0 obj
+9 0 obj
 <<
 /Type /Page
 /Resources <<
@@ -220,10 +220,10 @@ endobj
 >>
 /MediaBox [ 0.0 0.0 842 595 ]
 /Parent 2 0 R
-/Contents 11 0 R
+/Contents 10 0 R
 >>
 endobj
-11 0 obj
+10 0 obj
 <<
 /Length 9103
 >>
@@ -343,7 +343,7 @@ BT /F1 8 Tf 0.24 0.33 0.42 rg 1 0 0 1 34 22 Tm (Custos Forensic Suite | Complete
 BT /F1 8 Tf 0.24 0.33 0.42 rg 1 0 0 1 778 22 Tm (Page 3) Tj ET
 endstream
 endobj
-12 0 obj
+11 0 obj
 <<
 /Type /Page
 /Resources <<
@@ -354,10 +354,10 @@ endobj
 >>
 /MediaBox [ 0.0 0.0 842 595 ]
 /Parent 2 0 R
-/Contents 13 0 R
+/Contents 12 0 R
 >>
 endobj
-13 0 obj
+12 0 obj
 <<
 /Length 6863
 >>
@@ -448,7 +448,7 @@ BT /F1 8 Tf 0.24 0.33 0.42 rg 1 0 0 1 34 22 Tm (Custos Forensic Suite | Complete
 BT /F1 8 Tf 0.24 0.33 0.42 rg 1 0 0 1 778 22 Tm (Page 4) Tj ET
 endstream
 endobj
-14 0 obj
+13 0 obj
 <<
 /Type /Page
 /Resources <<
@@ -459,90 +459,401 @@ endobj
 >>
 /MediaBox [ 0.0 0.0 842 595 ]
 /Parent 2 0 R
-/Contents 15 0 R
+/Contents 14 0 R
 >>
+endobj
+14 0 obj
+<<
+/Length 6372
+>>
+stream
+BT
+/F2 19 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 34 553 Tm
+(Additional Artifacts \174 A70 to A93) Tj
+ET
+0.055 0.13 0.22 rg
+34 520 774 20 re
+f
+BT
+/F2 9 Tf
+1 1 1 rg
+1 0 0 1 42 526 Tm
+(ID) Tj
+ET
+BT
+/F2 9 Tf
+1 1 1 rg
+1 0 0 1 85 526 Tm
+(Artifact) Tj
+ET
+BT
+/F2 9 Tf
+1 1 1 rg
+1 0 0 1 308 526 Tm
+(What is collected from the system) Tj
+ET
+0.94 0.96 0.98 rg
+34 503 774 17 re
+f
+BT
+/F2 8.1 Tf
+0.02 0.36 0.4 rg
+1 0 0 1 42 509 Tm
+(A70) Tj
+ET
+BT
+/F2 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 85 509 Tm
+(Windows Security Log) Tj
+ET
+BT
+/F1 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 308 509 Tm
+(Security\055channel event records such as supported logon\054 authentication and process\055audit events\056) Tj
+ET
+1 1 1 rg
+34 486 774 17 re
+f
+BT
+/F2 8.1 Tf
+0.02 0.36 0.4 rg
+1 0 0 1 42 492 Tm
+(A71) Tj
+ET
+BT
+/F2 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 85 492 Tm
+(Windows System Log) Tj
+ET
+BT
+/F1 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 308 492 Tm
+(System\055channel events including supported service\054 driver\054 boot and operating\055system context\056) Tj
+ET
+0.94 0.96 0.98 rg
+34 469 774 17 re
+f
+BT
+/F2 8.1 Tf
+0.02 0.36 0.4 rg
+1 0 0 1 42 475 Tm
+(A72) Tj
+ET
+BT
+/F2 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 85 475 Tm
+(Windows Application Log) Tj
+ET
+BT
+/F1 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 308 475 Tm
+(Application\055channel events with provider\054 event ID\054 payload and application context\056) Tj
+ET
+1 1 1 rg
+34 452 774 17 re
+f
+BT
+/F2 8.1 Tf
+0.02 0.36 0.4 rg
+1 0 0 1 42 458 Tm
+(A73) Tj
+ET
+BT
+/F2 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 85 458 Tm
+(BAM and DAM Registry Activity) Tj
+ET
+BT
+/F1 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 308 458 Tm
+(Supported BAM\057DAM registry activity entries that reference executable paths and available execution times\056) Tj
+ET
+0.94 0.96 0.98 rg
+34 435 774 17 re
+f
+BT
+/F2 8.1 Tf
+0.02 0.36 0.4 rg
+1 0 0 1 42 441 Tm
+(A74) Tj
+ET
+BT
+/F2 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 85 441 Tm
+(Bluetooth Device Metadata) Tj
+ET
+BT
+/F1 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 308 441 Tm
+(Known Bluetooth device addresses\054 names\054 classes and paired\057remembered\055device metadata\056) Tj
+ET
+1 1 1 rg
+34 418 774 17 re
+f
+BT
+/F2 8.1 Tf
+0.02 0.36 0.4 rg
+1 0 0 1 42 424 Tm
+(A75) Tj
+ET
+BT
+/F2 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 85 424 Tm
+(DLL and Module Inventory) Tj
+ET
+BT
+/F1 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 308 424 Tm
+(Loaded modules for selected processes\072 base address\054 size\054 path and available PE\057module metadata\056) Tj
+ET
+0.94 0.96 0.98 rg
+34 401 774 17 re
+f
+BT
+/F2 8.1 Tf
+0.02 0.36 0.4 rg
+1 0 0 1 42 407 Tm
+(A76) Tj
+ET
+BT
+/F2 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 85 407 Tm
+(Handle Inventory) Tj
+ET
+BT
+/F1 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 308 407 Tm
+(Live or memory\055derived process handle records\072 object types\054 names\054 values and granted access where readable\056) Tj
+ET
+1 1 1 rg
+34 384 774 17 re
+f
+BT
+/F2 8.1 Tf
+0.02 0.36 0.4 rg
+1 0 0 1 42 390 Tm
+(A77) Tj
+ET
+BT
+/F2 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 85 390 Tm
+(Mutex\057Mutant Metadata) Tj
+ET
+BT
+/F1 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 308 390 Tm
+(Supported mutex\057mutant object names and related process\057handle context from live or memory analysis\056) Tj
+ET
+0.94 0.96 0.98 rg
+34 367 774 17 re
+f
+BT
+/F2 8.1 Tf
+0.02 0.36 0.4 rg
+1 0 0 1 42 373 Tm
+(A78) Tj
+ET
+BT
+/F2 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 85 373 Tm
+(Clipboard Content and Metadata) Tj
+ET
+BT
+/F1 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 308 373 Tm
+(Explicitly authorized current clipboard formats\054 bounded content\057metadata and observation\055session context\056) Tj
+ET
+1 1 1 rg
+34 350 774 17 re
+f
+BT
+/F2 8.1 Tf
+0.02 0.36 0.4 rg
+1 0 0 1 42 356 Tm
+(A79) Tj
+ET
+BT
+/F2 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 85 356 Tm
+(Screenshots) Tj
+ET
+BT
+/F1 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 308 356 Tm
+(Explicitly authorized live screenshots with monitor\054 session\054 dimensions and capture\055time metadata\056) Tj
+ET
+0.94 0.96 0.98 rg
+34 333 774 17 re
+f
+BT
+/F2 8.1 Tf
+0.02 0.36 0.4 rg
+1 0 0 1 42 339 Tm
+(A80) Tj
+ET
+BT
+/F2 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 85 339 Tm
+(SMB Sessions and Open Network Files) Tj
+ET
+BT
+/F1 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 308 339 Tm
+(Current SMB session and authorized open\055file metadata\072 client\054 user\054 share\054 duration and file counts\056) Tj
+ET
+1 1 1 rg
+34 316 774 17 re
+f
+BT
+/F2 8.1 Tf
+0.02 0.36 0.4 rg
+1 0 0 1 42 322 Tm
+(A81) Tj
+ET
+BT
+/F2 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 85 322 Tm
+(Windows Credential Manager Metadata) Tj
+ET
+BT
+/F1 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 308 326 Tm
+(Read\055only CredEnumerateW inventory of entries visible to the current user context\072 target names\054 types\054 usernames\054 persistence\054 ) Tj
+ET
+BT
+1 0 0 1 308 318 Tm
+(UTC\057local last\055written times\054 flags\054 and available comments\054 aliases and attribute metadata\056 Credential secrets are excluded\056) Tj
+ET
+0.94 0.96 0.98 rg
+34 299 774 17 re
+f
+BT
+/F2 8.1 Tf
+0.02 0.36 0.4 rg
+1 0 0 1 42 305 Tm
+(A82) Tj
+ET
+BT
+/F2 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 85 305 Tm
+(Device Installation History) Tj
+ET
+BT
+/F1 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 308 305 Tm
+(SetupAPI device\055installation log entries\054 device instance IDs\054 driver\055package and status information\056) Tj
+ET
+1 1 1 rg
+34 282 774 17 re
+f
+BT
+/F2 8.1 Tf
+0.02 0.36 0.4 rg
+1 0 0 1 42 288 Tm
+(A83) Tj
+ET
+BT
+/F2 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 85 288 Tm
+(Account Password Policy Metadata) Tj
+ET
+BT
+/F1 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 308 288 Tm
+(Available local password\055age\054 policy\054 lockout and account\055flag metadata\073 no plaintext passwords or hashes\056) Tj
+ET
+0.94 0.96 0.98 rg
+34 265 774 17 re
+f
+BT
+/F2 8.1 Tf
+0.02 0.36 0.4 rg
+1 0 0 1 42 271 Tm
+(A84) Tj
+ET
+BT
+/F2 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 85 271 Tm
+(BITS Transfer Jobs) Tj
+ET
+BT
+/F1 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 308 271 Tm
+(Current BITS job and file\055transfer metadata\072 job ID\054 owner\054 state\054 source\057destination and progress\057error fields\056) Tj
+ET
+1 1 1 rg
+34 248 774 17 re
+f
+BT
+/F2 8.1 Tf
+0.02 0.36 0.4 rg
+1 0 0 1 42 254 Tm
+(A85) Tj
+ET
+BT
+/F2 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 85 254 Tm
+(RDP Bitmap Cache) Tj
+ET
+BT
+/F1 8.1 Tf
+0.055 0.13 0.22 rg
+1 0 0 1 308 254 Tm
+(Existing RDP bitmap\055cache files\054 cache metadata and parser\055supported extracted screen tiles\056) Tj
+ET
+0.76 0.81 0.86 rg
+34 39.35 774 0.65 re
+f
+BT
+/F1 8 Tf
+0.24 0.33 0.42 rg
+1 0 0 1 34 22 Tm
+(Custos Forensic Suite \174 Complete Artifact Catalogue) Tj
+ET
+BT
+/F1 8 Tf
+0.24 0.33 0.42 rg
+1 0 0 1 778 22 Tm
+(Page 5) Tj
+ET
+
+endstream
 endobj
 15 0 obj
 <<
-/Length 5958
->>
-stream
-BT /F2 19 Tf 0.055 0.13 0.22 rg 1 0 0 1 34 553 Tm (Additional Artifacts | A70 to A93) Tj ET
-0.055 0.13 0.22 rg 34 520 774 20 re f
-BT /F2 9 Tf 1 1 1 rg 1 0 0 1 42 526 Tm (ID) Tj ET
-BT /F2 9 Tf 1 1 1 rg 1 0 0 1 85 526 Tm (Artifact) Tj ET
-BT /F2 9 Tf 1 1 1 rg 1 0 0 1 308 526 Tm (What is collected from the system) Tj ET
-0.94 0.96 0.98 rg 34 503 774 17 re f
-BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 509 Tm (A70) Tj ET
-BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 509 Tm (Windows Security Log) Tj ET
-BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 509 Tm (Security-channel event records such as supported logon, authentication and process-audit events.) Tj ET
-1 1 1 rg 34 486 774 17 re f
-BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 492 Tm (A71) Tj ET
-BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 492 Tm (Windows System Log) Tj ET
-BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 492 Tm (System-channel events including supported service, driver, boot and operating-system context.) Tj ET
-0.94 0.96 0.98 rg 34 469 774 17 re f
-BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 475 Tm (A72) Tj ET
-BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 475 Tm (Windows Application Log) Tj ET
-BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 475 Tm (Application-channel events with provider, event ID, payload and application context.) Tj ET
-1 1 1 rg 34 452 774 17 re f
-BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 458 Tm (A73) Tj ET
-BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 458 Tm (BAM and DAM Registry Activity) Tj ET
-BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 458 Tm (Supported BAM/DAM registry activity entries that reference executable paths and available execution times.) Tj ET
-0.94 0.96 0.98 rg 34 435 774 17 re f
-BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 441 Tm (A74) Tj ET
-BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 441 Tm (Bluetooth Device Metadata) Tj ET
-BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 441 Tm (Known Bluetooth device addresses, names, classes and paired/remembered-device metadata.) Tj ET
-1 1 1 rg 34 418 774 17 re f
-BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 424 Tm (A75) Tj ET
-BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 424 Tm (DLL and Module Inventory) Tj ET
-BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 424 Tm (Loaded modules for selected processes: base address, size, path and available PE/module metadata.) Tj ET
-0.94 0.96 0.98 rg 34 401 774 17 re f
-BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 407 Tm (A76) Tj ET
-BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 407 Tm (Handle Inventory) Tj ET
-BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 407 Tm (Live or memory-derived process handle records: object types, names, values and granted access where readable.) Tj ET
-1 1 1 rg 34 384 774 17 re f
-BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 390 Tm (A77) Tj ET
-BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 390 Tm (Mutex/Mutant Metadata) Tj ET
-BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 390 Tm (Supported mutex/mutant object names and related process/handle context from live or memory analysis.) Tj ET
-0.94 0.96 0.98 rg 34 367 774 17 re f
-BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 373 Tm (A78) Tj ET
-BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 373 Tm (Clipboard Content and Metadata) Tj ET
-BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 373 Tm (Explicitly authorized current clipboard formats, bounded content/metadata and observation-session context.) Tj ET
-1 1 1 rg 34 350 774 17 re f
-BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 356 Tm (A79) Tj ET
-BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 356 Tm (Screenshots) Tj ET
-BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 356 Tm (Explicitly authorized live screenshots with monitor, session, dimensions and capture-time metadata.) Tj ET
-0.94 0.96 0.98 rg 34 333 774 17 re f
-BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 339 Tm (A80) Tj ET
-BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 339 Tm (SMB Sessions and Open Network Files) Tj ET
-BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 339 Tm (Current SMB session and authorized open-file metadata: client, user, share, duration and file counts.) Tj ET
-1 1 1 rg 34 316 774 17 re f
-BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 322 Tm (A81) Tj ET
-BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 322 Tm (Command Prompt and PowerShell History) Tj ET
-BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 322 Tm (DOSKEY history from the invoking cmd.exe session and available PSReadLine history files for the signed-in user.) Tj ET
-0.94 0.96 0.98 rg 34 299 774 17 re f
-BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 305 Tm (A82) Tj ET
-BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 305 Tm (Device Installation History) Tj ET
-BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 305 Tm (SetupAPI device-installation log entries, device instance IDs, driver-package and status information.) Tj ET
-1 1 1 rg 34 282 774 17 re f
-BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 288 Tm (A83) Tj ET
-BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 288 Tm (Account Password Policy Metadata) Tj ET
-BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 288 Tm (Available local password-age, policy, lockout and account-flag metadata; no plaintext passwords or hashes.) Tj ET
-0.94 0.96 0.98 rg 34 265 774 17 re f
-BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 271 Tm (A84) Tj ET
-BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 271 Tm (BITS Transfer Jobs) Tj ET
-BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 271 Tm (Current BITS job and file-transfer metadata: job ID, owner, state, source/destination and progress/error fields.) Tj ET
-1 1 1 rg 34 248 774 17 re f
-BT /F2 8.1 Tf 0.02 0.36 0.40 rg 1 0 0 1 42 254 Tm (A85) Tj ET
-BT /F2 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 85 254 Tm (RDP Bitmap Cache) Tj ET
-BT /F1 8.1 Tf 0.055 0.13 0.22 rg 1 0 0 1 308 254 Tm (Existing RDP bitmap-cache files, cache metadata and parser-supported extracted screen tiles.) Tj ET
-0.76 0.81 0.86 rg 34 39.35 774 0.65 re f
-BT /F1 8 Tf 0.24 0.33 0.42 rg 1 0 0 1 34 22 Tm (Custos Forensic Suite | Complete Artifact Catalogue) Tj ET
-BT /F1 8 Tf 0.24 0.33 0.42 rg 1 0 0 1 778 22 Tm (Page 5) Tj ET
-endstream
-endobj
-16 0 obj
-<<
 /Type /Page
 /Resources <<
 /Font <<
@@ -552,10 +863,10 @@ endobj
 >>
 /MediaBox [ 0.0 0.0 842 595 ]
 /Parent 2 0 R
-/Contents 17 0 R
+/Contents 16 0 R
 >>
 endobj
-17 0 obj
+16 0 obj
 <<
 /Length 4110
 >>
@@ -607,43 +918,25 @@ BT /F1 8 Tf 0.24 0.33 0.42 rg 1 0 0 1 34 22 Tm (Custos Forensic Suite | Complete
 BT /F1 8 Tf 0.24 0.33 0.42 rg 1 0 0 1 778 22 Tm (Page 6) Tj ET
 endstream
 endobj
-xref
-0 18
-0000000000 65535 f 
-0000000015 00000 n 
-0000000118 00000 n 
-0000000211 00000 n 
-0000000260 00000 n 
-0000000357 00000 n 
-0000000459 00000 n 
-0000000601 00000 n 
-0000002829 00000 n 
-0000002971 00000 n 
-0000011792 00000 n 
-0000011936 00000 n 
-0000021092 00000 n 
-0000021236 00000 n 
-0000028152 00000 n 
-0000028296 00000 n 
-0000034307 00000 n 
-0000034451 00000 n 
-trailer
+17 0 obj
 <<
-/Size 18
-/Root 3 0 R
-/Info 1 0 R
+/AFRelationship /C2PA_Manifest
+/Desc (Content Credentials)
+/F (Content Credentials)
+/EF <<
+/F 18 0 R
 >>
-startxref
-38614
-%%EOF
-3 1 obj
-<<
-/Type /Catalog
-/Pages 2 0 R
- /AF [19 0 R] /Names << /EmbeddedFiles << /Names [(Content Credentials) 19 0 R] >> >> >>
+/Subtype (application\057c2pa)
+/Type /Filespec
+/UF (Content Credentials)
+>>
 endobj
 18 0 obj
-<< /Length 24288 /Type /EmbeddedFile /Subtype /application#2Fc2pa >>
+<<
+/Type /EmbeddedFile
+/Subtype /application#2Fc2pa
+/Length 24288
+>>
 stream
   ^‡jumb   jumdc2pa  Ä  ™ 8õqc2pa   ^∫jumb   Gjumdc2ma  Ä  ™ 8õqurn:c2pa:30acf892-2bc2-4d6a-9790-fa185eec7d07   ™jumb   )jumdc2as  Ä  ™ 8õqc2pa.assertions   	πjumb   #jumd@À2ªäHùß*÷ÙCic2pa.icon    bfdb image/svg+xml   	wbidb<svg width="716" height="716" viewBox="0 0 716 716" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M508.749 317.399C516.777 287.314 508.991 253.884 485.389 230.282C461.788 206.681 428.36 198.895 398.273 206.923C376.231 184.928 343.39 174.956 311.148 183.596C278.906 192.234 255.45 217.292 247.36 247.361C217.291 255.451 192.233 278.91 183.595 311.149C174.957 343.391 184.927 376.232 206.924 398.274C198.896 428.359 206.683 461.789 230.284 485.391C253.885 508.992 287.313 516.779 317.401 508.75C339.442 530.745 372.286 540.717 404.525 532.079C436.767 523.441 460.223 498.384 468.313 468.315C498.383 460.224 523.44 436.766 532.078 404.526C540.716 372.285 530.747 339.443 508.749 317.402V317.399ZM470.899 244.776C486.892 260.77 493.488 282.601 490.687 303.412L415.577 260.046C412.411 258.218 408.509 258.218 405.345 260.046L317.401 310.82V277.526C317.401 275.191 318.652 273.005 320.676 271.837L387.644 233.174C414.178 218.353 448.346 222.223 470.901 244.776H470.899ZM357.837 311.144L398.275 334.491V381.185L357.837 404.532L317.398 381.185V334.491L357.837 311.144ZM264.776 269.693C265.207 239.305 285.644 211.649 316.453 203.393C338.3 197.54 360.505 202.744 377.127 215.573L302.014 258.937C298.848 260.764 296.898 264.144 296.898 267.798V369.346L268.065 352.699C266.043 351.531 264.776 349.353 264.776 347.017V269.691V269.693ZM203.391 316.454C209.244 294.608 224.854 277.978 244.276 269.999V356.73C244.276 360.384 246.226 363.763 249.392 365.591L337.337 416.365L308.503 433.013C306.481 434.181 303.961 434.188 301.939 433.02L234.971 394.357C208.868 378.789 195.138 347.261 203.391 316.454ZM244.775 470.9C228.781 454.906 222.186 433.075 224.986 412.264L300.096 455.63C303.263 457.457 307.164 457.457 310.328 455.63L398.273 404.856V438.149C398.273 440.485 397.022 442.671 394.997 443.839L328.029 482.502C301.495 497.322 267.327 493.452 244.772 470.9H244.775ZM450.897 445.982C450.466 476.371 430.029 504.027 399.22 512.283C377.373 518.136 355.168 512.932 338.547 500.102L413.659 456.738C416.826 454.911 418.775 451.532 418.775 447.877V346.329L447.609 362.977C449.631 364.145 450.897 366.323 450.897 368.659V445.985V445.982ZM512.282 399.221C506.429 421.068 490.819 437.697 471.397 445.676V358.946C471.397 355.292 469.448 351.912 466.281 350.085L378.336 299.311L407.17 282.663C409.192 281.495 411.712 281.487 413.734 282.655L480.702 321.318C506.805 336.887 520.536 368.415 512.282 399.221Z" fill="black"/>
@@ -715,16 +1008,39 @@ Jg5+∞˛®÷	Uvl¿øz?0•…øÅ|îÚ†≠Qñ`#ä« ¨ˆ£‘—b]˜X`ß¯	e&¥R5Ï˜˚÷ßπ˜É Q©%∆BÖ∆”$4qD_
 endstream
 endobj
 19 0 obj
-<< /AFRelationship /C2PA_Manifest /Desc (Content Credentials) /F (Content Credentials) /EF << /F 18 0 R >> /Subtype (application/c2pa) /Type /Filespec /UF (Content Credentials) >>
+<<
+/Producer (pypdf)
+/Title (Custos Forensic Suite \174 Complete Artifact Catalogue)
+>>
 endobj
 xref
-3 1
-0000039053 00001 n 
-18 2
-0000039188 00000 n 
-0000063579 00000 n 
+0 20
+0000000000 65535 f 
+0000000015 00000 n 
+0000000153 00000 n 
+0000000245 00000 n 
+0000000387 00000 n 
+0000000484 00000 n 
+0000000586 00000 n 
+0000002814 00000 n 
+0000002956 00000 n 
+0000011777 00000 n 
+0000011920 00000 n 
+0000021076 00000 n 
+0000021220 00000 n 
+0000028136 00000 n 
+0000028280 00000 n 
+0000034705 00000 n 
+0000034849 00000 n 
+0000039012 00000 n 
+0000039211 00000 n 
+0000063602 00000 n 
 trailer
-<< /Size 20 /Root 3 1 R /Prev 38614 >>
+<<
+/Size 20
+/Root 1 0 R
+/Info 19 0 R
+>>
 startxref
-63775
+63706
 %%EOF
