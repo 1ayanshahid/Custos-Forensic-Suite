@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "artifact_name": "WMI Repository and Persistence Queries",
+  "collector": "collector.py",
+  "hash_algorithm": "SHA-256",
+  "verification_status": "verified",
+  "verification_method": "Two independent reads of saved output files; SHA-256 comparison and size, mtime, ctime, device and file identity stability checks. Not acquisition-time hashing.",
+  "collection_status": "completed",
+  "collection_exit_code": 0,
+  "output_directory": "E:\\Custos Forensic Suite\\Artifacts Collectors\\A24 - WMI Repository and Persistence Queries\\WMI Repository and Persistence Queries_Output",
+  "outputs": [
+    {
+      "path": "WMI Repository and Persistence Queries_Files/WMI-Activity_Operational.evtx",
+      "size_bytes": 1118208,
+      "sha256": "13c372dcb0a53f9e5ec360c8109c3d8916d98bb260587b0b824c60ea8b3d2b3a",
+      "verification_sha256": "13c372dcb0a53f9e5ec360c8109c3d8916d98bb260587b0b824c60ea8b3d2b3a",
+      "verification_status": "verified",
+      "error": null
+    },
+    {
+      "path": "WMI Repository and Persistence Queries_Persistence_20261123T071001Z_19d025ce.json",
+      "size_bytes": 96927,
+      "sha256": "5905b505cc180e31b7150fb08d8c4f4e8a4920402d72203e51852204c6017d27",
+      "verification_sha256": "5905b505cc180e31b7150fb08d8c4f4e8a4920402d72203e51852204c6017d27",
+      "verification_status": "verified",
+      "error": null
+    }
+  ],
+  "error": null,
+  "errors": [],
+  "generated_at_utc": "2026-11-23T07:10:10.605139+00:00"
+}
