@@ -1,0 +1,1373 @@
+{
+  "module": "A24_WMI_Repository_Persistence",
+  "version": "1.0.0",
+  "artifact": "A24 - WMI Repository and Persistence Queries",
+  "run_id": "20261123T071001Z_19d025ce",
+  "collected_utc": "2026-11-23T07:10:10.553+00:00",
+  "computer_name": "DESKTOP-59D11IC",
+  "collector_user": "masab",
+  "case_root": "C:\\Custos\\Case001",
+  "inventory": {
+    "ComputerName": "DESKTOP-59D11IC",
+    "CollectionTimeLocal": "2026-11-23T12:10:10.3556005+05:00",
+    "NamespaceCount": 95,
+    "EventFilterCount": 1,
+    "EventConsumerCount": 1,
+    "BindingCount": 1,
+    "Namespaces": [
+      {
+        "Namespace": "root",
+        "Depth": 0,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\subscription",
+        "Depth": 1,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\DEFAULT",
+        "Depth": 1,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\CIMV2",
+        "Depth": 1,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\msdtc",
+        "Depth": 1,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Cli",
+        "Depth": 1,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Intel_ME",
+        "Depth": 1,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\SECURITY",
+        "Depth": 1,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\SecurityCenter2",
+        "Depth": 1,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\RSOP",
+        "Depth": 1,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\PEH",
+        "Depth": 1,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\StandardCimv2",
+        "Depth": 1,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\WMI",
+        "Depth": 1,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\directory",
+        "Depth": 1,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Policy",
+        "Depth": 1,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Interop",
+        "Depth": 1,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Hardware",
+        "Depth": 1,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\ServiceModel",
+        "Depth": 1,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\SecurityCenter",
+        "Depth": 1,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft",
+        "Depth": 1,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Appv",
+        "Depth": 1,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\subscription\\ms_409",
+        "Depth": 2,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\DEFAULT\\ms_409",
+        "Depth": 2,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\CIMV2\\mdm",
+        "Depth": 2,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\CIMV2\\Security",
+        "Depth": 2,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\CIMV2\\vs",
+        "Depth": 2,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\CIMV2\\power",
+        "Depth": 2,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\CIMV2\\ms_409",
+        "Depth": 2,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\CIMV2\\TerminalServices",
+        "Depth": 2,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Cli\\MS_409",
+        "Depth": 2,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\RSOP\\User",
+        "Depth": 2,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\RSOP\\Computer",
+        "Depth": 2,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\StandardCimv2\\MS_409",
+        "Depth": 2,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\StandardCimv2\\embedded",
+        "Depth": 2,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\WMI\\ms_409",
+        "Depth": 2,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\directory\\LDAP",
+        "Depth": 2,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Policy\\ms_409",
+        "Depth": 2,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Interop\\ms_409",
+        "Depth": 2,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Hardware\\ms_409",
+        "Depth": 2,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\HomeNet",
+        "Depth": 2,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\ProtectionManagement",
+        "Depth": 2,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows",
+        "Depth": 2,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\SecurityClient",
+        "Depth": 2,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Uev",
+        "Depth": 2,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\CIMV2\\mdm\\dmmap",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\CIMV2\\mdm\\MS_409",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\CIMV2\\Security\\MicrosoftTpm",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\CIMV2\\Security\\MicrosoftVolumeEncryption",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\CIMV2\\power\\ms_409",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\CIMV2\\TerminalServices\\ms_409",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\RSOP\\User\\S_1_5_21_1571265256_2295760488_3479019236_1019",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\RSOP\\User\\ms_409",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\RSOP\\User\\S_1_5_21_1571265256_2295760488_3479019236_1000",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\RSOP\\Computer\\ms_409",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\StandardCimv2\\embedded\\MS_409",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\directory\\LDAP\\ms_409",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\RemoteAccess",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\Dns",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\Powershellv3",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\DeviceGuard",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\TaskScheduler",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\DesiredStateConfigurationProxy",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\SmbWitness",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\Wdac",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\winrm",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\AppBackgroundTask",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\PS_MMAgent",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\Storage",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\HardwareManagement",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\SMB",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\EventTracingManagement",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\DesiredStateConfiguration",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\CI",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\DeliveryOptimization",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\Defender",
+        "Depth": 3,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\RemoteAccess\\Client",
+        "Depth": 4,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\Dns\\MS_409",
+        "Depth": 4,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\Powershellv3\\MS_409",
+        "Depth": 4,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\DeviceGuard\\MS_409",
+        "Depth": 4,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\TaskScheduler\\MS_409",
+        "Depth": 4,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\DesiredStateConfigurationProxy\\MS_409",
+        "Depth": 4,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\Wdac\\MS_409",
+        "Depth": 4,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\AppBackgroundTask\\MS_409",
+        "Depth": 4,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\PS_MMAgent\\MS_409",
+        "Depth": 4,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\Storage\\PT",
+        "Depth": 4,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\Storage\\MS_409",
+        "Depth": 4,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\Storage\\Providers_v2",
+        "Depth": 4,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\HardwareManagement\\MS_409",
+        "Depth": 4,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\SMB\\MS_409",
+        "Depth": 4,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\EventTracingManagement\\MS_409",
+        "Depth": 4,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\DesiredStateConfiguration\\MS_409",
+        "Depth": 4,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\CI\\MS_409",
+        "Depth": 4,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\Defender\\MS_409",
+        "Depth": 4,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\RemoteAccess\\Client\\MS_409",
+        "Depth": 5,
+        "Status": "ENUMERATED"
+      },
+      {
+        "Namespace": "root\\Microsoft\\Windows\\Storage\\PT\\Alt",
+        "Depth": 5,
+        "Status": "ENUMERATED"
+      }
+    ],
+    "NamespaceErrors": [],
+    "EventFilters": [
+      {
+        "Namespace": "root\\subscription",
+        "ClassName": "__EventFilter",
+        "Properties": {
+          "CreatorSID": [
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            32,
+            0,
+            0,
+            0,
+            32,
+            2,
+            0,
+            0
+          ],
+          "EventAccess": null,
+          "EventNamespace": "root\\cimv2",
+          "Name": "SCM Event Log Filter",
+          "Query": "select * from MSFT_SCMEventLogEvent",
+          "QueryLanguage": "WQL"
+        }
+      }
+    ],
+    "EventConsumers": [
+      {
+        "Namespace": "root\\subscription",
+        "ClassName": "NTEventLogEventConsumer",
+        "Properties": {
+          "CreatorSID": [
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            32,
+            0,
+            0,
+            0,
+            32,
+            2,
+            0,
+            0
+          ],
+          "MachineName": null,
+          "MaximumQueueSize": null,
+          "Category": 0,
+          "EventID": 0,
+          "EventType": 1,
+          "InsertionStringTemplates": [
+            ""
+          ],
+          "Name": "SCM Event Log Consumer",
+          "NameOfRawDataProperty": null,
+          "NameOfUserSIDProperty": "sid",
+          "NumberOfInsertionStrings": 0,
+          "SourceName": "Service Control Manager",
+          "UNCServerName": null
+        }
+      }
+    ],
+    "FilterToConsumerBindings": [
+      {
+        "Namespace": "root\\subscription",
+        "ClassName": "__FilterToConsumerBinding",
+        "Properties": {
+          "Consumer": {
+            "CimClass": {
+              "CimSuperClassName": "__EventConsumer",
+              "CimSuperClass": {
+                "CimSuperClassName": "__IndicationRelated",
+                "CimSuperClass": {
+                  "CimSuperClassName": "__SystemClass",
+                  "CimSuperClass": {
+                    "CimSuperClassName": null,
+                    "CimSuperClass": null,
+                    "CimClassProperties": [],
+                    "CimClassQualifiers": [
+                      {
+                        "Name": "abstract",
+                        "Value": true,
+                        "CimType": 1,
+                        "Flags": "EnableOverride, Restricted"
+                      }
+                    ],
+                    "CimClassMethods": [],
+                    "CimSystemProperties": {
+                      "Namespace": "ROOT/subscription",
+                      "ServerName": "DESKTOP-59D11IC",
+                      "ClassName": "__SystemClass",
+                      "Path": null
+                    }
+                  },
+                  "CimClassProperties": [],
+                  "CimClassQualifiers": [
+                    {
+                      "Name": "abstract",
+                      "Value": true,
+                      "CimType": 1,
+                      "Flags": "EnableOverride, Restricted"
+                    }
+                  ],
+                  "CimClassMethods": [],
+                  "CimSystemProperties": {
+                    "Namespace": "ROOT/subscription",
+                    "ServerName": "DESKTOP-59D11IC",
+                    "ClassName": "__IndicationRelated",
+                    "Path": null
+                  }
+                },
+                "CimClassProperties": [
+                  {
+                    "Name": "CreatorSID",
+                    "Value": [
+                      1,
+                      1,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      5,
+                      18,
+                      0,
+                      0,
+                      0
+                    ],
+                    "CimType": 18,
+                    "Flags": "Property, ReadOnly",
+                    "Qualifiers": [
+                      {
+                        "Name": "read",
+                        "Value": true,
+                        "CimType": 1,
+                        "Flags": "DisableOverride, ToSubclass"
+                      }
+                    ],
+                    "ReferenceClassName": null
+                  },
+                  {
+                    "Name": "MachineName",
+                    "Value": null,
+                    "CimType": 14,
+                    "Flags": "Property, NullValue",
+                    "Qualifiers": [],
+                    "ReferenceClassName": null
+                  },
+                  {
+                    "Name": "MaximumQueueSize",
+                    "Value": null,
+                    "CimType": 6,
+                    "Flags": "Property, NullValue",
+                    "Qualifiers": [
+                      {
+                        "Name": "units",
+                        "Value": "bytes",
+                        "CimType": 14,
+                        "Flags": "DisableOverride, ToSubclass"
+                      }
+                    ],
+                    "ReferenceClassName": null
+                  }
+                ],
+                "CimClassQualifiers": [
+                  {
+                    "Name": "abstract",
+                    "Value": true,
+                    "CimType": 1,
+                    "Flags": "EnableOverride, Restricted"
+                  }
+                ],
+                "CimClassMethods": [],
+                "CimSystemProperties": {
+                  "Namespace": "ROOT/subscription",
+                  "ServerName": "DESKTOP-59D11IC",
+                  "ClassName": "__EventConsumer",
+                  "Path": null
+                }
+              },
+              "CimClassProperties": [
+                {
+                  "Name": "CreatorSID",
+                  "Value": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    5,
+                    18,
+                    0,
+                    0,
+                    0
+                  ],
+                  "CimType": 18,
+                  "Flags": "Property, ReadOnly",
+                  "Qualifiers": [
+                    {
+                      "Name": "read",
+                      "Value": true,
+                      "CimType": 1,
+                      "Flags": "DisableOverride, ToSubclass"
+                    }
+                  ],
+                  "ReferenceClassName": null
+                },
+                {
+                  "Name": "MachineName",
+                  "Value": null,
+                  "CimType": 14,
+                  "Flags": "Property, NullValue",
+                  "Qualifiers": [],
+                  "ReferenceClassName": null
+                },
+                {
+                  "Name": "MaximumQueueSize",
+                  "Value": null,
+                  "CimType": 6,
+                  "Flags": "Property, NullValue",
+                  "Qualifiers": [
+                    {
+                      "Name": "units",
+                      "Value": "bytes",
+                      "CimType": 14,
+                      "Flags": "DisableOverride, ToSubclass"
+                    }
+                  ],
+                  "ReferenceClassName": null
+                },
+                {
+                  "Name": "Category",
+                  "Value": null,
+                  "CimType": 4,
+                  "Flags": "Property, NullValue",
+                  "Qualifiers": [
+                    {
+                      "Name": "NOT_NULL",
+                      "Value": true,
+                      "CimType": 1,
+                      "Flags": "EnableOverride, Restricted"
+                    },
+                    {
+                      "Name": "write",
+                      "Value": true,
+                      "CimType": 1,
+                      "Flags": "EnableOverride, ToSubclass"
+                    }
+                  ],
+                  "ReferenceClassName": null
+                },
+                {
+                  "Name": "EventID",
+                  "Value": 0,
+                  "CimType": 6,
+                  "Flags": "Property",
+                  "Qualifiers": [
+                    {
+                      "Name": "NOT_NULL",
+                      "Value": true,
+                      "CimType": 1,
+                      "Flags": "EnableOverride, Restricted"
+                    },
+                    {
+                      "Name": "write",
+                      "Value": true,
+                      "CimType": 1,
+                      "Flags": "EnableOverride, ToSubclass"
+                    }
+                  ],
+                  "ReferenceClassName": null
+                },
+                {
+                  "Name": "EventType",
+                  "Value": 1,
+                  "CimType": 6,
+                  "Flags": "Property",
+                  "Qualifiers": [
+                    {
+                      "Name": "NOT_NULL",
+                      "Value": true,
+                      "CimType": 1,
+                      "Flags": "EnableOverride, Restricted"
+                    },
+                    {
+                      "Name": "ValueMap",
+                      "Value": [
+                        "0",
+                        "1",
+                        "2",
+                        "4",
+                        "8",
+                        "16"
+                      ],
+                      "CimType": 30,
+                      "Flags": "EnableOverride, ToSubclass"
+                    },
+                    {
+                      "Name": "Values",
+                      "Value": [
+                        "Success",
+                        "Error",
+                        "Warning",
+                        "Information",
+                        "Audit Success",
+                        "Audit Failure"
+                      ],
+                      "CimType": 30,
+                      "Flags": "EnableOverride, ToSubclass, Translatable"
+                    },
+                    {
+                      "Name": "write",
+                      "Value": true,
+                      "CimType": 1,
+                      "Flags": "EnableOverride, ToSubclass"
+                    }
+                  ],
+                  "ReferenceClassName": null
+                },
+                {
+                  "Name": "InsertionStringTemplates",
+                  "Value": [
+                    ""
+                  ],
+                  "CimType": 30,
+                  "Flags": "Property",
+                  "Qualifiers": [
+                    {
+                      "Name": "Template",
+                      "Value": true,
+                      "CimType": 1,
+                      "Flags": "EnableOverride, Restricted"
+                    },
+                    {
+                      "Name": "write",
+                      "Value": true,
+                      "CimType": 1,
+                      "Flags": "EnableOverride, ToSubclass"
+                    }
+                  ],
+                  "ReferenceClassName": null
+                },
+                {
+                  "Name": "Name",
+                  "Value": null,
+                  "CimType": 14,
+                  "Flags": "Property, Key, NullValue",
+                  "Qualifiers": [
+                    {
+                      "Name": "key",
+                      "Value": true,
+                      "CimType": 1,
+                      "Flags": "DisableOverride, ToSubclass"
+                    }
+                  ],
+                  "ReferenceClassName": null
+                },
+                {
+                  "Name": "NameOfRawDataProperty",
+                  "Value": null,
+                  "CimType": 14,
+                  "Flags": "Property, NullValue",
+                  "Qualifiers": [
+                    {
+                      "Name": "write",
+                      "Value": true,
+                      "CimType": 1,
+                      "Flags": "EnableOverride, ToSubclass"
+                    }
+                  ],
+                  "ReferenceClassName": null
+                },
+                {
+                  "Name": "NameOfUserSIDProperty",
+                  "Value": null,
+                  "CimType": 14,
+                  "Flags": "Property, NullValue",
+                  "Qualifiers": [
+                    {
+                      "Name": "write",
+                      "Value": true,
+                      "CimType": 1,
+                      "Flags": "EnableOverride, ToSubclass"
+                    }
+                  ],
+                  "ReferenceClassName": null
+                },
+                {
+                  "Name": "NumberOfInsertionStrings",
+                  "Value": 0,
+                  "CimType": 6,
+                  "Flags": "Property",
+                  "Qualifiers": [
+                    {
+                      "Name": "NOT_NULL",
+                      "Value": true,
+                      "CimType": 1,
+                      "Flags": "EnableOverride, Restricted"
+                    },
+                    {
+                      "Name": "write",
+                      "Value": true,
+                      "CimType": 1,
+                      "Flags": "EnableOverride, ToSubclass"
+                    }
+                  ],
+                  "ReferenceClassName": null
+                },
+                {
+                  "Name": "SourceName",
+                  "Value": null,
+                  "CimType": 14,
+                  "Flags": "Property, NullValue",
+                  "Qualifiers": [
+                    {
+                      "Name": "NOT_NULL",
+                      "Value": true,
+                      "CimType": 1,
+                      "Flags": "EnableOverride, Restricted"
+                    },
+                    {
+                      "Name": "write",
+                      "Value": true,
+                      "CimType": 1,
+                      "Flags": "EnableOverride, ToSubclass"
+                    }
+                  ],
+                  "ReferenceClassName": null
+                },
+                {
+                  "Name": "UNCServerName",
+                  "Value": null,
+                  "CimType": 14,
+                  "Flags": "Property, NullValue",
+                  "Qualifiers": [
+                    {
+                      "Name": "write",
+                      "Value": true,
+                      "CimType": 1,
+                      "Flags": "EnableOverride, ToSubclass"
+                    }
+                  ],
+                  "ReferenceClassName": null
+                }
+              ],
+              "CimClassQualifiers": [],
+              "CimClassMethods": [],
+              "CimSystemProperties": {
+                "Namespace": "ROOT/subscription",
+                "ServerName": "DESKTOP-59D11IC",
+                "ClassName": "NTEventLogEventConsumer",
+                "Path": null
+              }
+            },
+            "CimInstanceProperties": [
+              {
+                "Name": "CreatorSID",
+                "Value": null,
+                "CimType": 18,
+                "Flags": "Property, ReadOnly, NotModified, NullValue",
+                "IsValueModified": false
+              },
+              {
+                "Name": "MachineName",
+                "Value": null,
+                "CimType": 14,
+                "Flags": "Property, NotModified, NullValue",
+                "IsValueModified": false
+              },
+              {
+                "Name": "MaximumQueueSize",
+                "Value": null,
+                "CimType": 6,
+                "Flags": "Property, NotModified, NullValue",
+                "IsValueModified": false
+              },
+              {
+                "Name": "Category",
+                "Value": null,
+                "CimType": 4,
+                "Flags": "Property, NotModified, NullValue",
+                "IsValueModified": false
+              },
+              {
+                "Name": "EventID",
+                "Value": null,
+                "CimType": 6,
+                "Flags": "Property, NotModified, NullValue",
+                "IsValueModified": false
+              },
+              {
+                "Name": "EventType",
+                "Value": null,
+                "CimType": 6,
+                "Flags": "Property, NotModified, NullValue",
+                "IsValueModified": false
+              },
+              {
+                "Name": "InsertionStringTemplates",
+                "Value": null,
+                "CimType": 30,
+                "Flags": "Property, NotModified, NullValue",
+                "IsValueModified": false
+              },
+              {
+                "Name": "Name",
+                "Value": "SCM Event Log Consumer",
+                "CimType": 14,
+                "Flags": "Property, Key, NotModified",
+                "IsValueModified": false
+              },
+              {
+                "Name": "NameOfRawDataProperty",
+                "Value": null,
+                "CimType": 14,
+                "Flags": "Property, NotModified, NullValue",
+                "IsValueModified": false
+              },
+              {
+                "Name": "NameOfUserSIDProperty",
+                "Value": null,
+                "CimType": 14,
+                "Flags": "Property, NotModified, NullValue",
+                "IsValueModified": false
+              },
+              {
+                "Name": "NumberOfInsertionStrings",
+                "Value": null,
+                "CimType": 6,
+                "Flags": "Property, NotModified, NullValue",
+                "IsValueModified": false
+              },
+              {
+                "Name": "SourceName",
+                "Value": null,
+                "CimType": 14,
+                "Flags": "Property, NotModified, NullValue",
+                "IsValueModified": false
+              },
+              {
+                "Name": "UNCServerName",
+                "Value": null,
+                "CimType": 14,
+                "Flags": "Property, NotModified, NullValue",
+                "IsValueModified": false
+              }
+            ],
+            "CimSystemProperties": {
+              "Namespace": "ROOT/subscription",
+              "ServerName": "DESKTOP-59D11IC",
+              "ClassName": "NTEventLogEventConsumer",
+              "Path": null
+            }
+          },
+          "CreatorSID": [
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            32,
+            0,
+            0,
+            0,
+            32,
+            2,
+            0,
+            0
+          ],
+          "DeliverSynchronously": false,
+          "DeliveryQoS": null,
+          "Filter": {
+            "CimClass": {
+              "CimSuperClassName": "__IndicationRelated",
+              "CimSuperClass": {
+                "CimSuperClassName": "__SystemClass",
+                "CimSuperClass": {
+                  "CimSuperClassName": null,
+                  "CimSuperClass": null,
+                  "CimClassProperties": [],
+                  "CimClassQualifiers": [
+                    {
+                      "Name": "abstract",
+                      "Value": true,
+                      "CimType": 1,
+                      "Flags": "EnableOverride, Restricted"
+                    }
+                  ],
+                  "CimClassMethods": [],
+                  "CimSystemProperties": {
+                    "Namespace": "ROOT/subscription",
+                    "ServerName": "DESKTOP-59D11IC",
+                    "ClassName": "__SystemClass",
+                    "Path": null
+                  }
+                },
+                "CimClassProperties": [],
+                "CimClassQualifiers": [
+                  {
+                    "Name": "abstract",
+                    "Value": true,
+                    "CimType": 1,
+                    "Flags": "EnableOverride, Restricted"
+                  }
+                ],
+                "CimClassMethods": [],
+                "CimSystemProperties": {
+                  "Namespace": "ROOT/subscription",
+                  "ServerName": "DESKTOP-59D11IC",
+                  "ClassName": "__IndicationRelated",
+                  "Path": null
+                }
+              },
+              "CimClassProperties": [
+                {
+                  "Name": "CreatorSID",
+                  "Value": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    5,
+                    18,
+                    0,
+                    0,
+                    0
+                  ],
+                  "CimType": 18,
+                  "Flags": "Property, ReadOnly",
+                  "Qualifiers": [
+                    {
+                      "Name": "read",
+                      "Value": true,
+                      "CimType": 1,
+                      "Flags": "DisableOverride, ToSubclass"
+                    }
+                  ],
+                  "ReferenceClassName": null
+                },
+                {
+                  "Name": "EventAccess",
+                  "Value": null,
+                  "CimType": 14,
+                  "Flags": "Property, NullValue",
+                  "Qualifiers": [],
+                  "ReferenceClassName": null
+                },
+                {
+                  "Name": "EventNamespace",
+                  "Value": null,
+                  "CimType": 14,
+                  "Flags": "Property, NullValue",
+                  "Qualifiers": [],
+                  "ReferenceClassName": null
+                },
+                {
+                  "Name": "Name",
+                  "Value": null,
+                  "CimType": 14,
+                  "Flags": "Property, Key, NullValue",
+                  "Qualifiers": [
+                    {
+                      "Name": "key",
+                      "Value": true,
+                      "CimType": 1,
+                      "Flags": "DisableOverride, ToSubclass"
+                    }
+                  ],
+                  "ReferenceClassName": null
+                },
+                {
+                  "Name": "Query",
+                  "Value": null,
+                  "CimType": 14,
+                  "Flags": "Property, NullValue",
+                  "Qualifiers": [],
+                  "ReferenceClassName": null
+                },
+                {
+                  "Name": "QueryLanguage",
+                  "Value": null,
+                  "CimType": 14,
+                  "Flags": "Property, NullValue",
+                  "Qualifiers": [],
+                  "ReferenceClassName": null
+                }
+              ],
+              "CimClassQualifiers": [],
+              "CimClassMethods": [],
+              "CimSystemProperties": {
+                "Namespace": "ROOT/subscription",
+                "ServerName": "DESKTOP-59D11IC",
+                "ClassName": "__EventFilter",
+                "Path": null
+              }
+            },
+            "CimInstanceProperties": [
+              {
+                "Name": "CreatorSID",
+                "Value": null,
+                "CimType": 18,
+                "Flags": "Property, ReadOnly, NotModified, NullValue",
+                "IsValueModified": false
+              },
+              {
+                "Name": "EventAccess",
+                "Value": null,
+                "CimType": 14,
+                "Flags": "Property, NotModified, NullValue",
+                "IsValueModified": false
+              },
+              {
+                "Name": "EventNamespace",
+                "Value": null,
+                "CimType": 14,
+                "Flags": "Property, NotModified, NullValue",
+                "IsValueModified": false
+              },
+              {
+                "Name": "Name",
+                "Value": "SCM Event Log Filter",
+                "CimType": 14,
+                "Flags": "Property, Key, NotModified",
+                "IsValueModified": false
+              },
+              {
+                "Name": "Query",
+                "Value": null,
+                "CimType": 14,
+                "Flags": "Property, NotModified, NullValue",
+                "IsValueModified": false
+              },
+              {
+                "Name": "QueryLanguage",
+                "Value": null,
+                "CimType": 14,
+                "Flags": "Property, NotModified, NullValue",
+                "IsValueModified": false
+              }
+            ],
+            "CimSystemProperties": {
+              "Namespace": "ROOT/subscription",
+              "ServerName": "DESKTOP-59D11IC",
+              "ClassName": "__EventFilter",
+              "Path": null
+            }
+          },
+          "MaintainSecurityContext": false,
+          "SlowDownProviders": false
+        }
+      }
+    ],
+    "RepositoryMetadata": {
+      "Path": "C:\\Windows\\System32\\wbem\\Repository",
+      "Exists": true,
+      "Attributes": "Directory, NotContentIndexed",
+      "CreationTimeUtc": "2022-05-07T05:24:51.0139928Z",
+      "LastWriteTimeUtc": "2026-11-23T05:00:27.1738298Z",
+      "Files": [
+        {
+          "Name": "INDEX.BTR",
+          "FullName": "C:\\Windows\\System32\\wbem\\Repository\\INDEX.BTR",
+          "Length": 7192576,
+          "CreationTimeUtc": "2022-05-07T05:28:10.0892662Z",
+          "LastWriteTimeUtc": "2026-11-23T05:12:27.1729142Z",
+          "Attributes": "Archive, NotContentIndexed"
+        },
+        {
+          "Name": "MAPPING1.MAP",
+          "FullName": "C:\\Windows\\System32\\wbem\\Repository\\MAPPING1.MAP",
+          "Length": 84172,
+          "CreationTimeUtc": "2022-05-07T05:28:10.0892662Z",
+          "LastWriteTimeUtc": "2026-11-23T05:12:27.1729142Z",
+          "Attributes": "Archive, NotContentIndexed"
+        },
+        {
+          "Name": "MAPPING2.MAP",
+          "FullName": "C:\\Windows\\System32\\wbem\\Repository\\MAPPING2.MAP",
+          "Length": 84172,
+          "CreationTimeUtc": "2022-05-07T05:28:10.0892662Z",
+          "LastWriteTimeUtc": "2026-11-23T05:00:35.2248509Z",
+          "Attributes": "Archive, NotContentIndexed"
+        },
+        {
+          "Name": "MAPPING3.MAP",
+          "FullName": "C:\\Windows\\System32\\wbem\\Repository\\MAPPING3.MAP",
+          "Length": 84172,
+          "CreationTimeUtc": "2022-05-07T05:28:10.0892662Z",
+          "LastWriteTimeUtc": "2026-11-23T05:05:27.1628387Z",
+          "Attributes": "Archive, NotContentIndexed"
+        },
+        {
+          "Name": "OBJECTS.DATA",
+          "FullName": "C:\\Windows\\System32\\wbem\\Repository\\OBJECTS.DATA",
+          "Length": 26763264,
+          "CreationTimeUtc": "2022-05-07T05:28:10.0892662Z",
+          "LastWriteTimeUtc": "2026-11-23T05:12:27.1729142Z",
+          "Attributes": "Archive, NotContentIndexed"
+        }
+      ]
+    }
+  },
+  "wmi_activity_log": {
+    "channel": "Microsoft-Windows-WMI-Activity/Operational",
+    "status": "EXPORTED",
+    "path": "E:\\Custos Forensic Suite\\Artifacts Collectors\\A24 - WMI Repository and Persistence Queries\\WMI Repository and Persistence Queries_Output\\WMI Repository and Persistence Queries_Files\\WMI-Activity_Operational.evtx",
+    "size": 1118208,
+    "sha256": "13c372dcb0a53f9e5ec360c8109c3d8916d98bb260587b0b824c60ea8b3d2b3a"
+  },
+  "commands": {
+    "wmi_inventory": {
+      "argv": [
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "-NoLogo",
+        "-NoProfile",
+        "-NonInteractive",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-Command",
+        "\n$ErrorActionPreference = 'Continue'\n\n$namespaceRecords = @()\n$namespaceErrors = @()\n$filterRecords = @()\n$consumerRecords = @()\n$bindingRecords = @()\n$repositoryRecord = $null\n\n# Walk namespaces from root, with a depth limit and a visited set.\n$queue = @(\n    [pscustomobject]@{ Name = 'root'; Depth = 0 }\n)\n$visited = @{}\n\nwhile ($queue.Count -gt 0) {\n    $current = $queue[0]\n    if ($queue.Count -gt 1) {\n        $queue = @($queue[1..($queue.Count - 1)])\n    } else {\n        $queue = @()\n    }\n\n    $ns = [string]$current.Name\n    if ($visited.ContainsKey($ns.ToLowerInvariant())) {\n        continue\n    }\n    $visited[$ns.ToLowerInvariant()] = $true\n\n    $namespaceRecords += [pscustomobject]@{\n        Namespace = $ns\n        Depth = $current.Depth\n        Status = 'ENUMERATED'\n    }\n\n    if ($current.Depth -ge 8) {\n        continue\n    }\n\n    try {\n        $children = @(\n            Get-CimInstance -Namespace $ns -ClassName __Namespace `\n                -ErrorAction Stop\n        )\n\n        foreach ($child in $children) {\n            $childName = [string]$child.Name\n            if ([string]::IsNullOrWhiteSpace($childName)) {\n                continue\n            }\n\n            $nextName = if ($ns -eq 'root') {\n                \"root\\$childName\"\n            } else {\n                \"$ns\\$childName\"\n            }\n\n            $queue += [pscustomobject]@{\n                Name = $nextName\n                Depth = $current.Depth + 1\n            }\n        }\n    }\n    catch {\n        $namespaceErrors += [pscustomobject]@{\n            Namespace = $ns\n            Operation = 'EnumerateChildNamespaces'\n            Error = $_.Exception.Message\n        }\n    }\n}\n\n# Query the standard WMI permanent-event subscription namespace.\n$subscriptionNamespace = 'root\\subscription'\n\n$classes = @(\n    @{\n        Name = '__EventFilter'\n        Target = 'Filter'\n    },\n    @{\n        Name = '__FilterToConsumerBinding'\n        Target = 'Binding'\n    },\n    @{\n        Name = 'ActiveScriptEventConsumer'\n        Target = 'Consumer'\n    },\n    @{\n        Name = 'CommandLineEventConsumer'\n        Target = 'Consumer'\n    },\n    @{\n        Name = 'LogFileEventConsumer'\n        Target = 'Consumer'\n    },\n    @{\n        Name = 'NTEventLogEventConsumer'\n        Target = 'Consumer'\n    },\n    @{\n        Name = 'SMTPEventConsumer'\n        Target = 'Consumer'\n    }\n)\n\nforeach ($entry in $classes) {\n    try {\n        $instances = @(\n            Get-CimInstance -Namespace $subscriptionNamespace `\n                -ClassName $entry.Name -ErrorAction Stop\n        )\n\n        foreach ($instance in $instances) {\n            # ConvertTo-Json-compatible property bag.\n            $properties = [ordered]@{}\n            foreach ($property in $instance.CimInstanceProperties) {\n                try {\n                    $properties[$property.Name] = $property.Value\n                }\n                catch {\n                    $properties[$property.Name] = $null\n                }\n            }\n\n            $record = [pscustomobject]@{\n                Namespace = $subscriptionNamespace\n                ClassName = $entry.Name\n                Properties = [pscustomobject]$properties\n            }\n\n            switch ($entry.Target) {\n                'Filter' {\n                    $filterRecords += $record\n                }\n                'Binding' {\n                    $bindingRecords += $record\n                }\n                'Consumer' {\n                    $consumerRecords += $record\n                }\n            }\n        }\n    }\n    catch {\n        $namespaceErrors += [pscustomobject]@{\n            Namespace = $subscriptionNamespace\n            Operation = \"QueryClass:$($entry.Name)\"\n            Error = $_.Exception.Message\n        }\n    }\n}\n\n# Record repository metadata only. Do not copy or repair live repository files.\n$repositoryPath = Join-Path $env:windir 'System32\\wbem\\Repository'\n\ntry {\n    $dir = Get-Item -LiteralPath $repositoryPath -ErrorAction Stop\n\n    $repoFiles = @()\n    try {\n        foreach ($file in @(\n            Get-ChildItem -LiteralPath $repositoryPath -File `\n                -ErrorAction Stop\n        )) {\n            $repoFiles += [pscustomobject]@{\n                Name = $file.Name\n                FullName = $file.FullName\n                Length = $file.Length\n                CreationTimeUtc = $file.CreationTimeUtc.ToString('o')\n                LastWriteTimeUtc = $file.LastWriteTimeUtc.ToString('o')\n                Attributes = [string]$file.Attributes\n            }\n        }\n    }\n    catch {\n        $namespaceErrors += [pscustomobject]@{\n            Namespace = $repositoryPath\n            Operation = 'ListRepositoryFiles'\n            Error = $_.Exception.Message\n        }\n    }\n\n    $repositoryRecord = [pscustomobject]@{\n        Path = $dir.FullName\n        Exists = $true\n        Attributes = [string]$dir.Attributes\n        CreationTimeUtc = $dir.CreationTimeUtc.ToString('o')\n        LastWriteTimeUtc = $dir.LastWriteTimeUtc.ToString('o')\n        Files = @($repoFiles)\n    }\n}\ncatch {\n    $repositoryRecord = [pscustomobject]@{\n        Path = $repositoryPath\n        Exists = $false\n        Error = $_.Exception.Message\n        Files = @()\n    }\n}\n\n$result = [pscustomobject]@{\n    ComputerName = $env:COMPUTERNAME\n    CollectionTimeLocal = (Get-Date).ToString('o')\n    NamespaceCount = $namespaceRecords.Count\n    EventFilterCount = $filterRecords.Count\n    EventConsumerCount = $consumerRecords.Count\n    BindingCount = $bindingRecords.Count\n    Namespaces = @($namespaceRecords)\n    NamespaceErrors = @($namespaceErrors)\n    EventFilters = @($filterRecords)\n    EventConsumers = @($consumerRecords)\n    FilterToConsumerBindings = @($bindingRecords)\n    RepositoryMetadata = $repositoryRecord\n}\n\n$result | ConvertTo-Json -Depth 15 -Compress\n"
+      ],
+      "started_utc": "2026-11-23T07:10:01.855+00:00",
+      "ended_utc": "2026-11-23T07:10:10.496+00:00",
+      "exit_code": 0,
+      "stdout": "{\"ComputerName\":\"DESKTOP-59D11IC\",\"CollectionTimeLocal\":\"2026-11-23T12:10:10.3556005+05:00\",\"NamespaceCount\":95,\"EventFilterCount\":1,\"EventConsumerCount\":1,\"BindingCount\":1,\"Namespaces\":[{\"Namespace\":\"root\",\"Depth\":0,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\subscription\",\"Depth\":1,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\DEFAULT\",\"Depth\":1,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\CIMV2\",\"Depth\":1,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\msdtc\",\"Depth\":1,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Cli\",\"Depth\":1,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Intel_ME\",\"Depth\":1,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\SECURITY\",\"Depth\":1,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\SecurityCenter2\",\"Depth\":1,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\RSOP\",\"Depth\":1,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\PEH\",\"Depth\":1,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\StandardCimv2\",\"Depth\":1,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\WMI\",\"Depth\":1,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\directory\",\"Depth\":1,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Policy\",\"Depth\":1,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Interop\",\"Depth\":1,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Hardware\",\"Depth\":1,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\ServiceModel\",\"Depth\":1,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\SecurityCenter\",\"Depth\":1,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\",\"Depth\":1,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Appv\",\"Depth\":1,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\subscription\\\\ms_409\",\"Depth\":2,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\DEFAULT\\\\ms_409\",\"Depth\":2,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\CIMV2\\\\mdm\",\"Depth\":2,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\CIMV2\\\\Security\",\"Depth\":2,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\CIMV2\\\\vs\",\"Depth\":2,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\CIMV2\\\\power\",\"Depth\":2,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\CIMV2\\\\ms_409\",\"Depth\":2,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\CIMV2\\\\TerminalServices\",\"Depth\":2,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Cli\\\\MS_409\",\"Depth\":2,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\RSOP\\\\User\",\"Depth\":2,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\RSOP\\\\Computer\",\"Depth\":2,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\StandardCimv2\\\\MS_409\",\"Depth\":2,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\StandardCimv2\\\\embedded\",\"Depth\":2,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\WMI\\\\ms_409\",\"Depth\":2,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\directory\\\\LDAP\",\"Depth\":2,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Policy\\\\ms_409\",\"Depth\":2,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Interop\\\\ms_409\",\"Depth\":2,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Hardware\\\\ms_409\",\"Depth\":2,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\HomeNet\",\"Depth\":2,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\ProtectionManagement\",\"Depth\":2,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\",\"Depth\":2,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\SecurityClient\",\"Depth\":2,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Uev\",\"Depth\":2,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\CIMV2\\\\mdm\\\\dmmap\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\CIMV2\\\\mdm\\\\MS_409\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\CIMV2\\\\Security\\\\MicrosoftTpm\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\CIMV2\\\\Security\\\\MicrosoftVolumeEncryption\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\CIMV2\\\\power\\\\ms_409\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\CIMV2\\\\TerminalServices\\\\ms_409\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\RSOP\\\\User\\\\S_1_5_21_1571265256_2295760488_3479019236_1019\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\RSOP\\\\User\\\\ms_409\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\RSOP\\\\User\\\\S_1_5_21_1571265256_2295760488_3479019236_1000\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\RSOP\\\\Computer\\\\ms_409\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\StandardCimv2\\\\embedded\\\\MS_409\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\directory\\\\LDAP\\\\ms_409\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\RemoteAccess\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\Dns\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\Powershellv3\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\DeviceGuard\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\TaskScheduler\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\DesiredStateConfigurationProxy\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\SmbWitness\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\Wdac\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\winrm\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\AppBackgroundTask\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\PS_MMAgent\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\Storage\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\HardwareManagement\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\SMB\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\EventTracingManagement\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\DesiredStateConfiguration\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\CI\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\DeliveryOptimization\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\Defender\",\"Depth\":3,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\RemoteAccess\\\\Client\",\"Depth\":4,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\Dns\\\\MS_409\",\"Depth\":4,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\Powershellv3\\\\MS_409\",\"Depth\":4,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\DeviceGuard\\\\MS_409\",\"Depth\":4,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\TaskScheduler\\\\MS_409\",\"Depth\":4,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\DesiredStateConfigurationProxy\\\\MS_409\",\"Depth\":4,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\Wdac\\\\MS_409\",\"Depth\":4,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\AppBackgroundTask\\\\MS_409\",\"Depth\":4,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\PS_MMAgent\\\\MS_409\",\"Depth\":4,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\Storage\\\\PT\",\"Depth\":4,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\Storage\\\\MS_409\",\"Depth\":4,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\Storage\\\\Providers_v2\",\"Depth\":4,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\HardwareManagement\\\\MS_409\",\"Depth\":4,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\SMB\\\\MS_409\",\"Depth\":4,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\EventTracingManagement\\\\MS_409\",\"Depth\":4,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\DesiredStateConfiguration\\\\MS_409\",\"Depth\":4,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\CI\\\\MS_409\",\"Depth\":4,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\Defender\\\\MS_409\",\"Depth\":4,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\RemoteAccess\\\\Client\\\\MS_409\",\"Depth\":5,\"Status\":\"ENUMERATED\"},{\"Namespace\":\"root\\\\Microsoft\\\\Windows\\\\Storage\\\\PT\\\\Alt\",\"Depth\":5,\"Status\":\"ENUMERATED\"}],\"NamespaceErrors\":[],\"EventFilters\":[{\"Namespace\":\"root\\\\subscription\",\"ClassName\":\"__EventFilter\",\"Properties\":{\"CreatorSID\":[1,2,0,0,0,0,0,5,32,0,0,0,32,2,0,0],\"EventAccess\":null,\"EventNamespace\":\"root\\\\cimv2\",\"Name\":\"SCM Event Log Filter\",\"Query\":\"select * from MSFT_SCMEventLogEvent\",\"QueryLanguage\":\"WQL\"}}],\"EventConsumers\":[{\"Namespace\":\"root\\\\subscription\",\"ClassName\":\"NTEventLogEventConsumer\",\"Properties\":{\"CreatorSID\":[1,2,0,0,0,0,0,5,32,0,0,0,32,2,0,0],\"MachineName\":null,\"MaximumQueueSize\":null,\"Category\":0,\"EventID\":0,\"EventType\":1,\"InsertionStringTemplates\":[\"\"],\"Name\":\"SCM Event Log Consumer\",\"NameOfRawDataProperty\":null,\"NameOfUserSIDProperty\":\"sid\",\"NumberOfInsertionStrings\":0,\"SourceName\":\"Service Control Manager\",\"UNCServerName\":null}}],\"FilterToConsumerBindings\":[{\"Namespace\":\"root\\\\subscription\",\"ClassName\":\"__FilterToConsumerBinding\",\"Properties\":{\"Consumer\":{\"CimClass\":{\"CimSuperClassName\":\"__EventConsumer\",\"CimSuperClass\":{\"CimSuperClassName\":\"__IndicationRelated\",\"CimSuperClass\":{\"CimSuperClassName\":\"__SystemClass\",\"CimSuperClass\":{\"CimSuperClassName\":null,\"CimSuperClass\":null,\"CimClassProperties\":[],\"CimClassQualifiers\":[{\"Name\":\"abstract\",\"Value\":true,\"CimType\":1,\"Flags\":\"EnableOverride, Restricted\"}],\"CimClassMethods\":[],\"CimSystemProperties\":{\"Namespace\":\"ROOT/subscription\",\"ServerName\":\"DESKTOP-59D11IC\",\"ClassName\":\"__SystemClass\",\"Path\":null}},\"CimClassProperties\":[],\"CimClassQualifiers\":[{\"Name\":\"abstract\",\"Value\":true,\"CimType\":1,\"Flags\":\"EnableOverride, Restricted\"}],\"CimClassMethods\":[],\"CimSystemProperties\":{\"Namespace\":\"ROOT/subscription\",\"ServerName\":\"DESKTOP-59D11IC\",\"ClassName\":\"__IndicationRelated\",\"Path\":null}},\"CimClassProperties\":[{\"Name\":\"CreatorSID\",\"Value\":[1,1,0,0,0,0,0,5,18,0,0,0],\"CimType\":18,\"Flags\":\"Property, ReadOnly\",\"Qualifiers\":[{\"Name\":\"read\",\"Value\":true,\"CimType\":1,\"Flags\":\"DisableOverride, ToSubclass\"}],\"ReferenceClassName\":null},{\"Name\":\"MachineName\",\"Value\":null,\"CimType\":14,\"Flags\":\"Property, NullValue\",\"Qualifiers\":[],\"ReferenceClassName\":null},{\"Name\":\"MaximumQueueSize\",\"Value\":null,\"CimType\":6,\"Flags\":\"Property, NullValue\",\"Qualifiers\":[{\"Name\":\"units\",\"Value\":\"bytes\",\"CimType\":14,\"Flags\":\"DisableOverride, ToSubclass\"}],\"ReferenceClassName\":null}],\"CimClassQualifiers\":[{\"Name\":\"abstract\",\"Value\":true,\"CimType\":1,\"Flags\":\"EnableOverride, Restricted\"}],\"CimClassMethods\":[],\"CimSystemProperties\":{\"Namespace\":\"ROOT/subscription\",\"ServerName\":\"DESKTOP-59D11IC\",\"ClassName\":\"__EventConsumer\",\"Path\":null}},\"CimClassProperties\":[{\"Name\":\"CreatorSID\",\"Value\":[1,1,0,0,0,0,0,5,18,0,0,0],\"CimType\":18,\"Flags\":\"Property, ReadOnly\",\"Qualifiers\":[{\"Name\":\"read\",\"Value\":true,\"CimType\":1,\"Flags\":\"DisableOverride, ToSubclass\"}],\"ReferenceClassName\":null},{\"Name\":\"MachineName\",\"Value\":null,\"CimType\":14,\"Flags\":\"Property, NullValue\",\"Qualifiers\":[],\"ReferenceClassName\":null},{\"Name\":\"MaximumQueueSize\",\"Value\":null,\"CimType\":6,\"Flags\":\"Property, NullValue\",\"Qualifiers\":[{\"Name\":\"units\",\"Value\":\"bytes\",\"CimType\":14,\"Flags\":\"DisableOverride, ToSubclass\"}],\"ReferenceClassName\":null},{\"Name\":\"Category\",\"Value\":null,\"CimType\":4,\"Flags\":\"Property, NullValue\",\"Qualifiers\":[{\"Name\":\"NOT_NULL\",\"Value\":true,\"CimType\":1,\"Flags\":\"EnableOverride, Restricted\"},{\"Name\":\"write\",\"Value\":true,\"CimType\":1,\"Flags\":\"EnableOverride, ToSubclass\"}],\"ReferenceClassName\":null},{\"Name\":\"EventID\",\"Value\":0,\"CimType\":6,\"Flags\":\"Property\",\"Qualifiers\":[{\"Name\":\"NOT_NULL\",\"Value\":true,\"CimType\":1,\"Flags\":\"EnableOverride, Restricted\"},{\"Name\":\"write\",\"Value\":true,\"CimType\":1,\"Flags\":\"EnableOverride, ToSubclass\"}],\"ReferenceClassName\":null},{\"Name\":\"EventType\",\"Value\":1,\"CimType\":6,\"Flags\":\"Property\",\"Qualifiers\":[{\"Name\":\"NOT_NULL\",\"Value\":true,\"CimType\":1,\"Flags\":\"EnableOverride, Restricted\"},{\"Name\":\"ValueMap\",\"Value\":[\"0\",\"1\",\"2\",\"4\",\"8\",\"16\"],\"CimType\":30,\"Flags\":\"EnableOverride, ToSubclass\"},{\"Name\":\"Values\",\"Value\":[\"Success\",\"Error\",\"Warning\",\"Information\",\"Audit Success\",\"Audit Failure\"],\"CimType\":30,\"Flags\":\"EnableOverride, ToSubclass, Translatable\"},{\"Name\":\"write\",\"Value\":true,\"CimType\":1,\"Flags\":\"EnableOverride, ToSubclass\"}],\"ReferenceClassName\":null},{\"Name\":\"InsertionStringTemplates\",\"Value\":[\"\"],\"CimType\":30,\"Flags\":\"Property\",\"Qualifiers\":[{\"Name\":\"Template\",\"Value\":true,\"CimType\":1,\"Flags\":\"EnableOverride, Restricted\"},{\"Name\":\"write\",\"Value\":true,\"CimType\":1,\"Flags\":\"EnableOverride, ToSubclass\"}],\"ReferenceClassName\":null},{\"Name\":\"Name\",\"Value\":null,\"CimType\":14,\"Flags\":\"Property, Key, NullValue\",\"Qualifiers\":[{\"Name\":\"key\",\"Value\":true,\"CimType\":1,\"Flags\":\"DisableOverride, ToSubclass\"}],\"ReferenceClassName\":null},{\"Name\":\"NameOfRawDataProperty\",\"Value\":null,\"CimType\":14,\"Flags\":\"Property, NullValue\",\"Qualifiers\":[{\"Name\":\"write\",\"Value\":true,\"CimType\":1,\"Flags\":\"EnableOverride, ToSubclass\"}],\"ReferenceClassName\":null},{\"Name\":\"NameOfUserSIDProperty\",\"Value\":null,\"CimType\":14,\"Flags\":\"Property, NullValue\",\"Qualifiers\":[{\"Name\":\"write\",\"Value\":true,\"CimType\":1,\"Flags\":\"EnableOverride, ToSubclass\"}],\"ReferenceClassName\":null},{\"Name\":\"NumberOfInsertionStrings\",\"Value\":0,\"CimType\":6,\"Flags\":\"Property\",\"Qualifiers\":[{\"Name\":\"NOT_NULL\",\"Value\":true,\"CimType\":1,\"Flags\":\"EnableOverride, Restricted\"},{\"Name\":\"write\",\"Value\":true,\"CimType\":1,\"Flags\":\"EnableOverride, ToSubclass\"}],\"ReferenceClassName\":null},{\"Name\":\"SourceName\",\"Value\":null,\"CimType\":14,\"Flags\":\"Property, NullValue\",\"Qualifiers\":[{\"Name\":\"NOT_NULL\",\"Value\":true,\"CimType\":1,\"Flags\":\"EnableOverride, Restricted\"},{\"Name\":\"write\",\"Value\":true,\"CimType\":1,\"Flags\":\"EnableOverride, ToSubclass\"}],\"ReferenceClassName\":null},{\"Name\":\"UNCServerName\",\"Value\":null,\"CimType\":14,\"Flags\":\"Property, NullValue\",\"Qualifiers\":[{\"Name\":\"write\",\"Value\":true,\"CimType\":1,\"Flags\":\"EnableOverride, ToSubclass\"}],\"ReferenceClassName\":null}],\"CimClassQualifiers\":[],\"CimClassMethods\":[],\"CimSystemProperties\":{\"Namespace\":\"ROOT/subscription\",\"ServerName\":\"DESKTOP-59D11IC\",\"ClassName\":\"NTEventLogEventConsumer\",\"Path\":null}},\"CimInstanceProperties\":[{\"Name\":\"CreatorSID\",\"Value\":null,\"CimType\":18,\"Flags\":\"Property, ReadOnly, NotModified, NullValue\",\"IsValueModified\":false},{\"Name\":\"MachineName\",\"Value\":null,\"CimType\":14,\"Flags\":\"Property, NotModified, NullValue\",\"IsValueModified\":false},{\"Name\":\"MaximumQueueSize\",\"Value\":null,\"CimType\":6,\"Flags\":\"Property, NotModified, NullValue\",\"IsValueModified\":false},{\"Name\":\"Category\",\"Value\":null,\"CimType\":4,\"Flags\":\"Property, NotModified, NullValue\",\"IsValueModified\":false},{\"Name\":\"EventID\",\"Value\":null,\"CimType\":6,\"Flags\":\"Property, NotModified, NullValue\",\"IsValueModified\":false},{\"Name\":\"EventType\",\"Value\":null,\"CimType\":6,\"Flags\":\"Property, NotModified, NullValue\",\"IsValueModified\":false},{\"Name\":\"InsertionStringTemplates\",\"Value\":null,\"CimType\":30,\"Flags\":\"Property, NotModified, NullValue\",\"IsValueModified\":false},{\"Name\":\"Name\",\"Value\":\"SCM Event Log Consumer\",\"CimType\":14,\"Flags\":\"Property, Key, NotModified\",\"IsValueModified\":false},{\"Name\":\"NameOfRawDataProperty\",\"Value\":null,\"CimType\":14,\"Flags\":\"Property, NotModified, NullValue\",\"IsValueModified\":false},{\"Name\":\"NameOfUserSIDProperty\",\"Value\":null,\"CimType\":14,\"Flags\":\"Property, NotModified, NullValue\",\"IsValueModified\":false},{\"Name\":\"NumberOfInsertionStrings\",\"Value\":null,\"CimType\":6,\"Flags\":\"Property, NotModified, NullValue\",\"IsValueModified\":false},{\"Name\":\"SourceName\",\"Value\":null,\"CimType\":14,\"Flags\":\"Property, NotModified, NullValue\",\"IsValueModified\":false},{\"Name\":\"UNCServerName\",\"Value\":null,\"CimType\":14,\"Flags\":\"Property, NotModified, NullValue\",\"IsValueModified\":false}],\"CimSystemProperties\":{\"Namespace\":\"ROOT/subscription\",\"ServerName\":\"DESKTOP-59D11IC\",\"ClassName\":\"NTEventLogEventConsumer\",\"Path\":null}},\"CreatorSID\":[1,2,0,0,0,0,0,5,32,0,0,0,32,2,0,0],\"DeliverSynchronously\":false,\"DeliveryQoS\":null,\"Filter\":{\"CimClass\":{\"CimSuperClassName\":\"__IndicationRelated\",\"CimSuperClass\":{\"CimSuperClassName\":\"__SystemClass\",\"CimSuperClass\":{\"CimSuperClassName\":null,\"CimSuperClass\":null,\"CimClassProperties\":[],\"CimClassQualifiers\":[{\"Name\":\"abstract\",\"Value\":true,\"CimType\":1,\"Flags\":\"EnableOverride, Restricted\"}],\"CimClassMethods\":[],\"CimSystemProperties\":{\"Namespace\":\"ROOT/subscription\",\"ServerName\":\"DESKTOP-59D11IC\",\"ClassName\":\"__SystemClass\",\"Path\":null}},\"CimClassProperties\":[],\"CimClassQualifiers\":[{\"Name\":\"abstract\",\"Value\":true,\"CimType\":1,\"Flags\":\"EnableOverride, Restricted\"}],\"CimClassMethods\":[],\"CimSystemProperties\":{\"Namespace\":\"ROOT/subscription\",\"ServerName\":\"DESKTOP-59D11IC\",\"ClassName\":\"__IndicationRelated\",\"Path\":null}},\"CimClassProperties\":[{\"Name\":\"CreatorSID\",\"Value\":[1,1,0,0,0,0,0,5,18,0,0,0],\"CimType\":18,\"Flags\":\"Property, ReadOnly\",\"Qualifiers\":[{\"Name\":\"read\",\"Value\":true,\"CimType\":1,\"Flags\":\"DisableOverride, ToSubclass\"}],\"ReferenceClassName\":null},{\"Name\":\"EventAccess\",\"Value\":null,\"CimType\":14,\"Flags\":\"Property, NullValue\",\"Qualifiers\":[],\"ReferenceClassName\":null},{\"Name\":\"EventNamespace\",\"Value\":null,\"CimType\":14,\"Flags\":\"Property, NullValue\",\"Qualifiers\":[],\"ReferenceClassName\":null},{\"Name\":\"Name\",\"Value\":null,\"CimType\":14,\"Flags\":\"Property, Key, NullValue\",\"Qualifiers\":[{\"Name\":\"key\",\"Value\":true,\"CimType\":1,\"Flags\":\"DisableOverride, ToSubclass\"}],\"ReferenceClassName\":null},{\"Name\":\"Query\",\"Value\":null,\"CimType\":14,\"Flags\":\"Property, NullValue\",\"Qualifiers\":[],\"ReferenceClassName\":null},{\"Name\":\"QueryLanguage\",\"Value\":null,\"CimType\":14,\"Flags\":\"Property, NullValue\",\"Qualifiers\":[],\"ReferenceClassName\":null}],\"CimClassQualifiers\":[],\"CimClassMethods\":[],\"CimSystemProperties\":{\"Namespace\":\"ROOT/subscription\",\"ServerName\":\"DESKTOP-59D11IC\",\"ClassName\":\"__EventFilter\",\"Path\":null}},\"CimInstanceProperties\":[{\"Name\":\"CreatorSID\",\"Value\":null,\"CimType\":18,\"Flags\":\"Property, ReadOnly, NotModified, NullValue\",\"IsValueModified\":false},{\"Name\":\"EventAccess\",\"Value\":null,\"CimType\":14,\"Flags\":\"Property, NotModified, NullValue\",\"IsValueModified\":false},{\"Name\":\"EventNamespace\",\"Value\":null,\"CimType\":14,\"Flags\":\"Property, NotModified, NullValue\",\"IsValueModified\":false},{\"Name\":\"Name\",\"Value\":\"SCM Event Log Filter\",\"CimType\":14,\"Flags\":\"Property, Key, NotModified\",\"IsValueModified\":false},{\"Name\":\"Query\",\"Value\":null,\"CimType\":14,\"Flags\":\"Property, NotModified, NullValue\",\"IsValueModified\":false},{\"Name\":\"QueryLanguage\",\"Value\":null,\"CimType\":14,\"Flags\":\"Property, NotModified, NullValue\",\"IsValueModified\":false}],\"CimSystemProperties\":{\"Namespace\":\"ROOT/subscription\",\"ServerName\":\"DESKTOP-59D11IC\",\"ClassName\":\"__EventFilter\",\"Path\":null}},\"MaintainSecurityContext\":false,\"SlowDownProviders\":false}}],\"RepositoryMetadata\":{\"Path\":\"C:\\\\Windows\\\\System32\\\\wbem\\\\Repository\",\"Exists\":true,\"Attributes\":\"Directory, NotContentIndexed\",\"CreationTimeUtc\":\"2022-05-07T05:24:51.0139928Z\",\"LastWriteTimeUtc\":\"2026-11-23T05:00:27.1738298Z\",\"Files\":[{\"Name\":\"INDEX.BTR\",\"FullName\":\"C:\\\\Windows\\\\System32\\\\wbem\\\\Repository\\\\INDEX.BTR\",\"Length\":7192576,\"CreationTimeUtc\":\"2022-05-07T05:28:10.0892662Z\",\"LastWriteTimeUtc\":\"2026-11-23T05:12:27.1729142Z\",\"Attributes\":\"Archive, NotContentIndexed\"},{\"Name\":\"MAPPING1.MAP\",\"FullName\":\"C:\\\\Windows\\\\System32\\\\wbem\\\\Repository\\\\MAPPING1.MAP\",\"Length\":84172,\"CreationTimeUtc\":\"2022-05-07T05:28:10.0892662Z\",\"LastWriteTimeUtc\":\"2026-11-23T05:12:27.1729142Z\",\"Attributes\":\"Archive, NotContentIndexed\"},{\"Name\":\"MAPPING2.MAP\",\"FullName\":\"C:\\\\Windows\\\\System32\\\\wbem\\\\Repository\\\\MAPPING2.MAP\",\"Length\":84172,\"CreationTimeUtc\":\"2022-05-07T05:28:10.0892662Z\",\"LastWriteTimeUtc\":\"2026-11-23T05:00:35.2248509Z\",\"Attributes\":\"Archive, NotContentIndexed\"},{\"Name\":\"MAPPING3.MAP\",\"FullName\":\"C:\\\\Windows\\\\System32\\\\wbem\\\\Repository\\\\MAPPING3.MAP\",\"Length\":84172,\"CreationTimeUtc\":\"2022-05-07T05:28:10.0892662Z\",\"LastWriteTimeUtc\":\"2026-11-23T05:05:27.1628387Z\",\"Attributes\":\"Archive, NotContentIndexed\"},{\"Name\":\"OBJECTS.DATA\",\"FullName\":\"C:\\\\Windows\\\\System32\\\\wbem\\\\Repository\\\\OBJECTS.DATA\",\"Length\":26763264,\"CreationTimeUtc\":\"2022-05-07T05:28:10.0892662Z\",\"LastWriteTimeUtc\":\"2026-11-23T05:12:27.1729142Z\",\"Attributes\":\"Archive, NotContentIndexed\"}]}}\r\n",
+      "stderr": "",
+      "stdout_base64": "eyJDb21wdXRlck5hbWUiOiJERVNLVE9QLTU5RDExSUMiLCJDb2xsZWN0aW9uVGltZUxvY2FsIjoiMjAyNi0xMS0yM1QxMjoxMDoxMC4zNTU2MDA1KzA1OjAwIiwiTmFtZXNwYWNlQ291bnQiOjk1LCJFdmVudEZpbHRlckNvdW50IjoxLCJFdmVudENvbnN1bWVyQ291bnQiOjEsIkJpbmRpbmdDb3VudCI6MSwiTmFtZXNwYWNlcyI6W3siTmFtZXNwYWNlIjoicm9vdCIsIkRlcHRoIjowLCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxzdWJzY3JpcHRpb24iLCJEZXB0aCI6MSwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcREVGQVVMVCIsIkRlcHRoIjoxLCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxDSU1WMiIsIkRlcHRoIjoxLCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxtc2R0YyIsIkRlcHRoIjoxLCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxDbGkiLCJEZXB0aCI6MSwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcSW50ZWxfTUUiLCJEZXB0aCI6MSwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcU0VDVVJJVFkiLCJEZXB0aCI6MSwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcU2VjdXJpdHlDZW50ZXIyIiwiRGVwdGgiOjEsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXFJTT1AiLCJEZXB0aCI6MSwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcUEVIIiwiRGVwdGgiOjEsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXFN0YW5kYXJkQ2ltdjIiLCJEZXB0aCI6MSwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcV01JIiwiRGVwdGgiOjEsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXGRpcmVjdG9yeSIsIkRlcHRoIjoxLCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxQb2xpY3kiLCJEZXB0aCI6MSwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcSW50ZXJvcCIsIkRlcHRoIjoxLCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxIYXJkd2FyZSIsIkRlcHRoIjoxLCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxTZXJ2aWNlTW9kZWwiLCJEZXB0aCI6MSwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcU2VjdXJpdHlDZW50ZXIiLCJEZXB0aCI6MSwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcTWljcm9zb2Z0IiwiRGVwdGgiOjEsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXEFwcHYiLCJEZXB0aCI6MSwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcc3Vic2NyaXB0aW9uXFxtc180MDkiLCJEZXB0aCI6MiwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcREVGQVVMVFxcbXNfNDA5IiwiRGVwdGgiOjIsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXENJTVYyXFxtZG0iLCJEZXB0aCI6MiwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcQ0lNVjJcXFNlY3VyaXR5IiwiRGVwdGgiOjIsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXENJTVYyXFx2cyIsIkRlcHRoIjoyLCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxDSU1WMlxccG93ZXIiLCJEZXB0aCI6MiwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcQ0lNVjJcXG1zXzQwOSIsIkRlcHRoIjoyLCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxDSU1WMlxcVGVybWluYWxTZXJ2aWNlcyIsIkRlcHRoIjoyLCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxDbGlcXE1TXzQwOSIsIkRlcHRoIjoyLCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxSU09QXFxVc2VyIiwiRGVwdGgiOjIsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXFJTT1BcXENvbXB1dGVyIiwiRGVwdGgiOjIsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXFN0YW5kYXJkQ2ltdjJcXE1TXzQwOSIsIkRlcHRoIjoyLCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxTdGFuZGFyZENpbXYyXFxlbWJlZGRlZCIsIkRlcHRoIjoyLCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxXTUlcXG1zXzQwOSIsIkRlcHRoIjoyLCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxkaXJlY3RvcnlcXExEQVAiLCJEZXB0aCI6MiwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcUG9saWN5XFxtc180MDkiLCJEZXB0aCI6MiwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcSW50ZXJvcFxcbXNfNDA5IiwiRGVwdGgiOjIsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXEhhcmR3YXJlXFxtc180MDkiLCJEZXB0aCI6MiwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcTWljcm9zb2Z0XFxIb21lTmV0IiwiRGVwdGgiOjIsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXE1pY3Jvc29mdFxcUHJvdGVjdGlvbk1hbmFnZW1lbnQiLCJEZXB0aCI6MiwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcTWljcm9zb2Z0XFxXaW5kb3dzIiwiRGVwdGgiOjIsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXE1pY3Jvc29mdFxcU2VjdXJpdHlDbGllbnQiLCJEZXB0aCI6MiwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcTWljcm9zb2Z0XFxVZXYiLCJEZXB0aCI6MiwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcQ0lNVjJcXG1kbVxcZG1tYXAiLCJEZXB0aCI6MywiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcQ0lNVjJcXG1kbVxcTVNfNDA5IiwiRGVwdGgiOjMsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXENJTVYyXFxTZWN1cml0eVxcTWljcm9zb2Z0VHBtIiwiRGVwdGgiOjMsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXENJTVYyXFxTZWN1cml0eVxcTWljcm9zb2Z0Vm9sdW1lRW5jcnlwdGlvbiIsIkRlcHRoIjozLCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxDSU1WMlxccG93ZXJcXG1zXzQwOSIsIkRlcHRoIjozLCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxDSU1WMlxcVGVybWluYWxTZXJ2aWNlc1xcbXNfNDA5IiwiRGVwdGgiOjMsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXFJTT1BcXFVzZXJcXFNfMV81XzIxXzE1NzEyNjUyNTZfMjI5NTc2MDQ4OF8zNDc5MDE5MjM2XzEwMTkiLCJEZXB0aCI6MywiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcUlNPUFxcVXNlclxcbXNfNDA5IiwiRGVwdGgiOjMsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXFJTT1BcXFVzZXJcXFNfMV81XzIxXzE1NzEyNjUyNTZfMjI5NTc2MDQ4OF8zNDc5MDE5MjM2XzEwMDAiLCJEZXB0aCI6MywiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcUlNPUFxcQ29tcHV0ZXJcXG1zXzQwOSIsIkRlcHRoIjozLCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxTdGFuZGFyZENpbXYyXFxlbWJlZGRlZFxcTVNfNDA5IiwiRGVwdGgiOjMsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXGRpcmVjdG9yeVxcTERBUFxcbXNfNDA5IiwiRGVwdGgiOjMsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXE1pY3Jvc29mdFxcV2luZG93c1xcUmVtb3RlQWNjZXNzIiwiRGVwdGgiOjMsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXE1pY3Jvc29mdFxcV2luZG93c1xcRG5zIiwiRGVwdGgiOjMsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXE1pY3Jvc29mdFxcV2luZG93c1xcUG93ZXJzaGVsbHYzIiwiRGVwdGgiOjMsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXE1pY3Jvc29mdFxcV2luZG93c1xcRGV2aWNlR3VhcmQiLCJEZXB0aCI6MywiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcTWljcm9zb2Z0XFxXaW5kb3dzXFxUYXNrU2NoZWR1bGVyIiwiRGVwdGgiOjMsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXE1pY3Jvc29mdFxcV2luZG93c1xcRGVzaXJlZFN0YXRlQ29uZmlndXJhdGlvblByb3h5IiwiRGVwdGgiOjMsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXE1pY3Jvc29mdFxcV2luZG93c1xcU21iV2l0bmVzcyIsIkRlcHRoIjozLCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxNaWNyb3NvZnRcXFdpbmRvd3NcXFdkYWMiLCJEZXB0aCI6MywiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcTWljcm9zb2Z0XFxXaW5kb3dzXFx3aW5ybSIsIkRlcHRoIjozLCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxNaWNyb3NvZnRcXFdpbmRvd3NcXEFwcEJhY2tncm91bmRUYXNrIiwiRGVwdGgiOjMsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXE1pY3Jvc29mdFxcV2luZG93c1xcUFNfTU1BZ2VudCIsIkRlcHRoIjozLCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxNaWNyb3NvZnRcXFdpbmRvd3NcXFN0b3JhZ2UiLCJEZXB0aCI6MywiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcTWljcm9zb2Z0XFxXaW5kb3dzXFxIYXJkd2FyZU1hbmFnZW1lbnQiLCJEZXB0aCI6MywiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcTWljcm9zb2Z0XFxXaW5kb3dzXFxTTUIiLCJEZXB0aCI6MywiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcTWljcm9zb2Z0XFxXaW5kb3dzXFxFdmVudFRyYWNpbmdNYW5hZ2VtZW50IiwiRGVwdGgiOjMsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXE1pY3Jvc29mdFxcV2luZG93c1xcRGVzaXJlZFN0YXRlQ29uZmlndXJhdGlvbiIsIkRlcHRoIjozLCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxNaWNyb3NvZnRcXFdpbmRvd3NcXENJIiwiRGVwdGgiOjMsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXE1pY3Jvc29mdFxcV2luZG93c1xcRGVsaXZlcnlPcHRpbWl6YXRpb24iLCJEZXB0aCI6MywiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcTWljcm9zb2Z0XFxXaW5kb3dzXFxEZWZlbmRlciIsIkRlcHRoIjozLCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxNaWNyb3NvZnRcXFdpbmRvd3NcXFJlbW90ZUFjY2Vzc1xcQ2xpZW50IiwiRGVwdGgiOjQsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXE1pY3Jvc29mdFxcV2luZG93c1xcRG5zXFxNU180MDkiLCJEZXB0aCI6NCwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcTWljcm9zb2Z0XFxXaW5kb3dzXFxQb3dlcnNoZWxsdjNcXE1TXzQwOSIsIkRlcHRoIjo0LCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxNaWNyb3NvZnRcXFdpbmRvd3NcXERldmljZUd1YXJkXFxNU180MDkiLCJEZXB0aCI6NCwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcTWljcm9zb2Z0XFxXaW5kb3dzXFxUYXNrU2NoZWR1bGVyXFxNU180MDkiLCJEZXB0aCI6NCwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcTWljcm9zb2Z0XFxXaW5kb3dzXFxEZXNpcmVkU3RhdGVDb25maWd1cmF0aW9uUHJveHlcXE1TXzQwOSIsIkRlcHRoIjo0LCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxNaWNyb3NvZnRcXFdpbmRvd3NcXFdkYWNcXE1TXzQwOSIsIkRlcHRoIjo0LCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxNaWNyb3NvZnRcXFdpbmRvd3NcXEFwcEJhY2tncm91bmRUYXNrXFxNU180MDkiLCJEZXB0aCI6NCwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcTWljcm9zb2Z0XFxXaW5kb3dzXFxQU19NTUFnZW50XFxNU180MDkiLCJEZXB0aCI6NCwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcTWljcm9zb2Z0XFxXaW5kb3dzXFxTdG9yYWdlXFxQVCIsIkRlcHRoIjo0LCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxNaWNyb3NvZnRcXFdpbmRvd3NcXFN0b3JhZ2VcXE1TXzQwOSIsIkRlcHRoIjo0LCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxNaWNyb3NvZnRcXFdpbmRvd3NcXFN0b3JhZ2VcXFByb3ZpZGVyc192MiIsIkRlcHRoIjo0LCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxNaWNyb3NvZnRcXFdpbmRvd3NcXEhhcmR3YXJlTWFuYWdlbWVudFxcTVNfNDA5IiwiRGVwdGgiOjQsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXE1pY3Jvc29mdFxcV2luZG93c1xcU01CXFxNU180MDkiLCJEZXB0aCI6NCwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcTWljcm9zb2Z0XFxXaW5kb3dzXFxFdmVudFRyYWNpbmdNYW5hZ2VtZW50XFxNU180MDkiLCJEZXB0aCI6NCwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcTWljcm9zb2Z0XFxXaW5kb3dzXFxEZXNpcmVkU3RhdGVDb25maWd1cmF0aW9uXFxNU180MDkiLCJEZXB0aCI6NCwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcTWljcm9zb2Z0XFxXaW5kb3dzXFxDSVxcTVNfNDA5IiwiRGVwdGgiOjQsIlN0YXR1cyI6IkVOVU1FUkFURUQifSx7Ik5hbWVzcGFjZSI6InJvb3RcXE1pY3Jvc29mdFxcV2luZG93c1xcRGVmZW5kZXJcXE1TXzQwOSIsIkRlcHRoIjo0LCJTdGF0dXMiOiJFTlVNRVJBVEVEIn0seyJOYW1lc3BhY2UiOiJyb290XFxNaWNyb3NvZnRcXFdpbmRvd3NcXFJlbW90ZUFjY2Vzc1xcQ2xpZW50XFxNU180MDkiLCJEZXB0aCI6NSwiU3RhdHVzIjoiRU5VTUVSQVRFRCJ9LHsiTmFtZXNwYWNlIjoicm9vdFxcTWljcm9zb2Z0XFxXaW5kb3dzXFxTdG9yYWdlXFxQVFxcQWx0IiwiRGVwdGgiOjUsIlN0YXR1cyI6IkVOVU1FUkFURUQifV0sIk5hbWVzcGFjZUVycm9ycyI6W10sIkV2ZW50RmlsdGVycyI6W3siTmFtZXNwYWNlIjoicm9vdFxcc3Vic2NyaXB0aW9uIiwiQ2xhc3NOYW1lIjoiX19FdmVudEZpbHRlciIsIlByb3BlcnRpZXMiOnsiQ3JlYXRvclNJRCI6WzEsMiwwLDAsMCwwLDAsNSwzMiwwLDAsMCwzMiwyLDAsMF0sIkV2ZW50QWNjZXNzIjpudWxsLCJFdmVudE5hbWVzcGFjZSI6InJvb3RcXGNpbXYyIiwiTmFtZSI6IlNDTSBFdmVudCBMb2cgRmlsdGVyIiwiUXVlcnkiOiJzZWxlY3QgKiBmcm9tIE1TRlRfU0NNRXZlbnRMb2dFdmVudCIsIlF1ZXJ5TGFuZ3VhZ2UiOiJXUUwifX1dLCJFdmVudENvbnN1bWVycyI6W3siTmFtZXNwYWNlIjoicm9vdFxcc3Vic2NyaXB0aW9uIiwiQ2xhc3NOYW1lIjoiTlRFdmVudExvZ0V2ZW50Q29uc3VtZXIiLCJQcm9wZXJ0aWVzIjp7IkNyZWF0b3JTSUQiOlsxLDIsMCwwLDAsMCwwLDUsMzIsMCwwLDAsMzIsMiwwLDBdLCJNYWNoaW5lTmFtZSI6bnVsbCwiTWF4aW11bVF1ZXVlU2l6ZSI6bnVsbCwiQ2F0ZWdvcnkiOjAsIkV2ZW50SUQiOjAsIkV2ZW50VHlwZSI6MSwiSW5zZXJ0aW9uU3RyaW5nVGVtcGxhdGVzIjpbIiJdLCJOYW1lIjoiU0NNIEV2ZW50IExvZyBDb25zdW1lciIsIk5hbWVPZlJhd0RhdGFQcm9wZXJ0eSI6bnVsbCwiTmFtZU9mVXNlclNJRFByb3BlcnR5Ijoic2lkIiwiTnVtYmVyT2ZJbnNlcnRpb25TdHJpbmdzIjowLCJTb3VyY2VOYW1lIjoiU2VydmljZSBDb250cm9sIE1hbmFnZXIiLCJVTkNTZXJ2ZXJOYW1lIjpudWxsfX1dLCJGaWx0ZXJUb0NvbnN1bWVyQmluZGluZ3MiOlt7Ik5hbWVzcGFjZSI6InJvb3RcXHN1YnNjcmlwdGlvbiIsIkNsYXNzTmFtZSI6Il9fRmlsdGVyVG9Db25zdW1lckJpbmRpbmciLCJQcm9wZXJ0aWVzIjp7IkNvbnN1bWVyIjp7IkNpbUNsYXNzIjp7IkNpbVN1cGVyQ2xhc3NOYW1lIjoiX19FdmVudENvbnN1bWVyIiwiQ2ltU3VwZXJDbGFzcyI6eyJDaW1TdXBlckNsYXNzTmFtZSI6Il9fSW5kaWNhdGlvblJlbGF0ZWQiLCJDaW1TdXBlckNsYXNzIjp7IkNpbVN1cGVyQ2xhc3NOYW1lIjoiX19TeXN0ZW1DbGFzcyIsIkNpbVN1cGVyQ2xhc3MiOnsiQ2ltU3VwZXJDbGFzc05hbWUiOm51bGwsIkNpbVN1cGVyQ2xhc3MiOm51bGwsIkNpbUNsYXNzUHJvcGVydGllcyI6W10sIkNpbUNsYXNzUXVhbGlmaWVycyI6W3siTmFtZSI6ImFic3RyYWN0IiwiVmFsdWUiOnRydWUsIkNpbVR5cGUiOjEsIkZsYWdzIjoiRW5hYmxlT3ZlcnJpZGUsIFJlc3RyaWN0ZWQifV0sIkNpbUNsYXNzTWV0aG9kcyI6W10sIkNpbVN5c3RlbVByb3BlcnRpZXMiOnsiTmFtZXNwYWNlIjoiUk9PVC9zdWJzY3JpcHRpb24iLCJTZXJ2ZXJOYW1lIjoiREVTS1RPUC01OUQxMUlDIiwiQ2xhc3NOYW1lIjoiX19TeXN0ZW1DbGFzcyIsIlBhdGgiOm51bGx9fSwiQ2ltQ2xhc3NQcm9wZXJ0aWVzIjpbXSwiQ2ltQ2xhc3NRdWFsaWZpZXJzIjpbeyJOYW1lIjoiYWJzdHJhY3QiLCJWYWx1ZSI6dHJ1ZSwiQ2ltVHlwZSI6MSwiRmxhZ3MiOiJFbmFibGVPdmVycmlkZSwgUmVzdHJpY3RlZCJ9XSwiQ2ltQ2xhc3NNZXRob2RzIjpbXSwiQ2ltU3lzdGVtUHJvcGVydGllcyI6eyJOYW1lc3BhY2UiOiJST09UL3N1YnNjcmlwdGlvbiIsIlNlcnZlck5hbWUiOiJERVNLVE9QLTU5RDExSUMiLCJDbGFzc05hbWUiOiJfX0luZGljYXRpb25SZWxhdGVkIiwiUGF0aCI6bnVsbH19LCJDaW1DbGFzc1Byb3BlcnRpZXMiOlt7Ik5hbWUiOiJDcmVhdG9yU0lEIiwiVmFsdWUiOlsxLDEsMCwwLDAsMCwwLDUsMTgsMCwwLDBdLCJDaW1UeXBlIjoxOCwiRmxhZ3MiOiJQcm9wZXJ0eSwgUmVhZE9ubHkiLCJRdWFsaWZpZXJzIjpbeyJOYW1lIjoicmVhZCIsIlZhbHVlIjp0cnVlLCJDaW1UeXBlIjoxLCJGbGFncyI6IkRpc2FibGVPdmVycmlkZSwgVG9TdWJjbGFzcyJ9XSwiUmVmZXJlbmNlQ2xhc3NOYW1lIjpudWxsfSx7Ik5hbWUiOiJNYWNoaW5lTmFtZSIsIlZhbHVlIjpudWxsLCJDaW1UeXBlIjoxNCwiRmxhZ3MiOiJQcm9wZXJ0eSwgTnVsbFZhbHVlIiwiUXVhbGlmaWVycyI6W10sIlJlZmVyZW5jZUNsYXNzTmFtZSI6bnVsbH0seyJOYW1lIjoiTWF4aW11bVF1ZXVlU2l6ZSIsIlZhbHVlIjpudWxsLCJDaW1UeXBlIjo2LCJGbGFncyI6IlByb3BlcnR5LCBOdWxsVmFsdWUiLCJRdWFsaWZpZXJzIjpbeyJOYW1lIjoidW5pdHMiLCJWYWx1ZSI6ImJ5dGVzIiwiQ2ltVHlwZSI6MTQsIkZsYWdzIjoiRGlzYWJsZU92ZXJyaWRlLCBUb1N1YmNsYXNzIn1dLCJSZWZlcmVuY2VDbGFzc05hbWUiOm51bGx9XSwiQ2ltQ2xhc3NRdWFsaWZpZXJzIjpbeyJOYW1lIjoiYWJzdHJhY3QiLCJWYWx1ZSI6dHJ1ZSwiQ2ltVHlwZSI6MSwiRmxhZ3MiOiJFbmFibGVPdmVycmlkZSwgUmVzdHJpY3RlZCJ9XSwiQ2ltQ2xhc3NNZXRob2RzIjpbXSwiQ2ltU3lzdGVtUHJvcGVydGllcyI6eyJOYW1lc3BhY2UiOiJST09UL3N1YnNjcmlwdGlvbiIsIlNlcnZlck5hbWUiOiJERVNLVE9QLTU5RDExSUMiLCJDbGFzc05hbWUiOiJfX0V2ZW50Q29uc3VtZXIiLCJQYXRoIjpudWxsfX0sIkNpbUNsYXNzUHJvcGVydGllcyI6W3siTmFtZSI6IkNyZWF0b3JTSUQiLCJWYWx1ZSI6WzEsMSwwLDAsMCwwLDAsNSwxOCwwLDAsMF0sIkNpbVR5cGUiOjE4LCJGbGFncyI6IlByb3BlcnR5LCBSZWFkT25seSIsIlF1YWxpZmllcnMiOlt7Ik5hbWUiOiJyZWFkIiwiVmFsdWUiOnRydWUsIkNpbVR5cGUiOjEsIkZsYWdzIjoiRGlzYWJsZU92ZXJyaWRlLCBUb1N1YmNsYXNzIn1dLCJSZWZlcmVuY2VDbGFzc05hbWUiOm51bGx9LHsiTmFtZSI6Ik1hY2hpbmVOYW1lIiwiVmFsdWUiOm51bGwsIkNpbVR5cGUiOjE0LCJGbGFncyI6IlByb3BlcnR5LCBOdWxsVmFsdWUiLCJRdWFsaWZpZXJzIjpbXSwiUmVmZXJlbmNlQ2xhc3NOYW1lIjpudWxsfSx7Ik5hbWUiOiJNYXhpbXVtUXVldWVTaXplIiwiVmFsdWUiOm51bGwsIkNpbVR5cGUiOjYsIkZsYWdzIjoiUHJvcGVydHksIE51bGxWYWx1ZSIsIlF1YWxpZmllcnMiOlt7Ik5hbWUiOiJ1bml0cyIsIlZhbHVlIjoiYnl0ZXMiLCJDaW1UeXBlIjoxNCwiRmxhZ3MiOiJEaXNhYmxlT3ZlcnJpZGUsIFRvU3ViY2xhc3MifV0sIlJlZmVyZW5jZUNsYXNzTmFtZSI6bnVsbH0seyJOYW1lIjoiQ2F0ZWdvcnkiLCJWYWx1ZSI6bnVsbCwiQ2ltVHlwZSI6NCwiRmxhZ3MiOiJQcm9wZXJ0eSwgTnVsbFZhbHVlIiwiUXVhbGlmaWVycyI6W3siTmFtZSI6Ik5PVF9OVUxMIiwiVmFsdWUiOnRydWUsIkNpbVR5cGUiOjEsIkZsYWdzIjoiRW5hYmxlT3ZlcnJpZGUsIFJlc3RyaWN0ZWQifSx7Ik5hbWUiOiJ3cml0ZSIsIlZhbHVlIjp0cnVlLCJDaW1UeXBlIjoxLCJGbGFncyI6IkVuYWJsZU92ZXJyaWRlLCBUb1N1YmNsYXNzIn1dLCJSZWZlcmVuY2VDbGFzc05hbWUiOm51bGx9LHsiTmFtZSI6IkV2ZW50SUQiLCJWYWx1ZSI6MCwiQ2ltVHlwZSI6NiwiRmxhZ3MiOiJQcm9wZXJ0eSIsIlF1YWxpZmllcnMiOlt7Ik5hbWUiOiJOT1RfTlVMTCIsIlZhbHVlIjp0cnVlLCJDaW1UeXBlIjoxLCJGbGFncyI6IkVuYWJsZU92ZXJyaWRlLCBSZXN0cmljdGVkIn0seyJOYW1lIjoid3JpdGUiLCJWYWx1ZSI6dHJ1ZSwiQ2ltVHlwZSI6MSwiRmxhZ3MiOiJFbmFibGVPdmVycmlkZSwgVG9TdWJjbGFzcyJ9XSwiUmVmZXJlbmNlQ2xhc3NOYW1lIjpudWxsfSx7Ik5hbWUiOiJFdmVudFR5cGUiLCJWYWx1ZSI6MSwiQ2ltVHlwZSI6NiwiRmxhZ3MiOiJQcm9wZXJ0eSIsIlF1YWxpZmllcnMiOlt7Ik5hbWUiOiJOT1RfTlVMTCIsIlZhbHVlIjp0cnVlLCJDaW1UeXBlIjoxLCJGbGFncyI6IkVuYWJsZU92ZXJyaWRlLCBSZXN0cmljdGVkIn0seyJOYW1lIjoiVmFsdWVNYXAiLCJWYWx1ZSI6WyIwIiwiMSIsIjIiLCI0IiwiOCIsIjE2Il0sIkNpbVR5cGUiOjMwLCJGbGFncyI6IkVuYWJsZU92ZXJyaWRlLCBUb1N1YmNsYXNzIn0seyJOYW1lIjoiVmFsdWVzIiwiVmFsdWUiOlsiU3VjY2VzcyIsIkVycm9yIiwiV2FybmluZyIsIkluZm9ybWF0aW9uIiwiQXVkaXQgU3VjY2VzcyIsIkF1ZGl0IEZhaWx1cmUiXSwiQ2ltVHlwZSI6MzAsIkZsYWdzIjoiRW5hYmxlT3ZlcnJpZGUsIFRvU3ViY2xhc3MsIFRyYW5zbGF0YWJsZSJ9LHsiTmFtZSI6IndyaXRlIiwiVmFsdWUiOnRydWUsIkNpbVR5cGUiOjEsIkZsYWdzIjoiRW5hYmxlT3ZlcnJpZGUsIFRvU3ViY2xhc3MifV0sIlJlZmVyZW5jZUNsYXNzTmFtZSI6bnVsbH0seyJOYW1lIjoiSW5zZXJ0aW9uU3RyaW5nVGVtcGxhdGVzIiwiVmFsdWUiOlsiIl0sIkNpbVR5cGUiOjMwLCJGbGFncyI6IlByb3BlcnR5IiwiUXVhbGlmaWVycyI6W3siTmFtZSI6IlRlbXBsYXRlIiwiVmFsdWUiOnRydWUsIkNpbVR5cGUiOjEsIkZsYWdzIjoiRW5hYmxlT3ZlcnJpZGUsIFJlc3RyaWN0ZWQifSx7Ik5hbWUiOiJ3cml0ZSIsIlZhbHVlIjp0cnVlLCJDaW1UeXBlIjoxLCJGbGFncyI6IkVuYWJsZU92ZXJyaWRlLCBUb1N1YmNsYXNzIn1dLCJSZWZlcmVuY2VDbGFzc05hbWUiOm51bGx9LHsiTmFtZSI6Ik5hbWUiLCJWYWx1ZSI6bnVsbCwiQ2ltVHlwZSI6MTQsIkZsYWdzIjoiUHJvcGVydHksIEtleSwgTnVsbFZhbHVlIiwiUXVhbGlmaWVycyI6W3siTmFtZSI6ImtleSIsIlZhbHVlIjp0cnVlLCJDaW1UeXBlIjoxLCJGbGFncyI6IkRpc2FibGVPdmVycmlkZSwgVG9TdWJjbGFzcyJ9XSwiUmVmZXJlbmNlQ2xhc3NOYW1lIjpudWxsfSx7Ik5hbWUiOiJOYW1lT2ZSYXdEYXRhUHJvcGVydHkiLCJWYWx1ZSI6bnVsbCwiQ2ltVHlwZSI6MTQsIkZsYWdzIjoiUHJvcGVydHksIE51bGxWYWx1ZSIsIlF1YWxpZmllcnMiOlt7Ik5hbWUiOiJ3cml0ZSIsIlZhbHVlIjp0cnVlLCJDaW1UeXBlIjoxLCJGbGFncyI6IkVuYWJsZU92ZXJyaWRlLCBUb1N1YmNsYXNzIn1dLCJSZWZlcmVuY2VDbGFzc05hbWUiOm51bGx9LHsiTmFtZSI6Ik5hbWVPZlVzZXJTSURQcm9wZXJ0eSIsIlZhbHVlIjpudWxsLCJDaW1UeXBlIjoxNCwiRmxhZ3MiOiJQcm9wZXJ0eSwgTnVsbFZhbHVlIiwiUXVhbGlmaWVycyI6W3siTmFtZSI6IndyaXRlIiwiVmFsdWUiOnRydWUsIkNpbVR5cGUiOjEsIkZsYWdzIjoiRW5hYmxlT3ZlcnJpZGUsIFRvU3ViY2xhc3MifV0sIlJlZmVyZW5jZUNsYXNzTmFtZSI6bnVsbH0seyJOYW1lIjoiTnVtYmVyT2ZJbnNlcnRpb25TdHJpbmdzIiwiVmFsdWUiOjAsIkNpbVR5cGUiOjYsIkZsYWdzIjoiUHJvcGVydHkiLCJRdWFsaWZpZXJzIjpbeyJOYW1lIjoiTk9UX05VTEwiLCJWYWx1ZSI6dHJ1ZSwiQ2ltVHlwZSI6MSwiRmxhZ3MiOiJFbmFibGVPdmVycmlkZSwgUmVzdHJpY3RlZCJ9LHsiTmFtZSI6IndyaXRlIiwiVmFsdWUiOnRydWUsIkNpbVR5cGUiOjEsIkZsYWdzIjoiRW5hYmxlT3ZlcnJpZGUsIFRvU3ViY2xhc3MifV0sIlJlZmVyZW5jZUNsYXNzTmFtZSI6bnVsbH0seyJOYW1lIjoiU291cmNlTmFtZSIsIlZhbHVlIjpudWxsLCJDaW1UeXBlIjoxNCwiRmxhZ3MiOiJQcm9wZXJ0eSwgTnVsbFZhbHVlIiwiUXVhbGlmaWVycyI6W3siTmFtZSI6Ik5PVF9OVUxMIiwiVmFsdWUiOnRydWUsIkNpbVR5cGUiOjEsIkZsYWdzIjoiRW5hYmxlT3ZlcnJpZGUsIFJlc3RyaWN0ZWQifSx7Ik5hbWUiOiJ3cml0ZSIsIlZhbHVlIjp0cnVlLCJDaW1UeXBlIjoxLCJGbGFncyI6IkVuYWJsZU92ZXJyaWRlLCBUb1N1YmNsYXNzIn1dLCJSZWZlcmVuY2VDbGFzc05hbWUiOm51bGx9LHsiTmFtZSI6IlVOQ1NlcnZlck5hbWUiLCJWYWx1ZSI6bnVsbCwiQ2ltVHlwZSI6MTQsIkZsYWdzIjoiUHJvcGVydHksIE51bGxWYWx1ZSIsIlF1YWxpZmllcnMiOlt7Ik5hbWUiOiJ3cml0ZSIsIlZhbHVlIjp0cnVlLCJDaW1UeXBlIjoxLCJGbGFncyI6IkVuYWJsZU92ZXJyaWRlLCBUb1N1YmNsYXNzIn1dLCJSZWZlcmVuY2VDbGFzc05hbWUiOm51bGx9XSwiQ2ltQ2xhc3NRdWFsaWZpZXJzIjpbXSwiQ2ltQ2xhc3NNZXRob2RzIjpbXSwiQ2ltU3lzdGVtUHJvcGVydGllcyI6eyJOYW1lc3BhY2UiOiJST09UL3N1YnNjcmlwdGlvbiIsIlNlcnZlck5hbWUiOiJERVNLVE9QLTU5RDExSUMiLCJDbGFzc05hbWUiOiJOVEV2ZW50TG9nRXZlbnRDb25zdW1lciIsIlBhdGgiOm51bGx9fSwiQ2ltSW5zdGFuY2VQcm9wZXJ0aWVzIjpbeyJOYW1lIjoiQ3JlYXRvclNJRCIsIlZhbHVlIjpudWxsLCJDaW1UeXBlIjoxOCwiRmxhZ3MiOiJQcm9wZXJ0eSwgUmVhZE9ubHksIE5vdE1vZGlmaWVkLCBOdWxsVmFsdWUiLCJJc1ZhbHVlTW9kaWZpZWQiOmZhbHNlfSx7Ik5hbWUiOiJNYWNoaW5lTmFtZSIsIlZhbHVlIjpudWxsLCJDaW1UeXBlIjoxNCwiRmxhZ3MiOiJQcm9wZXJ0eSwgTm90TW9kaWZpZWQsIE51bGxWYWx1ZSIsIklzVmFsdWVNb2RpZmllZCI6ZmFsc2V9LHsiTmFtZSI6Ik1heGltdW1RdWV1ZVNpemUiLCJWYWx1ZSI6bnVsbCwiQ2ltVHlwZSI6NiwiRmxhZ3MiOiJQcm9wZXJ0eSwgTm90TW9kaWZpZWQsIE51bGxWYWx1ZSIsIklzVmFsdWVNb2RpZmllZCI6ZmFsc2V9LHsiTmFtZSI6IkNhdGVnb3J5IiwiVmFsdWUiOm51bGwsIkNpbVR5cGUiOjQsIkZsYWdzIjoiUHJvcGVydHksIE5vdE1vZGlmaWVkLCBOdWxsVmFsdWUiLCJJc1ZhbHVlTW9kaWZpZWQiOmZhbHNlfSx7Ik5hbWUiOiJFdmVudElEIiwiVmFsdWUiOm51bGwsIkNpbVR5cGUiOjYsIkZsYWdzIjoiUHJvcGVydHksIE5vdE1vZGlmaWVkLCBOdWxsVmFsdWUiLCJJc1ZhbHVlTW9kaWZpZWQiOmZhbHNlfSx7Ik5hbWUiOiJFdmVudFR5cGUiLCJWYWx1ZSI6bnVsbCwiQ2ltVHlwZSI6NiwiRmxhZ3MiOiJQcm9wZXJ0eSwgTm90TW9kaWZpZWQsIE51bGxWYWx1ZSIsIklzVmFsdWVNb2RpZmllZCI6ZmFsc2V9LHsiTmFtZSI6Ikluc2VydGlvblN0cmluZ1RlbXBsYXRlcyIsIlZhbHVlIjpudWxsLCJDaW1UeXBlIjozMCwiRmxhZ3MiOiJQcm9wZXJ0eSwgTm90TW9kaWZpZWQsIE51bGxWYWx1ZSIsIklzVmFsdWVNb2RpZmllZCI6ZmFsc2V9LHsiTmFtZSI6Ik5hbWUiLCJWYWx1ZSI6IlNDTSBFdmVudCBMb2cgQ29uc3VtZXIiLCJDaW1UeXBlIjoxNCwiRmxhZ3MiOiJQcm9wZXJ0eSwgS2V5LCBOb3RNb2RpZmllZCIsIklzVmFsdWVNb2RpZmllZCI6ZmFsc2V9LHsiTmFtZSI6Ik5hbWVPZlJhd0RhdGFQcm9wZXJ0eSIsIlZhbHVlIjpudWxsLCJDaW1UeXBlIjoxNCwiRmxhZ3MiOiJQcm9wZXJ0eSwgTm90TW9kaWZpZWQsIE51bGxWYWx1ZSIsIklzVmFsdWVNb2RpZmllZCI6ZmFsc2V9LHsiTmFtZSI6Ik5hbWVPZlVzZXJTSURQcm9wZXJ0eSIsIlZhbHVlIjpudWxsLCJDaW1UeXBlIjoxNCwiRmxhZ3MiOiJQcm9wZXJ0eSwgTm90TW9kaWZpZWQsIE51bGxWYWx1ZSIsIklzVmFsdWVNb2RpZmllZCI6ZmFsc2V9LHsiTmFtZSI6Ik51bWJlck9mSW5zZXJ0aW9uU3RyaW5ncyIsIlZhbHVlIjpudWxsLCJDaW1UeXBlIjo2LCJGbGFncyI6IlByb3BlcnR5LCBOb3RNb2RpZmllZCwgTnVsbFZhbHVlIiwiSXNWYWx1ZU1vZGlmaWVkIjpmYWxzZX0seyJOYW1lIjoiU291cmNlTmFtZSIsIlZhbHVlIjpudWxsLCJDaW1UeXBlIjoxNCwiRmxhZ3MiOiJQcm9wZXJ0eSwgTm90TW9kaWZpZWQsIE51bGxWYWx1ZSIsIklzVmFsdWVNb2RpZmllZCI6ZmFsc2V9LHsiTmFtZSI6IlVOQ1NlcnZlck5hbWUiLCJWYWx1ZSI6bnVsbCwiQ2ltVHlwZSI6MTQsIkZsYWdzIjoiUHJvcGVydHksIE5vdE1vZGlmaWVkLCBOdWxsVmFsdWUiLCJJc1ZhbHVlTW9kaWZpZWQiOmZhbHNlfV0sIkNpbVN5c3RlbVByb3BlcnRpZXMiOnsiTmFtZXNwYWNlIjoiUk9PVC9zdWJzY3JpcHRpb24iLCJTZXJ2ZXJOYW1lIjoiREVTS1RPUC01OUQxMUlDIiwiQ2xhc3NOYW1lIjoiTlRFdmVudExvZ0V2ZW50Q29uc3VtZXIiLCJQYXRoIjpudWxsfX0sIkNyZWF0b3JTSUQiOlsxLDIsMCwwLDAsMCwwLDUsMzIsMCwwLDAsMzIsMiwwLDBdLCJEZWxpdmVyU3luY2hyb25vdXNseSI6ZmFsc2UsIkRlbGl2ZXJ5UW9TIjpudWxsLCJGaWx0ZXIiOnsiQ2ltQ2xhc3MiOnsiQ2ltU3VwZXJDbGFzc05hbWUiOiJfX0luZGljYXRpb25SZWxhdGVkIiwiQ2ltU3VwZXJDbGFzcyI6eyJDaW1TdXBlckNsYXNzTmFtZSI6Il9fU3lzdGVtQ2xhc3MiLCJDaW1TdXBlckNsYXNzIjp7IkNpbVN1cGVyQ2xhc3NOYW1lIjpudWxsLCJDaW1TdXBlckNsYXNzIjpudWxsLCJDaW1DbGFzc1Byb3BlcnRpZXMiOltdLCJDaW1DbGFzc1F1YWxpZmllcnMiOlt7Ik5hbWUiOiJhYnN0cmFjdCIsIlZhbHVlIjp0cnVlLCJDaW1UeXBlIjoxLCJGbGFncyI6IkVuYWJsZU92ZXJyaWRlLCBSZXN0cmljdGVkIn1dLCJDaW1DbGFzc01ldGhvZHMiOltdLCJDaW1TeXN0ZW1Qcm9wZXJ0aWVzIjp7Ik5hbWVzcGFjZSI6IlJPT1Qvc3Vic2NyaXB0aW9uIiwiU2VydmVyTmFtZSI6IkRFU0tUT1AtNTlEMTFJQyIsIkNsYXNzTmFtZSI6Il9fU3lzdGVtQ2xhc3MiLCJQYXRoIjpudWxsfX0sIkNpbUNsYXNzUHJvcGVydGllcyI6W10sIkNpbUNsYXNzUXVhbGlmaWVycyI6W3siTmFtZSI6ImFic3RyYWN0IiwiVmFsdWUiOnRydWUsIkNpbVR5cGUiOjEsIkZsYWdzIjoiRW5hYmxlT3ZlcnJpZGUsIFJlc3RyaWN0ZWQifV0sIkNpbUNsYXNzTWV0aG9kcyI6W10sIkNpbVN5c3RlbVByb3BlcnRpZXMiOnsiTmFtZXNwYWNlIjoiUk9PVC9zdWJzY3JpcHRpb24iLCJTZXJ2ZXJOYW1lIjoiREVTS1RPUC01OUQxMUlDIiwiQ2xhc3NOYW1lIjoiX19JbmRpY2F0aW9uUmVsYXRlZCIsIlBhdGgiOm51bGx9fSwiQ2ltQ2xhc3NQcm9wZXJ0aWVzIjpbeyJOYW1lIjoiQ3JlYXRvclNJRCIsIlZhbHVlIjpbMSwxLDAsMCwwLDAsMCw1LDE4LDAsMCwwXSwiQ2ltVHlwZSI6MTgsIkZsYWdzIjoiUHJvcGVydHksIFJlYWRPbmx5IiwiUXVhbGlmaWVycyI6W3siTmFtZSI6InJlYWQiLCJWYWx1ZSI6dHJ1ZSwiQ2ltVHlwZSI6MSwiRmxhZ3MiOiJEaXNhYmxlT3ZlcnJpZGUsIFRvU3ViY2xhc3MifV0sIlJlZmVyZW5jZUNsYXNzTmFtZSI6bnVsbH0seyJOYW1lIjoiRXZlbnRBY2Nlc3MiLCJWYWx1ZSI6bnVsbCwiQ2ltVHlwZSI6MTQsIkZsYWdzIjoiUHJvcGVydHksIE51bGxWYWx1ZSIsIlF1YWxpZmllcnMiOltdLCJSZWZlcmVuY2VDbGFzc05hbWUiOm51bGx9LHsiTmFtZSI6IkV2ZW50TmFtZXNwYWNlIiwiVmFsdWUiOm51bGwsIkNpbVR5cGUiOjE0LCJGbGFncyI6IlByb3BlcnR5LCBOdWxsVmFsdWUiLCJRdWFsaWZpZXJzIjpbXSwiUmVmZXJlbmNlQ2xhc3NOYW1lIjpudWxsfSx7Ik5hbWUiOiJOYW1lIiwiVmFsdWUiOm51bGwsIkNpbVR5cGUiOjE0LCJGbGFncyI6IlByb3BlcnR5LCBLZXksIE51bGxWYWx1ZSIsIlF1YWxpZmllcnMiOlt7Ik5hbWUiOiJrZXkiLCJWYWx1ZSI6dHJ1ZSwiQ2ltVHlwZSI6MSwiRmxhZ3MiOiJEaXNhYmxlT3ZlcnJpZGUsIFRvU3ViY2xhc3MifV0sIlJlZmVyZW5jZUNsYXNzTmFtZSI6bnVsbH0seyJOYW1lIjoiUXVlcnkiLCJWYWx1ZSI6bnVsbCwiQ2ltVHlwZSI6MTQsIkZsYWdzIjoiUHJvcGVydHksIE51bGxWYWx1ZSIsIlF1YWxpZmllcnMiOltdLCJSZWZlcmVuY2VDbGFzc05hbWUiOm51bGx9LHsiTmFtZSI6IlF1ZXJ5TGFuZ3VhZ2UiLCJWYWx1ZSI6bnVsbCwiQ2ltVHlwZSI6MTQsIkZsYWdzIjoiUHJvcGVydHksIE51bGxWYWx1ZSIsIlF1YWxpZmllcnMiOltdLCJSZWZlcmVuY2VDbGFzc05hbWUiOm51bGx9XSwiQ2ltQ2xhc3NRdWFsaWZpZXJzIjpbXSwiQ2ltQ2xhc3NNZXRob2RzIjpbXSwiQ2ltU3lzdGVtUHJvcGVydGllcyI6eyJOYW1lc3BhY2UiOiJST09UL3N1YnNjcmlwdGlvbiIsIlNlcnZlck5hbWUiOiJERVNLVE9QLTU5RDExSUMiLCJDbGFzc05hbWUiOiJfX0V2ZW50RmlsdGVyIiwiUGF0aCI6bnVsbH19LCJDaW1JbnN0YW5jZVByb3BlcnRpZXMiOlt7Ik5hbWUiOiJDcmVhdG9yU0lEIiwiVmFsdWUiOm51bGwsIkNpbVR5cGUiOjE4LCJGbGFncyI6IlByb3BlcnR5LCBSZWFkT25seSwgTm90TW9kaWZpZWQsIE51bGxWYWx1ZSIsIklzVmFsdWVNb2RpZmllZCI6ZmFsc2V9LHsiTmFtZSI6IkV2ZW50QWNjZXNzIiwiVmFsdWUiOm51bGwsIkNpbVR5cGUiOjE0LCJGbGFncyI6IlByb3BlcnR5LCBOb3RNb2RpZmllZCwgTnVsbFZhbHVlIiwiSXNWYWx1ZU1vZGlmaWVkIjpmYWxzZX0seyJOYW1lIjoiRXZlbnROYW1lc3BhY2UiLCJWYWx1ZSI6bnVsbCwiQ2ltVHlwZSI6MTQsIkZsYWdzIjoiUHJvcGVydHksIE5vdE1vZGlmaWVkLCBOdWxsVmFsdWUiLCJJc1ZhbHVlTW9kaWZpZWQiOmZhbHNlfSx7Ik5hbWUiOiJOYW1lIiwiVmFsdWUiOiJTQ00gRXZlbnQgTG9nIEZpbHRlciIsIkNpbVR5cGUiOjE0LCJGbGFncyI6IlByb3BlcnR5LCBLZXksIE5vdE1vZGlmaWVkIiwiSXNWYWx1ZU1vZGlmaWVkIjpmYWxzZX0seyJOYW1lIjoiUXVlcnkiLCJWYWx1ZSI6bnVsbCwiQ2ltVHlwZSI6MTQsIkZsYWdzIjoiUHJvcGVydHksIE5vdE1vZGlmaWVkLCBOdWxsVmFsdWUiLCJJc1ZhbHVlTW9kaWZpZWQiOmZhbHNlfSx7Ik5hbWUiOiJRdWVyeUxhbmd1YWdlIiwiVmFsdWUiOm51bGwsIkNpbVR5cGUiOjE0LCJGbGFncyI6IlByb3BlcnR5LCBOb3RNb2RpZmllZCwgTnVsbFZhbHVlIiwiSXNWYWx1ZU1vZGlmaWVkIjpmYWxzZX1dLCJDaW1TeXN0ZW1Qcm9wZXJ0aWVzIjp7Ik5hbWVzcGFjZSI6IlJPT1Qvc3Vic2NyaXB0aW9uIiwiU2VydmVyTmFtZSI6IkRFU0tUT1AtNTlEMTFJQyIsIkNsYXNzTmFtZSI6Il9fRXZlbnRGaWx0ZXIiLCJQYXRoIjpudWxsfX0sIk1haW50YWluU2VjdXJpdHlDb250ZXh0IjpmYWxzZSwiU2xvd0Rvd25Qcm92aWRlcnMiOmZhbHNlfX1dLCJSZXBvc2l0b3J5TWV0YWRhdGEiOnsiUGF0aCI6IkM6XFxXaW5kb3dzXFxTeXN0ZW0zMlxcd2JlbVxcUmVwb3NpdG9yeSIsIkV4aXN0cyI6dHJ1ZSwiQXR0cmlidXRlcyI6IkRpcmVjdG9yeSwgTm90Q29udGVudEluZGV4ZWQiLCJDcmVhdGlvblRpbWVVdGMiOiIyMDIyLTA1LTA3VDA1OjI0OjUxLjAxMzk5MjhaIiwiTGFzdFdyaXRlVGltZVV0YyI6IjIwMjYtMTEtMjNUMDU6MDA6MjcuMTczODI5OFoiLCJGaWxlcyI6W3siTmFtZSI6IklOREVYLkJUUiIsIkZ1bGxOYW1lIjoiQzpcXFdpbmRvd3NcXFN5c3RlbTMyXFx3YmVtXFxSZXBvc2l0b3J5XFxJTkRFWC5CVFIiLCJMZW5ndGgiOjcxOTI1NzYsIkNyZWF0aW9uVGltZVV0YyI6IjIwMjItMDUtMDdUMDU6Mjg6MTAuMDg5MjY2MloiLCJMYXN0V3JpdGVUaW1lVXRjIjoiMjAyNi0xMS0yM1QwNToxMjoyNy4xNzI5MTQyWiIsIkF0dHJpYnV0ZXMiOiJBcmNoaXZlLCBOb3RDb250ZW50SW5kZXhlZCJ9LHsiTmFtZSI6Ik1BUFBJTkcxLk1BUCIsIkZ1bGxOYW1lIjoiQzpcXFdpbmRvd3NcXFN5c3RlbTMyXFx3YmVtXFxSZXBvc2l0b3J5XFxNQVBQSU5HMS5NQVAiLCJMZW5ndGgiOjg0MTcyLCJDcmVhdGlvblRpbWVVdGMiOiIyMDIyLTA1LTA3VDA1OjI4OjEwLjA4OTI2NjJaIiwiTGFzdFdyaXRlVGltZVV0YyI6IjIwMjYtMTEtMjNUMDU6MTI6MjcuMTcyOTE0MloiLCJBdHRyaWJ1dGVzIjoiQXJjaGl2ZSwgTm90Q29udGVudEluZGV4ZWQifSx7Ik5hbWUiOiJNQVBQSU5HMi5NQVAiLCJGdWxsTmFtZSI6IkM6XFxXaW5kb3dzXFxTeXN0ZW0zMlxcd2JlbVxcUmVwb3NpdG9yeVxcTUFQUElORzIuTUFQIiwiTGVuZ3RoIjo4NDE3MiwiQ3JlYXRpb25UaW1lVXRjIjoiMjAyMi0wNS0wN1QwNToyODoxMC4wODkyNjYyWiIsIkxhc3RXcml0ZVRpbWVVdGMiOiIyMDI2LTExLTIzVDA1OjAwOjM1LjIyNDg1MDlaIiwiQXR0cmlidXRlcyI6IkFyY2hpdmUsIE5vdENvbnRlbnRJbmRleGVkIn0seyJOYW1lIjoiTUFQUElORzMuTUFQIiwiRnVsbE5hbWUiOiJDOlxcV2luZG93c1xcU3lzdGVtMzJcXHdiZW1cXFJlcG9zaXRvcnlcXE1BUFBJTkczLk1BUCIsIkxlbmd0aCI6ODQxNzIsIkNyZWF0aW9uVGltZVV0YyI6IjIwMjItMDUtMDdUMDU6Mjg6MTAuMDg5MjY2MloiLCJMYXN0V3JpdGVUaW1lVXRjIjoiMjAyNi0xMS0yM1QwNTowNToyNy4xNjI4Mzg3WiIsIkF0dHJpYnV0ZXMiOiJBcmNoaXZlLCBOb3RDb250ZW50SW5kZXhlZCJ9LHsiTmFtZSI6Ik9CSkVDVFMuREFUQSIsIkZ1bGxOYW1lIjoiQzpcXFdpbmRvd3NcXFN5c3RlbTMyXFx3YmVtXFxSZXBvc2l0b3J5XFxPQkpFQ1RTLkRBVEEiLCJMZW5ndGgiOjI2NzYzMjY0LCJDcmVhdGlvblRpbWVVdGMiOiIyMDIyLTA1LTA3VDA1OjI4OjEwLjA4OTI2NjJaIiwiTGFzdFdyaXRlVGltZVV0YyI6IjIwMjYtMTEtMjNUMDU6MTI6MjcuMTcyOTE0MloiLCJBdHRyaWJ1dGVzIjoiQXJjaGl2ZSwgTm90Q29udGVudEluZGV4ZWQifV19fQ0K",
+      "stderr_base64": "",
+      "error": null,
+      "duration_seconds": 8.64
+    },
+    "export_wmi_activity_log": {
+      "argv": [
+        "C:\\Windows\\System32\\wevtutil.exe",
+        "epl",
+        "Microsoft-Windows-WMI-Activity/Operational",
+        "E:\\Custos Forensic Suite\\Artifacts Collectors\\A24 - WMI Repository and Persistence Queries\\WMI Repository and Persistence Queries_Output\\WMI Repository and Persistence Queries_Files\\WMI-Activity_Operational.evtx",
+        "/ow:false"
+      ],
+      "started_utc": "2026-11-23T07:10:10.496+00:00",
+      "ended_utc": "2026-11-23T07:10:10.544+00:00",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "stdout_base64": "",
+      "stderr_base64": "",
+      "error": null,
+      "duration_seconds": 0.047
+    }
+  },
+  "errors": [],
+  "limitations": [
+    "Live WMI state can change during collection.",
+    "A WMI subscription is not, by itself, proof of malicious activity.",
+    "Only listed standard consumer classes are queried; custom provider behavior may require further investigation.",
+    "Namespace enumeration is depth-limited and inaccessible namespaces are recorded as errors.",
+    "Repository files are inventoried but not copied, repaired, or modified.",
+    "The WMI-Activity log may be disabled, inaccessible, or have limited retention.",
+    "Raw command output bytes are preserved, but command output is not a full disk image.",
+    "SHA-256 verifies acquired-file integrity, not completeness or truth of the source data."
+  ]
+}
